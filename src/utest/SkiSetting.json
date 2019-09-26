@@ -1,0 +1,14 @@
+{
+    "routers":{
+        "userkw_sendmsg":"keywords.send.remsg",
+        "Create Session":"RequestsLibrary.RequestsLibrary.create_session",
+        "Get Request":"RequestsLibrary.RequestsLibrary.get_request",
+        "input text":"Selenium2Library.Selenium2Library.input_text",
+        "click button":"Selenium2Library.Selenium2Library.click_button",
+        "Open Browser":"Selenium2Library.Selenium2Library.open_browser"
+    },
+    "global_variable":{
+        "BASE_URL":"http://www.baidu.com"
+    }
+    
+}

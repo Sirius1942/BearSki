@@ -1,0 +1,2 @@
+def testRun():
+    return "OK"
