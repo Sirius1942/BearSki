@@ -10,11 +10,12 @@ class Singleton(object):
             self._instance = self._cls() 
             return self._instance 
 @Singleton
-class SkiCoreData(object):
+class SkiGlobalData(object):
 
     def __init__(self):
         self.classes={}
         self.set_data=self.__get_conf_data()
+        
     
     def get_step_class_instance(self,cls_name):
 
@@ -32,6 +33,13 @@ class SkiCoreData(object):
         f= open("./SkiSetting.json")
         conf=json.load(f)
         return conf
+    def get_global_data(self):
+        return self.set_data['global_variable']
+    def add_global_data(self,data):
+        for s in data:
+            self.set_data['global_variable'][s]=data[s]
+        
+
 
         
 

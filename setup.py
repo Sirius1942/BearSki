@@ -1,7 +1,7 @@
 from setuptools import setup,find_packages
 setup (
     name ='BearFramework',
-    version = '1.0.0',
+    version = '1.1.0',
     packages = find_packages('src'),  # 包含所有src中的包
     package_dir = {'':'src'},   # 告诉distutils包都在src下
     package_data = {

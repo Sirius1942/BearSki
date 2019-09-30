@@ -5,14 +5,14 @@ import importlib.util
 import importlib
 import inspect
 from importlib import import_module
-from bear.SkiCommonData import SkiCoreData
+from bear.SkiCommonData import SkiGlobalData
 from bear.log import logger
 
 class Ski():
     class case():
         def __init__(self):
             # print('__case init__')
-            scd=SkiCoreData()
+            scd=SkiGlobalData()
         def __call__(self,func):
                 def __deco(self,*arg,**kws):
                     # print("before %s called [%s],[%s]." % (func.__name__, arg,kws))
@@ -23,7 +23,7 @@ class Ski():
 
     class step():
         def __init__(self,keyword,*arg,**kws):
-            scd=SkiCoreData()
+            scd=SkiGlobalData()
             conf=scd.get_setting_data()
             full_modules=conf[keyword]
             self.result=self.__run(full_modules,*arg,**kws)
@@ -48,10 +48,10 @@ class Ski():
             for key in fun_list[1:]:
                 if inspect.isclass(child_obj):
                     # print("this is a class")
-                    temp_cls=SkiCoreData().get_step_class_instance(temp_cls_name)
+                    temp_cls=SkiGlobalData().get_step_class_instance(temp_cls_name)
                     if temp_cls is None:
                         child_obj=child_obj()
-                        SkiCoreData().set_step_class_instance(temp_cls_name,child_obj)
+                        SkiGlobalData().set_step_class_instance(temp_cls_name,child_obj)
                     else:
                         child_obj=temp_cls
                 child_obj=getattr(child_obj,key)

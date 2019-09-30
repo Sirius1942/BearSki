@@ -1,6 +1,6 @@
 {
     "routers":{
-        "userkw_sendmsg":"keywords.send.remsg",
+        "userkw_sendmsg":"utest.keywords.send.askbaidu",
         "Create Session":"RequestsLibrary.RequestsLibrary.create_session",
         "Get Request":"RequestsLibrary.RequestsLibrary.get_request",
         "input text":"Selenium2Library.Selenium2Library.input_text",
