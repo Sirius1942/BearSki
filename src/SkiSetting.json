@@ -8,7 +8,9 @@
         "Open Browser":"Selenium2Library.Selenium2Library.open_browser"
     },
     "global_variable":{
-        "BASE_URL":"http://www.baidu.com"
+        "BASE_URL":"http://www.baidu.com",
+        "logfile_path":"./log",
+        "logfile_name":"log.log"
     }
     
 }

@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/BearSki/CommonData.py
+src/BearSki/RunUnittest.py
+src/BearSki/__init__.py
+src/BearSki/base.py
+src/BearSki/install_data.py
+src/BearSki.egg-info/PKG-INFO
+src/BearSki.egg-info/SOURCES.txt
+src/BearSki.egg-info/dependency_links.txt
+src/BearSki.egg-info/top_level.txt
+src/BearSki/log/__init__.py
+src/BearSki/log/logger.py

@@ -1,0 +1,949 @@
+2019-11-20 17:00:09,334 INFO 开始执行测试,报告输出模式text
+2019-11-20 17:00:12,164 INFO in ask baidu！
+2019-11-20 17:00:12,164 INFO in ask baidu！
+2019-11-20 17:00:13,179 INFO <Response [200]>
+2019-11-20 17:00:13,179 INFO <Response [200]>
+2019-11-20 17:00:13,179 INFO <Response [200]>
+2019-11-20 17:00:15,168 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-20 17:00:15,168 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-20 17:00:15,168 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-20 17:00:15,175 DEBUG Creating session: baidu
+2019-11-20 17:00:15,175 DEBUG Creating session: baidu
+2019-11-20 17:00:15,175 DEBUG Creating session: baidu
+2019-11-20 17:00:15,181 DEBUG Argument types are:
+<class 'bool'>
+2019-11-20 17:00:15,181 DEBUG Argument types are:
+<class 'bool'>
+2019-11-20 17:00:15,181 DEBUG Argument types are:
+<class 'bool'>
+2019-11-20 17:00:15,910 INFO <requests.sessions.Session object at 0x1060ac550>
+2019-11-20 17:00:15,910 INFO <requests.sessions.Session object at 0x1060ac550>
+2019-11-20 17:00:15,910 INFO <requests.sessions.Session object at 0x1060ac550>
+2019-11-20 17:00:15,910 INFO <requests.sessions.Session object at 0x1060ac550>
+2019-11-20 17:00:16,018 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-20 17:00:16,018 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-20 17:00:16,018 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-20 17:00:16,018 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-20 17:00:16,609 INFO <Response [200]>
+2019-11-20 17:00:16,609 INFO <Response [200]>
+2019-11-20 17:00:16,609 INFO <Response [200]>
+2019-11-20 17:00:16,609 INFO <Response [200]>
+2019-11-20 17:00:16,609 INFO <Response [200]>
+2019-11-20 17:06:25,286 INFO 开始执行测试,报告输出模式text
+2019-11-20 17:06:26,176 INFO in ask baidu！
+2019-11-20 17:06:26,176 INFO in ask baidu！
+2019-11-20 17:06:26,324 INFO <Response [200]>
+2019-11-20 17:06:26,324 INFO <Response [200]>
+2019-11-20 17:06:26,324 INFO <Response [200]>
+2019-11-20 17:06:26,903 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-20 17:06:26,903 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-20 17:06:26,903 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-20 17:06:26,904 DEBUG Creating session: baidu
+2019-11-20 17:06:26,904 DEBUG Creating session: baidu
+2019-11-20 17:06:26,904 DEBUG Creating session: baidu
+2019-11-20 17:06:26,908 DEBUG Argument types are:
+<class 'bool'>
+2019-11-20 17:06:26,908 DEBUG Argument types are:
+<class 'bool'>
+2019-11-20 17:06:26,908 DEBUG Argument types are:
+<class 'bool'>
+2019-11-20 17:06:26,914 INFO <requests.sessions.Session object at 0x104dbddd8>
+2019-11-20 17:06:26,914 INFO <requests.sessions.Session object at 0x104dbddd8>
+2019-11-20 17:06:26,914 INFO <requests.sessions.Session object at 0x104dbddd8>
+2019-11-20 17:06:26,914 INFO <requests.sessions.Session object at 0x104dbddd8>
+2019-11-20 17:06:27,009 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-20 17:06:27,009 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-20 17:06:27,009 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-20 17:06:27,009 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-20 17:06:27,016 INFO <Response [200]>
+2019-11-20 17:06:27,016 INFO <Response [200]>
+2019-11-20 17:06:27,016 INFO <Response [200]>
+2019-11-20 17:06:27,016 INFO <Response [200]>
+2019-11-20 17:06:27,016 INFO <Response [200]>
+2019-11-22 00:35:55,432 INFO 开始执行测试,报告输出模式text
+2019-11-22 00:37:15,347 INFO 开始执行测试,报告输出模式text
+2019-11-22 00:38:52,448 INFO 开始执行测试,报告输出模式text
+2019-11-22 00:40:52,792 INFO 开始执行测试,报告输出模式text
+2019-11-22 00:40:53,509 INFO in ask baidu！
+2019-11-22 00:40:53,509 INFO in ask baidu！
+2019-11-22 00:40:53,611 INFO <Response [200]>
+2019-11-22 00:40:53,611 INFO <Response [200]>
+2019-11-22 00:40:53,611 INFO <Response [200]>
+2019-11-22 00:40:53,987 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-22 00:40:53,987 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-22 00:40:53,987 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-22 00:40:53,987 DEBUG Creating session: baidu
+2019-11-22 00:40:53,987 DEBUG Creating session: baidu
+2019-11-22 00:40:53,987 DEBUG Creating session: baidu
+2019-11-22 00:40:53,988 DEBUG Argument types are:
+<class 'bool'>
+2019-11-22 00:40:53,988 DEBUG Argument types are:
+<class 'bool'>
+2019-11-22 00:40:53,988 DEBUG Argument types are:
+<class 'bool'>
+2019-11-22 00:40:53,988 INFO <requests.sessions.Session object at 0x10debb908>
+2019-11-22 00:40:53,988 INFO <requests.sessions.Session object at 0x10debb908>
+2019-11-22 00:40:53,988 INFO <requests.sessions.Session object at 0x10debb908>
+2019-11-22 00:40:53,988 INFO <requests.sessions.Session object at 0x10debb908>
+2019-11-22 00:40:54,052 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-22 00:40:54,052 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-22 00:40:54,052 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-22 00:40:54,052 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-22 00:40:54,053 INFO <Response [200]>
+2019-11-22 00:40:54,053 INFO <Response [200]>
+2019-11-22 00:40:54,053 INFO <Response [200]>
+2019-11-22 00:40:54,053 INFO <Response [200]>
+2019-11-22 00:40:54,053 INFO <Response [200]>
+2019-11-22 00:42:08,115 INFO 开始执行测试,报告输出模式text
+2019-11-22 00:42:08,666 INFO in ask baidu！
+2019-11-22 00:42:08,666 INFO in ask baidu！
+2019-11-22 00:42:08,767 INFO <Response [200]>
+2019-11-22 00:42:08,767 INFO <Response [200]>
+2019-11-22 00:42:08,767 INFO <Response [200]>
+2019-11-22 00:42:09,128 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-22 00:42:09,128 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-22 00:42:09,128 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-22 00:42:09,129 DEBUG Creating session: baidu
+2019-11-22 00:42:09,129 DEBUG Creating session: baidu
+2019-11-22 00:42:09,129 DEBUG Creating session: baidu
+2019-11-22 00:42:09,130 DEBUG Argument types are:
+<class 'bool'>
+2019-11-22 00:42:09,130 DEBUG Argument types are:
+<class 'bool'>
+2019-11-22 00:42:09,130 DEBUG Argument types are:
+<class 'bool'>
+2019-11-22 00:42:09,131 INFO <requests.sessions.Session object at 0x109618e48>
+2019-11-22 00:42:09,131 INFO <requests.sessions.Session object at 0x109618e48>
+2019-11-22 00:42:09,131 INFO <requests.sessions.Session object at 0x109618e48>
+2019-11-22 00:42:09,131 INFO <requests.sessions.Session object at 0x109618e48>
+2019-11-22 00:42:09,184 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-22 00:42:09,184 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-22 00:42:09,184 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-22 00:42:09,184 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-22 00:42:09,186 INFO <Response [200]>
+2019-11-22 00:42:09,186 INFO <Response [200]>
+2019-11-22 00:42:09,186 INFO <Response [200]>
+2019-11-22 00:42:09,186 INFO <Response [200]>
+2019-11-22 00:42:09,186 INFO <Response [200]>
+2019-11-22 10:45:54,718 INFO 开始执行测试,报告输出模式text
+2019-11-22 10:46:13,763 INFO 开始执行测试,报告输出模式text
+2019-11-22 10:47:16,636 INFO 开始执行测试,报告输出模式text
+2019-11-22 10:47:17,186 INFO in ask baidu！
+2019-11-22 10:47:17,186 INFO in ask baidu！
+2019-11-22 10:47:17,273 INFO <Response [200]>
+2019-11-22 10:47:17,273 INFO <Response [200]>
+2019-11-22 10:47:17,273 INFO <Response [200]>
+2019-11-26 11:01:15,029 INFO 开始执行测试,报告输出模式text
+2019-11-26 11:02:02,896 INFO 开始执行测试,报告输出模式text
+2019-11-26 11:02:26,814 INFO 开始执行测试,报告输出模式text
+2019-11-26 11:10:13,735 INFO 开始执行测试,报告输出模式text
+2019-11-26 11:10:14,411 INFO in ask baidu！
+2019-11-26 11:10:14,411 INFO in ask baidu！
+2019-11-26 11:10:14,621 INFO <Response [200]>
+2019-11-26 11:10:14,621 INFO <Response [200]>
+2019-11-26 11:10:14,621 INFO <Response [200]>
+2019-11-26 11:10:15,017 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:10:15,017 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:10:15,017 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:10:15,017 DEBUG Creating session: baidu
+2019-11-26 11:10:15,017 DEBUG Creating session: baidu
+2019-11-26 11:10:15,017 DEBUG Creating session: baidu
+2019-11-26 11:10:15,019 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:10:15,019 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:10:15,019 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:10:15,020 INFO <requests.sessions.Session object at 0x10943ceb8>
+2019-11-26 11:10:15,020 INFO <requests.sessions.Session object at 0x10943ceb8>
+2019-11-26 11:10:15,020 INFO <requests.sessions.Session object at 0x10943ceb8>
+2019-11-26 11:10:15,020 INFO <requests.sessions.Session object at 0x10943ceb8>
+2019-11-26 11:10:15,137 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:10:15,137 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:10:15,137 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:10:15,137 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:10:15,138 INFO <Response [200]>
+2019-11-26 11:10:15,138 INFO <Response [200]>
+2019-11-26 11:10:15,138 INFO <Response [200]>
+2019-11-26 11:10:15,138 INFO <Response [200]>
+2019-11-26 11:10:15,138 INFO <Response [200]>
+2019-11-26 11:11:19,324 INFO 开始执行测试,报告输出模式text
+2019-11-26 11:11:19,789 INFO in ask baidu！
+2019-11-26 11:11:19,789 INFO in ask baidu！
+2019-11-26 11:11:19,904 INFO <Response [200]>
+2019-11-26 11:11:19,904 INFO <Response [200]>
+2019-11-26 11:11:19,904 INFO <Response [200]>
+2019-11-26 11:11:20,217 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:11:20,217 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:11:20,217 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:11:20,218 DEBUG Creating session: baidu
+2019-11-26 11:11:20,218 DEBUG Creating session: baidu
+2019-11-26 11:11:20,218 DEBUG Creating session: baidu
+2019-11-26 11:11:20,219 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:11:20,219 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:11:20,219 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:11:20,219 INFO <requests.sessions.Session object at 0x1105abf28>
+2019-11-26 11:11:20,219 INFO <requests.sessions.Session object at 0x1105abf28>
+2019-11-26 11:11:20,219 INFO <requests.sessions.Session object at 0x1105abf28>
+2019-11-26 11:11:20,219 INFO <requests.sessions.Session object at 0x1105abf28>
+2019-11-26 11:11:20,326 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:11:20,326 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:11:20,326 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:11:20,326 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:11:20,327 INFO <Response [200]>
+2019-11-26 11:11:20,327 INFO <Response [200]>
+2019-11-26 11:11:20,327 INFO <Response [200]>
+2019-11-26 11:11:20,327 INFO <Response [200]>
+2019-11-26 11:11:20,327 INFO <Response [200]>
+2019-11-26 11:14:46,317 INFO 开始执行测试,报告输出模式text
+2019-11-26 11:14:46,693 INFO in ask baidu！
+2019-11-26 11:14:46,693 INFO in ask baidu！
+2019-11-26 11:14:46,872 INFO <Response [200]>
+2019-11-26 11:14:46,872 INFO <Response [200]>
+2019-11-26 11:14:46,872 INFO <Response [200]>
+2019-11-26 11:14:47,170 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:14:47,170 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:14:47,170 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:14:47,171 DEBUG Creating session: baidu
+2019-11-26 11:14:47,171 DEBUG Creating session: baidu
+2019-11-26 11:14:47,171 DEBUG Creating session: baidu
+2019-11-26 11:14:47,171 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:14:47,171 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:14:47,171 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:14:47,172 INFO <requests.sessions.Session object at 0x10a97df98>
+2019-11-26 11:14:47,172 INFO <requests.sessions.Session object at 0x10a97df98>
+2019-11-26 11:14:47,172 INFO <requests.sessions.Session object at 0x10a97df98>
+2019-11-26 11:14:47,172 INFO <requests.sessions.Session object at 0x10a97df98>
+2019-11-26 11:14:47,272 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:14:47,272 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:14:47,272 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:14:47,272 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:14:47,273 INFO <Response [200]>
+2019-11-26 11:14:47,273 INFO <Response [200]>
+2019-11-26 11:14:47,273 INFO <Response [200]>
+2019-11-26 11:14:47,273 INFO <Response [200]>
+2019-11-26 11:14:47,273 INFO <Response [200]>
+2019-11-26 11:16:09,832 INFO 开始执行测试,报告输出模式text
+2019-11-26 11:16:10,259 INFO in ask baidu！
+2019-11-26 11:16:10,259 INFO in ask baidu！
+2019-11-26 11:16:10,391 INFO <Response [200]>
+2019-11-26 11:16:10,391 INFO <Response [200]>
+2019-11-26 11:16:10,391 INFO <Response [200]>
+2019-11-26 11:16:10,719 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:16:10,719 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:16:10,719 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:16:10,719 DEBUG Creating session: baidu
+2019-11-26 11:16:10,719 DEBUG Creating session: baidu
+2019-11-26 11:16:10,719 DEBUG Creating session: baidu
+2019-11-26 11:16:10,720 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:16:10,720 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:16:10,720 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:16:10,720 INFO <requests.sessions.Session object at 0x10f299fd0>
+2019-11-26 11:16:10,720 INFO <requests.sessions.Session object at 0x10f299fd0>
+2019-11-26 11:16:10,720 INFO <requests.sessions.Session object at 0x10f299fd0>
+2019-11-26 11:16:10,720 INFO <requests.sessions.Session object at 0x10f299fd0>
+2019-11-26 11:16:10,854 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:16:10,854 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:16:10,854 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:16:10,854 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:16:10,855 INFO <Response [200]>
+2019-11-26 11:16:10,855 INFO <Response [200]>
+2019-11-26 11:16:10,855 INFO <Response [200]>
+2019-11-26 11:16:10,855 INFO <Response [200]>
+2019-11-26 11:16:10,855 INFO <Response [200]>
+2019-11-26 11:16:53,155 INFO 开始执行测试,报告输出模式text
+2019-11-26 11:16:53,587 INFO in ask baidu！
+2019-11-26 11:16:53,587 INFO in ask baidu！
+2019-11-26 11:16:53,753 INFO <Response [200]>
+2019-11-26 11:16:53,753 INFO <Response [200]>
+2019-11-26 11:16:53,753 INFO <Response [200]>
+2019-11-26 11:36:30,649 INFO 开始执行测试,报告输出模式text
+2019-11-26 11:36:31,143 INFO in ask baidu！
+2019-11-26 11:36:31,143 INFO in ask baidu！
+2019-11-26 11:36:31,392 INFO <Response [200]>
+2019-11-26 11:36:31,392 INFO <Response [200]>
+2019-11-26 11:36:31,392 INFO <Response [200]>
+2019-11-26 11:37:03,732 INFO 开始执行测试,报告输出模式text
+2019-11-26 11:37:03,951 INFO in ask baidu！
+2019-11-26 11:37:03,951 INFO in ask baidu！
+2019-11-26 11:37:04,081 INFO <Response [200]>
+2019-11-26 11:37:04,081 INFO <Response [200]>
+2019-11-26 11:37:04,081 INFO <Response [200]>
+2019-11-26 11:37:04,439 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:37:04,439 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:37:04,439 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-26 11:37:04,440 DEBUG Creating session: baidu
+2019-11-26 11:37:04,440 DEBUG Creating session: baidu
+2019-11-26 11:37:04,440 DEBUG Creating session: baidu
+2019-11-26 11:37:04,441 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:37:04,441 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:37:04,441 DEBUG Argument types are:
+<class 'bool'>
+2019-11-26 11:37:04,442 INFO <requests.sessions.Session object at 0x1075595f8>
+2019-11-26 11:37:04,442 INFO <requests.sessions.Session object at 0x1075595f8>
+2019-11-26 11:37:04,442 INFO <requests.sessions.Session object at 0x1075595f8>
+2019-11-26 11:37:04,442 INFO <requests.sessions.Session object at 0x1075595f8>
+2019-11-26 11:37:04,538 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:37:04,538 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:37:04,538 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:37:04,538 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-26 11:37:04,539 INFO <Response [200]>
+2019-11-26 11:37:04,539 INFO <Response [200]>
+2019-11-26 11:37:04,539 INFO <Response [200]>
+2019-11-26 11:37:04,539 INFO <Response [200]>
+2019-11-26 11:37:04,539 INFO <Response [200]>
+2019-11-26 11:37:20,652 INFO 开始执行测试,报告输出模式html
+2019-11-26 11:42:17,164 INFO 开始执行测试,报告输出模式html
+2019-11-26 11:42:17,636 INFO in ask baidu！
+2019-11-26 11:42:17,636 INFO in ask baidu！
+2019-11-26 11:42:17,783 INFO <Response [200]>
+2019-11-26 11:42:17,783 INFO <Response [200]>
+2019-11-26 11:42:17,783 INFO <Response [200]>
+2019-11-26 11:42:51,450 INFO 开始执行测试,报告输出模式html
+2019-11-26 11:42:52,015 INFO in ask baidu！
+2019-11-26 11:42:52,015 INFO in ask baidu！
+2019-11-26 11:42:52,140 INFO <Response [200]>
+2019-11-26 11:42:52,140 INFO <Response [200]>
+2019-11-26 11:42:52,140 INFO <Response [200]>
+2019-11-26 11:49:44,885 INFO 开始执行测试,报告输出模式html
+2019-11-26 11:49:45,436 INFO in ask baidu！
+2019-11-26 11:49:45,436 INFO in ask baidu！
+2019-11-26 11:49:45,643 INFO <Response [200]>
+2019-11-26 11:49:45,643 INFO <Response [200]>
+2019-11-26 11:49:45,643 INFO <Response [200]>
+2019-11-26 15:09:50,631 INFO 开始执行测试,报告输出模式html
+2019-11-26 15:09:51,757 INFO in ask baidu！
+2019-11-26 15:09:51,757 INFO in ask baidu！
+2019-11-26 15:13:14,098 INFO 开始执行测试,报告输出模式html
+2019-11-26 15:13:14,947 INFO in ask baidu！
+2019-11-26 15:13:14,947 INFO in ask baidu！
+2019-11-26 15:13:52,548 INFO 开始执行测试,报告输出模式html
+2019-11-26 15:13:53,210 INFO in ask baidu！
+2019-11-26 15:13:53,210 INFO in ask baidu！
+2019-11-26 15:15:49,566 INFO 开始执行测试,报告输出模式html
+2019-11-26 15:15:50,444 INFO in ask baidu！
+2019-11-26 15:15:50,444 INFO in ask baidu！
+2019-11-26 15:17:09,737 INFO 开始执行测试,报告输出模式html
+2019-11-26 15:17:13,543 INFO in ask baidu！
+2019-11-26 15:17:13,543 INFO in ask baidu！
+2019-11-26 15:32:27,408 INFO 开始执行测试,报告输出模式text
+2019-11-26 15:32:42,018 INFO 开始执行测试,报告输出模式html
+2019-11-26 15:32:42,472 INFO in ask baidu！
+2019-11-26 15:32:42,472 INFO in ask baidu！
+2019-11-26 15:39:45,100 INFO 开始执行测试,报告输出模式html
+2019-11-26 15:40:34,325 INFO in ask baidu！
+2019-11-26 15:40:34,325 INFO in ask baidu！
+2019-11-26 16:07:14,805 INFO 开始执行测试,报告输出模式html
+2019-11-26 16:07:15,222 INFO in ask baidu！
+2019-11-26 16:07:15,222 INFO in ask baidu！
+2019-11-26 16:13:34,391 INFO 开始执行测试,报告输出模式html
+2019-11-26 16:13:34,764 INFO in ask baidu！
+2019-11-26 16:13:34,764 INFO in ask baidu！
+2019-11-26 16:16:05,882 INFO 开始执行测试,报告输出模式html
+2019-11-26 16:16:06,417 INFO in ask baidu！
+2019-11-26 16:16:06,417 INFO in ask baidu！
+2019-11-26 16:16:06,715 INFO <Response [200]>
+2019-11-26 16:16:06,715 INFO <Response [200]>
+2019-11-26 16:16:06,715 INFO <Response [200]>
+2019-11-26 16:18:38,069 INFO 开始执行测试,报告输出模式html
+2019-11-26 16:18:38,638 INFO in ask baidu！
+2019-11-26 16:18:38,638 INFO in ask baidu！
+2019-11-26 16:18:38,872 INFO <Response [200]>
+2019-11-26 16:18:38,872 INFO <Response [200]>
+2019-11-26 16:18:38,872 INFO <Response [200]>
+2019-11-26 16:18:52,620 INFO 开始执行测试,报告输出模式html
+2019-11-26 16:18:52,863 INFO in ask baidu！
+2019-11-26 16:18:52,863 INFO in ask baidu！
+2019-11-26 16:18:52,985 INFO <Response [200]>
+2019-11-26 16:18:52,985 INFO <Response [200]>
+2019-11-26 16:18:52,985 INFO <Response [200]>
+2019-11-26 16:20:18,957 INFO 开始执行测试,报告输出模式html
+2019-11-26 16:20:19,362 INFO in ask baidu！
+2019-11-26 16:20:19,362 INFO in ask baidu！
+2019-11-26 16:20:19,495 INFO <Response [200]>
+2019-11-26 16:20:19,495 INFO <Response [200]>
+2019-11-26 16:20:19,495 INFO <Response [200]>
+2019-11-26 16:20:28,687 INFO 开始执行测试,报告输出模式html
+2019-11-26 16:20:29,041 INFO in ask baidu！
+2019-11-26 16:20:29,041 INFO in ask baidu！
+2019-11-26 16:20:29,391 INFO <Response [200]>
+2019-11-26 16:20:29,391 INFO <Response [200]>
+2019-11-26 16:20:29,391 INFO <Response [200]>
+2019-11-26 16:20:37,616 INFO 开始执行测试,报告输出模式html
+2019-11-26 16:20:38,052 INFO in ask baidu！
+2019-11-26 16:20:38,052 INFO in ask baidu！
+2019-11-26 16:20:38,375 INFO <Response [200]>
+2019-11-26 16:20:38,375 INFO <Response [200]>
+2019-11-26 16:20:38,375 INFO <Response [200]>
+2019-11-26 17:51:52,185 INFO 开始执行测试,报告输出模式html
+2019-11-26 17:54:08,829 INFO 开始执行测试,报告输出模式html
+2019-11-26 17:54:09,242 INFO in ask baidu！
+2019-11-26 17:54:09,242 INFO in ask baidu！
+2019-11-26 17:54:09,433 INFO <Response [200]>
+2019-11-26 17:54:09,433 INFO <Response [200]>
+2019-11-26 17:54:09,433 INFO <Response [200]>
+2019-11-26 17:54:39,783 INFO 开始执行测试,报告输出模式html
+2019-11-26 17:54:40,559 INFO in ask baidu！
+2019-11-26 17:54:40,559 INFO in ask baidu！
+2019-11-26 17:54:40,707 INFO <Response [200]>
+2019-11-26 17:54:40,707 INFO <Response [200]>
+2019-11-26 17:54:40,707 INFO <Response [200]>
+2019-11-26 17:55:25,077 INFO 开始执行测试,报告输出模式html
+2019-11-26 17:56:30,883 INFO in ask baidu！
+2019-11-26 17:56:30,883 INFO in ask baidu！
+2019-11-26 17:56:31,128 INFO <Response [200]>
+2019-11-26 17:56:31,128 INFO <Response [200]>
+2019-11-26 17:56:31,128 INFO <Response [200]>
+2019-11-26 17:59:01,160 INFO 开始执行测试,报告输出模式html
+2019-11-26 17:59:43,495 INFO in ask baidu！
+2019-11-26 17:59:43,495 INFO in ask baidu！
+2019-11-26 17:59:43,717 INFO <Response [200]>
+2019-11-26 17:59:43,717 INFO <Response [200]>
+2019-11-26 17:59:43,717 INFO <Response [200]>
+2019-11-26 18:03:26,960 INFO 开始执行测试,报告输出模式html
+2019-11-26 18:05:25,039 INFO in ask baidu！
+2019-11-26 18:05:25,039 INFO in ask baidu！
+2019-11-26 18:05:30,908 INFO <Response [200]>
+2019-11-26 18:05:30,908 INFO <Response [200]>
+2019-11-26 18:05:30,908 INFO <Response [200]>
+2019-11-26 18:06:13,571 INFO 开始执行测试,报告输出模式html
+2019-11-26 18:06:21,172 INFO in ask baidu！
+2019-11-26 18:06:21,172 INFO in ask baidu！
+2019-11-26 18:06:21,336 INFO <Response [200]>
+2019-11-26 18:06:21,336 INFO <Response [200]>
+2019-11-26 18:06:21,336 INFO <Response [200]>
+2019-11-28 01:56:08,482 INFO 开始执行测试,报告输出模式html
+2019-11-28 01:56:09,053 INFO in ask baidu！
+2019-11-28 01:56:09,053 INFO in ask baidu！
+2019-11-28 01:56:09,138 INFO <Response [200]>
+2019-11-28 01:56:09,138 INFO <Response [200]>
+2019-11-28 01:56:09,138 INFO <Response [200]>
+2019-11-28 01:56:09,490 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 01:56:09,490 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 01:56:09,490 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 01:56:09,490 DEBUG Creating session: baidu
+2019-11-28 01:56:09,490 DEBUG Creating session: baidu
+2019-11-28 01:56:09,490 DEBUG Creating session: baidu
+2019-11-28 01:56:09,491 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 01:56:09,491 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 01:56:09,491 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 01:56:09,492 INFO <requests.sessions.Session object at 0x10fcb5940>
+2019-11-28 01:56:09,492 INFO <requests.sessions.Session object at 0x10fcb5940>
+2019-11-28 01:56:09,492 INFO <requests.sessions.Session object at 0x10fcb5940>
+2019-11-28 01:56:09,492 INFO <requests.sessions.Session object at 0x10fcb5940>
+2019-11-28 01:56:09,578 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:56:09,578 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:56:09,578 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:56:09,578 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:56:09,579 INFO <Response [200]>
+2019-11-28 01:56:09,579 INFO <Response [200]>
+2019-11-28 01:56:09,579 INFO <Response [200]>
+2019-11-28 01:56:09,579 INFO <Response [200]>
+2019-11-28 01:56:09,579 INFO <Response [200]>
+2019-11-28 01:57:05,450 INFO 开始执行测试,报告输出模式html
+2019-11-28 01:57:05,679 INFO in ask baidu！
+2019-11-28 01:57:05,679 INFO in ask baidu！
+2019-11-28 01:57:05,730 INFO <Response [200]>
+2019-11-28 01:57:05,730 INFO <Response [200]>
+2019-11-28 01:57:05,730 INFO <Response [200]>
+2019-11-28 01:57:05,899 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 01:57:05,899 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 01:57:05,899 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 01:57:05,900 DEBUG Creating session: baidu
+2019-11-28 01:57:05,900 DEBUG Creating session: baidu
+2019-11-28 01:57:05,900 DEBUG Creating session: baidu
+2019-11-28 01:57:05,900 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 01:57:05,900 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 01:57:05,900 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 01:57:05,901 INFO <requests.sessions.Session object at 0x10b5b7860>
+2019-11-28 01:57:05,901 INFO <requests.sessions.Session object at 0x10b5b7860>
+2019-11-28 01:57:05,901 INFO <requests.sessions.Session object at 0x10b5b7860>
+2019-11-28 01:57:05,901 INFO <requests.sessions.Session object at 0x10b5b7860>
+2019-11-28 01:57:05,938 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:57:05,938 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:57:05,938 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:57:05,938 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:57:05,939 INFO <Response [200]>
+2019-11-28 01:57:05,939 INFO <Response [200]>
+2019-11-28 01:57:05,939 INFO <Response [200]>
+2019-11-28 01:57:05,939 INFO <Response [200]>
+2019-11-28 01:57:05,939 INFO <Response [200]>
+2019-11-28 01:58:02,705 INFO 开始执行测试,报告输出模式html
+2019-11-28 01:58:02,949 INFO in ask baidu！
+2019-11-28 01:58:02,949 INFO in ask baidu！
+2019-11-28 01:58:03,027 INFO <Response [200]>
+2019-11-28 01:58:03,027 INFO <Response [200]>
+2019-11-28 01:58:03,027 INFO <Response [200]>
+2019-11-28 01:58:03,196 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 01:58:03,196 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 01:58:03,196 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 01:58:03,196 DEBUG Creating session: baidu
+2019-11-28 01:58:03,196 DEBUG Creating session: baidu
+2019-11-28 01:58:03,196 DEBUG Creating session: baidu
+2019-11-28 01:58:03,197 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 01:58:03,197 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 01:58:03,197 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 01:58:03,197 INFO <requests.sessions.Session object at 0x10c1ad908>
+2019-11-28 01:58:03,197 INFO <requests.sessions.Session object at 0x10c1ad908>
+2019-11-28 01:58:03,197 INFO <requests.sessions.Session object at 0x10c1ad908>
+2019-11-28 01:58:03,197 INFO <requests.sessions.Session object at 0x10c1ad908>
+2019-11-28 01:58:03,235 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:58:03,235 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:58:03,235 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:58:03,235 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:58:03,236 INFO <Response [200]>
+2019-11-28 01:58:03,236 INFO <Response [200]>
+2019-11-28 01:58:03,236 INFO <Response [200]>
+2019-11-28 01:58:03,236 INFO <Response [200]>
+2019-11-28 01:58:03,236 INFO <Response [200]>
+2019-11-28 01:58:10,938 INFO 开始执行测试,报告输出模式html
+2019-11-28 01:58:11,164 INFO in ask baidu！
+2019-11-28 01:58:11,164 INFO in ask baidu！
+2019-11-28 01:58:11,348 INFO <Response [200]>
+2019-11-28 01:58:11,348 INFO <Response [200]>
+2019-11-28 01:58:11,348 INFO <Response [200]>
+2019-11-28 01:58:11,518 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 01:58:11,518 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 01:58:11,518 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 01:58:11,519 DEBUG Creating session: baidu
+2019-11-28 01:58:11,519 DEBUG Creating session: baidu
+2019-11-28 01:58:11,519 DEBUG Creating session: baidu
+2019-11-28 01:58:11,519 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 01:58:11,519 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 01:58:11,519 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 01:58:11,520 INFO <requests.sessions.Session object at 0x10a96d828>
+2019-11-28 01:58:11,520 INFO <requests.sessions.Session object at 0x10a96d828>
+2019-11-28 01:58:11,520 INFO <requests.sessions.Session object at 0x10a96d828>
+2019-11-28 01:58:11,520 INFO <requests.sessions.Session object at 0x10a96d828>
+2019-11-28 01:58:11,553 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:58:11,553 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:58:11,553 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:58:11,553 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 01:58:11,554 INFO <Response [200]>
+2019-11-28 01:58:11,554 INFO <Response [200]>
+2019-11-28 01:58:11,554 INFO <Response [200]>
+2019-11-28 01:58:11,554 INFO <Response [200]>
+2019-11-28 01:58:11,554 INFO <Response [200]>
+2019-11-28 02:00:45,959 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:00:46,350 INFO in ask baidu！
+2019-11-28 02:00:46,350 INFO in ask baidu！
+2019-11-28 02:00:46,399 INFO <Response [200]>
+2019-11-28 02:00:46,399 INFO <Response [200]>
+2019-11-28 02:00:46,399 INFO <Response [200]>
+2019-11-28 02:00:46,708 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:00:46,708 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:00:46,708 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:00:46,708 DEBUG Creating session: baidu
+2019-11-28 02:00:46,708 DEBUG Creating session: baidu
+2019-11-28 02:00:46,708 DEBUG Creating session: baidu
+2019-11-28 02:00:46,709 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:00:46,709 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:00:46,709 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:00:46,710 INFO <requests.sessions.Session object at 0x10dc0b550>
+2019-11-28 02:00:46,710 INFO <requests.sessions.Session object at 0x10dc0b550>
+2019-11-28 02:00:46,710 INFO <requests.sessions.Session object at 0x10dc0b550>
+2019-11-28 02:00:46,710 INFO <requests.sessions.Session object at 0x10dc0b550>
+2019-11-28 02:00:46,742 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:00:46,742 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:00:46,742 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:00:46,742 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:00:46,743 INFO <Response [200]>
+2019-11-28 02:00:46,743 INFO <Response [200]>
+2019-11-28 02:00:46,743 INFO <Response [200]>
+2019-11-28 02:00:46,743 INFO <Response [200]>
+2019-11-28 02:00:46,743 INFO <Response [200]>
+2019-11-28 02:04:57,319 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:04:57,675 INFO in ask baidu！
+2019-11-28 02:04:57,675 INFO in ask baidu！
+2019-11-28 02:04:57,762 INFO <Response [200]>
+2019-11-28 02:04:57,762 INFO <Response [200]>
+2019-11-28 02:04:57,762 INFO <Response [200]>
+2019-11-28 02:04:58,049 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:04:58,049 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:04:58,049 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:04:58,050 DEBUG Creating session: baidu
+2019-11-28 02:04:58,050 DEBUG Creating session: baidu
+2019-11-28 02:04:58,050 DEBUG Creating session: baidu
+2019-11-28 02:04:58,051 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:04:58,051 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:04:58,051 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:04:58,051 INFO <requests.sessions.Session object at 0x109b96518>
+2019-11-28 02:04:58,051 INFO <requests.sessions.Session object at 0x109b96518>
+2019-11-28 02:04:58,051 INFO <requests.sessions.Session object at 0x109b96518>
+2019-11-28 02:04:58,051 INFO <requests.sessions.Session object at 0x109b96518>
+2019-11-28 02:04:58,116 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:04:58,116 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:04:58,116 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:04:58,116 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:04:58,117 INFO <Response [200]>
+2019-11-28 02:04:58,117 INFO <Response [200]>
+2019-11-28 02:04:58,117 INFO <Response [200]>
+2019-11-28 02:04:58,117 INFO <Response [200]>
+2019-11-28 02:04:58,117 INFO <Response [200]>
+2019-11-28 02:06:17,569 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:06:17,920 INFO in ask baidu！
+2019-11-28 02:06:17,920 INFO in ask baidu！
+2019-11-28 02:06:18,027 INFO <Response [200]>
+2019-11-28 02:06:18,027 INFO <Response [200]>
+2019-11-28 02:06:18,027 INFO <Response [200]>
+2019-11-28 02:07:14,287 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:07:15,166 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:07:15,166 DEBUG Creating session: baidu
+2019-11-28 02:07:15,167 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:07:15,167 INFO <requests.sessions.Session object at 0x1100949e8>
+2019-11-28 02:07:15,167 INFO <requests.sessions.Session object at 0x1100949e8>
+2019-11-28 02:07:15,250 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:07:15,250 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:07:15,251 INFO <Response [200]>
+2019-11-28 02:07:15,251 INFO <Response [200]>
+2019-11-28 02:07:15,251 INFO <Response [200]>
+2019-11-28 02:46:00,337 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:46:01,103 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:46:01,104 DEBUG Creating session: baidu
+2019-11-28 02:46:01,104 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:46:01,105 INFO <requests.sessions.Session object at 0x10ae28978>
+2019-11-28 02:46:01,105 INFO <requests.sessions.Session object at 0x10ae28978>
+2019-11-28 02:46:01,214 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:46:01,214 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:46:01,215 INFO <Response [200]>
+2019-11-28 02:46:01,215 INFO <Response [200]>
+2019-11-28 02:46:01,215 INFO <Response [200]>
+2019-11-28 02:46:29,250 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:46:30,216 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:46:30,217 DEBUG Creating session: baidu
+2019-11-28 02:46:30,217 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:46:30,219 INFO <requests.sessions.Session object at 0x1038ef9e8>
+2019-11-28 02:46:30,219 INFO <requests.sessions.Session object at 0x1038ef9e8>
+2019-11-28 02:46:30,358 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:46:30,358 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:46:30,359 INFO <Response [200]>
+2019-11-28 02:46:30,359 INFO <Response [200]>
+2019-11-28 02:46:30,359 INFO <Response [200]>
+2019-11-28 02:48:12,255 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:48:12,718 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:48:12,718 DEBUG Creating session: baidu
+2019-11-28 02:48:12,719 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:48:12,720 INFO <requests.sessions.Session object at 0x109afc9e8>
+2019-11-28 02:48:12,720 INFO <requests.sessions.Session object at 0x109afc9e8>
+2019-11-28 02:48:12,774 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:48:12,774 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:48:12,775 INFO <Response [200]>
+2019-11-28 02:48:12,775 INFO <Response [200]>
+2019-11-28 02:48:12,775 INFO <Response [200]>
+2019-11-28 02:49:39,298 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:50:17,526 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:50:26,522 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:50:26,523 DEBUG Creating session: baidu
+2019-11-28 02:50:26,524 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:50:26,526 INFO <requests.sessions.Session object at 0x103881f98>
+2019-11-28 02:50:26,526 INFO <requests.sessions.Session object at 0x103881f98>
+2019-11-28 02:50:26,637 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:50:26,637 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:50:26,639 INFO <Response [200]>
+2019-11-28 02:50:26,639 INFO <Response [200]>
+2019-11-28 02:50:26,639 INFO <Response [200]>
+2019-11-28 02:54:01,828 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:54:02,669 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:54:02,669 DEBUG Creating session: baidu
+2019-11-28 02:54:02,670 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:54:02,670 INFO <requests.sessions.Session object at 0x10c186eb8>
+2019-11-28 02:54:02,670 INFO <requests.sessions.Session object at 0x10c186eb8>
+2019-11-28 02:54:02,767 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:54:02,767 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:54:02,767 INFO <Response [200]>
+2019-11-28 02:54:02,767 INFO <Response [200]>
+2019-11-28 02:54:02,767 INFO <Response [200]>
+2019-11-28 02:56:07,250 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:56:08,046 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:56:08,047 DEBUG Creating session: baidu
+2019-11-28 02:56:08,048 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:56:08,048 INFO <requests.sessions.Session object at 0x10a389eb8>
+2019-11-28 02:56:08,048 INFO <requests.sessions.Session object at 0x10a389eb8>
+2019-11-28 02:56:08,112 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:56:08,112 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:56:08,113 INFO <Response [200]>
+2019-11-28 02:56:08,113 INFO <Response [200]>
+2019-11-28 02:56:08,113 INFO <Response [200]>
+2019-11-28 02:56:46,468 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:56:47,189 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:56:47,189 DEBUG Creating session: baidu
+2019-11-28 02:56:47,189 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:56:47,190 INFO <requests.sessions.Session object at 0x11180feb8>
+2019-11-28 02:56:47,190 INFO <requests.sessions.Session object at 0x11180feb8>
+2019-11-28 02:56:47,248 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:56:47,248 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:56:47,249 INFO <Response [200]>
+2019-11-28 02:56:47,249 INFO <Response [200]>
+2019-11-28 02:56:47,249 INFO <Response [200]>
+2019-11-28 02:57:24,721 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:57:25,440 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:57:25,441 DEBUG Creating session: baidu
+2019-11-28 02:57:25,441 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:57:25,442 INFO <requests.sessions.Session object at 0x105483eb8>
+2019-11-28 02:57:25,442 INFO <requests.sessions.Session object at 0x105483eb8>
+2019-11-28 02:57:25,527 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:57:25,527 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:57:25,527 INFO <Response [200]>
+2019-11-28 02:57:25,527 INFO <Response [200]>
+2019-11-28 02:57:25,527 INFO <Response [200]>
+2019-11-28 02:58:54,561 INFO 开始执行测试,报告输出模式html
+2019-11-28 02:58:55,473 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 02:58:55,473 DEBUG Creating session: baidu
+2019-11-28 02:58:55,474 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 02:58:55,474 INFO <requests.sessions.Session object at 0x111b6df98>
+2019-11-28 02:58:55,474 INFO <requests.sessions.Session object at 0x111b6df98>
+2019-11-28 02:58:55,567 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:58:55,567 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 02:58:55,567 INFO <Response [200]>
+2019-11-28 02:58:55,567 INFO <Response [200]>
+2019-11-28 02:58:55,567 INFO <Response [200]>
+2019-11-28 03:00:30,981 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:00:31,710 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:00:31,710 DEBUG Creating session: baidu
+2019-11-28 03:00:31,710 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:00:31,711 INFO <requests.sessions.Session object at 0x111090eb8>
+2019-11-28 03:00:31,711 INFO <requests.sessions.Session object at 0x111090eb8>
+2019-11-28 03:00:31,766 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:00:31,766 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:00:31,767 INFO <Response [200]>
+2019-11-28 03:00:31,767 INFO <Response [200]>
+2019-11-28 03:00:31,767 INFO <Response [200]>
+2019-11-28 03:02:28,583 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:02:29,358 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:02:29,358 DEBUG Creating session: baidu
+2019-11-28 03:02:29,359 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:02:29,359 INFO <requests.sessions.Session object at 0x10a1b6f98>
+2019-11-28 03:02:29,359 INFO <requests.sessions.Session object at 0x10a1b6f98>
+2019-11-28 03:02:29,421 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:02:29,421 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:02:29,422 INFO <Response [200]>
+2019-11-28 03:02:29,422 INFO <Response [200]>
+2019-11-28 03:02:29,422 INFO <Response [200]>
+2019-11-28 03:04:39,178 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:04:39,904 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:04:39,904 DEBUG Creating session: baidu
+2019-11-28 03:04:39,904 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:04:39,905 INFO <requests.sessions.Session object at 0x1028d1f98>
+2019-11-28 03:04:39,905 INFO <requests.sessions.Session object at 0x1028d1f98>
+2019-11-28 03:04:39,988 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:04:39,988 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:04:39,989 INFO <Response [200]>
+2019-11-28 03:04:39,989 INFO <Response [200]>
+2019-11-28 03:04:39,989 INFO <Response [200]>
+2019-11-28 03:05:03,006 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:05:03,479 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:05:03,479 DEBUG Creating session: baidu
+2019-11-28 03:05:03,479 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:05:03,480 INFO <requests.sessions.Session object at 0x10cbabf98>
+2019-11-28 03:05:03,480 INFO <requests.sessions.Session object at 0x10cbabf98>
+2019-11-28 03:05:03,557 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:05:03,557 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:05:03,557 INFO <Response [200]>
+2019-11-28 03:05:03,557 INFO <Response [200]>
+2019-11-28 03:05:03,557 INFO <Response [200]>
+2019-11-28 03:07:50,830 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:07:51,298 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:07:51,298 DEBUG Creating session: baidu
+2019-11-28 03:07:51,299 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:07:51,299 INFO <requests.sessions.Session object at 0x10739af28>
+2019-11-28 03:07:51,299 INFO <requests.sessions.Session object at 0x10739af28>
+2019-11-28 03:07:51,381 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:07:51,381 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:07:51,382 INFO <Response [200]>
+2019-11-28 03:07:51,382 INFO <Response [200]>
+2019-11-28 03:07:51,382 INFO <Response [200]>
+2019-11-28 03:10:31,645 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:10:32,386 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:10:32,386 DEBUG Creating session: baidu
+2019-11-28 03:10:32,387 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:10:32,387 INFO <requests.sessions.Session object at 0x110a76f28>
+2019-11-28 03:10:32,387 INFO <requests.sessions.Session object at 0x110a76f28>
+2019-11-28 03:10:32,440 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:10:32,440 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:10:32,441 INFO <Response [200]>
+2019-11-28 03:10:32,441 INFO <Response [200]>
+2019-11-28 03:10:32,441 INFO <Response [200]>
+2019-11-28 03:11:29,262 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:11:29,730 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:11:29,730 DEBUG Creating session: baidu
+2019-11-28 03:11:29,731 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:11:29,731 INFO <requests.sessions.Session object at 0x10c771f98>
+2019-11-28 03:11:29,731 INFO <requests.sessions.Session object at 0x10c771f98>
+2019-11-28 03:11:29,835 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:11:29,835 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:11:29,836 INFO <Response [200]>
+2019-11-28 03:11:29,836 INFO <Response [200]>
+2019-11-28 03:11:29,836 INFO <Response [200]>
+2019-11-28 03:15:07,421 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:15:08,530 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:15:08,531 DEBUG Creating session: baidu
+2019-11-28 03:15:08,532 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:15:08,532 INFO <requests.sessions.Session object at 0x109556f98>
+2019-11-28 03:15:08,532 INFO <requests.sessions.Session object at 0x109556f98>
+2019-11-28 03:15:08,591 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:15:08,591 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:15:08,592 INFO <Response [200]>
+2019-11-28 03:15:08,592 INFO <Response [200]>
+2019-11-28 03:15:08,592 INFO <Response [200]>
+2019-11-28 03:15:29,818 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:15:30,285 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:15:30,285 DEBUG Creating session: baidu
+2019-11-28 03:15:30,285 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:15:30,286 INFO <requests.sessions.Session object at 0x10677cf98>
+2019-11-28 03:15:30,286 INFO <requests.sessions.Session object at 0x10677cf98>
+2019-11-28 03:15:30,388 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:15:30,388 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:15:30,389 INFO <Response [200]>
+2019-11-28 03:15:30,389 INFO <Response [200]>
+2019-11-28 03:15:30,389 INFO <Response [200]>
+2019-11-28 03:27:49,995 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:27:50,834 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:27:50,834 DEBUG Creating session: baidu
+2019-11-28 03:27:50,834 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:27:50,835 INFO <requests.sessions.Session object at 0x103ac8f98>
+2019-11-28 03:27:50,835 INFO <requests.sessions.Session object at 0x103ac8f98>
+2019-11-28 03:27:50,925 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:27:50,925 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:27:50,926 INFO <Response [200]>
+2019-11-28 03:27:50,926 INFO <Response [200]>
+2019-11-28 03:27:50,926 INFO <Response [200]>
+2019-11-28 03:28:26,136 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:28:26,601 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:28:26,601 DEBUG Creating session: baidu
+2019-11-28 03:28:26,602 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:28:26,602 INFO <requests.sessions.Session object at 0x106bdff98>
+2019-11-28 03:28:26,602 INFO <requests.sessions.Session object at 0x106bdff98>
+2019-11-28 03:28:26,649 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:28:26,649 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:28:26,650 INFO <Response [200]>
+2019-11-28 03:28:26,650 INFO <Response [200]>
+2019-11-28 03:28:26,650 INFO <Response [200]>
+2019-11-28 03:28:43,132 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:28:43,620 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:28:43,621 DEBUG Creating session: baidu
+2019-11-28 03:28:43,621 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:28:43,622 INFO <requests.sessions.Session object at 0x1095c0f98>
+2019-11-28 03:28:43,622 INFO <requests.sessions.Session object at 0x1095c0f98>
+2019-11-28 03:28:43,686 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:28:43,686 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:28:43,687 INFO <Response [200]>
+2019-11-28 03:28:43,687 INFO <Response [200]>
+2019-11-28 03:28:43,687 INFO <Response [200]>
+2019-11-28 03:29:05,216 INFO 开始执行测试,报告输出模式html
+2019-11-28 03:29:05,838 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 03:29:05,839 DEBUG Creating session: baidu
+2019-11-28 03:29:05,839 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 03:29:05,840 INFO <requests.sessions.Session object at 0x10d974f98>
+2019-11-28 03:29:05,840 INFO <requests.sessions.Session object at 0x10d974f98>
+2019-11-28 03:29:05,925 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:29:05,925 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 03:29:05,926 INFO <Response [200]>
+2019-11-28 03:29:05,926 INFO <Response [200]>
+2019-11-28 03:29:05,926 INFO <Response [200]>
+2019-11-28 09:51:26,490 INFO 开始执行测试,报告输出模式html
+2019-11-28 09:51:27,196 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 09:51:27,196 DEBUG Creating session: baidu
+2019-11-28 09:51:27,196 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 09:51:27,197 INFO <requests.sessions.Session object at 0x109276f98>
+2019-11-28 09:51:27,197 INFO <requests.sessions.Session object at 0x109276f98>
+2019-11-28 09:51:27,289 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 09:51:27,289 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 09:51:27,290 INFO <Response [200]>
+2019-11-28 09:51:27,290 INFO <Response [200]>
+2019-11-28 09:51:27,290 INFO <Response [200]>
+2019-11-28 09:51:51,683 INFO 开始执行测试,报告输出模式html
+2019-11-28 09:51:52,419 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 09:51:52,419 DEBUG Creating session: baidu
+2019-11-28 09:51:52,420 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 09:51:52,421 INFO <requests.sessions.Session object at 0x10a244eb8>
+2019-11-28 09:51:52,421 INFO <requests.sessions.Session object at 0x10a244eb8>
+2019-11-28 09:51:53,512 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 09:51:53,512 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 09:51:53,513 INFO <Response [200]>
+2019-11-28 09:51:53,513 INFO <Response [200]>
+2019-11-28 09:51:53,513 INFO <Response [200]>
+2019-11-28 11:52:07,492 INFO 开始执行测试,报告输出模式html
+2019-11-28 11:52:08,523 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+2019-11-28 11:52:08,523 DEBUG Creating session: baidu
+2019-11-28 11:52:08,524 DEBUG Argument types are:
+<class 'bool'>
+2019-11-28 11:52:08,525 INFO <requests.sessions.Session object at 0x10bc3ff60>
+2019-11-28 11:52:08,525 INFO <requests.sessions.Session object at 0x10bc3ff60>
+2019-11-28 11:52:08,622 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 11:52:08,622 INFO Get Request using : alias=baidu, uri=/, headers=None json=None
+2019-11-28 11:52:08,623 INFO <Response [200]>
+2019-11-28 11:52:08,623 INFO <Response [200]>
+2019-11-28 11:52:08,623 INFO <Response [200]>
+2019-11-28 14:00:05,003 INFO 开始执行测试,报告输出模式text
+2019-11-28 14:00:05,528 INFO in ask baidu！
+2019-11-28 14:00:05,528 INFO in ask baidu！
+2019-11-28 14:00:05,800 INFO <Response [200]>
+2019-11-28 14:00:05,800 INFO <Response [200]>
+2019-11-28 14:00:05,800 INFO <Response [200]>
+2019-11-28 14:02:29,885 INFO 开始执行测试,报告输出模式text
+2019-11-28 14:04:22,842 INFO 开始执行测试,报告输出模式html
+2019-11-28 14:04:23,236 INFO in ask baidu！
+2019-11-28 14:04:23,236 INFO in ask baidu！
+2019-11-28 14:04:23,356 INFO <Response [200]>
+2019-11-28 14:04:23,356 INFO <Response [200]>
+2019-11-28 14:04:23,356 INFO <Response [200]>
+2019-11-28 14:04:50,461 INFO 开始执行测试,报告输出模式html
+2019-11-28 14:04:50,691 INFO in ask baidu！
+2019-11-28 14:04:50,691 INFO in ask baidu！
+2019-11-28 14:04:50,768 INFO <Response [200]>
+2019-11-28 14:04:50,768 INFO <Response [200]>
+2019-11-28 14:04:50,768 INFO <Response [200]>

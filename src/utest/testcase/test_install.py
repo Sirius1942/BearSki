@@ -1,4 +1,4 @@
-from bear.install_data import testRun
+from BearSki.install_data import testRun
 # coding=utf-8
 import time
 import unittest

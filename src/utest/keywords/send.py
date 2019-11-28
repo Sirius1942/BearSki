@@ -1,5 +1,5 @@
 import requests
-from bear.log import logger
+from BearSki.log import logger
 
 def askbaidu(mod,data):
 

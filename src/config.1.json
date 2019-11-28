@@ -1,0 +1,7 @@
+{
+    "m":"all",
+    "p":"./utest/testcase",
+    "n":"test_",
+    "r":"t",
+    "o":"./report"
+}
