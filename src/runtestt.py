@@ -1,6 +1,6 @@
 import unittest
 import BearSki.RunUnittest as rut
-from BearSki.log import logger
+from BearSki.utils.logger import SkiLogger
 from BearSki.report.LocalReportRunner import LocalReportRunner
 import time
 import sys

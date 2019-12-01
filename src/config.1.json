@@ -1,7 +1,22 @@
+{"backconfig":[{
+    "m":"onecase",
+    "p":"utest.testcase.test_send.TestSendMessage.test_send",
+    "n":"",
+    "r":"html",
+    "o":"./report",
+    "j":"./SkiSetting.json"
+},
 {
-    "m":"all",
+    "m":"allcase",
     "p":"./utest/testcase",
-    "n":"test_",
-    "r":"t",
-    "o":"./report"
+    "n":"",
+    "r":"text",
+    "o":"./utest/report",
+    "j":"./SkiSetting.json"
+},
+{
+    "utest.testcase.test_logger.TestLogger.test_log":""
+}
+
+]
 }

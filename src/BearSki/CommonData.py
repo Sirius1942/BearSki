@@ -2,7 +2,6 @@ import json
 import os
 from BearSki.utils.arguments import runArg 
 from BearSki.utils.singleton import Singleton
-
 @Singleton
 class SkiGlobalData(object):
 

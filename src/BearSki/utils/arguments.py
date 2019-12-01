@@ -1,7 +1,7 @@
 from BearSki.utils.singleton import Singleton
-
 @Singleton
 class runArg(object):
+  
   def __init__(self,mode='allrun',
                     case_path='./testcase',
                     report_path='./report',

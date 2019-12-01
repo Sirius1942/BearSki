@@ -7,6 +7,7 @@ from xml.sax import saxutils
 from BearSki.report.ReportPage import  reportBody
 
 
+
 TestResult = unittest.TestResult
 
 class OutputRedirector(object):
@@ -111,7 +112,7 @@ class LocalReportRunner():
         result = _TestResult(self.verbosity)
         test(result)
         self.stopTime = datetime.datetime.now()
-        print(result)
+        # print(result)
         self.generateReport(test, result)
         #print(sys.stderr, '\nTime Elapsed: %s' % (self.stopTime-self.startTime))
         return result
@@ -139,11 +140,10 @@ class LocalReportRunner():
         rb=reportBody()
         summary_test_data={'success':str(result.success_count),'error':str(result.error_count),'warning':str(result.failure_count)}
         rb.add_summary(summary_test_data)
-        print(result.result)
+        # print(result.result)
         
-
         for tid, (n,t,o,e) in enumerate(result.result):
-            print(o)
+            # print(o)
             fullname=t.id()
             casename=t.id().split('.')[-1]
             suitlong=len(fullname)-len(casename)-1

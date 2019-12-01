@@ -1,7 +1,7 @@
 from BearSki.utils.arguments import runArg
 import time
 class reportBody(object):
-    alltextdemo='''
+    ALLTEXTDEMO='''
     <!doctype html>
     <html lang="en">
       <head>
@@ -27,7 +27,7 @@ class reportBody(object):
           <p class="lead">执行时长: 0:00:02.391625 </p>
           <p class="lead">执行结果:
     '''
-    mid_body='''
+    MIDBODY='''
         </div>
         </div>
 
@@ -70,7 +70,7 @@ class reportBody(object):
       $(function() {
         var data = 
       '''
-    End='''
+    ENDPART='''
         $table.bootstrapTable({data: data})
       })
 
@@ -99,12 +99,12 @@ class reportBody(object):
     '''
     result_data=[]
 
-    summary_text='''
+    SUMMARYTEXT='''
     <span class="badge badge-success">Pass</span> &ensp;'''
-    s1='''&ensp;
+    S1='''&ensp;
           <span class="badge badge-danger">Error</span> &ensp; '''
-    s2=''' &ensp;<span class="badge badge-warning">Failure</span>  &ensp;'''
-    s3=''' </p>
+    S2=''' &ensp;<span class="badge badge-warning">Failure</span>  &ensp;'''
+    S3=''' </p>
     '''
     summary_all=''
     report=''
@@ -112,10 +112,10 @@ class reportBody(object):
       self.rags=runArg()
     def add_summary(self,summary_data):
       # self.summary_data={'success':sd,'error':ed,'warning':wd}
-      self.summary_all=self.summary_text+summary_data['success']+self.s1+summary_data['error']+self.s2+summary_data['warning']+self.s3
+      self.summary_all=self.SUMMARYTEXT+summary_data['success']+self.S1+summary_data['error']+self.S2+summary_data['warning']+self.S3
     
     def generate_report(self):
-      self.report=self.alltextdemo+self.summary_all+self.mid_body+str(self.result_data)+self.End
+      self.report=self.ALLTEXTDEMO+self.summary_all+self.MIDBODY+str(self.result_data)+self.ENDPART
     
     def add_one_test_result(self,result_data):
       self.result_data.append(result_data)
@@ -126,24 +126,24 @@ class reportBody(object):
       fo.write(self.report)
       fo.close
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
   
-  rb=reportBody()
-  summary_test_data={'success':'1','error':'2','warning':'3'}
-  rb.add_summary(summary_test_data)
-  rdata={
-            'id': 0,
-            'casename': 'test 0',
-            'result': 'pass',
-            'message':['2019-09-27 14:36:48,954 INFO 开始执行测试',
-                      '2019-09-27 15:07:42,807 INFO in ask baidu!',
-                      '2019-09-27 15:08:02,280 INFO <Response [200]>',
-                      '2019-09-27 15:08:02,808 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 ',
-                      '2019-09-27 15:08:02,808 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 '
-            ]
-          }
-  rb.add_one_test_result(rdata)
-  rb.add_one_test_result(rdata)
-  rb.add_one_test_result(rdata)
-  rb.generate_report()
-  rb.writ_report()
+#   rb=reportBody()
+#   summary_test_data={'success':'1','error':'2','warning':'3'}
+#   rb.add_summary(summary_test_data)
+#   rdata={
+#             'id': 0,
+#             'casename': 'test 0',
+#             'result': 'pass',
+#             'message':['2019-09-27 14:36:48,954 INFO 开始执行测试',
+#                       '2019-09-27 15:07:42,807 INFO in ask baidu!',
+#                       '2019-09-27 15:08:02,280 INFO <Response [200]>',
+#                       '2019-09-27 15:08:02,808 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 ',
+#                       '2019-09-27 15:08:02,808 INFO Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 '
+#             ]
+#           }
+#   rb.add_one_test_result(rdata)
+#   rb.add_one_test_result(rdata)
+#   rb.add_one_test_result(rdata)
+#   rb.generate_report()
+#   rb.writ_report()

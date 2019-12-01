@@ -1,10 +1,11 @@
 import unittest
 from BearSki.RunUnittest import HTMLTestRunner
 import BearSki.RunUnittest as rut
-from BearSki.log import logger
+from BearSki.utils.logger import SkiLogger
 import time
 import sys
-import logging
+
+logger=SkiLogger('runtest')
 
 def get_test_cases(dirpath,name="test_"):
     test_cases = unittest.TestSuite()

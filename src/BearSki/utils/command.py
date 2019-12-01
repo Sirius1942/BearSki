@@ -16,7 +16,7 @@ class command_parser(object):
       long_arg.append(arg.long_text)
     return long_arg
   def print_help_message(self):
-    print("Commands:")
+    # print("Commands:")
     for arg in self.argument_array:
       message="  "+arg.shot_text
       for i in range(len(message),5):
@@ -24,7 +24,7 @@ class command_parser(object):
       message=message+" --"+arg.long_text
       for i in range(len(message),30):
         message=message+" "
-      print(message+arg.helpmessage)
+      # print(message+arg.helpmessage)
 
 class base_command(object):
   shot_text=''
