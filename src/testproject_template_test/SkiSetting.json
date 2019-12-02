@@ -1,6 +1,6 @@
 {
     "routers":{
-        "userkw_sendmsg":"utest.keywords.send.askbaidu",
+        "userkw_sendmsg":"keywords.send.askbaidu",
         "Create Session":"RequestsLibrary.RequestsLibrary.create_session",
         "Get Request":"RequestsLibrary.RequestsLibrary.get_request",
         "input text":"Selenium2Library.Selenium2Library.input_text",
@@ -9,7 +9,7 @@
     },
     "global_variable":{
         "BASE_URL":"http://www.baidu.com",
-        "logfile_path":"utest/log/log.log",
+        "logfile_path":"./log/log.log",
         "log_level":"debug"
     }
     

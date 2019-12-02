@@ -1,0 +1,49 @@
+[2019-12-02 01:14:18,908] [INFO] [root] I'm in test_two test_send
+[2019-12-02 01:14:19,304] [INFO] [root] in ask baidu！
+[2019-12-02 01:14:19,323] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:63832
+[2019-12-02 01:14:19,381] [DEBUG] [urllib3.connectionpool] http://localhost:63832 "GET http://www.baidu.com/ HTTP/1.1" 200 None
+[2019-12-02 01:14:19,384] [INFO] [root] <Response [200]>
+[2019-12-02 01:14:39,034] [INFO] [root] I'm in test_two test_send
+[2019-12-02 01:14:39,583] [INFO] [root] in ask baidu！
+[2019-12-02 01:14:39,600] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:63832
+[2019-12-02 01:14:39,642] [DEBUG] [urllib3.connectionpool] http://localhost:63832 "GET http://www.baidu.com/ HTTP/1.1" 200 None
+[2019-12-02 01:14:39,645] [INFO] [root] <Response [200]>
+[2019-12-02 01:14:51,037] [INFO] [root] I'm in test_two test_send
+[2019-12-02 01:14:51,273] [INFO] [root] in ask baidu！
+[2019-12-02 01:14:51,288] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:63832
+[2019-12-02 01:14:51,374] [DEBUG] [urllib3.connectionpool] http://localhost:63832 "GET http://www.baidu.com/ HTTP/1.1" 200 None
+[2019-12-02 01:14:51,378] [INFO] [root] <Response [200]>
+[2019-12-02 01:14:51,378] [INFO] [root] I'm in test_two test_send
+[2019-12-02 01:14:51,688] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2019-12-02 01:14:51,689] [DEBUG] [RobotFramework] Creating session: baidu
+[2019-12-02 01:14:51,689] [DEBUG] [RobotFramework] Argument types are:
+<class 'bool'>
+[2019-12-02 01:14:51,695] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:63832
+[2019-12-02 01:14:51,739] [DEBUG] [urllib3.connectionpool] http://localhost:63832 "GET http://www.baidu.com/ HTTP/1.1" 200 None
+[2019-12-02 01:14:51,742] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
+[2019-12-02 15:15:43,318] [INFO] [root] I'm in test_two test_send
+[2019-12-02 15:15:43,888] [INFO] [root] in ask baidu！
+[2019-12-02 15:15:43,982] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 15:15:44,140] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 15:15:44,143] [INFO] [root] <Response [200]>
+[2019-12-02 15:15:44,144] [INFO] [root] I'm in test_two test_send
+[2019-12-02 15:15:44,539] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2019-12-02 15:15:44,540] [DEBUG] [RobotFramework] Creating session: baidu
+[2019-12-02 15:15:44,540] [DEBUG] [RobotFramework] Argument types are:
+<class 'bool'>
+[2019-12-02 15:15:44,546] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 15:15:44,690] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 15:15:44,692] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
+[2019-12-02 16:33:06,111] [INFO] [root] I'm in test_two test_send
+[2019-12-02 16:33:06,560] [INFO] [root] in ask baidu！
+[2019-12-02 16:33:06,582] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 16:33:06,702] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 16:33:06,705] [INFO] [root] <Response [200]>
+[2019-12-02 16:33:06,706] [INFO] [root] I'm in test_two test_send
+[2019-12-02 16:33:07,063] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2019-12-02 16:33:07,064] [DEBUG] [RobotFramework] Creating session: baidu
+[2019-12-02 16:33:07,064] [DEBUG] [RobotFramework] Argument types are:
+<class 'bool'>
+[2019-12-02 16:33:07,070] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 16:33:07,167] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 16:33:07,170] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None

@@ -6,12 +6,13 @@ import importlib
 import inspect
 from importlib import import_module
 from BearSki.CommonData import SkiGlobalData
-from BearSki.log import logger
+from BearSki.utils.logger import SkiLogger
 
 class Ski():
     class case():
         def __init__(self):
             # print('__case init__')
+            self.logger=SkiLogger("BearSki.base")
             scd=SkiGlobalData()
         def __call__(self,func):
                 def __deco(self,*arg,**kws):
@@ -23,17 +24,18 @@ class Ski():
 
     class step():
         def __init__(self,keyword,*arg,**kws):
+            self.logger=SkiLogger("BearSki.step")
             scd=SkiGlobalData()
             conf=scd.get_setting_data()
             full_modules=conf[keyword]
             self.result=self.__run(full_modules,*arg,**kws)
-            logger.info(self.result)
+            # self.logger.debug(self.result)
         def __run(self,kw_path,*arg,**kws):
             try:
                 modules=self.__getModules(kw_path)
             
             except Exception:
-                logger.error("error,does not find  modules")
+                self.logger.error("error,does not find  modules")
                 return None
             
             fun_list=kw_path[len(modules)+1:].split('.')
@@ -86,7 +88,7 @@ class Ski():
                 module_spec = importlib.util.find_spec(module_name)
             except Exception as error:
                 # print(error)
-                print("error",error)
+                logger.error("error",error)
                 
                 return False
             if module_spec is None:

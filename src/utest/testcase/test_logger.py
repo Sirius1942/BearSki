@@ -1,10 +1,10 @@
 # coding=utf-8
 import unittest
-from BearSki.utils.logger import SkiLogger
+import logging
 
 class TestLogger(unittest.TestCase):
     def setUp(self):
-        self.logger=SkiLogger("TestLogger")
+        self.logger=logging.getLogger("TestLogger")
     def tearDown(self):
         pass
     def test_log(self):

@@ -2,14 +2,14 @@
 import time
 import unittest
 from BearSki.base import Ski
-from BearSki.utils.logger import SkiLogger
+import logging
 
 
 
 class TestSendMessage(unittest.TestCase,Ski):
 
     def setUp(self):
-        self.logger=SkiLogger('TestSendMessage')
+        self.logger=logging.getLogger('TestSendMessage')
         
     def tearDown(self):
         pass

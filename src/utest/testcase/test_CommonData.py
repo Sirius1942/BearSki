@@ -2,12 +2,15 @@ from BearSki.CommonData import SkiGlobalData
 # coding=utf-8
 import time
 import unittest
-from BearSki.utils.logger import SkiLogger
+import logging
 
 
 class TestGloablData(unittest.TestCase):
-    def __init__():
-        self.logger=SkiLogger("TestGloablData")
+
+    def setUp(self):
+        self.logger=logging.getLogger("TestLogger")
+    def tearDown(self):
+        pass
     def test_getDefult_data(self):
         self.logger.info("I'm in test_getDefult_data")
         BASE_URL=SkiGlobalData().get_global_data("BASE_URL")

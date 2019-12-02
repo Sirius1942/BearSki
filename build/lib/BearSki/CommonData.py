@@ -1,20 +1,15 @@
 import json
 import os
-class Singleton(object): 
-    def __init__(self, cls): 
-        self._cls = cls 
-    def __call__(self, *args, **kwargs): 
-        try: 
-            return self._instance 
-        except AttributeError: 
-            self._instance = self._cls() 
-            return self._instance 
+from BearSki.utils.arguments import runArg 
+from BearSki.utils.singleton import Singleton
 @Singleton
 class SkiGlobalData(object):
 
     def __init__(self):
         self.classes={}
+        self.rags=runArg()
         self.set_data=self.__get_conf_data()
+        
         
     def get_step_class_instance(self,cls_name):
 
@@ -22,25 +17,23 @@ class SkiGlobalData(object):
             return self.classes[cls_name]
         else:
             return None
-
     def set_step_class_instance(self,cls_name,cls):
         self.classes[cls_name]=cls
     def get_setting_data(self):
         return self.set_data['routers']
-        
     def __get_conf_data(self):
-        f= open("./SkiSetting.json")
+        f= open(self.rags.jsonfile_path)
         conf=json.load(f)
         return conf
-    def get_global_data(self):
+    def get_global_all_data(self):
         return self.set_data['global_variable']
+    def get_global_data(self,value):
+        try:
+            returndata = self.set_data['global_variable'][value]
+            return returndata
+        except Exception:
+            return  None
+
     def add_global_data(self,data):
         for s in data:
             self.set_data['global_variable'][s]=data[s]
-        
-
-
-        
-
-    
-         

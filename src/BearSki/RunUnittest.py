@@ -1,16 +1,17 @@
 import unittest
-from BearSki.utils.logger import SkiLogger
-from BearSki.utils.logger import LoggerBaseConfig
+import logging
+
 import time
 import sys
 from BearSki.utils.arguments import runArg
 from BearSki.report.LocalReportRunner import LocalReportRunner
+from BearSki.utils.logger import LoggerBaseConfig
 
 class RunUnittest(object):
 
     def __init__(self):
-        self.logger=SkiLogger("BearSki.RunUnittest")
-        # LoggerBaseConfig()._initlogger()
+        self.logger=logging.getLogger("BearSki.RunUnittest")
+        
     def get_test_cases(self,dirpath,name="test_",isrunonecase=False):
         test_cases = unittest.TestSuite()
         # 测试用例使用"ski_"开头命名
@@ -35,10 +36,11 @@ class RunUnittest(object):
         cases = self.get_test_cases(casepath,casename,isrunonecase)
         now = time.strftime("%Y-%m-%d %H_%M_%S")  # 报告生成时间
         if(runArg.report_mode=='text'):
-            # self.logger.info("开始执行测试,报告输出模式text")
+            self.logger.info("开始执行测试,报告输出模式text")
             runner=unittest.TextTestRunner()
             runner.run(cases)
         elif(runArg.report_mode=='html'):
-            # self.logger.info("开始执行测试,报告输出模式html")
+            LoggerBaseConfig()._htmlRunner_logset()
+            self.logger.info("开始执行测试,报告输出模式html")
             lruner=LocalReportRunner()
             lruner.run(cases)

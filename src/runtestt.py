@@ -24,10 +24,11 @@ def get_test_cases(dirpath,name="test_",isrunonecase=False):
 
 if __name__ == '__main__':
     rag=runArg()
-    report_type='h'
-    isrunonecase='True'
-    casepath='utest.testcase.test_send.TestSendMessage.test_send_use_robotframework_requestlibary'
-    casename='test_send'
+    logger=SkiLogger('runtestt')
+    report_type='text'
+    isrunonecase='False'
+    casepath='utest.testcase.test_CommonData'
+    casename='test_'
     cases = get_test_cases(casepath,casename,isrunonecase)
     now = time.strftime("%Y-%m-%d %H_%M_%S")  # 报告生成时间
     test_reports_address = './utest/report'      # 测试报告存放位置

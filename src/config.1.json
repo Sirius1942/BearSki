@@ -3,7 +3,7 @@
     "p":"utest.testcase.test_send.TestSendMessage.test_send",
     "n":"",
     "r":"html",
-    "o":"./report",
+    "o":"./utest/report",
     "j":"./SkiSetting.json"
 },
 {

@@ -2,15 +2,10 @@
 import time
 import unittest
 from BearSki.base import Ski
-from BearSki.utils.logger import SkiLogger
-
-
-
+import logging
 class TestSendMessage(unittest.TestCase,Ski):
-
     def setUp(self):
-        self.logger=SkiLogger('TestSendMessage')
-        
+        self.logger=logging.getLogger('TestSendMessage')
     def tearDown(self):
         pass
 
@@ -36,5 +31,5 @@ class TestSendMessage(unittest.TestCase,Ski):
     # def test_robotframwork_selenium(self):
     #     self.logger.info("I'm in test_two test_send")
     #     self.step("Open Browser","http://www.baidu.com","chrome")
-    #     self.step("input text","id=kw","test_robot")
+    #     self.step("input text","id=kw","test_robot") 
     #     self.step("click button","id=su")

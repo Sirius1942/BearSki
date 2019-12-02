@@ -1,110 +1,116 @@
-[2019-11-30 23:20:29,847] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
-[2019-11-30 23:20:29,848] [INFO] [TestSendMessage] I'm in test_two test_send
-[2019-11-30 23:20:30,568] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-11-30 23:20:30,568] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-11-30 23:20:30,569] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-11-30 23:20:30,569] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-11-30 23:20:30,569] [DEBUG] [RobotFramework] Argument types are:
+[2019-12-02 16:25:48,610] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式html
+[2019-12-02 16:25:48,610] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-02 16:25:48,611] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-02 16:25:48,611] [INFO] [Test_install] I'm in  test_install
+[2019-12-02 16:25:48,611] [INFO] [TestLogger] info logger is ok!
+[2019-12-02 16:25:48,612] [WARNING] [TestLogger] warn logger is ok!
+[2019-12-02 16:25:48,612] [ERROR] [TestLogger] error logger is ok!
+[2019-12-02 16:25:48,612] [CRITICAL] [TestLogger] critical logger is ok!
+[2019-12-02 16:25:48,612] [DEBUG] [TestLogger] debug logger is ok!
+[2019-12-02 16:25:48,613] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-02 16:25:49,094] [INFO] [root] in ask baidu！
+[2019-12-02 16:25:49,161] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 16:25:49,308] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 16:25:49,311] [INFO] [TestSendMessage] <Response [200]>
+[2019-12-02 16:25:49,312] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-02 16:25:49,651] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2019-12-02 16:25:49,651] [DEBUG] [RobotFramework] Creating session: baidu
+[2019-12-02 16:25:49,652] [DEBUG] [RobotFramework] Argument types are:
 <class 'bool'>
-[2019-11-30 23:20:30,569] [DEBUG] [RobotFramework] Argument types are:
+[2019-12-02 16:25:49,658] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 16:25:49,772] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 16:25:49,775] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
+[2019-12-02 16:27:53,760] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式html
+[2019-12-02 16:27:53,761] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-02 16:27:53,762] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-02 16:27:53,762] [INFO] [Test_install] I'm in  test_install
+[2019-12-02 16:27:53,763] [INFO] [TestLogger] info logger is ok!
+[2019-12-02 16:27:53,763] [WARNING] [TestLogger] warn logger is ok!
+[2019-12-02 16:27:53,763] [ERROR] [TestLogger] error logger is ok!
+[2019-12-02 16:27:53,763] [CRITICAL] [TestLogger] critical logger is ok!
+[2019-12-02 16:27:53,763] [DEBUG] [TestLogger] debug logger is ok!
+[2019-12-02 16:27:53,764] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-02 16:27:54,304] [INFO] [root] in ask baidu！
+[2019-12-02 16:27:54,323] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 16:27:54,513] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 16:27:54,516] [INFO] [TestSendMessage] <Response [200]>
+[2019-12-02 16:27:54,517] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-02 16:27:54,881] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2019-12-02 16:27:54,882] [DEBUG] [RobotFramework] Creating session: baidu
+[2019-12-02 16:27:54,882] [DEBUG] [RobotFramework] Argument types are:
 <class 'bool'>
-[2019-11-30 23:20:32,659] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
-[2019-11-30 23:20:32,659] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
-[2019-11-30 23:21:15,247] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
-[2019-11-30 23:21:15,249] [INFO] [TestSendMessage] I'm in test_two test_send
-[2019-11-30 23:21:46,869] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
-[2019-11-30 23:21:46,870] [INFO] [TestSendMessage] I'm in test_two test_send
-[2019-11-30 23:28:57,953] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
-[2019-11-30 23:28:57,954] [INFO] [TestSendMessage] I'm in test_two test_send
-[2019-11-30 23:29:08,061] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
-[2019-11-30 23:29:08,062] [INFO] [TestSendMessage] I'm in test_two test_send
-[2019-11-30 23:31:22,936] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
-[2019-11-30 23:31:22,937] [INFO] [TestSendMessage] I'm in test_two test_send
-[2019-11-30 23:31:23,293] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-11-30 23:31:23,293] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-11-30 23:31:23,293] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-11-30 23:31:23,293] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-11-30 23:31:23,294] [DEBUG] [RobotFramework] Argument types are:
+[2019-12-02 16:27:54,888] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 16:27:54,994] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 16:27:54,996] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
+[2019-12-02 16:28:13,851] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-02 16:28:13,852] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-02 16:28:13,852] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-02 16:28:13,853] [INFO] [Test_install] I'm in  test_install
+[2019-12-02 16:28:13,853] [INFO] [TestLogger] info logger is ok!
+[2019-12-02 16:28:13,854] [WARNING] [TestLogger] warn logger is ok!
+[2019-12-02 16:28:13,854] [ERROR] [TestLogger] error logger is ok!
+[2019-12-02 16:28:13,854] [CRITICAL] [TestLogger] critical logger is ok!
+[2019-12-02 16:28:13,854] [DEBUG] [TestLogger] debug logger is ok!
+[2019-12-02 16:28:13,854] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-02 16:28:14,351] [INFO] [root] in ask baidu！
+[2019-12-02 16:28:14,371] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 16:28:14,565] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 16:28:14,568] [INFO] [TestSendMessage] <Response [200]>
+[2019-12-02 16:28:14,569] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-02 16:28:14,919] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2019-12-02 16:28:14,919] [DEBUG] [RobotFramework] Creating session: baidu
+[2019-12-02 16:28:14,920] [DEBUG] [RobotFramework] Argument types are:
 <class 'bool'>
-[2019-11-30 23:31:23,294] [DEBUG] [RobotFramework] Argument types are:
+[2019-12-02 16:28:14,925] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 16:28:15,023] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 16:28:15,025] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
+[2019-12-02 16:31:39,169] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-02 16:31:39,169] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-02 16:31:39,170] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-02 16:31:39,170] [INFO] [Test_install] I'm in  test_install
+[2019-12-02 16:31:39,171] [INFO] [TestLogger] info logger is ok!
+[2019-12-02 16:31:39,171] [WARNING] [TestLogger] warn logger is ok!
+[2019-12-02 16:31:39,171] [ERROR] [TestLogger] error logger is ok!
+[2019-12-02 16:31:39,171] [CRITICAL] [TestLogger] critical logger is ok!
+[2019-12-02 16:31:39,171] [DEBUG] [TestLogger] debug logger is ok!
+[2019-12-02 16:31:39,171] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-02 16:31:39,735] [INFO] [root] in ask baidu！
+[2019-12-02 16:31:39,849] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 16:31:39,981] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 16:31:39,987] [INFO] [TestSendMessage] <Response [200]>
+[2019-12-02 16:31:39,988] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-02 16:31:40,319] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2019-12-02 16:31:40,319] [DEBUG] [RobotFramework] Creating session: baidu
+[2019-12-02 16:31:40,320] [DEBUG] [RobotFramework] Argument types are:
 <class 'bool'>
-[2019-11-30 23:31:23,416] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
-[2019-11-30 23:31:23,416] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
-[2019-12-01 13:29:19,524] [INFO] [root] 开始执行测试,报告输出模式text
-[2019-12-01 13:29:19,525] [INFO] [root] I'm in test_two test_send
-[2019-12-01 13:29:20,332] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-12-01 13:29:20,332] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-12-01 13:29:20,333] [DEBUG] [RobotFramework] Argument types are:
+[2019-12-02 16:31:40,329] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 16:31:40,456] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 16:31:40,458] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
+[2019-12-02 16:32:01,941] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式html
+[2019-12-02 16:32:01,942] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-02 16:32:01,942] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-02 16:32:01,942] [INFO] [Test_install] I'm in  test_install
+[2019-12-02 16:32:01,943] [INFO] [TestLogger] info logger is ok!
+[2019-12-02 16:32:01,943] [WARNING] [TestLogger] warn logger is ok!
+[2019-12-02 16:32:01,943] [ERROR] [TestLogger] error logger is ok!
+[2019-12-02 16:32:01,944] [CRITICAL] [TestLogger] critical logger is ok!
+[2019-12-02 16:32:01,944] [DEBUG] [TestLogger] debug logger is ok!
+[2019-12-02 16:32:01,944] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-02 16:32:02,325] [INFO] [root] in ask baidu！
+[2019-12-02 16:32:02,344] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 16:32:02,444] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 16:32:02,447] [INFO] [TestSendMessage] <Response [200]>
+[2019-12-02 16:32:02,448] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-02 16:32:02,746] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2019-12-02 16:32:02,746] [DEBUG] [RobotFramework] Creating session: baidu
+[2019-12-02 16:32:02,746] [DEBUG] [RobotFramework] Argument types are:
 <class 'bool'>
-[2019-12-01 13:29:23,046] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
-[2019-12-01 13:29:25,607] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
-[2019-12-01 13:29:25,609] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
-[2019-12-01 13:33:01,733] [INFO] [root] 开始执行测试,报告输出模式html
-[2019-12-01 13:33:01,734] [INFO] [root] I'm in test_two test_send
-[2019-12-01 13:33:02,426] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-12-01 13:33:02,426] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-12-01 13:33:02,426] [DEBUG] [RobotFramework] Argument types are:
-<class 'bool'>
-[2019-12-01 13:33:02,459] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
-[2019-12-01 13:33:02,522] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
-[2019-12-01 13:33:02,524] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
-[2019-12-01 13:34:47,883] [INFO] [root] 开始执行测试,报告输出模式html
-[2019-12-01 13:34:47,883] [INFO] [root] I'm in test_two test_send
-[2019-12-01 13:34:48,536] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-12-01 13:34:48,537] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-12-01 13:34:48,537] [DEBUG] [RobotFramework] Argument types are:
-<class 'bool'>
-[2019-12-01 13:34:48,597] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
-[2019-12-01 13:34:48,707] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
-[2019-12-01 13:34:48,710] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
-[2019-12-01 13:38:03,460] [INFO] [root] 开始执行测试,报告输出模式html
-[2019-12-01 13:38:03,461] [INFO] [root] I'm in test_two test_send
-[2019-12-01 13:38:04,128] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-12-01 13:38:04,128] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-12-01 13:38:04,129] [DEBUG] [RobotFramework] Argument types are:
-<class 'bool'>
-[2019-12-01 13:38:04,147] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
-[2019-12-01 13:38:04,228] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
-[2019-12-01 13:38:04,231] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
-[2019-12-01 13:47:56,312] [INFO] [root] 开始执行测试,报告输出模式html
-[2019-12-01 13:47:56,312] [INFO] [root] I'm in test_two test_send
-[2019-12-01 13:47:57,212] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-12-01 13:47:57,212] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-12-01 13:47:57,213] [DEBUG] [RobotFramework] Argument types are:
-<class 'bool'>
-[2019-12-01 13:47:57,245] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
-[2019-12-01 13:47:57,303] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
-[2019-12-01 13:47:57,305] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
-[2019-12-01 13:50:36,436] [INFO] [root] 开始执行测试,报告输出模式html
-[2019-12-01 13:50:36,437] [INFO] [root] I'm in test_two test_send
-[2019-12-01 13:50:37,089] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-12-01 13:50:37,089] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-12-01 13:50:37,090] [DEBUG] [RobotFramework] Argument types are:
-<class 'bool'>
-[2019-12-01 13:50:37,163] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
-[2019-12-01 13:50:37,208] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
-[2019-12-01 13:50:37,211] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
-[2019-12-01 13:52:45,406] [INFO] [root] I'm in test_two test_send
-[2019-12-01 13:52:45,762] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-12-01 13:52:45,762] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-12-01 13:52:45,763] [DEBUG] [RobotFramework] Argument types are:
-<class 'bool'>
-[2019-12-01 13:52:45,780] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
-[2019-12-01 13:52:45,826] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
-[2019-12-01 13:52:45,828] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
-[2019-12-01 13:54:50,886] [INFO] [root] I'm in test_two test_send
-[2019-12-01 13:54:51,241] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-12-01 13:54:51,241] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-12-01 13:54:51,241] [DEBUG] [RobotFramework] Argument types are:
-<class 'bool'>
-[2019-12-01 13:54:51,260] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
-[2019-12-01 13:54:51,343] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
-[2019-12-01 13:54:51,346] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
-[2019-12-01 13:57:52,355] [INFO] [root] I'm in test_two test_send
-[2019-12-01 13:57:52,715] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
-[2019-12-01 13:57:52,715] [DEBUG] [RobotFramework] Creating session: baidu
-[2019-12-01 13:57:52,716] [DEBUG] [RobotFramework] Argument types are:
-<class 'bool'>
-[2019-12-01 13:57:52,747] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
-[2019-12-01 13:57:52,792] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
-[2019-12-01 13:57:52,794] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
+[2019-12-02 16:32:02,752] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-02 16:32:02,882] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-02 16:32:02,884] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
+[2019-12-03 00:04:46,895] [INFO] [root] 开始创建测试项目
+[2019-12-03 00:04:46,896] [INFO] [BearSki.createproject] 开始创建测试项目
+[2019-12-03 00:05:26,599] [INFO] [BearSki.createproject] 开始创建测试项目
+[2019-12-03 00:05:26,601] [INFO] [BearSki.createproject] 测试项目创建完成
+[2019-12-03 00:11:40,599] [INFO] [BearSki.createproject] 开始创建测试项目
+[2019-12-03 00:11:40,602] [INFO] [BearSki.createproject] 测试项目创建完成

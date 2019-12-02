@@ -1,6 +1,6 @@
 {
-    "m":"onecase",
-    "p":"utest.testcase.test_send.TestSendMessage.test_send_use_robotframework_requestlibary",
+    "m":"allcase",
+    "p":"./utest/testcase",
     "n":"",
     "r":"html",
     "o":"./utest/report",
