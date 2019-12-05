@@ -1,4 +1,4 @@
-from BearSki.Manager import creat_test_project
+from BearSki import Manager
 
 if __name__ == '__main__':
-    creat_test_project('testabc')
+    Manager.creat_test_project('testabc')

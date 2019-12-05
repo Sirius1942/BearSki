@@ -32,9 +32,9 @@ class TestSendMessage(unittest.TestCase,Ski):
         res=self.step("Get Request","baidu","/")
         self.assertEqual(200,res.result.status_code)
 
-    # @Ski.case()
-    # def test_robotframwork_selenium(self):
-    #     self.logger.info("I'm in test_two test_send")
-    #     self.step("Open Browser","http://www.baidu.com","chrome")
-    #     self.step("input text","id=kw","test_robot")
-    #     self.step("click button","id=su")
+    @Ski.case()
+    def test_robotframwork_selenium(self):
+        self.logger.info("I'm in test_two test_send")
+        self.step("Open Browser","http://www.baidu.com","chrome")
+        self.step("input text","id=kw","test_robot")
+        self.step("click button","id=su")

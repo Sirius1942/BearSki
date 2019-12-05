@@ -25,7 +25,7 @@ def get_test_cases(dirpath,name="test_",isrunonecase=False):
 if __name__ == '__main__':
     rag=runArg()
     logger=SkiLogger('runtestt')
-    report_type='text'
+    report_type='html'
     isrunonecase='False'
     casepath='utest.testcase.test_CommonData'
     casename='test_'

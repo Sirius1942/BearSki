@@ -119,6 +119,8 @@ def create_testproject(projectname):
     os.makedirs(kwd)
     tcd=os.path.join(projectname,'testcase')
     os.makedirs(tcd)
+    red=os.path.join(projectname,'report')
+    os.makedirs(red)
 
     driverf = os.path.join(drd,DRIVER_NAME)
     df=open(driverf, "w+")

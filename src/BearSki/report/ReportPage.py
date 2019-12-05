@@ -1,5 +1,6 @@
 from BearSki.utils.arguments import runArg
 import time
+import os
 class reportBody(object):
     ALLTEXTDEMO='''
     <!doctype html>
@@ -23,14 +24,12 @@ class reportBody(object):
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
           <h1 class="display-4">BearSki 自动化测试报告</h1>
-          <p class="lead">报告时间: 2019-10-18 18:40:28 </p>
-          <p class="lead">执行时长: 0:00:02.391625 </p>
-          <p class="lead">执行结果:
+          <p class="lead"></p>
+          <p class="lead">执行结果汇总:
     '''
     MIDBODY='''
         </div>
         </div>
-
         <h3>用例执行情况：</h3>
         <HR  align=left width=500 color=#987cb9 SIZE=1/>
         <div width=400>
@@ -112,7 +111,7 @@ class reportBody(object):
       self.rags=runArg()
     def add_summary(self,summary_data):
       # self.summary_data={'success':sd,'error':ed,'warning':wd}
-      self.summary_all=self.SUMMARYTEXT+summary_data['success']+self.S1+summary_data['error']+self.S2+summary_data['warning']+self.S3
+      self.summary_all=self.SUMMARYTEXT+summary_data['success']+self.S2+summary_data['warning']+self.S1+summary_data['error']+self.S3
     
     def generate_report(self):
       self.report=self.ALLTEXTDEMO+self.summary_all+self.MIDBODY+str(self.result_data)+self.ENDPART
@@ -122,6 +121,8 @@ class reportBody(object):
 
     def writ_report(self):
       today_now=time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime())
+      if not os.path.exists(self.rags.report_path):
+        os.makedirs(self.rags.report_path)
       fo = open(self.rags.report_path+"/testreport_"+today_now+'.html', "w+")
       fo.write(self.report)
       fo.close

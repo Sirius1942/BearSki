@@ -114,3 +114,103 @@
 [2019-12-03 00:05:26,601] [INFO] [BearSki.createproject] 测试项目创建完成
 [2019-12-03 00:11:40,599] [INFO] [BearSki.createproject] 开始创建测试项目
 [2019-12-03 00:11:40,602] [INFO] [BearSki.createproject] 测试项目创建完成
+[2019-12-03 10:27:00,619] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式html
+[2019-12-03 10:27:00,620] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-03 10:27:00,620] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-03 10:27:00,621] [INFO] [Test_install] I'm in  test_install
+[2019-12-03 10:27:00,621] [INFO] [TestLogger] info logger is ok!
+[2019-12-03 10:27:00,621] [WARNING] [TestLogger] warn logger is ok!
+[2019-12-03 10:27:00,621] [ERROR] [TestLogger] error logger is ok!
+[2019-12-03 10:27:00,622] [CRITICAL] [TestLogger] critical logger is ok!
+[2019-12-03 10:27:00,622] [DEBUG] [TestLogger] debug logger is ok!
+[2019-12-03 10:27:00,622] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-03 10:27:01,056] [INFO] [root] in ask baidu！
+[2019-12-03 10:27:01,078] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-03 10:27:01,099] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-03 10:27:01,426] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2019-12-03 10:27:01,426] [DEBUG] [RobotFramework] Creating session: baidu
+[2019-12-03 10:27:01,427] [DEBUG] [RobotFramework] Argument types are:
+<class 'bool'>
+[2019-12-03 10:27:01,432] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-03 10:27:01,434] [DEBUG] [urllib3.util.retry] Incremented Retry for (url='/'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-12-03 10:27:01,434] [WARNING] [urllib3.connectionpool] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10882cb70>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',)': /
+[2019-12-03 10:27:01,434] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (2): www.baidu.com:80
+[2019-12-03 10:27:01,436] [DEBUG] [urllib3.util.retry] Incremented Retry for (url='/'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-12-03 10:27:01,641] [WARNING] [urllib3.connectionpool] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10882cd30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',)': /
+[2019-12-03 10:27:01,641] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (3): www.baidu.com:80
+[2019-12-03 10:27:01,644] [DEBUG] [urllib3.util.retry] Incremented Retry for (url='/'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-12-03 10:27:02,046] [WARNING] [urllib3.connectionpool] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10882ce80>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',)': /
+[2019-12-03 10:27:02,047] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (4): www.baidu.com:80
+[2019-12-03 10:29:33,524] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式html
+[2019-12-03 10:29:33,525] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-03 10:29:33,525] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-03 10:29:33,526] [INFO] [Test_install] I'm in  test_install
+[2019-12-03 10:29:33,526] [INFO] [TestLogger] info logger is ok!
+[2019-12-03 10:29:33,526] [WARNING] [TestLogger] warn logger is ok!
+[2019-12-03 10:29:33,526] [ERROR] [TestLogger] error logger is ok!
+[2019-12-03 10:29:33,526] [CRITICAL] [TestLogger] critical logger is ok!
+[2019-12-03 10:29:33,527] [DEBUG] [TestLogger] debug logger is ok!
+[2019-12-03 10:29:33,527] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-03 10:29:33,909] [INFO] [root] in ask baidu！
+[2019-12-03 10:29:33,925] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-03 10:29:33,941] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-03 10:29:34,239] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2019-12-03 10:29:34,239] [DEBUG] [RobotFramework] Creating session: baidu
+[2019-12-03 10:29:34,239] [DEBUG] [RobotFramework] Argument types are:
+<class 'bool'>
+[2019-12-03 10:29:34,244] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-03 10:29:34,246] [DEBUG] [urllib3.util.retry] Incremented Retry for (url='/'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-12-03 10:29:34,247] [WARNING] [urllib3.connectionpool] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10fabfb38>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',)': /
+[2019-12-03 10:29:34,247] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (2): www.baidu.com:80
+[2019-12-03 10:29:34,248] [DEBUG] [urllib3.util.retry] Incremented Retry for (url='/'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-12-03 10:29:34,453] [WARNING] [urllib3.connectionpool] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10fabfd68>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',)': /
+[2019-12-03 10:29:34,454] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (3): www.baidu.com:80
+[2019-12-03 10:29:34,456] [DEBUG] [urllib3.util.retry] Incremented Retry for (url='/'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-12-03 10:29:34,858] [WARNING] [urllib3.connectionpool] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10fabfef0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',)': /
+[2019-12-03 10:29:34,859] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (4): www.baidu.com:80
+[2019-12-03 14:29:54,540] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-03 14:29:54,542] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-03 14:29:54,542] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-03 14:29:54,542] [INFO] [Test_install] I'm in  test_install
+[2019-12-03 14:29:54,543] [INFO] [TestLogger] info logger is ok!
+[2019-12-03 14:29:54,543] [WARNING] [TestLogger] warn logger is ok!
+[2019-12-03 14:29:54,543] [ERROR] [TestLogger] error logger is ok!
+[2019-12-03 14:29:54,543] [CRITICAL] [TestLogger] critical logger is ok!
+[2019-12-03 14:29:54,543] [DEBUG] [TestLogger] debug logger is ok!
+[2019-12-03 14:29:54,544] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-03 14:29:55,193] [INFO] [root] in ask baidu！
+[2019-12-03 14:29:55,261] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-03 14:29:55,377] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-03 14:29:55,380] [INFO] [TestSendMessage] <Response [200]>
+[2019-12-03 14:29:55,381] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-03 14:29:55,765] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2019-12-03 14:29:55,765] [DEBUG] [RobotFramework] Creating session: baidu
+[2019-12-03 14:29:55,766] [DEBUG] [RobotFramework] Argument types are:
+<class 'bool'>
+[2019-12-03 14:29:55,771] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-03 14:29:55,932] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-03 14:29:55,935] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
+[2019-12-03 23:28:29,883] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-03 23:28:29,884] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-03 23:28:29,884] [INFO] [TestLogger] I'm in test_getDefult_data
+[2019-12-03 23:28:29,885] [INFO] [Test_install] I'm in  test_install
+[2019-12-03 23:28:29,885] [INFO] [TestLogger] info logger is ok!
+[2019-12-03 23:28:29,886] [WARNING] [TestLogger] warn logger is ok!
+[2019-12-03 23:28:29,886] [ERROR] [TestLogger] error logger is ok!
+[2019-12-03 23:28:29,886] [CRITICAL] [TestLogger] critical logger is ok!
+[2019-12-03 23:28:29,886] [DEBUG] [TestLogger] debug logger is ok!
+[2019-12-03 23:28:29,887] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-03 23:28:30,321] [INFO] [root] in ask baidu！
+[2019-12-03 23:28:30,342] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-03 23:28:30,369] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-03 23:28:30,372] [INFO] [TestSendMessage] <Response [200]>
+[2019-12-03 23:28:30,373] [INFO] [TestSendMessage] I'm in test_two test_send
+[2019-12-03 23:28:30,673] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2019-12-03 23:28:30,674] [DEBUG] [RobotFramework] Creating session: baidu
+[2019-12-03 23:28:30,674] [DEBUG] [RobotFramework] Argument types are:
+<class 'bool'>
+[2019-12-03 23:28:30,681] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2019-12-03 23:28:30,706] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2019-12-03 23:28:30,709] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
+[2019-12-04 14:39:47,900] [INFO] [BearSki.createproject] 开始创建测试项目
+[2019-12-04 14:39:47,904] [INFO] [BearSki.createproject] 测试项目创建完成

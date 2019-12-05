@@ -5,9 +5,12 @@
       "name": "Python: 当前文件",
       "type": "python",
       "request": "launch",
-      "program": "${workspaceFolder}/runtestt.py",
+      "program": "${workspaceFolder}/runtestcmd.py",
       "console": "integratedTerminal",
       "cwd":"${workspaceFolder}",
+      "args": [
+        "-f","config.json"
+      ]
     }
   ]
 }

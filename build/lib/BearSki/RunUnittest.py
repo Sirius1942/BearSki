@@ -1,6 +1,5 @@
 import unittest
 import logging
-
 import time
 import sys
 from BearSki.utils.arguments import runArg
@@ -44,3 +43,4 @@ class RunUnittest(object):
             self.logger.info("开始执行测试,报告输出模式html")
             lruner=LocalReportRunner()
             lruner.run(cases)
+            self.logger.info("测试完成,报告输出模式html")

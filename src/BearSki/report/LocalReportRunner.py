@@ -133,8 +133,28 @@ class LocalReportRunner():
 
 
     def getlogMessage(self, message):
-
-        return message.split('\n')
+        mlist=message.split('\n')
+        re=[]
+        for mline in mlist:
+            if mline != '':
+                temp=mline
+                line_list=temp.replace("]","$@$",3).split('$@$')
+                if len(line_list)>=4:
+                    timestr=line_list[0][1:]
+                    loglevel=line_list[1][2:]
+                    logname=line_list[2][2:]
+                    message=line_list[3]
+                    fline=self.timestr_style(timestr)+self.logleverl_style(loglevel)+self.logname_style(loglevel,saxutils.escape(logname))+self.message_style(loglevel,saxutils.escape(message))
+                    re.append(fline)
+                # elif len(line_list)==3 :
+                #     timestr=line_list[0][1:]
+                #     loglevel=line_list[1][2:]
+                #     logname=line_list[2][2:]
+                #     fline=self.timestr_style(timestr)+self.logleverl_style(loglevel)+self.logname_style(loglevel,logname)
+                #     re.append(fline)
+                else:
+                    re.append(self.defalut_style(saxutils.escape(mline)))
+        return re
 
     def generateReport(self, test, result):
         rb=reportBody()
@@ -150,10 +170,49 @@ class LocalReportRunner():
             rdata={'id': tid+1,
                 'suitname':fullname[0:suitlong],
                 'casename':casename,
-                'result':n,
+                'result':self.result_style(n),
                 'message':self.getlogMessage(o)}
             rb.add_one_test_result(rdata)
         rb.generate_report()
         rb.writ_report()
+    def result_style(self,result):
+        if result.lower()=='pass':
+            return '<p class="text-success">pass</p>'
+        elif result.lower()=='error':
+            return '<p class="text-danger">error</p>'
+        elif result.lower()=='false':
+            return '<p class="text-dark">Failure</p>'
+    def timestr_style(self,message):
+        return '<a class="text-secondary">'+message+'&nbsp;</a>'
+    
+    def logleverl_style(self,level):
+        if level.lower()=='info':
+            return '<span class="badge badge-info">INFO</span>'
+        elif level.lower()=='debug':
+            return '<span class="badge badge-primary">DEBUG</span>'
+        elif level.lower()=='error':
+            return '<span class="badge badge-danger">ERROR</span>'
+        elif level.lower()=='critical':
+            return '<span class="badge badge-danger">CRITICAL</span>'
+        elif level.lower()=='warning':
+            return '<span class="badge badge-warning">WARNING</span>'
+        else:
+             return '<a class="text-primary">'+level+'</a>'
+
+    def logname_style(self,level,name):
+        if level.lower()=='error' or level.lower()=='critical':
+            return '<a class="text-danger">&nbsp;['+name+']&nbsp;</a>'
+        else:
+            return  '<a class="text-primary">&nbsp;['+name+']&nbsp;</a>'
+    
+    def message_style(self,level,message):
+        if level.lower()=='error' or level.lower()=='critical':
+            return '<a class="text-danger">&nbsp;'+message+'</a>'
+        else:
+            return  '<a class="text-secondary">&nbsp;'+message+'</a>' 
+    def defalut_style(self,message):
+        return '<a class="text-secondary">'+message+'&nbsp;</a>'
+
+        
        
         

@@ -4,6 +4,7 @@ import logging
 import BearSki.report.LocalReportRunner as rut
 from BearSki.CommonData import SkiGlobalData
 from BearSki.utils.singleton import Singleton
+from BearSki.utils.arguments import runArg
 
 class LoggerBaseConfig(object):
    
@@ -32,15 +33,19 @@ class SkiLogger(object):
         sh = logging.StreamHandler()
         sh.setFormatter(fmt)
         sh.setLevel(self.loglevel)
-
-        # 设置文件日志
-        #logfile_path=SkiGlobalData().get_global_data("logfile_path")
-        logfile_path=get_log_path()
-        fh = logging.FileHandler(logfile_path)
-        fh.setFormatter(fmt)
-        fh.setLevel(self.loglevel)
-        self.logger.addHandler(sh)
-        self.logger.addHandler(fh)
+        # 由于logging 的filehandler 与 stream 不能共存所以需要根据不同模式设置日志输出方式。
+        if runArg().report_mode =='html':
+            logging.basicConfig(stream=rut.stdout_redirector,
+            format='[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s')
+        if runArg().report_mode =='text':
+            # 设置文件日志
+            #logfile_path=SkiGlobalData().get_global_data("logfile_path")
+            logfile_path=get_log_path()
+            fh = logging.FileHandler(logfile_path)
+            fh.setFormatter(fmt)
+            fh.setLevel(self.loglevel)
+            self.logger.addHandler(sh)
+            self.logger.addHandler(fh)
 
     def debug(self, message):
         self.logger.debug(message)
