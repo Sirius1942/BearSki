@@ -1,5 +1,6 @@
 from BearSki.utils.arguments import runArg
 import time
+import os
 class reportBody(object):
     ALLTEXTDEMO='''
     <!doctype html>
@@ -120,6 +121,8 @@ class reportBody(object):
 
     def writ_report(self):
       today_now=time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime())
+      if not os.path.exists(self.rags.report_path):
+        os.makedirs(self.rags.report_path)
       fo = open(self.rags.report_path+"/testreport_"+today_now+'.html', "w+")
       fo.write(self.report)
       fo.close

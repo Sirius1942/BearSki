@@ -214,3 +214,5 @@
 [2019-12-03 23:28:30,709] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
 [2019-12-04 14:39:47,900] [INFO] [BearSki.createproject] 开始创建测试项目
 [2019-12-04 14:39:47,904] [INFO] [BearSki.createproject] 测试项目创建完成
+[2019-12-05 11:34:42,731] [INFO] [BearSki.createproject] 开始创建测试项目
+[2019-12-05 11:34:42,734] [INFO] [BearSki.createproject] 测试项目创建完成
