@@ -121,9 +121,14 @@ class reportBody(object):
 
     def writ_report(self):
       today_now=time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime())
-      if not os.path.exists(self.rags.report_path):
-        os.makedirs(self.rags.report_path)
-      fo = open(self.rags.report_path+"/testreport_"+today_now+'.html', "w+")
+      (filepath, tempfilename) = os.path.split(self.rags.report_path)
+      (filename, extension) = os.path.splitext(tempfilename)
+      if not os.path.exists(filepath):
+        os.makedirs(filepath)
+      outfilename=self.rags.report_path
+      if self.rags.report_add_time:
+        outfilename=os.path.join(filepath,filename+"_"+today_now+extension)
+      fo = open(outfilename, "w+")
       fo.write(self.report)
       fo.close
 

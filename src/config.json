@@ -3,6 +3,7 @@
     "p":"./utest/testcase",
     "n":"",
     "r":"html",
-    "o":"./utest/report",
-    "j":"./SkiSetting.json"
+    "o":"./utest/report/report1.html",
+    "j":"./SkiSetting.json",
+    "report.addtime.now":true
 }

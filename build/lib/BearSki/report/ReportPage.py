@@ -55,9 +55,9 @@ class reportBody(object):
       <thead>
         <tr>
           <th data-field="id">ID</th>
-          <th data-field="suitname">suitname</th>
-          <th data-field="casename">casename</th>
-          <th data-field="result">result</th>
+          <th data-field="suitname">SUITNAME</th>
+          <th data-field="casename">CASENAME</th>
+          <th data-field="result">RESULT</th>
         </tr>
       </thead>
     </table>

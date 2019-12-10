@@ -23,6 +23,10 @@ class runArg(object):
     self.case_name = jsonstr['n']
     self.case_path = jsonstr['p']
     self.jsonfile_path=jsonstr['j']
+    if jsonstr['report.addtime.now']:
+      self.report_add_time=jsonstr['report.addtime.now']
+    else:
+      self.report_add_time=False
   def getJsonString(self):
     message={
       "report_mode":self.report_mode,
