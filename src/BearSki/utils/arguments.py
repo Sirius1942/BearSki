@@ -4,7 +4,7 @@ class runArg(object):
   
   def __init__(self,mode='allrun',
                     case_path='./testcase',
-                    report_path='./report',
+                    report_path='',
                     config_path='./config.json',
                     jsonfile_path='./SkiSetting.json',
                     report_mode='text'):
