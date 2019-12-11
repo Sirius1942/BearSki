@@ -2,7 +2,7 @@ from BearSki.utils.arguments import runArg
 import time
 import os
 class reportBody(object):
-    ALLTEXTDEMO='''
+    ALLTEXTDEMO=u'''
     <!doctype html>
     <html lang="en">
       <head>
@@ -27,7 +27,7 @@ class reportBody(object):
           <p class="lead"></p>
           <p class="lead">执行结果汇总:
     '''
-    MIDBODY='''
+    MIDBODY=u'''
         </div>
         </div>
         <h3>用例执行情况：</h3>
@@ -69,7 +69,7 @@ class reportBody(object):
       $(function() {
         var data = 
       '''
-    ENDPART='''
+    ENDPART=u'''
         $table.bootstrapTable({data: data})
       })
 
@@ -98,12 +98,12 @@ class reportBody(object):
     '''
     result_data=[]
 
-    SUMMARYTEXT='''
+    SUMMARYTEXT=u'''
     <span class="badge badge-success">Pass</span> &ensp;'''
-    S1='''&ensp;
+    S1=u'''&ensp;
           <span class="badge badge-danger">Error</span> &ensp; '''
-    S2=''' &ensp;<span class="badge badge-warning">Failure</span>  &ensp;'''
-    S3=''' </p>
+    S2=u''' &ensp;<span class="badge badge-warning">Failure</span>  &ensp;'''
+    S3=u''' </p>
     '''
     summary_all=''
     report=''
@@ -120,7 +120,7 @@ class reportBody(object):
       self.result_data.append(result_data)
 
     def writ_report(self):
-      today_now=time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime())
+      today_now=time.strftime("%Y%m%d_%H%M%S", time.localtime())
       (filepath, tempfilename) = os.path.split(self.rags.report_path)
       (filename, extension) = os.path.splitext(tempfilename)
       if not os.path.exists(filepath):
@@ -128,7 +128,7 @@ class reportBody(object):
       outfilename=self.rags.report_path
       if self.rags.report_add_time:
         outfilename=os.path.join(filepath,filename+"_"+today_now+extension)
-      fo = open(outfilename, "w+")
+      fo = open(outfilename, "w+",encoding='utf8')
       fo.write(self.report)
       fo.close
 

@@ -66,7 +66,7 @@ CONFIG_DOC='''
     "p":"./testcase",
     "n":"",
     "r":"html",
-    "o":"./report",
+    "o":"./report/result.html",
     "j":"./SkiSetting.json"
 }
 '''

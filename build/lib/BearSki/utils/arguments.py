@@ -4,7 +4,7 @@ class runArg(object):
   
   def __init__(self,mode='allrun',
                     case_path='./testcase',
-                    report_path='./report',
+                    report_path='./report/result.html',
                     config_path='./config.json',
                     jsonfile_path='./SkiSetting.json',
                     report_mode='text'):
@@ -23,7 +23,7 @@ class runArg(object):
     self.case_name = jsonstr['n']
     self.case_path = jsonstr['p']
     self.jsonfile_path=jsonstr['j']
-    if jsonstr['report.addtime.now']:
+    if 'report.addtime.now' in jsonstr:
       self.report_add_time=jsonstr['report.addtime.now']
     else:
       self.report_add_time=False
