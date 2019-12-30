@@ -11,6 +11,10 @@
         "BASE_URL":"http://www.baidu.com",
         "logfile_path":"utest/log/log.log",
         "log_level":"debug"
+    },
+    "datatable":{
+        "db_type":"excel",
+        "db_path":"./utest/testdata/testdata1.xlsx"
     }
     
 }

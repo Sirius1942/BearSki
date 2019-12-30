@@ -2,6 +2,7 @@ README.md
 setup.py
 src/BearSki/CommandLine.py
 src/BearSki/CommonData.py
+src/BearSki/DataTable.py
 src/BearSki/Manager.py
 src/BearSki/RunUnittest.py
 src/BearSki/__init__.py

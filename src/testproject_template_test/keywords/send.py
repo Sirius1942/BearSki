@@ -5,5 +5,7 @@ logger=SkiLogger('keywords.send')
 
 def askbaidu(mod,data):
     logger.info('in ask baidu！')
+    print(mod)
     r = d_requests.get(url=data)    # 最基本的GET请求
     return r
+

@@ -7,6 +7,7 @@ import inspect
 from importlib import import_module
 from BearSki.CommonData import SkiGlobalData
 from BearSki.utils.logger import SkiLogger
+from BearSki.DataTable import getRowData,generate_data,generate_json_data
 
 class Ski():
     class case():
@@ -100,6 +101,26 @@ class Ski():
                 # print("Module:{} can be imported!".format(module_name))
                 # print("true")
                 return True
+
+class DT(object):
+    def __init__(self,str_data):
+        # print('__case init__')
+        self.str_data=str_data
+        self.logger=SkiLogger("BearSki.DataTable")
+        self.basedata=SkiGlobalData().get_datatable_config()
+    def list(self):
+        title,rowdata=getRowData(self.str_data, self.basedata["db_path"])
+        res=generate_data(title,rowdata)
+        self.logger.debug(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(self.str_data,res, self.basedata["db_path"]))
+        return res
+    def json(self):
+        title,rowdata=getRowData(self.str_data, self.basedata["db_path"])
+        res=generate_json_data(title,rowdata)
+        self.logger.debug(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(self.str_data,res, self.basedata["db_path"]))
+        return res
+        pass
+
+
             
 
         

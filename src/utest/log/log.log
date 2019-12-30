@@ -218,3 +218,368 @@
 [2019-12-05 11:34:42,734] [INFO] [BearSki.createproject] 测试项目创建完成
 [2019-12-09 15:20:25,486] [INFO] [BearSki.createproject] 开始创建测试项目
 [2019-12-09 15:20:25,489] [INFO] [BearSki.createproject] 测试项目创建完成
+[2019-12-27 10:41:24,579] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 10:41:24,580] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 10:41:46,399] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 10:41:46,399] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 10:42:10,464] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 10:42:10,465] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 10:42:45,141] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 10:42:45,141] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 10:43:01,452] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 10:43:01,453] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 10:45:48,869] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 10:45:48,870] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 10:48:22,464] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 10:48:22,465] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 10:50:04,813] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 10:50:04,814] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 10:50:19,723] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 10:50:19,723] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 10:50:19,744] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 10:50:19"', 'ABC154']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 10:52:55,254] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 10:52:55,255] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 10:53:15,560] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 10:53:15,561] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 10:53:15,590] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 10:53:15"', 'ABC8566']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 10:53:15,591] [INFO] [TestDataTable] ['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 10:53:15"', 'ABC8566']
+[2019-12-27 11:28:25,653] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 11:28:25,654] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 11:30:53,137] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 11:30:53,138] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 11:31:11,592] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 11:31:11,592] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 11:31:55,591] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 11:31:55,591] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 11:32:23,158] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 11:32:23,159] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 11:32:23,184] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 11:32:23"', 'ABC5330']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:32:23,185] [INFO] [TestDataTable] ['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 11:32:23"', 'ABC5330']
+[2019-12-27 11:41:44,223] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 11:41:44,224] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 11:41:44,247] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 11:41:44"', 'ABC5815']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:41:44,247] [INFO] [TestDataTable] ['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 11:41:44"', 'ABC5815']
+[2019-12-27 11:41:53,347] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 11:41:53,347] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 11:42:28,050] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 11:42:28,051] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 11:42:28,091] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 11:42:28"', 'ABC124']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:42:28,092] [INFO] [TestDataTable] ['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 11:42:28"', 'ABC124']
+[2019-12-27 11:42:28,114] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-27 11:42:28"，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:42:28,114] [INFO] [TestDataTable] "2019-12-27 11:42:28"
+[2019-12-27 11:44:13,145] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 11:44:13,146] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 11:44:13,171] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 11:44:13"', 'ABC4157']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:44:13,206] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-27 11:44:13"，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:44:13,207] [INFO] [TestDataTable] "2019-12-27 11:44:13"
+[2019-12-27 11:44:49,719] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 11:44:49,720] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 11:44:49,746] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 11:44:49"', 'ABC5334']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:44:49,773] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-27 11:44:49"，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:44:49,773] [INFO] [TestDataTable] "2019-12-27 11:44:49"
+[2019-12-27 11:54:41,518] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 11:54:41,519] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 11:54:41,540] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 11:54:41"', 'ABC7475']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:54:41,573] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-27 11:54:41"，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:54:41,574] [INFO] [TestDataTable] "2019-12-27 11:54:41"
+[2019-12-27 11:54:41,604] [DEBUG] [root] DataTable 获取users.admin数据为:{'DataID': 'admin', 'Remark': '正确的用户名', 'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-27 11:54:41"', 'random': 'ABC396'}，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:54:41,604] [INFO] [TestDataTable] {'DataID': 'admin', 'Remark': '正确的用户名', 'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-27 11:54:41"', 'random': 'ABC396'}
+[2019-12-27 11:54:57,796] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-27 11:54:57,796] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-27 11:54:57,832] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-27 11:54:57"', 'ABC6996']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:54:57,853] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-27 11:54:57"，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:54:57,854] [INFO] [TestDataTable] "2019-12-27 11:54:57"
+[2019-12-27 11:54:57,879] [DEBUG] [root] DataTable 获取users.admin数据为:{'DataID': 'admin', 'Remark': '正确的用户名', 'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-27 11:54:57"', 'random': 'ABC3627'}，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:54:57,880] [INFO] [TestDataTable] {'DataID': 'admin', 'Remark': '正确的用户名', 'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-27 11:54:57"', 'random': 'ABC3627'}
+[2019-12-27 11:54:57,902] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-27 11:54:57"'}，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-27 11:54:57,903] [INFO] [TestDataTable] {'time': '"2019-12-27 11:54:57"'}
+[2019-12-30 01:54:44,004] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 01:54:44,005] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 01:54:44,045] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-30 01:54:44"', 'ABC1054']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:54:44,067] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 01:54:44"，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:54:44,067] [INFO] [TestDataTable] "2019-12-30 01:54:44"
+[2019-12-30 01:56:19,499] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 01:56:19,500] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 01:56:19,532] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-30 01:56:19"', 'ABC5464']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:56:19,558] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 01:56:19"，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:56:19,558] [INFO] [TestDataTable] "2019-12-30 01:56:19"
+[2019-12-30 01:56:19,584] [DEBUG] [root] DataTable 获取users.admin数据为:{'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 01:56:19"', 'random': 'ABC9489'}, 'DataID': 'admin', 'Remark': '正确的用户名'}，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:56:19,585] [INFO] [TestDataTable] {'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 01:56:19"', 'random': 'ABC9489'}, 'DataID': 'admin', 'Remark': '正确的用户名'}
+[2019-12-30 01:56:19,617] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'detail': {}, 'time': '"2019-12-30 01:56:19"'}，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:56:19,617] [INFO] [TestDataTable] {'detail': {}, 'time': '"2019-12-30 01:56:19"'}
+[2019-12-30 01:58:37,419] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 01:58:37,421] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 01:58:37,457] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-30 01:58:37"', 'ABC2091']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:58:37,488] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 01:58:37"，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:58:37,488] [INFO] [TestDataTable] "2019-12-30 01:58:37"
+[2019-12-30 01:58:37,516] [DEBUG] [root] DataTable 获取users.admin数据为:{'DataID': 'admin', 'Remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 01:58:37"', 'random': 'ABC7187'}}，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:58:37,516] [INFO] [TestDataTable] {'DataID': 'admin', 'Remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 01:58:37"', 'random': 'ABC7187'}}
+[2019-12-30 01:58:37,547] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 01:58:37"'}，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:58:37,547] [INFO] [TestDataTable] {'time': '"2019-12-30 01:58:37"'}
+[2019-12-30 01:59:25,661] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 01:59:25,662] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 01:59:25,691] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-30 01:59:25"', 'ABC8884']，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:59:25,724] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 01:59:25"，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:59:25,725] [INFO] [TestDataTable] "2019-12-30 01:59:25"
+[2019-12-30 01:59:25,753] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 01:59:25"', 'random': 'ABC5781'}}，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:59:25,753] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 01:59:25"', 'random': 'ABC5781'}}
+[2019-12-30 01:59:25,774] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 01:59:25"'}，数据源为:./utest/testdata/testdata.xlsx
+[2019-12-30 01:59:25,774] [INFO] [TestDataTable] {'time': '"2019-12-30 01:59:25"'}
+[2019-12-30 21:58:05,597] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 21:58:05,598] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 21:58:23,734] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 21:58:23,735] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 21:58:23,763] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-30 21:58:23"', 'ABC668']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 21:58:23,782] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 21:58:23"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 21:58:23,783] [INFO] [TestDataTable] "2019-12-30 21:58:23"
+[2019-12-30 21:58:23,806] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 21:58:23"', 'random': 'ABC466'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 21:58:23,807] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 21:58:23"', 'random': 'ABC466'}}
+[2019-12-30 21:58:23,830] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 21:58:23"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 21:58:23,831] [INFO] [TestDataTable] {'time': '"2019-12-30 21:58:23"'}
+[2019-12-30 22:03:05,087] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:03:05,088] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:03:05,111] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}')】
+[2019-12-30 22:03:05,112] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-30 22:03:05"', 'ABC8935']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:03:05,136] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:03:05,137] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:03:05"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:03:05,137] [INFO] [TestDataTable] "2019-12-30 22:03:05"
+[2019-12-30 22:03:05,160] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}')】
+[2019-12-30 22:03:05,160] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:03:05"', 'random': 'ABC2215'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:03:05,160] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:03:05"', 'random': 'ABC2215'}}
+[2019-12-30 22:03:05,181] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:03:05,182] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:03:05"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:03:05,182] [INFO] [TestDataTable] {'time': '"2019-12-30 22:03:05"'}
+[2019-12-30 22:03:35,028] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:03:35,029] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:03:35,050] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3)】
+[2019-12-30 22:03:35,052] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-30 22:03:35"', 'ABC5227', '1', '3']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:04:22,434] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:04:22,435] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:04:22,458] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3)】
+[2019-12-30 22:04:22,459] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-30 22:04:22"', 'ABC6194', '1', '3']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:04:22,476] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:04:22,476] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:04:22"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:04:22,476] [INFO] [TestDataTable] "2019-12-30 22:04:22"
+[2019-12-30 22:04:22,495] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3)】
+[2019-12-30 22:04:22,496] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:04:22"', 'random': 'ABC698', 'department': '1', 'superior': '3'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:04:22,497] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:04:22"', 'random': 'ABC698', 'department': '1', 'superior': '3'}}
+[2019-12-30 22:04:22,517] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:04:22,517] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:04:22"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:04:22,517] [INFO] [TestDataTable] {'time': '"2019-12-30 22:04:22"'}
+[2019-12-30 22:04:48,260] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:04:48,260] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:04:48,281] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None)】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5)】
+[2019-12-30 22:04:48,283] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-30 22:04:48"', 'ABC6170', '1', '3', '5']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:04:48,305] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:04:48,306] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:04:48"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:04:48,306] [INFO] [TestDataTable] "2019-12-30 22:04:48"
+[2019-12-30 22:04:48,330] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None)】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5)】
+[2019-12-30 22:04:48,330] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:04:48"', 'random': 'ABC830', 'department': '1', 'superior': '3', None: '5'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:04:48,331] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:04:48"', 'random': 'ABC830', 'department': '1', 'superior': '3', None: '5'}}
+[2019-12-30 22:04:48,351] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:04:48,352] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:04:48"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:04:48,353] [INFO] [TestDataTable] {'time': '"2019-12-30 22:04:48"'}
+[2019-12-30 22:09:17,944] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:09:17,945] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:09:17,965] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5, None)】
+[2019-12-30 22:09:17,966] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-30 22:09:17"', 'ABC6805', '1', '3', '5', 'None']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:09:17,988] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:09:17,988] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:09:17"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:09:17,988] [INFO] [TestDataTable] "2019-12-30 22:09:17"
+[2019-12-30 22:09:18,011] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5, None)】
+[2019-12-30 22:09:18,011] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:09:18"', 'random': 'ABC6322', 'department': '1', 'superior': '3', None: '5', 'jj': 'None'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:09:18,012] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:09:18"', 'random': 'ABC6322', 'department': '1', 'superior': '3', None: '5', 'jj': 'None'}}
+[2019-12-30 22:09:18,036] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:09:18,037] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:09:18"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:09:18,038] [INFO] [TestDataTable] {'time': '"2019-12-30 22:09:18"'}
+[2019-12-30 22:15:56,753] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:15:56,754] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:15:56,775] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5, None)】
+[2019-12-30 22:15:56,775] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-30 22:15:56"', 'ABC6531', '1', '3', '5', 'None']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:15:56,804] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:15:56,804] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:15:56"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:15:56,804] [INFO] [TestDataTable] "2019-12-30 22:15:56"
+[2019-12-30 22:15:56,825] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5, None)】
+[2019-12-30 22:15:56,825] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:15:56"', 'random': 'ABC8865', 'department': '1', 'superior': '3'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:15:56,825] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:15:56"', 'random': 'ABC8865', 'department': '1', 'superior': '3'}}
+[2019-12-30 22:15:56,853] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:15:56,853] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:15:56"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:15:56,854] [INFO] [TestDataTable] {'time': '"2019-12-30 22:15:56"'}
+[2019-12-30 22:16:50,528] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:16:50,529] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:16:50,550] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5, None)】
+[2019-12-30 22:16:50,551] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', '正确的用户名', 'admin', 'kc@123456', '"2019-12-30 22:16:50"', 'ABC5987', '1', '3', '5', 'None']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:16:50,578] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:16:50,578] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:16:50"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:16:50,578] [INFO] [TestDataTable] "2019-12-30 22:16:50"
+[2019-12-30 22:16:50,597] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5, None)】
+[2019-12-30 22:16:50,598] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:16:50"', 'random': 'ABC9737', 'department': '1', 'superior': '3', 'jj': ''}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:16:50,598] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:16:50"', 'random': 'ABC9737', 'department': '1', 'superior': '3', 'jj': ''}}
+[2019-12-30 22:16:50,629] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:16:50,629] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:16:50"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:16:50,630] [INFO] [TestDataTable] {'time': '"2019-12-30 22:16:50"'}
+[2019-12-30 22:20:26,672] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:20:26,673] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:20:26,696] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5, None)】
+[2019-12-30 22:21:15,706] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:21:15,707] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:21:15,728] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5, None)】
+[2019-12-30 22:21:39,897] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:21:39,898] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:21:39,918] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5, None)】
+[2019-12-30 22:21:39,918] [DEBUG] [root] DataTable 获取users.admin数据为:['admin', 'kc@123456', '"2019-12-30 22:21:39"', 'ABC7624', '1', '3', '']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:21:39,946] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:21:39,947] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:21:39"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:21:39,947] [INFO] [TestDataTable] "2019-12-30 22:21:39"
+[2019-12-30 22:21:39,969] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5, None)】
+[2019-12-30 22:21:39,970] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:21:39"', 'random': 'ABC8557', 'department': '1', 'superior': '3', 'jj': ''}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:21:39,970] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456', 'time': '"2019-12-30 22:21:39"', 'random': 'ABC8557', 'department': '1', 'superior': '3', 'jj': ''}}
+[2019-12-30 22:21:39,990] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:21:39,991] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:21:39"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:21:39,991] [INFO] [TestDataTable] {'time': '"2019-12-30 22:21:39"'}
+[2019-12-30 22:23:28,018] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:23:28,019] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:23:28,039] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5, None)】
+[2019-12-30 22:23:28,039] [DEBUG] [root] DataTable 获取users.admin数据为:['admin1', 'kc@123456', '"2019-12-30 22:23:28"', 'ABC5721', '1', '3', '']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:23:28,067] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:23:28,067] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:23:28"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:23:28,067] [INFO] [TestDataTable] "2019-12-30 22:23:28"
+[2019-12-30 22:23:28,089] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', 1, 3, 5, None)】
+[2019-12-30 22:23:28,089] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:23:28"', 'random': 'ABC2203', 'department': '1', 'superior': '3', 'jj': ''}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:23:28,090] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:23:28"', 'random': 'ABC2203', 'department': '1', 'superior': '3', 'jj': ''}}
+[2019-12-30 22:23:28,116] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:23:28,117] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:23:28"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:23:28,117] [INFO] [TestDataTable] {'time': '"2019-12-30 22:23:28"'}
+[2019-12-30 22:27:23,416] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:27:23,420] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:27:23,575] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3, 5, None)】
+[2019-12-30 22:27:23,576] [DEBUG] [root] DataTable 获取users.admin数据为:['admin1', 'kc@123456', '"2019-12-30 22:27:23"', 'ABC2216', '1', '3', '']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:27:23,595] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:27:23,595] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:27:23"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:27:23,596] [INFO] [TestDataTable] "2019-12-30 22:27:23"
+[2019-12-30 22:27:23,622] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3, 5, None)】
+[2019-12-30 22:27:23,622] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:27:23"', 'random': 'ABC2525', 'department': '1', 'superior': '3', 'jj': ''}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:27:23,622] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:27:23"', 'random': 'ABC2525', 'department': '1', 'superior': '3', 'jj': ''}}
+[2019-12-30 22:27:23,646] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:27:23,647] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:27:23"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:27:23,647] [INFO] [TestDataTable] {'time': '"2019-12-30 22:27:23"'}
+[2019-12-30 22:27:46,721] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:27:46,722] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:27:46,742] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None)】
+[2019-12-30 22:27:46,742] [DEBUG] [root] DataTable 获取users.admin数据为:['admin1', 'kc@123456', '"2019-12-30 22:27:46"', 'ABC6356', '1', '3.123', '']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:27:46,769] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:27:46,769] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:27:46"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:27:46,770] [INFO] [TestDataTable] "2019-12-30 22:27:46"
+[2019-12-30 22:27:46,791] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None)】
+[2019-12-30 22:27:46,792] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:27:46"', 'random': 'ABC6955', 'department': '1', 'superior': '3.123', 'jj': ''}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:27:46,792] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:27:46"', 'random': 'ABC6955', 'department': '1', 'superior': '3.123', 'jj': ''}}
+[2019-12-30 22:27:46,818] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:27:46,819] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:27:46"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:27:46,819] [INFO] [TestDataTable] {'time': '"2019-12-30 22:27:46"'}
+[2019-12-30 22:28:29,251] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:28:29,251] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:28:29,271] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None)】
+[2019-12-30 22:28:29,272] [DEBUG] [root] DataTable 获取users.admin数据为:['admin1', 'kc@123456', '"2019-12-30 22:28:29"', 'ABC9267', '1', '3.123', '']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:28:29,298] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:28:29,298] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:28:29"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:28:29,298] [INFO] [TestDataTable] "2019-12-30 22:28:29"
+[2019-12-30 22:28:29,320] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None)】
+[2019-12-30 22:28:29,320] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:28:29"', 'random': 'ABC9911', 'department': '1', 'superior': '3.123', 'jj': ''}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:28:29,324] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:28:29"', 'random': 'ABC9911', 'department': '1', 'superior': '3.123', 'jj': ''}}
+[2019-12-30 22:28:29,350] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:28:29,350] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:28:29"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:28:29,351] [INFO] [TestDataTable] {'time': '"2019-12-30 22:28:29"'}
+[2019-12-30 22:28:46,634] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:28:46,634] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:28:46,654] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None)】
+[2019-12-30 22:28:46,655] [DEBUG] [root] DataTable 获取users.admin数据为:['admin1', 'kc@123456', '"2019-12-30 22:28:46"', 'ABC6757', '1', '3.123', '']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:28:46,683] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:28:46,683] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:28:46"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:28:46,684] [INFO] [TestDataTable] "2019-12-30 22:28:46"
+[2019-12-30 22:28:46,703] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None)】
+[2019-12-30 22:28:46,703] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:28:46"', 'random': 'ABC1344', 'department': '1', 'superior': '3.123', 'jj': ''}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:28:46,707] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:28:46"', 'random': 'ABC1344', 'department': '1', 'superior': '3.123', 'jj': ''}}
+[2019-12-30 22:28:46,733] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:28:46,733] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:28:46"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:28:46,733] [INFO] [TestDataTable] {'time': '"2019-12-30 22:28:46"'}
+[2019-12-30 22:29:00,927] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:29:00,927] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:29:00,948] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, 3.123)】
+[2019-12-30 22:29:00,949] [DEBUG] [root] DataTable 获取users.admin数据为:['admin1', 'kc@123456', '"2019-12-30 22:29:00"', 'ABC4910', '1', '3.123', '3.123']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:29:00,976] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:29:00,977] [DEBUG] [root] DataTable 获取users.admin.time数据为:"2019-12-30 22:29:00"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:29:00,977] [INFO] [TestDataTable] "2019-12-30 22:29:00"
+[2019-12-30 22:29:00,997] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, 3.123)】
+[2019-12-30 22:29:00,997] [DEBUG] [root] DataTable 获取users.admin数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:29:00"', 'random': 'ABC5417', 'department': '1', 'superior': '3.123', 'jj': '3.123'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:29:01,003] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:29:00"', 'random': 'ABC5417', 'department': '1', 'superior': '3.123', 'jj': '3.123'}}
+[2019-12-30 22:29:01,028] [DEBUG] [BearSki.DataTable] 获取数据表原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:29:01,028] [DEBUG] [root] DataTable 获取users.admin.time数据为:{'time': '"2019-12-30 22:29:01"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:29:01,028] [INFO] [TestDataTable] {'time': '"2019-12-30 22:29:01"'}
+[2019-12-30 22:42:43,931] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:42:43,931] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:42:43,952] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None)】
+[2019-12-30 22:42:43,953] [DEBUG] [root] 依据索引 users.admin 获取测试数据为:['admin1', 'kc@123456', '"2019-12-30 22:42:43"', 'ABC1947', '1', '3.123', '']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:42:43,976] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:42:43,976] [DEBUG] [root] 依据索引 users.admin.time 获取测试数据为:"2019-12-30 22:42:43"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:42:43,977] [INFO] [TestDataTable] "2019-12-30 22:42:43"
+[2019-12-30 22:42:43,997] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None)】
+[2019-12-30 22:42:43,997] [DEBUG] [root] 依据索引  users.admin 获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:42:43"', 'random': 'ABC3134', 'department': '1', 'superior': '3.123', 'jj': ''}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:42:43,998] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:42:43"', 'random': 'ABC3134', 'department': '1', 'superior': '3.123', 'jj': ''}}
+[2019-12-30 22:42:44,022] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:42:44,022] [DEBUG] [root] 依据索引  users.admin.time 获取测试数据为:{'time': '"2019-12-30 22:42:44"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:42:44,022] [INFO] [TestDataTable] {'time': '"2019-12-30 22:42:44"'}
+[2019-12-30 22:43:19,479] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:43:19,479] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:43:19,498] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None)】
+[2019-12-30 22:43:19,499] [DEBUG] [root] 依据索引【users.admin】获取测试数据为:['admin1', 'kc@123456', '"2019-12-30 22:43:19"', 'ABC8950', '1', '3.123', '']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:43:19,527] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:43:19,527] [DEBUG] [root] 依据索引【users.admin.time】获取测试数据为:"2019-12-30 22:43:19"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:43:19,528] [INFO] [TestDataTable] "2019-12-30 22:43:19"
+[2019-12-30 22:43:19,550] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 【('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')】 数据行 【('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None)】
+[2019-12-30 22:43:19,550] [DEBUG] [root] 依据索引【users.admin】获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:43:19"', 'random': 'ABC8741', 'department': '1', 'superior': '3.123', 'jj': ''}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:43:19,554] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:43:19"', 'random': 'ABC8741', 'department': '1', 'superior': '3.123', 'jj': ''}}
+[2019-12-30 22:43:19,577] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 【time】 数据 【${time.now}】
+[2019-12-30 22:43:19,577] [DEBUG] [root] 依据索引【users.admin.time】获取测试数据为:{'time': '"2019-12-30 22:43:19"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:43:19,577] [INFO] [TestDataTable] {'time': '"2019-12-30 22:43:19"'}
+[2019-12-30 22:45:10,745] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:45:10,746] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:45:10,779] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')] 数据行 [('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None)]
+[2019-12-30 22:45:10,779] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:['admin1', 'kc@123456', '"2019-12-30 22:45:10"', 'ABC2368', '1', '3.123', '']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:45:10,809] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2019-12-30 22:45:10,809] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:"2019-12-30 22:45:10"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:45:10,809] [INFO] [TestDataTable] "2019-12-30 22:45:10"
+[2019-12-30 22:45:10,830] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj')] 数据行 [('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None)]
+[2019-12-30 22:45:10,831] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:45:10"', 'random': 'ABC6269', 'department': '1', 'superior': '3.123', 'jj': ''}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:45:10,832] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:45:10"', 'random': 'ABC6269', 'department': '1', 'superior': '3.123', 'jj': ''}}
+[2019-12-30 22:45:10,855] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2019-12-30 22:45:10,855] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:{'time': '"2019-12-30 22:45:10"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:45:10,855] [INFO] [TestDataTable] {'time': '"2019-12-30 22:45:10"'}
+[2019-12-30 22:45:53,518] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 22:45:53,520] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 22:45:53,542] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj', 'sdf', 'sd', '=--M2')] 数据行 [('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None, '!@#', 'sf', '=F3')]
+[2019-12-30 22:45:53,542] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:['admin1', 'kc@123456', '"2019-12-30 22:45:53"', 'ABC7701', '1', '3.123', '', '!@#', 'sf', '=F3']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:45:53,570] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2019-12-30 22:45:53,570] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:"2019-12-30 22:45:53"，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:45:53,570] [INFO] [TestDataTable] "2019-12-30 22:45:53"
+[2019-12-30 22:45:53,591] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'password', 'time', 'random', 'department', 'superior', None, 'jj', 'sdf', 'sd', '=--M2')] 数据行 [('admin', '正确的用户名', 'admin1', 'kc@123456', '${time.now}', 'ABC${random.int(4)}', '1', 3.123, 5, None, '!@#', 'sf', '=F3')]
+[2019-12-30 22:45:53,591] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:45:53"', 'random': 'ABC2169', 'department': '1', 'superior': '3.123', 'jj': '', 'sdf': '!@#', 'sd': 'sf', '=--M2': '=F3'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:45:53,595] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin1', 'password': 'kc@123456', 'time': '"2019-12-30 22:45:53"', 'random': 'ABC2169', 'department': '1', 'superior': '3.123', 'jj': '', 'sdf': '!@#', 'sd': 'sf', '=--M2': '=F3'}}
+[2019-12-30 22:45:53,621] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2019-12-30 22:45:53,622] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:{'time': '"2019-12-30 22:45:53"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 22:45:53,622] [INFO] [TestDataTable] {'time': '"2019-12-30 22:45:53"'}
+[2019-12-30 23:00:36,005] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 23:00:36,005] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 23:00:36,028] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'department', 'superior', 'position', 'email', 'is_active', 'roles')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', 1, '3', None, 'test9527@154.com', 'true', '[3]')]
+[2019-12-30 23:00:36,028] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:['test9528', 'test9528', '13737917182', '1', '3', '', 'test9527@154.com', 'true', '[3]']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 23:14:17,221] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 23:14:17,222] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 23:14:17,245] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'department', 'superior', 'position', 'email', 'is_active', 'roles')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', 1, '3', None, 'test9527@154.com', 'true', '[3]')]
+[2019-12-30 23:14:17,246] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:['test9528', 'test9528', '13721587691', '1', '3', '', 'test9527@154.com', 'true', '[3]']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 23:16:41,129] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 23:16:41,130] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 23:16:41,157] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'department', 'superior', 'position', 'email', 'is_active', 'roles')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', 1, '3', None, 'test9527@154.com', 'true', '[3]')]
+[2019-12-30 23:16:41,158] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:['test9528', 'test9528', '1372053564', '1', '3', '', 'test9527@154.com', 'true', '[3]']，数据源为:./utest/testdata/testdata1.xlsx
+[2019-12-30 23:17:30,075] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 23:17:30,076] [INFO] [TestDataTable] I'm in test_datatable
+[2019-12-30 23:31:47,257] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2019-12-30 23:31:47,258] [INFO] [TestDataTable] I'm in test_datatable

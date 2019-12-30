@@ -26,7 +26,6 @@ class RunUnittest(object):
             return test_cases
 
     def runTest(self,runArg):
-
         isrunonecase=False
         if runArg.mode=='onecase':
             isrunonecase=True

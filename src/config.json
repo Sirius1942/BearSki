@@ -1,8 +1,8 @@
 {
-    "m":"allcase",
-    "p":"./utest/testcase",
+    "m":"onecase",
+    "p":"utest.testcase.test_datatable.TestDataTable.test_datatable",
     "n":"",
-    "r":"html",
+    "r":"text",
     "o":"./utest/report/report1.html",
     "j":"./SkiSetting.json",
     "report.addtime.now":true
