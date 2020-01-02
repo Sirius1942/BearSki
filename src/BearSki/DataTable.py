@@ -4,6 +4,7 @@ import re
 import random
 import logging
 import sys
+import json
 
 logger=logging.getLogger("BearSki.DataTable")
 
@@ -69,6 +70,13 @@ def generate_data(title,RowData):
     return re
 
 def sfun(re_str):
+  nstr=s_fun(re_str)
+  if nstr == re_str:
+    
+    return s_jl_fun(re_str)
+  return nstr
+
+def s_fun(re_str):
   pattern = re.compile(r'\$\{.*?\}')
   longstr=pattern.finditer(str(re_str)) ##需要字符串
   result=str(re_str)
@@ -77,18 +85,54 @@ def sfun(re_str):
     result=result.replace(value.group(),newdata,1)
   return result
 
+def s_jl_fun(re_str):
+  # print("in sfun")
+  pattern = re.compile(r'\$((json)|(list))\{.*?\}')
+  longstr=pattern.finditer(str(re_str)) ##需要字符串
+  result=str(re_str)
+  for value in longstr:
+    result=get_jl(value.group())
+    # result=result.replace(value.group(),newdata,1)
+  return result
+
+def get_jl(cellstr):
+  # print("in get_jl")
+  type_str=cellstr[1:5]
+  # print(type_str)
+  if type_str == "json":
+    json_str=cellstr[6:]
+    # print(json_str)
+    try:
+      rejson=json.loads(json_str)
+    except json.decoder.JSONDecodeError: 
+      raise DataTableError("数据[{0}],转化json 类型异常".format(json_str))
+
+    return rejson
+  if type_str == "list":
+    list_str=cellstr[6:-1]
+    # print(list_str)
+    relist=list_str.split(",")
+    re=[]
+    for svalue in relist:
+      if svalue.find('.int') != -1:
+        re.append(int(svalue[:-4]))
+        continue
+      re.append(svalue)
+    return re
+
+
 def runfun(cellstr):
   if cellstr.find('time.now') != -1:
       newvalue=time.strftime("\"%Y-%m-%d %H:%M:%S\"", time.localtime())
       return newvalue
   elif cellstr.find('random.int')!= -1:
-      newvalue=getRand_int(cellstr[13:][:-2])
+      newvalue=getRand_int(cellstr[13:-2])
       return newvalue
   else:
       return cellstr
 
 def getRand_int(num):
-  return str(random.randint(1,10**int(num)))
+  return str(random.randint(10**int(num),10**int(num+1)-1))
 
 class DataTableError(Exception):
   def __init__(self, value):
