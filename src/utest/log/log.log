@@ -747,3 +747,41 @@
 [2019-12-31 19:51:19,403] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
 [2019-12-31 19:51:19,403] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:{'time': '"2019-12-31 19:51:19"'}，数据源为:./utest/testdata/testdata1.xlsx
 [2019-12-31 19:51:19,403] [INFO] [TestDataTable] {'time': '"2019-12-31 19:51:19"'}
+[2020-01-02 18:08:40,327] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-01-02 18:08:40,328] [INFO] [TestDataTable] I'm in test_datatable
+[2020-01-02 18:08:40,355] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-01-02 18:09:29,117] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-01-02 18:09:29,118] [INFO] [TestDataTable] I'm in test_datatable
+[2020-01-02 18:09:29,149] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-01-02 18:10:25,781] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-01-02 18:10:25,782] [INFO] [TestDataTable] I'm in test_datatable
+[2020-01-02 18:10:25,815] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-01-02 18:10:58,665] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-01-02 18:10:58,666] [INFO] [TestDataTable] I'm in test_datatable
+[2020-01-02 18:10:58,713] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-01-02 18:11:26,578] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-01-02 18:11:26,579] [INFO] [TestDataTable] I'm in test_datatable
+[2020-01-02 18:11:26,612] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-01-02 18:11:26,613] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:['test9528', 'test9528', '137240165565', '"2020-01-02 18:11:26"', '3', '', 'test9527@154.com', 'true', [3], ['3', 4, '5'], {'name': '123'}]，数据源为:./utest/testdata/testdata1.xlsx
+[2020-01-02 18:11:26,638] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2020-01-02 18:11:26,638] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:"2020-01-02 18:11:26"，数据源为:./utest/testdata/testdata1.xlsx
+[2020-01-02 18:11:26,639] [INFO] [TestDataTable] "2020-01-02 18:11:26"
+[2020-01-02 18:11:26,680] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-01-02 18:11:26,681] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'test9528', 'name': 'test9528', 'mobile': '137522738745', 'time': '"2020-01-02 18:11:26"', 'superior': '3', 'position': '', 'email': 'test9527@154.com', 'is_active': 'true', 'roles': [3], 'list': ['3', 4, '5'], 'json': {'name': '123'}}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-01-02 18:11:26,681] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'test9528', 'name': 'test9528', 'mobile': '137522738745', 'time': '"2020-01-02 18:11:26"', 'superior': '3', 'position': '', 'email': 'test9527@154.com', 'is_active': 'true', 'roles': [3], 'list': ['3', 4, '5'], 'json': {'name': '123'}}}
+[2020-01-02 18:11:26,714] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2020-01-02 18:11:26,715] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-01-02 18:11:26"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-01-02 18:11:26,715] [INFO] [TestDataTable] {'time': '"2020-01-02 18:11:26"'}
+[2020-01-02 18:12:11,108] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-01-02 18:12:11,109] [INFO] [TestDataTable] I'm in test_datatable
+[2020-01-02 18:12:11,148] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-01-02 18:12:11,149] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:['test9528', 'test9528', '137478803443', '"2020-01-02 18:12:11"', '3', '', 'test9527@154.com', 'true', [3], ['3', 4, '5'], {'name': '123'}]，数据源为:./utest/testdata/testdata1.xlsx
+[2020-01-02 18:12:11,189] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2020-01-02 18:12:11,189] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:"2020-01-02 18:12:11"，数据源为:./utest/testdata/testdata1.xlsx
+[2020-01-02 18:12:11,189] [INFO] [TestDataTable] "2020-01-02 18:12:11"
+[2020-01-02 18:12:11,223] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-01-02 18:12:11,225] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'test9528', 'name': 'test9528', 'mobile': '137222162552', 'time': '"2020-01-02 18:12:11"', 'superior': '3', 'position': '', 'email': 'test9527@154.com', 'is_active': 'true', 'roles': [3], 'list': ['3', 4, '5'], 'json': {'name': '123'}}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-01-02 18:12:11,225] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'test9528', 'name': 'test9528', 'mobile': '137222162552', 'time': '"2020-01-02 18:12:11"', 'superior': '3', 'position': '', 'email': 'test9527@154.com', 'is_active': 'true', 'roles': [3], 'list': ['3', 4, '5'], 'json': {'name': '123'}}}
+[2020-01-02 18:12:11,278] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2020-01-02 18:12:11,278] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-01-02 18:12:11"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-01-02 18:12:11,278] [INFO] [TestDataTable] {'time': '"2020-01-02 18:12:11"'}

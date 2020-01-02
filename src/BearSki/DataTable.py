@@ -125,14 +125,15 @@ def runfun(cellstr):
   if cellstr.find('time.now') != -1:
       newvalue=time.strftime("\"%Y-%m-%d %H:%M:%S\"", time.localtime())
       return newvalue
+
   elif cellstr.find('random.int')!= -1:
-      newvalue=getRand_int(cellstr[13:-2])
+      newvalue=getRand_int(int(cellstr[13:-2]))
       return newvalue
   else:
       return cellstr
 
 def getRand_int(num):
-  return str(random.randint(10**int(num),10**int(num+1)-1))
+  return str(random.randint(10**num,10**(num+1)-1))
 
 class DataTableError(Exception):
   def __init__(self, value):
