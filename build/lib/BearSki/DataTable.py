@@ -133,7 +133,11 @@ def runfun(cellstr):
       return cellstr
 
 def getRand_int(num):
-  return str(random.randint(10**num,10**(num+1)-1))
+
+  star=10**(num-1)
+  end=10**(num)-1
+  # V1.2.18 修改随机数位数计算错误问题
+  return str(random.randint(star,end))
 
 class DataTableError(Exception):
   def __init__(self, value):
