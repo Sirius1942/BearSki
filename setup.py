@@ -1,7 +1,7 @@
 from setuptools import setup,find_packages
 setup (
     name ='BearSki',
-    version = '1.2.17',
+    version = '1.2.19',
     packages = find_packages('src'),  # 包含所有src中的包
     package_dir = {'':'src'},   # 告诉distutils包都在src下
     package_data = {
