@@ -1,3 +1,5 @@
 *.whl
 dist/*.*
 build/*.*
+src/testproject_template_test/*.*
+.vscode
