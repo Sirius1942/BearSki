@@ -33,10 +33,15 @@ class SkiGlobalData(object):
             return returndata
         except Exception:
             return  None
-
     def add_global_data(self,data):
         for s in data:
             self.set_data['global_variable'][s]=data[s]
     def get_datatable_config(self):
         returndata = self.set_data['datatable']
         return returndata
+    def get_initdata(self,name):
+        try:
+            returndata=self.set_data['initdata'][name]
+            return returndata
+        except Exception as e:
+            return None

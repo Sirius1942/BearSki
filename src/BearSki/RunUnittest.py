@@ -5,6 +5,7 @@ import sys
 from BearSki.utils.arguments import runArg
 from BearSki.report.LocalReportRunner import LocalReportRunner
 from BearSki.utils.logger import LoggerBaseConfig
+from BearSki.core import Ski
 
 class RunUnittest(object):
 
@@ -24,7 +25,7 @@ class RunUnittest(object):
             for suite in suites:
                 test_cases.addTests(suite)
             return test_cases
-
+    @Ski.init()
     def runTest(self,runArg):
         isrunonecase=False
         if runArg.mode=='onecase':
@@ -43,3 +44,4 @@ class RunUnittest(object):
             lruner=LocalReportRunner()
             lruner.run(cases)
             self.logger.info("测试完成,报告输出模式html")
+

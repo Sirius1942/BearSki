@@ -1,0 +1,56 @@
+{
+    "config": {
+        "name": "testcase description",
+        "variables": {}
+    },
+    "teststeps": [
+        {
+            "name": "/api/users/",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/api/users/",
+                "params": {
+                    "page": "1",
+                    "size": "10",
+                    "ordering": "id"
+                },
+                "method": "GET",
+                "headers": {
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTM5MzQ5LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.bMBhyAZMba_2cvMg4ieaCTTzbRfP0qqEqGCzFQ0W9Rk",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.count",
+                        4
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.next",
+                        null
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.previous",
+                        null
+                    ]
+                }
+            ]
+        }
+    ]
+}

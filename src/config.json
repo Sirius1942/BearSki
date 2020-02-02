@@ -1,9 +1,11 @@
 {
     "m":"onecase",
-    "p":"utest.testcase.test_datatable.TestDataTable.test_datatable",
+    "p":"utest.testcase.atest_api_users.test_api_users.case_api_users",
     "n":"",
     "r":"text",
     "o":"./utest/report/report1.html",
     "j":"./SkiSetting.json",
-    "report.addtime.now":true
+    "report.addtime.now":true,
+    "auto.case.path":"utest/testcase",
+    "auto.model.path":"utest/testdata/model"
 }

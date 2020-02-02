@@ -1,0 +1,8 @@
+__title__ = 'BearSki'
+__description__ = 'basic test tools for autotest'
+__url__ = 'https://github.com/Sirius1942/BearSki'
+__version__ = '1.3.0'
+__author__ = 'chenjiusi'
+__author_email__ = 'chen6_9@163.com'
+__license__ = 'MIT'
+__copyright__ = 'Copyright 2020 QiYi Technology'

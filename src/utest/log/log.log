@@ -889,3 +889,809 @@
 [2020-01-03 14:16:16,249] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
 [2020-01-03 14:16:16,249] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-01-03 14:16:16"'}，数据源为:./utest/testdata/testdata1.xlsx
 [2020-01-03 14:16:16,249] [INFO] [TestDataTable] {'time': '"2020-01-03 14:16:16"'}
+[2020-01-31 16:05:33,942] [INFO] [root] b'Traceback (most recent call last):\n  File "test1.py", line 19, in <module>\n    BearCLI.main()\n  File "/Users/sirius/Documents/06code/BearFramework/src/BearSki/BearCLI.py", line 24, in main\n    if args.createproject:\nAttributeError: \'Namespace\' object has no attribute \'createproject\'\n'
+[2020-01-31 16:05:33,943] [INFO] [root] b''
+[2020-01-31 16:13:36,793] [INFO] [root] b'Traceback (most recent call last):\n  File "test1.py", line 19, in <module>\n    BearCLI.main()\n  File "/Users/sirius/Documents/06code/BearFramework/src/BearSki/BearCLI.py", line 7, in main\n    parser = argparse.ArgumentParser(description=BearSki.__description__)\nNameError: name \'BearSki\' is not defined\n'
+[2020-01-31 16:13:36,794] [INFO] [root] b''
+[2020-01-31 16:14:24,164] [INFO] [root] b''
+[2020-01-31 16:14:24,165] [INFO] [root] b'usage: test1.py [-h] [-v] [-pn PROJECT_NAME] [-mp MODELPATH] [-cp CASEPATH]\n                [-f CONFITFILE] [-g GUI]\n\nbasic test tools for autotest\n\noptional arguments:\n  -h, --help            show this help message and exit\n  -v, --version         show version\n\ncreateproject:\n  create templet testproject\n\n  -pn PROJECT_NAME, --project_name PROJECT_NAME\n                        testcase file path\n\nHarParser:\n  create testmodel and testcase from har file\n\n  -mp MODELPATH, --modelpath MODELPATH\n                        testmodel file path\n  -cp CASEPATH, --casepath CASEPATH\n                        testcase file path\n  -f CONFITFILE, --confitfile CONFITFILE\n                        config file path\n\ntools:\n  test tools\n\n  -g GUI, --gui GUI     api gui test tools\n'
+[2020-01-31 16:54:28,565] [INFO] [root] <class 'bytes'>
+[2020-01-31 16:54:47,114] [INFO] [root] <class 'bytes'>
+[2020-01-31 17:24:15,566] [INFO] [root] 清除测试项目
+[2020-01-31 17:29:35,118] [INFO] [root] 清除测试项目
+[2020-01-31 17:30:21,785] [INFO] [root] 清除测试项目
+[2020-02-01 14:41:36,944] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 14:41:36,945] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 14:43:21,411] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 14:43:21,412] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 14:43:21,749] [ERROR] [root] error,does not find  modules
+[2020-02-01 14:44:03,662] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 14:44:03,663] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 14:44:04,085] [ERROR] [root] error,does not find  modules
+[2020-02-01 14:49:06,543] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 14:49:06,543] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 14:49:06,897] [ERROR] [root] error,does not find  modules
+[2020-02-01 14:51:57,206] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 14:51:57,207] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 14:52:37,227] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 14:52:37,228] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 14:53:01,891] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 14:53:01,892] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 14:53:32,305] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 14:53:32,306] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 14:55:08,796] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 14:55:08,797] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 14:59:26,013] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 14:59:26,014] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 15:01:24,699] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 15:01:24,699] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 15:01:25,192] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-01 15:01:25,561] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-01 15:01:25,562] [INFO] [kw.requestModel] response is : <Response [200]>
+[2020-02-01 15:01:25,571] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-01 15:01:25,573] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-01 15:01:25,573] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-01 15:01:25,574] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-01 15:01:25,574] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-01 15:01:25,580] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 15:01:25,580] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 15:01:25,580] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 15:01:25,581] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 15:01:25,581] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 15:01:25,581] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 15:01:25,582] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 15:01:25,582] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 15:01:25,582] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-01 15:01:25,582] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-01 15:01:25,582] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-01 15:01:25,583] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-01 15:01:25,583] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-01 15:01:25,583] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-01 15:01:25,583] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-01 15:01:25,583] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-01 15:01:25,584] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-01 15:01:25,584] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-01 15:01:25,584] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-01 15:01:25,584] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.16276700132918534
+[2020-02-01 15:01:25,584] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-01 15:01:25,585] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 15:01:25,585] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 15:01:25,585] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 15:01:25,585] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 15:01:25,585] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 15:01:25,586] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 15:01:25,586] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 15:01:25,586] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 15:01:25,586] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 15:01:25,586] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 15:02:47,956] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 15:02:47,957] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 15:02:48,341] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-01 15:02:48,598] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-01 15:02:48,599] [INFO] [kw.requestModel] response is : <Response [200]>
+[2020-02-01 15:02:48,603] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-01 15:02:48,604] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-01 15:02:48,604] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-01 15:02:48,605] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-01 15:02:48,605] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-01 15:02:48,608] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 15:02:48,608] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 15:02:48,608] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 15:02:48,609] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 15:02:48,609] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 15:02:48,609] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 15:02:48,610] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 15:02:48,629] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 15:02:48,630] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-01 15:02:48,630] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-01 15:02:48,631] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-01 15:02:48,631] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-01 15:02:48,631] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-01 15:02:48,631] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-01 15:02:48,632] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-01 15:02:48,632] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-01 15:02:48,633] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-01 15:02:48,634] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-01 15:02:48,635] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-01 15:02:48,636] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.1492030845517532
+[2020-02-01 15:02:48,637] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-01 15:02:48,638] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 15:02:48,638] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 15:02:48,639] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 15:02:48,639] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 15:02:48,639] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 15:02:48,639] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 15:02:48,640] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 15:02:48,641] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 15:02:48,641] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 15:02:48,641] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 15:03:18,761] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 15:03:18,762] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 15:03:19,263] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-01 15:03:19,502] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-01 15:03:19,504] [INFO] [kw.requestModel] response is : <Response [200]>
+[2020-02-01 15:03:19,507] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-01 15:03:19,508] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-01 15:03:19,508] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-01 15:03:19,509] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-01 15:03:19,509] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-01 15:03:19,512] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 15:03:19,512] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 15:03:19,512] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 15:03:19,512] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 15:03:19,512] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 15:03:19,513] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 15:03:19,513] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 15:03:19,529] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 15:03:19,530] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-01 15:03:19,532] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-01 15:03:19,532] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-01 15:03:19,533] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-01 15:03:19,534] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-01 15:03:19,535] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-01 15:03:19,535] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-01 15:03:19,536] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-01 15:03:19,537] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-01 15:03:19,538] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-01 15:03:19,538] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-01 15:03:19,538] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.16989322445927546
+[2020-02-01 15:03:19,538] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-01 15:03:19,539] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 15:03:19,539] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 15:03:19,540] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 15:03:19,540] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 15:03:19,540] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 15:03:19,541] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 15:03:19,541] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 15:03:19,541] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 15:03:19,541] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 15:03:19,541] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 15:06:57,473] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 15:06:57,473] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 15:06:57,877] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-01 15:06:58,148] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-01 15:06:58,149] [INFO] [kw.requestModel] response is : <Response [200]>
+[2020-02-01 15:06:58,152] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-01 15:06:58,153] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-01 15:06:58,154] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-01 15:06:58,154] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-01 15:06:58,154] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-01 15:06:58,157] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 15:06:58,157] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 15:06:58,157] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 15:06:58,158] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 15:06:58,158] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 15:06:58,158] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 15:06:58,158] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 15:06:58,173] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 15:06:58,174] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-01 15:06:58,174] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-01 15:06:58,174] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-01 15:06:58,174] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-01 15:06:58,175] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-01 15:06:58,175] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-01 15:06:58,175] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-01 15:06:58,175] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-01 15:06:58,176] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-01 15:06:58,176] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-01 15:06:58,177] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-01 15:06:58,177] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.13371076677620913
+[2020-02-01 15:06:58,178] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-01 15:06:58,178] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 15:06:58,184] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 15:06:58,184] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 15:06:58,185] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 15:06:58,185] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 15:06:58,185] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 15:06:58,186] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 15:06:58,186] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 15:06:58,186] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 15:06:58,186] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 15:12:17,833] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 15:12:17,833] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 15:12:18,193] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-01 15:12:18,431] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-01 15:12:18,433] [INFO] [kw.requestModel] response is : <Response [200]>
+[2020-02-01 15:12:18,436] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-01 15:12:18,437] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-01 15:12:18,437] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-01 15:12:18,438] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-01 15:12:18,438] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-01 15:12:18,441] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 15:12:18,441] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 15:12:18,441] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 15:12:18,442] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 15:12:18,442] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 15:12:18,442] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 15:12:18,442] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 15:12:18,442] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 15:12:18,442] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-01 15:12:18,442] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-01 15:12:18,443] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-01 15:12:18,443] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-01 15:12:18,461] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-01 15:12:18,461] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-01 15:12:18,462] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-01 15:12:18,462] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-01 15:12:18,462] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-01 15:12:18,463] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-01 15:12:18,463] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-01 15:12:18,464] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.16276700132918534
+[2020-02-01 15:12:18,465] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-01 15:12:18,467] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 15:12:18,468] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 15:12:18,468] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 15:12:18,469] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 15:12:18,469] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 15:12:18,469] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 15:12:18,469] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 15:12:18,470] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 15:12:18,470] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 15:12:18,470] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 15:12:18,471] [INFO] [atest_auth_login] login res <BearSki.core.Ski.step object at 0x10cab29b0>
+[2020-02-01 15:14:25,873] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 15:14:25,874] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 15:14:26,273] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-01 15:14:26,518] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-01 15:14:26,520] [INFO] [kw.requestModel] response is : <Response [200]>
+[2020-02-01 15:14:26,523] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-01 15:14:26,524] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-01 15:14:26,525] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-01 15:14:26,525] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-01 15:14:26,525] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-01 15:14:26,528] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 15:14:26,528] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 15:14:26,528] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 15:14:26,529] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 15:14:26,529] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 15:14:26,529] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 15:14:26,529] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 15:14:26,529] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 15:14:26,548] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-01 15:14:26,549] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-01 15:14:26,549] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-01 15:14:26,550] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-01 15:14:26,551] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-01 15:14:26,551] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-01 15:14:26,552] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-01 15:14:26,552] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-01 15:14:26,552] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-01 15:14:26,552] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-01 15:14:26,552] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-01 15:14:26,553] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.1386759620822484
+[2020-02-01 15:14:26,555] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-01 15:14:26,584] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 15:14:26,584] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 15:14:26,584] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 15:14:26,585] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 15:14:26,585] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 15:14:26,585] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 15:14:26,585] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 15:14:26,585] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 15:14:26,586] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 15:14:26,586] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 15:14:26,589] [INFO] [atest_auth_login] login res <BearSki.core.Ski.step object at 0x1081049b0>
+[2020-02-01 17:16:42,963] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 17:16:42,964] [INFO] [TestDataTable] I'm in test_datatable
+[2020-02-01 17:19:26,212] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 17:19:26,213] [INFO] [TestDataTable] I'm in test_datatable
+[2020-02-01 17:21:05,310] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 17:21:05,311] [INFO] [TestDataTable] I'm in test_datatable
+[2020-02-01 17:21:05,350] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-02-01 17:21:31,469] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 17:21:31,470] [INFO] [TestDataTable] I'm in test_datatable
+[2020-02-01 17:21:31,509] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-02-01 17:22:56,570] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 17:22:56,571] [INFO] [TestDataTable] I'm in test_datatable
+[2020-02-01 17:22:56,613] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-02-01 17:22:56,614] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:['test9528', 'test9528', '13711555445', '"2020-02-01 17:22:56"', '3', '', 'test9527@154.com', 'true', [3], ['3', 4, '5'], {'name': '123'}]，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:22:56,663] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2020-02-01 17:22:56,663] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:"2020-02-01 17:22:56"，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:22:56,663] [INFO] [TestDataTable] "2020-02-01 17:22:56"
+[2020-02-01 17:23:40,703] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 17:23:40,704] [INFO] [TestDataTable] I'm in test_datatable
+[2020-02-01 17:23:40,731] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-02-01 17:23:40,732] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:['test9528', 'test9528', '13740602241', '"2020-02-01 17:23:40"', '3', '', 'test9527@154.com', 'true', [3], ['3', 4, '5'], {'name': '123'}]，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:23:40,756] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2020-02-01 17:23:40,756] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:"2020-02-01 17:23:40"，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:23:40,757] [INFO] [TestDataTable] "2020-02-01 17:23:40"
+[2020-02-01 17:23:40,821] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-02-01 17:23:40,821] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'test9528', 'name': 'test9528', 'mobile': '13720856749', 'time': '"2020-02-01 17:23:40"', 'superior': '3', 'position': '', 'email': 'test9527@154.com', 'is_active': 'true', 'roles': [3], 'list': ['3', 4, '5'], 'json': {'name': '123'}}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:23:40,822] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'test9528', 'name': 'test9528', 'mobile': '13720856749', 'time': '"2020-02-01 17:23:40"', 'superior': '3', 'position': '', 'email': 'test9527@154.com', 'is_active': 'true', 'roles': [3], 'list': ['3', 4, '5'], 'json': {'name': '123'}}}
+[2020-02-01 17:23:40,878] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2020-02-01 17:23:40,879] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-02-01 17:23:40"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:23:40,879] [INFO] [TestDataTable] {'time': '"2020-02-01 17:23:40"'}
+[2020-02-01 17:26:11,578] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 17:26:11,579] [INFO] [TestDataTable] I'm in test_datatable
+[2020-02-01 17:26:11,619] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-02-01 17:26:11,621] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:['test9528', 'test9528', '13725835929', '"2020-02-01 17:26:11"', '3', '', 'test9527@154.com', 'true', [3], ['3', 4, '5'], {'name': '123'}]，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:26:11,670] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2020-02-01 17:26:11,670] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:"2020-02-01 17:26:11"，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:26:11,670] [INFO] [TestDataTable] "2020-02-01 17:26:11"
+[2020-02-01 17:26:11,712] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-02-01 17:26:11,712] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'test9528', 'name': 'test9528', 'mobile': '13776415641', 'time': '"2020-02-01 17:26:11"', 'superior': '3', 'position': '', 'email': 'test9527@154.com', 'is_active': 'true', 'roles': [3], 'list': ['3', 4, '5'], 'json': {'name': '123'}}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:26:11,713] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'test9528', 'name': 'test9528', 'mobile': '13776415641', 'time': '"2020-02-01 17:26:11"', 'superior': '3', 'position': '', 'email': 'test9527@154.com', 'is_active': 'true', 'roles': [3], 'list': ['3', 4, '5'], 'json': {'name': '123'}}}
+[2020-02-01 17:26:11,746] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2020-02-01 17:26:11,746] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-02-01 17:26:11"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:26:11,747] [INFO] [TestDataTable] {'time': '"2020-02-01 17:26:11"'}
+[2020-02-01 17:26:11,748] [INFO] [TestDataTable] {'_transferSize': 419, 'bodySize': 234, 'content': {'compression': 0, 'mimeType': 'application/json', 'size': 234, 'text': '{"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M"}}'}, 'cookies': [], 'headers': [{'name': 'Content-Type', 'value': 'application/json'}, {'name': 'Vary', 'value': 'Accept, Cookie, Origin'}, {'name': 'Allow', 'value': 'POST, OPTIONS'}, {'name': 'X-Frame-Options', 'value': 'SAMEORIGIN'}, {'name': 'Content-Length', 'value': '234'}, {'name': 'Access-Control-Allow-Origin', 'value': '*'}], 'headersSize': 185, 'httpVersion': 'HTTP/1.1', 'redirectURL': '', 'status': 200, 'statusText': 'OK'}
+[2020-02-01 17:27:35,878] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 17:27:35,879] [INFO] [TestDataTable] I'm in test_datatable
+[2020-02-01 17:27:35,913] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-02-01 17:27:35,914] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:['test9528', 'test9528', '13748701940', '"2020-02-01 17:27:35"', '3', '', 'test9527@154.com', 'true', [3], ['3', 4, '5'], {'name': '123'}]，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:27:35,943] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2020-02-01 17:27:35,944] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:"2020-02-01 17:27:35"，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:27:35,944] [INFO] [TestDataTable] "2020-02-01 17:27:35"
+[2020-02-01 17:27:35,984] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'name', 'mobile', 'time', 'superior', 'position', 'email', 'is_active', 'roles', 'list', 'json')] 数据行 [('admin', '正确的用户名', 'test9528', 'test9528', '137${random.int(8)}', '${time.now}', '3', None, 'test9527@154.com', 'true', '$list{3.int}', '$list{3,4.int,5}', '$json{{"name":"123"}}')]
+[2020-02-01 17:27:35,984] [DEBUG] [root] 依据索引[users.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'test9528', 'name': 'test9528', 'mobile': '13762624799', 'time': '"2020-02-01 17:27:35"', 'superior': '3', 'position': '', 'email': 'test9527@154.com', 'is_active': 'true', 'roles': [3], 'list': ['3', 4, '5'], 'json': {'name': '123'}}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:27:35,984] [INFO] [TestDataTable] {'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'test9528', 'name': 'test9528', 'mobile': '13762624799', 'time': '"2020-02-01 17:27:35"', 'superior': '3', 'position': '', 'email': 'test9527@154.com', 'is_active': 'true', 'roles': [3], 'list': ['3', 4, '5'], 'json': {'name': '123'}}}
+[2020-02-01 17:27:36,035] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2020-02-01 17:27:36,036] [DEBUG] [root] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-02-01 17:27:36"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-02-01 17:27:36,036] [INFO] [TestDataTable] {'time': '"2020-02-01 17:27:36"'}
+[2020-02-01 17:27:36,037] [INFO] [TestDataTable] {'_transferSize': 419, 'bodySize': 234, 'content': {'compression': 0, 'mimeType': 'application/json', 'size': 234, 'text': '{"code":200,"message":"成功","detail":{"token":"55687"}}'}, 'cookies': [], 'headers': [{'name': 'Content-Type', 'value': 'application/json'}, {'name': 'Vary', 'value': 'Accept, Cookie, Origin'}, {'name': 'Allow', 'value': 'POST, OPTIONS'}, {'name': 'X-Frame-Options', 'value': 'SAMEORIGIN'}, {'name': 'Content-Length', 'value': '234'}, {'name': 'Access-Control-Allow-Origin', 'value': '*'}], 'headersSize': 185, 'httpVersion': 'HTTP/1.1', 'redirectURL': '', 'status': 200, 'statusText': 'OK'}
+[2020-02-01 17:40:40,424] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 17:40:40,425] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 17:40:40,973] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-01 17:40:41,276] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-01 17:40:41,283] [INFO] [kw.requestModel] response is : <Response [200]>
+[2020-02-01 17:40:41,290] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-01 17:40:41,292] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-01 17:40:41,293] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-01 17:40:41,293] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-01 17:40:41,293] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-01 17:40:41,298] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 17:40:41,298] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 17:40:41,298] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 17:40:41,299] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 17:40:41,299] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 17:40:41,300] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 17:40:41,324] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 17:40:41,324] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 17:40:41,325] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-01 17:40:41,325] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-01 17:40:41,327] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-01 17:40:41,328] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-01 17:40:41,334] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-01 17:40:41,335] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-01 17:40:41,335] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-01 17:40:41,336] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-01 17:40:41,336] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-01 17:40:41,336] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-01 17:40:41,336] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-01 17:40:41,336] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.14012401122492363
+[2020-02-01 17:40:41,337] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-01 17:40:41,337] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 17:40:41,337] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 17:40:41,364] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 17:40:41,365] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 17:40:41,365] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 17:40:41,366] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 17:40:41,366] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 17:40:41,374] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 17:40:41,374] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 17:40:41,374] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 17:40:41,375] [INFO] [atest_auth_login] login res <BearSki.core.Ski.step object at 0x104c1a8d0>
+[2020-02-01 17:47:04,351] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-01 17:47:04,351] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-01 17:47:04,710] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-01 17:47:05,090] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-01 17:47:05,092] [INFO] [kw.requestModel] response is : <Response [200]>
+[2020-02-01 17:47:05,098] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-01 17:47:05,100] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-01 17:47:05,100] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-01 17:47:05,101] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-01 17:47:05,101] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-01 17:47:05,105] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 17:47:05,106] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 17:47:05,106] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 17:47:05,107] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 17:47:05,107] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 17:47:05,107] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 17:47:05,107] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 17:47:05,129] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 17:47:05,141] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-01 17:47:05,141] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-01 17:47:05,141] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-01 17:47:05,141] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-01 17:47:05,141] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-01 17:47:05,142] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-01 17:47:05,142] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-01 17:47:05,142] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-01 17:47:05,142] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-01 17:47:05,142] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-01 17:47:05,173] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-01 17:47:05,174] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.16359043041787377
+[2020-02-01 17:47:05,175] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-01 17:47:05,175] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 17:47:05,176] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-01 17:47:05,176] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-01 17:47:05,184] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-01 17:47:05,185] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-01 17:47:05,185] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-01 17:47:05,187] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-01 17:47:05,188] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-01 17:47:05,189] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-01 17:47:05,190] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-01 17:47:05,191] [INFO] [atest_auth_login] login res <BearSki.core.Ski.step object at 0x10df168d0>
+[2020-02-02 17:43:54,491] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 17:43:54,492] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 17:44:57,584] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 17:44:57,584] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 17:45:26,597] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 17:45:26,598] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 17:46:00,618] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 17:46:00,619] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 17:47:54,983] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 17:47:54,984] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 17:47:55,509] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 17:47:55,509] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 17:49:42,835] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 17:49:42,836] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 17:49:43,314] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 17:49:43,314] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 17:54:11,350] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 17:54:11,357] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 17:54:12,256] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 17:54:12,258] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 17:57:12,376] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 17:57:12,377] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 17:57:12,599] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 17:57:12,600] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 17:59:00,188] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 17:59:00,189] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 17:59:00,449] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 17:59:00,449] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 18:00:02,375] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 18:00:02,376] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 18:00:02,639] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 18:00:02,639] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 18:00:15,007] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 18:00:15,007] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 18:00:15,289] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 18:00:15,289] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 18:00:46,059] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 18:00:46,060] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 18:00:46,345] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 18:00:46,345] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 18:01:21,573] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 18:01:21,574] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 18:01:21,804] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 18:01:21,804] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 18:01:21,823] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-02 18:01:22,099] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-02 18:01:50,454] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 18:01:50,455] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 18:01:50,691] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 18:01:50,691] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 18:01:50,708] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-02 18:01:50,958] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-02 18:01:50,959] [INFO] [kw.RequestModelCommondKW] response is : <Response [200]>
+[2020-02-02 18:01:50,960] [INFO] [atest_auth_login] login res <BearSki.core.Ski.step object at 0x1149962b0>
+[2020-02-02 22:28:21,874] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 22:28:21,875] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 22:28:22,554] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 22:28:22,554] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 22:28:22,578] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-02 22:28:22,878] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-02 22:28:22,880] [INFO] [kw.RequestModelCommondKW] response is : <Response [200]>
+[2020-02-02 22:28:22,881] [INFO] [atest_auth_login] login res <BearSki.core.Ski.step object at 0x106904518>
+[2020-02-02 22:33:45,080] [INFO] [BearSki.RunUnittest] 开始初始化数据：
+[2020-02-02 22:34:52,006] [INFO] [BearSki.RunUnittest] 开始初始化数据：
+[2020-02-02 22:35:28,298] [INFO] [BearSki.RunUnittest] 开始初始化数据：
+[2020-02-02 22:36:49,997] [INFO] [BearSki.RunUnittest] 开始初始化数据：
+[2020-02-02 22:37:15,326] [INFO] [BearSki.RunUnittest] 开始初始化数据：
+[2020-02-02 22:37:15,696] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-02 22:37:15,954] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-02 22:37:15,956] [INFO] [kw.login] response is : <Response [200]>
+[2020-02-02 22:37:15,960] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-02 22:37:15,961] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-02 22:37:15,962] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-02 22:37:15,962] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-02 22:37:15,962] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-02 22:37:15,966] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-02 22:37:15,966] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-02 22:37:15,967] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-02 22:37:15,967] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-02 22:37:15,968] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-02 22:37:15,968] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-02 22:37:15,968] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-02 22:37:15,983] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-02 22:37:15,983] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-02 22:37:15,984] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-02 22:37:15,984] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-02 22:37:15,984] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-02 22:37:15,985] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-02 22:37:15,985] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-02 22:37:15,985] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-02 22:37:15,986] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-02 22:37:15,986] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-02 22:37:15,986] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-02 22:37:15,986] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-02 22:37:15,987] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.16836103539217226
+[2020-02-02 22:37:15,988] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-02 22:37:15,988] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-02 22:37:15,989] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-02 22:37:15,989] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-02 22:37:16,017] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-02 22:37:16,018] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-02 22:37:16,019] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-02 22:37:16,019] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-02 22:37:16,020] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-02 22:37:16,020] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-02 22:37:16,020] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-02 22:37:16,021] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTgwOTEzNDM1LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.CqERarXV7Rb0i63Qq-D4k7U4geKOEvfjvQ95Mas7y8Y"}}
+[2020-02-02 22:37:16,026] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-02 22:37:16,029] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-02 22:37:16,029] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-02 22:37:16,032] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-02 22:37:16,033] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-02 22:37:16,038] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-02 22:37:16,038] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-02 22:37:16,038] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-02 22:37:16,039] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-02 22:37:16,039] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-02 22:37:16,039] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-02 22:37:16,039] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-02 22:37:16,057] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-02 22:37:16,057] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-02 22:37:16,058] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-02 22:37:16,058] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-02 22:37:16,058] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-02 22:37:16,059] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-02 22:37:16,059] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-02 22:37:16,059] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-02 22:37:16,059] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-02 22:37:16,060] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-02 22:37:16,061] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-02 22:37:16,064] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-02 22:37:16,065] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.16836103539217226
+[2020-02-02 22:37:16,066] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-02 22:37:16,066] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-02 22:37:16,067] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-02 22:37:16,067] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-02 22:37:16,067] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-02 22:37:16,068] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-02 22:37:16,068] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-02 22:37:16,070] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-02 22:37:16,071] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-02 22:37:16,071] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-02 22:37:16,072] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-02 22:37:16,080] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 22:37:16,080] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 22:37:16,086] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 22:37:16,100] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 22:37:16,112] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-02 22:37:16,370] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-02 22:37:16,371] [INFO] [kw.RequestModelCommondKW] response is : <Response [200]>
+[2020-02-02 22:37:16,372] [INFO] [atest_auth_login] login res <BearSki.core.Ski.step object at 0x113d86e10>
+[2020-02-02 22:37:40,435] [INFO] [BearSki.RunUnittest] 开始初始化数据：
+[2020-02-02 22:37:40,764] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-02 22:37:41,006] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-02 22:37:41,008] [INFO] [kw.login] response is : <Response [200]>
+[2020-02-02 22:37:41,012] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-02 22:37:41,013] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-02 22:37:41,013] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-02 22:37:41,013] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-02 22:37:41,014] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-02 22:37:41,016] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-02 22:37:41,017] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-02 22:37:41,017] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-02 22:37:41,017] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-02 22:37:41,017] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-02 22:37:41,018] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-02 22:37:41,018] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-02 22:37:41,026] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-02 22:37:41,026] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-02 22:37:41,026] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-02 22:37:41,026] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-02 22:37:41,027] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-02 22:37:41,029] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-02 22:37:41,031] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-02 22:37:41,031] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-02 22:37:41,032] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-02 22:37:41,032] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-02 22:37:41,033] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-02 22:37:41,033] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-02 22:37:41,034] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.12637800266643956
+[2020-02-02 22:37:41,034] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-02 22:37:41,034] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-02 22:37:41,035] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-02 22:37:41,035] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-02 22:37:41,035] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-02 22:37:41,035] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-02 22:37:41,036] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-02 22:37:41,036] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-02 22:37:41,036] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-02 22:37:41,036] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-02 22:37:41,036] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-02 22:37:41,036] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTgwOTEzNDYxLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.jLjAtH_LsxaLPwTxJVSvrlzU_GrOXFjY7KFXpb0wdOg"}}
+[2020-02-02 22:37:41,067] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-02 22:37:41,069] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-02 22:37:41,069] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-02 22:37:41,070] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-02 22:37:41,072] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-02 22:37:41,076] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-02 22:37:41,077] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-02 22:37:41,077] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-02 22:37:41,078] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-02 22:37:41,078] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-02 22:37:41,078] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-02 22:37:41,079] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-02 22:37:41,079] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-02 22:37:41,101] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-02 22:37:41,102] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-02 22:37:41,102] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-02 22:37:41,103] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-02 22:37:41,104] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-02 22:37:41,105] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-02 22:37:41,105] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-02 22:37:41,106] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-02 22:37:41,109] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-02 22:37:41,109] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-02 22:37:41,110] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-02 22:37:41,134] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.12637800266643956
+[2020-02-02 22:37:41,134] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-02 22:37:41,135] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-02 22:37:41,135] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-02 22:37:41,135] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-02 22:37:41,135] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-02 22:37:41,136] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-02 22:37:41,136] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-02 22:37:41,136] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-02 22:37:41,137] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-02 22:37:41,137] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-02 22:37:41,142] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-02 22:37:41,152] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 22:37:41,153] [INFO] [atest_auth_login] in case_auth_login
+[2020-02-02 22:37:41,158] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/auth/login/', 'request': {'headers': {'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'json': {'password': 'AgaveTest@5567', 'username': 'admin'}, 'method': 'POST', 'url': 'http://localhost.charlesproxy.com:8086/auth/login/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.code', 200]}, {'eq': ['content.message', '成功']}]}
+[2020-02-02 22:37:41,158] [INFO] [kw.RequestModelCommondKW] url is :/auth/login/
+[2020-02-02 22:37:41,183] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-02 22:37:41,463] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-02 22:37:41,464] [INFO] [kw.RequestModelCommondKW] response is : <Response [200]>
+[2020-02-02 22:37:41,465] [INFO] [atest_auth_login] login res <BearSki.core.Ski.step object at 0x119439a58>
+[2020-02-02 23:13:04,743] [INFO] [BearSki.RunUnittest] 开始初始化数据：
+[2020-02-02 23:13:05,120] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): localhost:8086
+[2020-02-02 23:13:05,377] [DEBUG] [urllib3.connectionpool] http://localhost:8086 "POST /auth/login/ HTTP/1.1" 200 234
+[2020-02-02 23:13:05,378] [INFO] [kw.login] response is : <Response [200]>
+[2020-02-02 23:13:05,383] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-02 23:13:05,384] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-02 23:13:05,385] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-02 23:13:05,385] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-02 23:13:05,385] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-02 23:13:05,388] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-02 23:13:05,388] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-02 23:13:05,388] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-02 23:13:05,388] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-02 23:13:05,388] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-02 23:13:05,389] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-02 23:13:05,389] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-02 23:13:05,401] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-02 23:13:05,401] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-02 23:13:05,401] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-02 23:13:05,402] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-02 23:13:05,402] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-02 23:13:05,403] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-02 23:13:05,403] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-02 23:13:05,403] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-02 23:13:05,404] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-02 23:13:05,405] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-02 23:13:05,405] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-02 23:13:05,406] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-02 23:13:05,407] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.15346861448900867
+[2020-02-02 23:13:05,407] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-02 23:13:05,407] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-02 23:13:05,408] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-02 23:13:05,408] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-02 23:13:05,408] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-02 23:13:05,408] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-02 23:13:05,408] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-02 23:13:05,409] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-02 23:13:05,409] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-02 23:13:05,409] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-02 23:13:05,458] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-02 23:13:05,458] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTgwOTE1NTg1LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.6RnxfgpXxF44S8Ue7cdzst9gHMD9uNW_K0sRt4sO_Vw"}}
+[2020-02-02 23:13:05,464] [DEBUG] [chardet.charsetprober] EUC-JP Japanese prober hit error at byte 24
+[2020-02-02 23:13:05,467] [DEBUG] [chardet.charsetprober] EUC-KR Korean prober hit error at byte 24
+[2020-02-02 23:13:05,469] [DEBUG] [chardet.charsetprober] CP949 Korean prober hit error at byte 24
+[2020-02-02 23:13:05,470] [DEBUG] [chardet.charsetprober] Big5 Chinese prober hit error at byte 25
+[2020-02-02 23:13:05,472] [DEBUG] [chardet.charsetprober] EUC-TW Taiwan prober hit error at byte 24
+[2020-02-02 23:13:05,480] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-02 23:13:05,481] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-02 23:13:05,481] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-02 23:13:05,481] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-02 23:13:05,481] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-02 23:13:05,481] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-02 23:13:05,482] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-02 23:13:05,482] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-02 23:13:05,482] [DEBUG] [chardet.charsetprober] windows-1251 Russian confidence = 0.01
+[2020-02-02 23:13:05,482] [DEBUG] [chardet.charsetprober] KOI8-R Russian confidence = 0.01
+[2020-02-02 23:13:05,482] [DEBUG] [chardet.charsetprober] ISO-8859-5 Russian confidence = 0.01
+[2020-02-02 23:13:05,501] [DEBUG] [chardet.charsetprober] MacCyrillic Russian confidence = 0.0
+[2020-02-02 23:13:05,502] [DEBUG] [chardet.charsetprober] IBM866 Russian confidence = 0.0
+[2020-02-02 23:13:05,502] [DEBUG] [chardet.charsetprober] IBM855 Russian confidence = 0.01
+[2020-02-02 23:13:05,502] [DEBUG] [chardet.charsetprober] ISO-8859-7 Greek confidence = 0.01
+[2020-02-02 23:13:05,503] [DEBUG] [chardet.charsetprober] windows-1253 Greek confidence = 0.01
+[2020-02-02 23:13:05,503] [DEBUG] [chardet.charsetprober] ISO-8859-5 Bulgairan confidence = 0.01
+[2020-02-02 23:13:05,504] [DEBUG] [chardet.charsetprober] windows-1251 Bulgarian confidence = 0.01
+[2020-02-02 23:13:05,504] [DEBUG] [chardet.charsetprober] TIS-620 Thai confidence = 0.01
+[2020-02-02 23:13:05,505] [DEBUG] [chardet.charsetprober] ISO-8859-9 Turkish confidence = 0.15346861448900867
+[2020-02-02 23:13:05,506] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.0
+[2020-02-02 23:13:05,511] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-02 23:13:05,511] [DEBUG] [chardet.charsetprober] windows-1255 Hebrew confidence = 0.01
+[2020-02-02 23:13:05,512] [DEBUG] [chardet.charsetprober] utf-8  confidence = 0.7525
+[2020-02-02 23:13:05,512] [DEBUG] [chardet.charsetprober] SHIFT_JIS Japanese confidence = 0.01
+[2020-02-02 23:13:05,513] [DEBUG] [chardet.charsetprober] EUC-JP not active
+[2020-02-02 23:13:05,513] [DEBUG] [chardet.charsetprober] GB2312 Chinese confidence = 0.01
+[2020-02-02 23:13:05,514] [DEBUG] [chardet.charsetprober] EUC-KR not active
+[2020-02-02 23:13:05,514] [DEBUG] [chardet.charsetprober] CP949 not active
+[2020-02-02 23:13:05,514] [DEBUG] [chardet.charsetprober] Big5 not active
+[2020-02-02 23:13:05,514] [DEBUG] [chardet.charsetprober] EUC-TW not active
+[2020-02-02 23:13:05,524] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 23:13:05,542] [INFO] [test_api_users] in case_api_users
+[2020-02-02 23:13:05,559] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/api/users/', 'request': {'headers': {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'method': 'GET', 'params': {'ordering': 'id', 'page': '1', 'size': '10'}, 'url': 'http://localhost.charlesproxy.com:8086/api/users/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.count', 4]}, {'eq': ['content.next', None]}, {'eq': ['content.previous', None]}]}
+[2020-02-02 23:13:05,560] [INFO] [kw.RequestModelCommondKW] url is :/api/users/
+[2020-02-02 23:14:10,690] [INFO] [BearSki.RunUnittest] 开始初始化数据：
+[2020-02-02 23:14:11,212] [INFO] [kw.login] response is : <Response [200]>
+[2020-02-02 23:14:11,226] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTgwOTE1NjUxLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.9lRi8aG7JY0KjdMK-VsG9I-lZO-q2ocT6jKdShWC29k"}}
+[2020-02-02 23:14:11,239] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 23:14:11,240] [INFO] [test_api_users] in case_api_users
+[2020-02-02 23:14:11,252] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/api/users/', 'request': {'headers': {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'method': 'GET', 'params': {'ordering': 'id', 'page': '1', 'size': '10'}, 'url': 'http://localhost.charlesproxy.com:8086/api/users/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.count', 4]}, {'eq': ['content.next', None]}, {'eq': ['content.previous', None]}]}
+[2020-02-02 23:14:11,253] [INFO] [kw.RequestModelCommondKW] url is :/api/users/
+[2020-02-02 23:18:12,114] [INFO] [BearSki.RunUnittest] 开始初始化数据：
+[2020-02-02 23:18:12,821] [INFO] [kw.login] response is : <Response [200]>
+[2020-02-02 23:18:12,834] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTgwOTE1ODkyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.i-v1hyKLYzUop3G7UjzaxXzZhPUkhDrVNTMNb4AOZY8"}}
+[2020-02-02 23:18:12,844] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 23:18:12,844] [INFO] [test_api_users] in case_api_users
+[2020-02-02 23:18:12,863] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/api/users/', 'request': {'headers': {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'method': 'GET', 'params': {'ordering': 'id', 'page': '1', 'size': '10'}, 'url': 'http://localhost.charlesproxy.com:8086/api/users/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.count', 4]}, {'eq': ['content.next', None]}, {'eq': ['content.previous', None]}]}
+[2020-02-02 23:18:12,863] [INFO] [kw.RequestModelCommondKW] url is :/api/users/
+[2020-02-02 23:18:12,949] [INFO] [kw.RequestModelCommondKW] response is : <Response [401]>
+[2020-02-02 23:21:07,480] [INFO] [BearSki.RunUnittest] 开始初始化数据：
+[2020-02-02 23:21:08,252] [INFO] [kw.login] response is : <Response [200]>
+[2020-02-02 23:21:08,279] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTgwOTE2MDY4LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.6930ZWEQBRuYmMvcX3pGTil2KatV1Qxc1zLjzDWT_DA"}}
+[2020-02-02 23:21:08,301] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 23:21:08,301] [INFO] [test_api_users] in case_api_users
+[2020-02-02 23:21:08,309] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/api/users/', 'request': {'headers': {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'method': 'GET', 'params': {'ordering': 'id', 'page': '1', 'size': '10'}, 'url': 'http://localhost.charlesproxy.com:8086/api/users/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.count', 4]}, {'eq': ['content.next', None]}, {'eq': ['content.previous', None]}]}
+[2020-02-02 23:21:08,310] [INFO] [kw.RequestModelCommondKW] url is :/api/users/
+[2020-02-02 23:21:08,401] [INFO] [kw.RequestModelCommondKW] response is : <Response [200]>
+[2020-02-02 23:21:08,403] [INFO] [test_api_users] login res <BearSki.core.Ski.step object at 0x114b95a90>
+[2020-02-02 23:44:28,068] [INFO] [BearSki.RunUnittest] 开始初始化数据：
+[2020-02-02 23:44:45,988] [INFO] [BearSki.RunUnittest] 开始初始化数据：
+[2020-02-02 23:44:46,687] [INFO] [kw.login] response is : <Response [200]>
+[2020-02-02 23:44:46,694] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTgwOTE3NDg2LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.-WYCgZKn73r4WqKWgNIefIOhZZNdT2_DHpUoSRZD4ag"}}
+[2020-02-02 23:44:46,704] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 23:44:46,705] [INFO] [test_api_users] in case_api_users
+[2020-02-02 23:44:46,718] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/api/users/', 'request': {'headers': {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'method': 'GET', 'params': {'ordering': 'id', 'page': '1', 'size': '10'}, 'url': 'http://localhost.charlesproxy.com:8086/api/users/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.count', 4]}, {'eq': ['content.next', None]}, {'eq': ['content.previous', None]}]}
+[2020-02-02 23:44:46,718] [INFO] [kw.RequestModelCommondKW] url is :/api/users/
+[2020-02-02 23:44:46,808] [INFO] [kw.RequestModelCommondKW] response is : <Response [200]>
+[2020-02-02 23:44:46,809] [INFO] [test_api_users] login res <BearSki.core.Ski.step object at 0x115174a58>
+[2020-02-02 23:46:43,115] [INFO] [BearSki.RunUnittest] 初始化测试数据：
+[2020-02-02 23:46:43,723] [INFO] [kw.login] response is : <Response [200]>
+[2020-02-02 23:46:43,731] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTgwOTE3NjAzLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.KJcrSzwEXEYAlPYJJYXArvHGGcz98pyfF3CSt9R91Yk"}}
+[2020-02-02 23:46:43,740] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 23:46:43,740] [INFO] [test_api_users] in case_api_users
+[2020-02-02 23:46:43,746] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/api/users/', 'request': {'headers': {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'method': 'GET', 'params': {'ordering': 'id', 'page': '1', 'size': '10'}, 'url': 'http://localhost.charlesproxy.com:8086/api/users/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.count', 4]}, {'eq': ['content.next', None]}, {'eq': ['content.previous', None]}]}
+[2020-02-02 23:46:43,748] [INFO] [kw.RequestModelCommondKW] url is :/api/users/
+[2020-02-02 23:46:43,807] [INFO] [kw.RequestModelCommondKW] response is : <Response [200]>
+[2020-02-02 23:46:43,809] [INFO] [test_api_users] login res <BearSki.core.Ski.step object at 0x10dc419b0>
+[2020-02-02 23:46:43,810] [INFO] [BearSki.RunUnittest] 清理测试数据：
+[2020-02-02 23:52:24,523] [INFO] [BearSki.RunUnittest] 初始化测试数据：
+[2020-02-02 23:52:25,208] [INFO] [kw.login] response is : <Response [200]>
+[2020-02-02 23:52:25,215] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTgwOTE3OTQ1LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.TaBEr0siy9-3sBYqXqZxBMNlLfebKeN5H8WA3dKHnKw"}}
+[2020-02-02 23:52:25,225] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 23:52:25,225] [INFO] [test_api_users] in case_api_users
+[2020-02-02 23:52:25,242] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/api/users/', 'request': {'headers': {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'method': 'GET', 'params': {'ordering': 'id', 'page': '1', 'size': '10'}, 'url': 'http://localhost.charlesproxy.com:8086/api/users/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.count', 4]}, {'eq': ['content.next', None]}, {'eq': ['content.previous', None]}]}
+[2020-02-02 23:52:25,243] [INFO] [kw.RequestModelCommondKW] url is :/api/users/
+[2020-02-02 23:52:25,331] [INFO] [kw.RequestModelCommondKW] response is : <Response [200]>
+[2020-02-02 23:52:25,332] [INFO] [test_api_users] login res <BearSki.core.Ski.step object at 0x10e8b69b0>
+[2020-02-02 23:52:25,333] [INFO] [BearSki.RunUnittest] 用例执行完毕，开始清理测试数据：
+[2020-02-02 23:55:34,017] [INFO] [BearSki.RunUnittest] 初始化测试数据：
+[2020-02-02 23:58:58,743] [INFO] [BearSki.RunUnittest] 初始化测试数据：
+[2020-02-02 23:58:59,474] [INFO] [kw.login] response is : <Response [200]>
+[2020-02-02 23:58:59,482] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTgwOTE4MzM5LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.4Vh-H8du6tHKFnj5321BRTWx_LnyjeA4nXxTNsXFlwE"}}
+[2020-02-02 23:58:59,491] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-02 23:58:59,491] [INFO] [test_api_users] in case_api_users
+[2020-02-02 23:58:59,502] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/api/users/', 'request': {'headers': {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'method': 'GET', 'params': {'ordering': 'id', 'page': '1', 'size': '10'}, 'url': 'http://localhost.charlesproxy.com:8086/api/users/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.count', 4]}, {'eq': ['content.next', None]}, {'eq': ['content.previous', None]}]}
+[2020-02-02 23:58:59,503] [INFO] [kw.RequestModelCommondKW] url is :/api/users/
+[2020-02-02 23:58:59,574] [INFO] [kw.RequestModelCommondKW] response is : <Response [200]>
+[2020-02-02 23:58:59,576] [INFO] [test_api_users] login res <BearSki.core.Ski.step object at 0x116869a90>
+[2020-02-02 23:58:59,577] [INFO] [BearSki.RunUnittest] 用例执行完毕，开始清理测试数据：

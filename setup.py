@@ -1,7 +1,9 @@
-from setuptools import setup,find_packages
+from setuptools import setup
+from src import BearSki
+find_packages
 setup (
-    name ='BearSki',
-    version = '1.2.19',
+    name =BearSki.__title__,
+    version = BearSki.__version__,
     packages = find_packages('src'),  # 包含所有src中的包
     package_dir = {'':'src'},   # 告诉distutils包都在src下
     package_data = {
@@ -10,9 +12,9 @@ setup (
         # 包含demo包data文件夹中的 *.dat文件
         'BearSki': ['data/*.dat'],
     },
-    description = 'BearSki is a AutoTest Framework',
-    author = 'sirius',
-    url = 'https://www.agavetest.info',
-    license ='MIT',
+    description = BearSki.__description__,
+    author = BearSki.__author__,
+    url = BearSki.__url__,
+    license =BearSki.__license__,
     py_modules=['hello']
 )

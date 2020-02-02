@@ -1,0 +1,300 @@
+{
+    "config": {
+        "name": "testcase description",
+        "variables": {}
+    },
+    "teststeps": [
+        {
+            "name": "/auth/login/",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/auth/login/",
+                "method": "POST",
+                "headers": {
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36",
+                    "Content-Type": "application/json;charset=UTF-8"
+                },
+                "json": {
+                    "username": "admin",
+                    "password": "AgaveTest@5567"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.message",
+                        "成功"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/auth/info/",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/auth/info/",
+                "method": "GET",
+                "headers": {
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.message",
+                        "成功"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/auth/build/menus/",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/auth/build/menus/",
+                "method": "GET",
+                "headers": {
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.message",
+                        "成功"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/api/roles",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/api/roles",
+                "method": "GET",
+                "headers": {
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36",
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        301
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html; charset=utf-8"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/api/organization/tree/",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/api/organization/tree/",
+                "method": "GET",
+                "headers": {
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.message",
+                        "成功"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/api/users/",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/api/users/",
+                "params": {
+                    "page": "1",
+                    "size": "10",
+                    "ordering": "id"
+                },
+                "method": "GET",
+                "headers": {
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.count",
+                        4
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.next",
+                        null
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.previous",
+                        null
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/api/roles",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/api/roles",
+                "method": "GET",
+                "headers": {
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        301
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html; charset=utf-8"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/api/roles/",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/api/roles/",
+                "method": "GET",
+                "headers": {
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.count",
+                        3
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.next",
+                        null
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.previous",
+                        null
+                    ]
+                }
+            ]
+        }
+    ]
+}

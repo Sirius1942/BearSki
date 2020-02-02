@@ -131,7 +131,7 @@ class reportBody(object):
       fo = open(outfilename, "w+",encoding='utf8')
       fo.write(self.report)
       fo.close
-
+ 
 # if __name__ == '__main__':
   
 #   rb=reportBody()

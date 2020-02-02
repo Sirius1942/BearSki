@@ -7,13 +7,14 @@ import inspect
 from importlib import import_module
 from BearSki.CommonData import SkiGlobalData
 from BearSki.utils.logger import SkiLogger
-from BearSki.DataTable import getRowData,generate_data,generate_json_data
+from BearSki.utils.DataTable import getRowData,generate_data,generate_json_data
 
 class Ski():
     class case():
         def __init__(self):
             # print('__case init__')
             self.logger=SkiLogger("BearSki.base")
+            self.logger.warn("bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core")
             scd=SkiGlobalData()
         def __call__(self,func):
                 def __deco(self,*arg,**kws):
@@ -103,22 +104,35 @@ class Ski():
                 return True
 
 class DT(object):
-    def __init__(self,str_data):
+    def __init__(self,str_data,type="excel"):
         # print('__case init__')
         self.str_data=str_data
         self.logger=SkiLogger("BearSki.DataTable")
+        self.logger.warn("bear.base 中的方法将被废弃通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core")
         self.basedata=SkiGlobalData().get_datatable_config()
+        self.type=type
+
     def list(self):
+        if self.type=='excel':
+            return self._excel_list()
+    def json(self):
+        if self.type=='excel':
+            return self._excel_list()
+        else:
+            return self._json_json()
+    
+    def _excel_list(self):
         title,rowdata=getRowData(self.str_data, self.basedata["db_path"])
         res=generate_data(title,rowdata)
         self.logger.debug(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(self.str_data,res, self.basedata["db_path"]))
         return res
-    def json(self):
+    def _excel_json(self):
         title,rowdata=getRowData(self.str_data, self.basedata["db_path"])
         res=generate_json_data(title,rowdata)
         self.logger.debug(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(self.str_data,res, self.basedata["db_path"]))
         return res
-        pass
+
+
 
 
             

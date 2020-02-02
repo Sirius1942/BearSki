@@ -5,16 +5,19 @@
         "Get Request":"RequestsLibrary.RequestsLibrary.get_request",
         "input text":"Selenium2Library.Selenium2Library.input_text",
         "click button":"Selenium2Library.Selenium2Library.click_button",
-        "Open Browser":"Selenium2Library.Selenium2Library.open_browser"
+        "Open Browser":"Selenium2Library.Selenium2Library.open_browser",
+        "requestFromModel":"utest.keywords.requestModel.runModel"
     },
     "global_variable":{
-        "BASE_URL":"http://www.baidu.com",
+        "BASE_URL":"http://localhost:8086",
         "logfile_path":"utest/log/log.log",
-        "log_level":"debug"
+        "log_level":"INFO"
     },
     "datatable":{
-        "db_type":"excel",
-        "db_path":"./utest/testdata/testdata1.xlsx"
+        "db_excel_path":"./utest/testdata/testdata1.xlsx",
+        "db_json_path":"./utest/testdata/model/"
+    },
+    "initdata":{
+        "init_file_path":"utest.testdata.initdata"
     }
-    
 }

@@ -27,6 +27,15 @@ class runArg(object):
       self.report_add_time=jsonstr['report.addtime.now']
     else:
       self.report_add_time=False
+    if 'auto.case.path' in jsonstr:
+      self.auto_case_path=jsonstr['auto.case.path']
+    else:
+      self.auto_case_path=False
+    if 'auto.model.path' in jsonstr:
+      self.auto_model_path=jsonstr['auto.model.path']
+    else:
+      self.auto_model_path=False
+    
   def getJsonString(self):
     message={
       "report_mode":self.report_mode,
@@ -35,6 +44,9 @@ class runArg(object):
       "case_name":self.case_name,
       "report_path":self.report_path,
       "config_path":self.config_path,
-      "json_path":self.jsonfile_path
+      "json_path":self.jsonfile_path,
+      "report.addtime.now":self.report_add_time,
+      "auto.case.path":self.auto_case_path,
+      "auto.model.path":self.auto_model_path
     }
     return message

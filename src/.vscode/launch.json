@@ -9,7 +9,7 @@
       "console": "integratedTerminal",
       "cwd":"${workspaceFolder}",
       "args": [
-        "-f","config.json"
+        "-f config.json"
       ]
     }
   ]

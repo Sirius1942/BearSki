@@ -1,0 +1,247 @@
+{
+    "config": {
+        "name": "testcase description",
+        "variables": {}
+    },
+    "teststeps": [
+        {
+            "name": "/api/menus/",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/api/menus/",
+                "method": "GET",
+                "headers": {
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.count",
+                        14
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.next",
+                        "http://localhost.charlesproxy.com:8086/api/menus/?page=2"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.previous",
+                        null
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/api/menu/tree/",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/api/menu/tree/",
+                "method": "GET",
+                "headers": {
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.message",
+                        "成功"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/api/menus/45/",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/api/menus/45/",
+                "method": "PUT",
+                "headers": {
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+                    "Content-Type": "application/json;charset=UTF-8"
+                },
+                "json": {
+                    "id": 45,
+                    "component": "test/jquerytest/index",
+                    "name": "jquery测试2",
+                    "sort": 999,
+                    "pid": 38,
+                    "path": "jquerytest",
+                    "is_show": "true",
+                    "is_frame": "false",
+                    "icon": "education"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.id",
+                        45
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.name",
+                        "jquery测试2"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.icon",
+                        "education"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.path",
+                        "jquerytest"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.is_show",
+                        true
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.is_frame",
+                        false
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.sort",
+                        999
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.component",
+                        "test/jquerytest/index"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.pid",
+                        38
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/api/menus/",
+            "request": {
+                "url": "http://localhost.charlesproxy.com:8086/api/menus/",
+                "method": "GET",
+                "headers": {
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.count",
+                        14
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.next",
+                        "http://localhost.charlesproxy.com:8086/api/menus/?page=2"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.previous",
+                        null
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "",
+            "request": {
+                "url": "https://clients1.google.com",
+                "method": "CONNECT",
+                "headers": {
+                    "Proxy-Connection": "keep-alive",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        503
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "text/html;charset=ISO-8859-1"
+                    ]
+                }
+            ]
+        }
+    ]
+}

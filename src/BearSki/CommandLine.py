@@ -4,6 +4,7 @@
 @Time    :   2019/11/20 11:28:10
 @Author  :   Sirius 
 '''
+#后续使用BearCLI.py 文件替换命令行实现，后续版本中移除
 import sys, getopt
 import json
 import os
