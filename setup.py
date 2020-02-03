@@ -1,5 +1,5 @@
 from setuptools import setup
-from src import BearSki
+import src.BearSki
 find_packages
 setup (
     name =BearSki.__title__,
@@ -16,5 +16,11 @@ setup (
     author = BearSki.__author__,
     url = BearSki.__url__,
     license =BearSki.__license__,
-    py_modules=['hello']
+    py_modules=['hello'],
+    install_requires = ["requests","har2case"],
+    entry_points = {
+        'console_scripts': [
+            'BearSki = src.BearSki.BearCLI:main'
+        ]
+    }
 )
