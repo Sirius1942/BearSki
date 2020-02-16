@@ -1,9 +1,9 @@
 Metadata-Version: 1.0
 Name: BearSki
-Version: 1.2.19
-Summary: BearSki is a AutoTest Framework
-Home-page: https://www.agavetest.info
-Author: sirius
+Version: 1.3.9
+Summary: There is a toolbox for autotest
+Home-page: https://github.com/Sirius1942/BearSki
+Author: chenjiusi
 Author-email: UNKNOWN
 License: MIT
 Description: UNKNOWN

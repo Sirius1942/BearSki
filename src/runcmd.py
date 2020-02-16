@@ -5,7 +5,6 @@
 @Time    :   2020/01/30 23:29:00
 @Author  :   chenjiusi 
 '''
-
 # coding=utf-8
 import time
 import unittest
@@ -14,6 +13,8 @@ import json
 import subprocess
 from unittest import mock
 
-if __name__=='__main__':
-
+def main():
     BearCLI.main()
+
+if __name__=='__main__':
+    main()

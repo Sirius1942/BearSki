@@ -1,0 +1,16 @@
+[2020-02-16 05:42:18,845] [INFO] [BearSki.RunUnittest] 初始化测试数据：
+[2020-02-16 05:42:18,853] [INFO] [BearSki.RunUnittest] 开始执行测试,报告输出模式text
+[2020-02-16 05:42:18,854] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-02-16 05:42:19,549] [INFO] [root] in ask baidu！
+[2020-02-16 05:42:19,593] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2020-02-16 05:42:19,638] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2020-02-16 05:42:19,640] [INFO] [TestSendMessage] <Response [200]>
+[2020-02-16 05:42:19,642] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-02-16 05:42:19,950] [INFO] [RobotFramework] Creating Session using : alias=baidu, url=http://www.baidu.com, headers={},                     cookies=None, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 
+[2020-02-16 05:42:19,951] [DEBUG] [RobotFramework] Creating session: baidu
+[2020-02-16 05:42:19,951] [DEBUG] [RobotFramework] Argument types are:
+<class 'bool'>
+[2020-02-16 05:42:19,999] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2020-02-16 05:42:20,031] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2020-02-16 05:42:20,036] [INFO] [RobotFramework] Get Request using : alias=baidu, uri=/, headers=None json=None
+[2020-02-16 05:42:20,037] [INFO] [BearSki.RunUnittest] 用例执行完毕，开始清理测试数据：
