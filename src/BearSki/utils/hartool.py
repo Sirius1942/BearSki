@@ -18,8 +18,7 @@ class HarTool(HarParser):
         self.exclude_str = exclude_str or ""
         self._openfiles()
         self.rArg=runArg()
-        
-    
+
     # 生成单接口测试模型,_prepare_teststep继承harparser方法
     def _getOneRequest(self,entry_json):
         return self._prepare_teststep(entry_json)
@@ -74,7 +73,7 @@ class HarTool(HarParser):
         testcase=ApiTest_har.TESTCASE
         newcase=testcase.replace("${modelname}",modelname).replace("${model_file_path}",modelpath)
         
-        self.writeFile(casepath+'/'+"atest_"+modelname+'.py',newcase)
+        self.writeFile(casepath+'/'+"test_auto_"+modelname+'.py',newcase)
 
     def writeFile(self,filename,context):
         fo= open(filename,"w+")

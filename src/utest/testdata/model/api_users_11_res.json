@@ -1,0 +1,42 @@
+{
+    "_transferSize": 209,
+    "bodySize": 0,
+    "content": {
+        "compression": 0,
+        "mimeType": "application/json",
+        "size": 0,
+        "text": ""
+    },
+    "cookies": [],
+    "headers": [
+        {
+            "name": "Content-Type",
+            "value": "application/json"
+        },
+        {
+            "name": "Vary",
+            "value": "Accept, Origin"
+        },
+        {
+            "name": "Allow",
+            "value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+        },
+        {
+            "name": "X-Frame-Options",
+            "value": "SAMEORIGIN"
+        },
+        {
+            "name": "Content-Length",
+            "value": "45"
+        },
+        {
+            "name": "Access-Control-Allow-Origin",
+            "value": "*"
+        }
+    ],
+    "headersSize": 209,
+    "httpVersion": "HTTP/1.1",
+    "redirectURL": "",
+    "status": 204,
+    "statusText": "No Content"
+}

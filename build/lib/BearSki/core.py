@@ -107,7 +107,7 @@ class Ski():
         def __call__(self,func):
                 def __deco(self,*arg,**kws):
                     # print("before %s called [%s],[%s]." % (func.__name__, arg,kws))
-                    self.logger.info("初始化测试数据：")
+                    # self.logger.info("初始化测试数据：")
                     scd=SkiGlobalData()
                     initdatafilename=scd.get_initdata('init_file_path')
                     if initdatafilename==None:
@@ -115,7 +115,7 @@ class Ski():
                     getDataFileObject(initdatafilename,"initData")()
                     result=func(self,*arg,**kws)
                     # print("  after %s called [%s],[%s]." % (func.__name__, arg,kws))
-                    self.logger.info("用例执行完毕，开始清理测试数据：")
+                    # self.logger.info("用例执行完毕，开始清理测试数据：")
                     getDataFileObject(initdatafilename,"clear")()
                     return result
                 #简单的名称反射

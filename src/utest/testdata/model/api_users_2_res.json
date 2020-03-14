@@ -1,0 +1,42 @@
+{
+    "_transferSize": 454,
+    "bodySize": 252,
+    "content": {
+        "compression": 0,
+        "mimeType": "application/json",
+        "size": 252,
+        "text": "{\"id\":2,\"username\":\"testuser\",\"name\":\"testuser1\",\"mobile\":\"13788989999\",\"email\":\"testuser@qiyi.com\",\"image\":\"http://www.agavetest.cn:8671/media/image/default.jpg\",\"department\":1,\"position\":\"测试工程师\",\"superior\":null,\"is_active\":true,\"roles\":[3]}"
+    },
+    "cookies": [],
+    "headers": [
+        {
+            "name": "Content-Type",
+            "value": "application/json"
+        },
+        {
+            "name": "Vary",
+            "value": "Accept, Origin"
+        },
+        {
+            "name": "Allow",
+            "value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+        },
+        {
+            "name": "X-Frame-Options",
+            "value": "SAMEORIGIN"
+        },
+        {
+            "name": "Content-Length",
+            "value": "252"
+        },
+        {
+            "name": "Access-Control-Allow-Origin",
+            "value": "*"
+        }
+    ],
+    "headersSize": 202,
+    "httpVersion": "HTTP/1.1",
+    "redirectURL": "",
+    "status": 200,
+    "statusText": "OK"
+}

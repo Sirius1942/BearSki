@@ -1,7 +1,6 @@
 import json
 import logging
 from BearSki.CommonData import SkiGlobalData
-from utest.driver import d_requests
 from BearSki.keywords.RequestModelKW import RequestModelCommondKW
 
 logger=logging.getLogger("kw.requestModel")

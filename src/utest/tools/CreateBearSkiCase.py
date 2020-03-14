@@ -66,7 +66,7 @@ CONFIG_DOC='''
     "p":"./testcase",
     "n":"",
     "r":"html",
-    "o":"./report/result.html",
+    "o":"./runner/result.html",
     "j":"./SkiSetting.json"
 }
 '''
@@ -119,7 +119,7 @@ def create_testproject(projectname):
     os.makedirs(kwd)
     tcd=os.path.join(projectname,'testcase')
     os.makedirs(tcd)
-    red=os.path.join(projectname,'report')
+    red=os.path.join(projectname,'runner')
     os.makedirs(red)
 
     driverf = os.path.join(drd,DRIVER_NAME)

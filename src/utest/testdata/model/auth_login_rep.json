@@ -1,0 +1,42 @@
+{
+    "_transferSize": 419,
+    "bodySize": 234,
+    "content": {
+        "compression": 0,
+        "mimeType": "application/json",
+        "size": 234,
+        "text": "{\"code\":200,\"message\":\"\u6210\u529f\",\"detail\":{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M\"}}"
+    },
+    "cookies": [],
+    "headers": [
+        {
+            "name": "Content-Type",
+            "value": "application/json"
+        },
+        {
+            "name": "Vary",
+            "value": "Accept, Cookie, Origin"
+        },
+        {
+            "name": "Allow",
+            "value": "POST, OPTIONS"
+        },
+        {
+            "name": "X-Frame-Options",
+            "value": "SAMEORIGIN"
+        },
+        {
+            "name": "Content-Length",
+            "value": "234"
+        },
+        {
+            "name": "Access-Control-Allow-Origin",
+            "value": "*"
+        }
+    ],
+    "headersSize": 185,
+    "httpVersion": "HTTP/1.1",
+    "redirectURL": "",
+    "status": 200,
+    "statusText": "OK"
+}

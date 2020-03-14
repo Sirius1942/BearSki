@@ -254,7 +254,7 @@ class test_BearSki(unittest.TestCase):
         #这是每条case的后置条件
         pass
     def testBearCLI_1(self): 
-        result = subprocess.run(['python','runcmd.py','-h'],stderr=subprocess.PIPE,stdout=subprocess.PIPE)
+        result = subprocess.run(['python3','runcmd.py','-h'],stderr=subprocess.PIPE,stdout=subprocess.PIPE)
         # result = subprocess.run(['python','test1.py','-v'],stderr=subprocess.PIPE,stdout=subprocess.PIPE,check=True)
         # 非正常终止时候如果check=True 将不会输入出错误信息，仅提示错误
         # 测试命令行代码帮助信息
@@ -263,7 +263,7 @@ class test_BearSki(unittest.TestCase):
 
     def testBearCLI_2(self): 
 
-        result = subprocess.run(['python','runcmd.py','tools','-gt'],stderr=subprocess.PIPE,stdout=subprocess.PIPE)
+        result = subprocess.run(['python3','runcmd.py','tools','-gt'],stderr=subprocess.PIPE,stdout=subprocess.PIPE)
         self.assertIn('guitools startup', str(result.stdout))
         logger.info(result.stdout)
 

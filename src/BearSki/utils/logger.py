@@ -1,32 +1,43 @@
 #encoding=utf-8
 import os
 import logging
-import BearSki.report.LocalReportRunner as rut
+import BearSki.runner.LocalReportRunner as rut
 from BearSki.CommonData import SkiGlobalData
 from BearSki.utils.singleton import Singleton
 from BearSki.utils.arguments import runArg
-
-class LoggerBaseConfig(object):
-   
+@Singleton
+class SkiLoggerHandler(logging.Handler):
+    runCaseid='System'
+    caselogs={}
     def __init__(self):
-       
-        self.level=get_level()
-        self.filename=get_log_path()
-        self._initlogger()
+        logging.Handler.__init__(self)
+        self.caselogs[self.runCaseid]=""
+    def emit(self, record):
+        msg = self.format(record)
+        self.addCaseMessage(self.runCaseid,msg)
+    def addCaseMessage(self,caseid,msg):
+        try:
+            self.caselogs[caseid]=self.caselogs[caseid]+"\n"+msg
+        except Exception:
+            pass
+    def delCaseMessage(self,caseid):
+        try:
+            self.runCaseid='System'
+            self.caselogs.pop(caseid)
+        except Exception:
+            pass
+    def getCaseMessage(self,caseid):
+        return self.caselogs[caseid]
 
-    def _initlogger(self):
-        # pass
-        rflogger=SkiLogger('RobotFramework')
-    def _htmlRunner_logset(self):
-        logging.basicConfig(stream=rut.stdout_redirector,
-        format='[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s'
-        )
-        
+    def setRuncaseid(self,caseid):
+        self.runCaseid=caseid
+        self.caselogs[caseid] = ""
+
 @Singleton
 class SkiLogger(object):
     def __init__(self, name=''):
         self.logger = logging.getLogger(name)
-        self.loglevel=get_level()
+        self.loglevel=self._get_level()
         self.logger.setLevel(self.loglevel)
         fmt = logging.Formatter('[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s')
         # 设置CMD日志
@@ -34,18 +45,18 @@ class SkiLogger(object):
         sh.setFormatter(fmt)
         sh.setLevel(self.loglevel)
         # 由于logging 的filehandler 与 stream 不能共存所以需要根据不同模式设置日志输出方式。
-        if runArg().report_mode =='html':
-            logging.basicConfig(stream=rut.stdout_redirector,
-            format='[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s')
-        if runArg().report_mode =='text':
-            # 设置文件日志
-            #logfile_path=SkiGlobalData().get_global_data("logfile_path")
-            logfile_path=get_log_path()
-            fh = logging.FileHandler(logfile_path)
-            fh.setFormatter(fmt)
-            fh.setLevel(self.loglevel)
-            self.logger.addHandler(sh)
-            self.logger.addHandler(fh)
+        # 设置文件日志
+        #logfile_path=SkiGlobalData().get_global_data("logfile_path")
+        logfile_path=self._get_log_path()
+        fh = logging.FileHandler(logfile_path)
+        fh.setFormatter(fmt)
+        fh.setLevel(self.loglevel)
+        slh=SkiLoggerHandler()
+        slh.setFormatter(fmt)
+        slh.setLevel(self.loglevel)
+        self.logger.addHandler(fh)
+        self.logger.addHandler(sh)
+        self.logger.addHandler(slh)
 
     def debug(self, message):
         self.logger.debug(message)
@@ -62,38 +73,30 @@ class SkiLogger(object):
     def critical(self, message):
         self.logger.critical(message)
         
-def get_level():
-    reloglevel=get_logging_level(SkiGlobalData().get_global_data("log_level"))
-    return reloglevel
+    def _get_level(self):
+        reloglevel=self._get_logging_level(SkiGlobalData().get_global_data("log_level"))
+        return reloglevel
 
-def get_logging_level(levelmessage):
+    def _get_logging_level(self,levelmessage):
 
-        if levelmessage.upper()=='DEBUG':
-            return logging.DEBUG
-        elif levelmessage.upper()=='ERROR':
-            return logging.ERROR
-        elif levelmessage.upper()=='WARNING':
-            return logging.WARNING
-        elif levelmessage.upper()=='CRITICAL':
-            return logging.CRITICAL
-        elif levelmessage.upper()=='FATAL':
-            return logging.FATAL
-        else:
-            return logging.INFO
+            if levelmessage.upper()=='DEBUG':
+                return logging.DEBUG
+            elif levelmessage.upper()=='ERROR':
+                return logging.ERROR
+            elif levelmessage.upper()=='WARNING':
+                return logging.WARNING
+            elif levelmessage.upper()=='CRITICAL':
+                return logging.CRITICAL
+            elif levelmessage.upper()=='FATAL':
+                return logging.FATAL
+            else:
+                return logging.INFO
 
-def get_log_path():
-    config_json=SkiGlobalData().get_global_data("logfile_path")
-    (logfile_path, logfile_name) = os.path.split(config_json)
-    if logfile_path and logfile_name:
-            isExists=os.path.exists(logfile_path)
-            if not isExists:
-                os.makedirs(logfile_path) 
-    return config_json
-
-# if __name__ == '__main__':
-#     logger = Logger('test')
-#     logger.debug('debug信息')
-#     logger.info('info信息')
-#     logger.war('warning信息')
-#     logger.error('error信息')
-#     logger.critical('critical信息')
+    def _get_log_path(self):
+        config_json=SkiGlobalData().get_global_data("logfile_path")
+        (logfile_path, logfile_name) = os.path.split(config_json)
+        if logfile_path and logfile_name:
+                isExists=os.path.exists(logfile_path)
+                if not isExists:
+                    os.makedirs(logfile_path)
+        return config_json

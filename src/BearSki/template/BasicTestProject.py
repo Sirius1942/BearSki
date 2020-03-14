@@ -10,6 +10,22 @@ def get(url, params=None, **kwargs):
 
 def post(url, data=None, json=None, **kwargs):
   return requests.post(url, data, json, **kwargs)
+
+def delete(url, **kwargs):
+  return requests.delete(url, **kwargs)
+
+def put(url, data=None, **kwargs):
+  return requests.put(url, data=None, **kwargs)
+
+def patch(url, data=None, **kwargs):
+  return requests.patch(url, data=None, **kwargs)
+
+def head(url, **kwargs):
+  return requests.head(url, **kwargs)
+
+def options(url, **kwargs):
+  return requests.options(url,**kwargs)
+
 '''
 KEYWORD_NAME='send.py'
 KEYWORD_DOC='''
@@ -106,7 +122,7 @@ SKISETTING_DOC='''
         "log_level":"debug"
     },
     "datatable":{
-        "db_excel_path":"testdata/testdata1.xlsx",
+        "db_excel_path":"testdata/testdata.xlsx",
         "db_json_path":"testdata/model/"
     },
     "initdata":{

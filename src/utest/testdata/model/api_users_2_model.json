@@ -1,0 +1,100 @@
+{
+    "name": "/api/users/2/",
+    "request": {
+        "headers": {
+            "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTg0MzYzNzk5LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.oV0f94_l4ronu8gyBnGZ57A8me-_YuuiAgLlJfp5Hp0",
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36"
+        },
+        "json": {
+            "department": 1,
+            "email": "testuser@qiyi.com",
+            "id": 2,
+            "is_active": "true",
+            "mobile": "13788989999",
+            "name": "testuser1",
+            "position": "测试工程师",
+            "roles": [
+                3
+            ],
+            "superior": null,
+            "username": "testuser"
+        },
+        "method": "PUT",
+        "url": "http://www.agavetest.cn:8671/api/users/2/"
+    },
+    "validate": [
+        {
+            "eq": [
+                "status_code",
+                200
+            ]
+        },
+        {
+            "eq": [
+                "headers.Content-Type",
+                "application/json"
+            ]
+        },
+        {
+            "eq": [
+                "content.id",
+                2
+            ]
+        },
+        {
+            "eq": [
+                "content.username",
+                "testuser"
+            ]
+        },
+        {
+            "eq": [
+                "content.name",
+                "testuser1"
+            ]
+        },
+        {
+            "eq": [
+                "content.mobile",
+                "13788989999"
+            ]
+        },
+        {
+            "eq": [
+                "content.email",
+                "testuser@qiyi.com"
+            ]
+        },
+        {
+            "eq": [
+                "content.image",
+                "http://www.agavetest.cn:8671/media/image/default.jpg"
+            ]
+        },
+        {
+            "eq": [
+                "content.department",
+                1
+            ]
+        },
+        {
+            "eq": [
+                "content.position",
+                "测试工程师"
+            ]
+        },
+        {
+            "eq": [
+                "content.superior",
+                null
+            ]
+        },
+        {
+            "eq": [
+                "content.is_active",
+                true
+            ]
+        }
+    ]
+}

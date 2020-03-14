@@ -13,8 +13,6 @@ from BearSki.utils.command import base_command
 from BearSki.utils.arguments import runArg
 from BearSki.utils.errors import ArgmentError
 from BearSki.RunUnittest import RunUnittest
-from BearSki.utils.logger import LoggerBaseConfig
-import logging 
 
 class CommandLine(object):
     command_list=[
@@ -31,7 +29,7 @@ class CommandLine(object):
     rarg=runArg()
     def __init__(self,argv):
       # LoggerBaseConfig()._initlogger()
-      self.logger=logging.getLogger("BearSki.commondline")
+      # self.logger=logging.getLogger("BearSki.commondline")
       for cmd in self.command_list:
         help_cmd=base_command(cmd[0],cmd[1],cmd[2])
         self.cps.add_argument(help_cmd)
@@ -46,8 +44,8 @@ class CommandLine(object):
       try:
           opts, args = getopt.getopt(arguments,shot_cmd,long_cmd)
       except getopt.GetoptError as e:
-          # print (e)
-          self.logger.error(e)
+          print (e)
+          # self.logger.error(e)
           sys.exit(2)
       for opt, arg in opts:
           if opt in ('-h',"--help"):
@@ -76,7 +74,7 @@ class CommandLine(object):
        f= open(filepath)
        conf=json.load(f)
        self.rarg.setValueFromJson(conf)
-      #  print(self.rarg.getJsonString())
+       print(self.rarg.getJsonString())
 
     def _command_run(self,argObject):
       RunUnittest().runTest(argObject)

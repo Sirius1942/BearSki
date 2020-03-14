@@ -1,0 +1,25 @@
+{
+    "name": "/api/users/11/",
+    "request": {
+        "headers": {
+            "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTg0MzYzNzk5LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.oV0f94_l4ronu8gyBnGZ57A8me-_YuuiAgLlJfp5Hp0",
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36"
+        },
+        "method": "DELETE",
+        "url": "http://www.agavetest.cn:8671/api/users/11/"
+    },
+    "validate": [
+        {
+            "eq": [
+                "status_code",
+                204
+            ]
+        },
+        {
+            "eq": [
+                "headers.Content-Type",
+                "application/json"
+            ]
+        }
+    ]
+}

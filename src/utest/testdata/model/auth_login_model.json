@@ -1,0 +1,55 @@
+{
+    "bodySize": 48,
+    "cookies": [],
+    "headers": [
+        {
+            "name": "Host",
+            "value": "localhost.charlesproxy.com:8086"
+        },
+        {
+            "name": "Connection",
+            "value": "keep-alive"
+        },
+        {
+            "name": "Content-Length",
+            "value": "48"
+        },
+        {
+            "name": "Accept",
+            "value": "application/json, text/plain, */*"
+        },
+        {
+            "name": "Origin",
+            "value": "http://localhost:9527"
+        },
+        {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36"
+        },
+        {
+            "name": "Content-Type",
+            "value": "application/json;charset=UTF-8"
+        },
+        {
+            "name": "Referer",
+            "value": "http://localhost:9527/"
+        },
+        {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate"
+        },
+        {
+            "name": "Accept-Language",
+            "value": "zh-CN,zh;q=0.9"
+        }
+    ],
+    "headersSize": 464,
+    "httpVersion": "HTTP/1.1",
+    "method": "POST",
+    "postData": {
+        "mimeType": "application/json;charset=UTF-8",
+        "text": "{\"username\":\"admin\",\"password\":\"AgaveTest@5567\"}"
+    },
+    "queryString": [],
+    "url": "auth/login/"
+}

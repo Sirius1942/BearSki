@@ -4,14 +4,13 @@ import time
 import unittest
 from BearSki.core import Ski
 from BearSki.core import DT
-import logging
-import json
-from BearSki.core import DT
+# import logging
+from BearSki.utils.logger import SkiLogger
 
-class test_api_users(unittest.TestCase,Ski):
+class atest_api_users(unittest.TestCase,Ski):
 
     def setUp(self):
-        self.logger=logging.getLogger("test_api_users")
+        self.logger=SkiLogger("atest_api_users")
     def tearDown(self):
         pass
     @Ski.case()

@@ -31,18 +31,28 @@ class RequestModelCommondKW(object):
 
     if method=='POST':
       # logger.info('in login！')
-      post_data=jstr['request']['json']
+      request_data=jstr['request']['json']
       print(self.BASE_URL+url)
-      r = requests.post(url=self.BASE_URL+url,headers=headers_data,json=post_data)   
+      r = requests.post(url=self.BASE_URL+url,headers=headers_data,json=request_data)
       self.logger.info("response is : {0}".format(r))
-      # logger.info("response is : {0}".format(r.text))
-      # result=json.loads(r.text)
-    # global jwt_access
-    # jwt_access[login_user['username']]=result['data']['access']
-    # if method=='GET':
+
     if method == 'GET':
-      post_data=jstr['request']['params']
+      request_data=jstr['request']['params']
       print(self.BASE_URL+url)
-      r = requests.get(url=self.BASE_URL+url,headers=headers_data,params=post_data)   
+      r = requests.get(url=self.BASE_URL+url,headers=headers_data,params=request_data)
       self.logger.info("response is : {0}".format(r))
+
+    if method == 'PUT':
+      request_data = jstr['request']['params']
+      print(self.BASE_URL + url)
+      r = requests.put(url=self.BASE_URL + url, headers=headers_data, params=request_data)
+      self.logger.info("response is : {0}".format(r))
+
+    if method == 'DELETE':
+      request_data = jstr['request']['params']
+      print(self.BASE_URL + url)
+      r = requests.delete(url=self.BASE_URL + url, headers=headers_data, params=request_data)
+      self.logger.info("response is : {0}".format(r))
+
     return r
+

@@ -19,9 +19,9 @@ src/BearSki/gui/__init__.py
 src/BearSki/keywords/DataTreating.py
 src/BearSki/keywords/RequestModelKW.py
 src/BearSki/keywords/__init__.py
-src/BearSki/report/LocalReportRunner.py
-src/BearSki/report/ReportPage.py
-src/BearSki/report/__init__.py
+src/BearSki/runner/LocalReportRunner.py
+src/BearSki/runner/ReportPage.py
+src/BearSki/runner/__init__.py
 src/BearSki/template/ApiTest_har.py
 src/BearSki/template/BasicTestProject.py
 src/BearSki/template/CreateDataTableFile.py
