@@ -139,6 +139,7 @@ def clear():
     print("in initData clear")
 '''
 INITDATANAME='initdata.py'
+INITFILE='__init__.py'
 def create_testproject(projectname):
     # (logfile_path, logfile_name) = os.path.split(config_json)
     # if projectname and logfile_name:
@@ -163,6 +164,11 @@ def create_testproject(projectname):
     df=open(driverf, "w+")
     df.write(DRIVER_DOC)
     df.close
+
+    driverf_init = os.path.join(drd, INITFILE)
+    dfi = open(driverf_init, "w+")
+    dfi.write("")
+    dfi.close
 
     keywordf=os.path.join(kwd,KEYWORD_NAME)
     kf=open(keywordf, "w+")

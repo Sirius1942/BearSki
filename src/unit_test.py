@@ -16,6 +16,10 @@ from unittest import mock
 from BearSki.utils.logger import SkiLogger
 import os
 import multiprocessing
+from BearSki.case.TestSuitSet import *
+from BearSki.case.TestCaseSet import *
+from BearSki.case.TestResultSet import *
+from BearSki.core import SkiTestFactory
 
 logger=SkiLogger("test")
 class test_BearSki(unittest.TestCase):
@@ -260,7 +264,6 @@ class test_BearSki(unittest.TestCase):
         # 测试命令行代码帮助信息
         self.assertIn('createproject', str(result.stdout))
         # logger.info(result.stdout)
-
     def testBearCLI_2(self): 
 
         result = subprocess.run(['python3','runcmd.py','tools','-gt'],stderr=subprocess.PIPE,stdout=subprocess.PIPE)
@@ -278,6 +281,18 @@ class test_BearSki(unittest.TestCase):
         self.assertIn(str_req_t,str_req)
         self.assertIn(str_res_t,str_res)
 
+    def factory_test(self):
+        caselist = [SkiTestCase(), unnitTestCase(), SkiTestCase()]
+        caserunner = "SequentialTestRunner"
+        print("开始执行 SequentialTestRunner")
+        SkiTestFactory().run(caserunner, caselist)
+        caserunner = "ParallelTestRunner"
+        print("开始执行 ParallelTestRunner")
+        SkiTestFactory().run(caserunner, caselist)
+        caserunner = "RandomTestRunner"
+        print("开始执行 RandomTestRunner")
+        SkiTestFactory().run(caserunner, caselist)
+
     @unittest.skip('不执行case:') # 跳过这条case
     def testskipcase(self): 
         print('这是被跳过不执行的用例')
@@ -289,5 +304,5 @@ if __name__=='__main__':
         unittest.main()
     else:
         suite = unittest.TestSuite()
-        suite.addTest(test_BearSki('testBearCLI_2'))
+        suite.addTest(test_BearSki('factory_test'))
         unittest.TextTestRunner().run(suite)

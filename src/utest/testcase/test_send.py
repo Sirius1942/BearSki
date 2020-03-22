@@ -23,14 +23,14 @@ class TestSendMessage(unittest.TestCase,Ski):
         self.logger.info(res.result)
         self.assertEqual(200,res.result.status_code)
     
-    @Ski.case()
-    def test_send_use_robotframework_requestlibary(self):
-        self.logger.info("I'm in test_two test_send")
-        # print(self.ski_step_result)
-        # self.assertTrue(True)
-        self.step("Create Session","baidu","http://www.baidu.com")
-        res=self.step("Get Request","baidu","/")
-        self.assertEqual(200,res.result.status_code)
+    # @Ski.case()
+    # def test_send_use_robotframework_requestlibary(self):
+    #     self.logger.info("I'm in test_two test_send")
+    #     # print(self.ski_step_result)
+    #     # self.assertTrue(True)
+    #     self.step("Create Session","baidu","http://www.baidu.com")
+    #     res=self.step("Get Request","baidu","/")
+    #     self.assertEqual(200,res.result.status_code)
 
     # @Ski.case()
     # def test_robotframwork_selenium(self):

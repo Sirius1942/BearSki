@@ -8,5 +8,5 @@
     "report.addtime.now":true,
     "auto.case.path":"utest/testcase",
     "auto.model.path":"utest/testdata/model",
-    "testsuit.runner": "pytestRunner"
+    "testsuit.runner": "PyTestRunner"
 }

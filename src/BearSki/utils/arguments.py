@@ -8,7 +8,8 @@ class runArg(object):
                     report_path='./runner/result.html',
                     config_path='./config.json',
                     jsonfile_path='./SkiSetting.json',
-                    report_mode='text'):
+                    report_mode='text',
+                    testsuit_runner='unittest'):
     self.report_mode=report_mode
     self.mode=mode
     self.case_path=case_path
@@ -16,6 +17,7 @@ class runArg(object):
     self.report_path=report_path
     self.config_path=config_path
     self.jsonfile_path=jsonfile_path
+    self.testsuit_runner=""
 
   def setValueFromJson(self,jsonstr):
     self.mode=jsonstr['m']
@@ -24,6 +26,7 @@ class runArg(object):
     self.case_name = jsonstr['n']
     self.case_path = jsonstr['p']
     self.jsonfile_path=jsonstr['j']
+    self.testsuit_runner=jsonstr['testsuit.runner']
     if 'runner.addtime.now' in jsonstr:
       self.report_add_time=jsonstr['report.addtime.now']
     else:
@@ -48,6 +51,7 @@ class runArg(object):
       "json_path":self.jsonfile_path,
       "runner.addtime.now":self.report_add_time,
       "auto.case.path":self.auto_case_path,
-      "auto.model.path":self.auto_model_path
+      "auto.model.path":self.auto_model_path,
+      "testsuit.runner":self.testsuit_runner
     }
     return message

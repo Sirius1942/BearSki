@@ -9,6 +9,7 @@ from BearSki.CommonData import SkiGlobalData
 from BearSki.utils.logger import SkiLogger
 from BearSki.utils.DataTable import getRowData,generate_data,generate_json_data,getJsonData
 
+
 class Ski():
     class case():
         def __init__(self):
@@ -156,4 +157,3 @@ class DT(object):
         self.logger.debug(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(str_data,res, self.basedata["db_excel_path"]))
         return res
     
-            

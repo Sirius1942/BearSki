@@ -146,3 +146,92 @@
 [2020-02-29 23:16:02,506] [INFO] [kw.RequestModelCommondKW] url is :/api/users/
 [2020-02-29 23:16:02,705] [INFO] [kw.RequestModelCommondKW] response is : <Response [200]>
 [2020-02-29 23:16:02,706] [INFO] [root] login res <BearSki.core.Ski.step object at 0x105404be0>
+[2020-03-15 22:15:08,529] [INFO] [kw.login] response is : <Response [200]>
+[2020-03-15 22:15:08,535] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTg0NTQwOTA4LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.gfcqHH_-mLFzoaA_U-dKDc0b4zx6-es-NFlqU5vLuIo"}}
+[2020-03-15 22:19:23,405] [INFO] [kw.login] response is : <Response [200]>
+[2020-03-15 22:19:23,412] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTg0NTQxMTYzLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.o2ahb_ZM-LnnZN7oyhZN2WDKNKiyDHyJQLrvq_mLaHU"}}
+[2020-03-21 22:08:23,165] [INFO] [BearSki.TestSuitSet] user pytest suitrunner,commond is : []
+[2020-03-21 22:08:23,911] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:08:23,914] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:08:23,918] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:08:23,922] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:08:23,925] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:08:23,928] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:08:23,931] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:08:23,944] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:08:23,944] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:10:49,878] [INFO] [BearSki.TestSuitSet] user pytest suitrunner,commond is : ['utest/testcase/test_send.py']
+[2020-03-21 22:10:50,496] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:10:50,497] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:10:50,508] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-21 22:10:50,650] [INFO] [root] in ask baidu！
+[2020-03-21 22:10:50,720] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-21 22:10:50,724] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-21 22:10:50,726] [ERROR] [root] error,does not find  modules
+[2020-03-21 22:10:50,727] [ERROR] [root] error,does not find  modules
+[2020-03-21 22:10:56,886] [INFO] [BearSki.TestSuitSet] user pytest suitrunner,commond is : ['utest/testcase/test_install.py']
+[2020-03-21 22:11:20,039] [INFO] [BearSki.TestSuitSet] user pytest suitrunner,commond is : ['utest/testcase/test_send.py']
+[2020-03-21 22:11:20,561] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:11:20,562] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:11:20,566] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-21 22:11:20,631] [INFO] [root] in ask baidu！
+[2020-03-21 22:11:20,669] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-21 22:11:20,671] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-21 22:11:20,671] [ERROR] [root] error,does not find  modules
+[2020-03-21 22:11:20,672] [ERROR] [root] error,does not find  modules
+[2020-03-21 22:14:23,990] [INFO] [BearSki.TestSuitSet] user pytest suitrunner,commond is : ['utest/testcase/test_send.py']
+[2020-03-21 22:14:24,567] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:14:24,572] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-21 22:14:24,650] [INFO] [root] in ask baidu！
+[2020-03-21 22:14:24,727] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-21 22:16:29,434] [INFO] [BearSki.TestSuitSet] user pytest suitrunner,commond is : ['-v', 'utest/testcase/test_send.py']
+[2020-03-21 22:16:29,972] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:16:29,977] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-21 22:16:30,045] [INFO] [root] in ask baidu！
+[2020-03-21 22:16:32,105] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-21 22:22:55,249] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-21 22:22:55,249] [INFO] [BearSki.RunUnittest] Commond List: ['-v', 'utest/testcase/test_send.py']
+[2020-03-21 22:22:55,595] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:22:55,599] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-21 22:22:55,642] [INFO] [root] in ask baidu！
+[2020-03-21 22:22:55,708] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-21 22:23:18,349] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-21 22:23:18,349] [INFO] [BearSki.RunUnittest] Commond List: ['-v', 'utest/testcase/test_send.py']
+[2020-03-21 22:23:18,683] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 22:23:18,686] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-21 22:23:18,730] [INFO] [root] in ask baidu！
+[2020-03-21 22:23:18,795] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-21 22:50:39,178] [INFO] [BearSki.RunUnittest] Creating TestSuit..UnitTestRunner
+[2020-03-21 22:52:57,140] [INFO] [BearSki.RunUnittest] Creating TestSuit..UnitTestRunner
+[2020-03-21 22:53:13,814] [INFO] [BearSki.RunUnittest] Creating TestSuit..UnitTestRunner
+[2020-03-21 22:53:13,815] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-03-21 22:53:13,815] [INFO] [BearSki.RunUnittest] RunArguments List: <bound method runArg.getJsonString of <BearSki.utils.arguments.runArg object at 0x7f89d8664470>>
+[2020-03-21 22:53:18,293] [INFO] [kw.login] response is : <Response [200]>
+[2020-03-21 22:53:18,298] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTg1MDYxNTk4LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.UaNJiL2yNie0noPJXB8csy5O7kE6dh9olIf-nbi3dM0"}}
+[2020-03-21 22:54:25,138] [INFO] [BearSki.RunUnittest] Creating TestSuit..UnitTestRunner
+[2020-03-21 22:54:25,138] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-03-21 22:54:25,139] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'UnitTestRunner'}
+[2020-03-21 22:54:27,427] [INFO] [kw.login] response is : <Response [200]>
+[2020-03-21 22:54:27,431] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTg1MDYxNjY3LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.5Y6a7Jhay89_XBjKJvofPA58wyaonj5hXUOAjiKmWWE"}}
+[2020-03-21 22:57:48,927] [INFO] [BearSki.RunUnittest] Creating TestSuit..UnitTestRunner
+[2020-03-21 22:57:48,927] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-03-21 22:57:48,927] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'UnitTestRunner'}
+[2020-03-21 22:57:49,231] [INFO] [kw.login] response is : <Response [200]>
+[2020-03-21 22:57:49,236] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTg1MDYxODY5LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.HAPIUWxhEF2Nhk0O27uTLBnRIdjR97JR3foiCReAaIA"}}
+[2020-03-21 23:01:11,043] [INFO] [BearSki.RunUnittest] Creating TestSuit..UnitTestRunner
+[2020-03-21 23:01:11,044] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-03-21 23:01:11,044] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'UnitTestRunner'}
+[2020-03-21 23:01:11,370] [INFO] [kw.login] response is : <Response [200]>
+[2020-03-21 23:01:11,375] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTg1MDYyMDcxLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.lsVtnDezV_n-BXIkt8VSDtOEOE6K7tLAtU5XOpAYXoQ"}}
+[2020-03-21 23:01:11,379] [INFO] [root] in case_api_users
+[2020-03-21 23:01:11,389] [INFO] [kw.RequestModelCommondKW] 运行json：{'name': '/api/users/', 'request': {'headers': {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTc5OTQ0MjYyLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.J55Jx9dvfIrILZMRnnYzIeJjM9EUkbU6ekS3I6qJH8M', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'}, 'method': 'GET', 'params': {'ordering': 'id', 'page': '1', 'size': '10'}, 'url': 'http://localhost.charlesproxy.com:8086/api/users/'}, 'validate': [{'eq': ['status_code', 200]}, {'eq': ['headers.Content-Type', 'application/json']}, {'eq': ['content.count', 4]}, {'eq': ['content.next', None]}, {'eq': ['content.previous', None]}]}
+[2020-03-21 23:01:11,389] [INFO] [kw.RequestModelCommondKW] url is :/api/users/
+[2020-03-21 23:01:11,506] [INFO] [kw.RequestModelCommondKW] response is : <Response [200]>
+[2020-03-21 23:01:11,508] [INFO] [root] login res <BearSki.core.Ski.step object at 0x7f97653195c0>
+[2020-03-21 23:01:59,146] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-21 23:01:59,146] [INFO] [BearSki.RunUnittest] Commond List: ['-v', 'utest/testcase/test_send.py']
+[2020-03-21 23:01:59,146] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-21 23:01:59,715] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-21 23:01:59,719] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-21 23:01:59,781] [INFO] [root] in ask baidu！
+[2020-03-21 23:01:59,845] [INFO] [TestSendMessage] <Response [200]>
