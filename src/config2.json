@@ -1,16 +1,13 @@
 {
-  'runner': {
-    'mode': 'onecase',
-    'name': 'PyTestRunner',
-    'commands': [
-      '-s'
-    ]
+  'runner': 'PyTestRunner',
+  'unittestcase': {
+    'mode': 'onecase'
   },
   'case': {
     'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users',
     'name': ''
   },
-  'skisetting_path': './SkiSetting.json',
+  'skiconfig': './SkiSetting.json',
   'report': {
     'mode': 'html',
     'path': './utest/report/report1.html',

@@ -10,6 +10,22 @@ def get(url, params=None, **kwargs):
 
 def post(url, data=None, json=None, **kwargs):
   return requests.post(url, data, json, **kwargs)
+
+def delete(url, **kwargs):
+  return requests.delete(url, **kwargs)
+
+def put(url, data=None, **kwargs):
+  return requests.put(url, data=None, **kwargs)
+
+def patch(url, data=None, **kwargs):
+  return requests.patch(url, data=None, **kwargs)
+
+def head(url, **kwargs):
+  return requests.head(url, **kwargs)
+
+def options(url, **kwargs):
+  return requests.options(url,**kwargs)
+
 '''
 KEYWORD_NAME='send.py'
 KEYWORD_DOC='''
@@ -71,7 +87,7 @@ CONFIG_DOC='''
     "j":"./SkiSetting.json",
     "report.addtime.now":true,
     "auto.case.path":"testcase",
-    "auto.model.path":"testdata/model"
+    "auto.model.path":"db/model"
 }
 '''
 RUNTEST_NAME='runtest.py'
@@ -106,11 +122,11 @@ SKISETTING_DOC='''
         "log_level":"debug"
     },
     "datatable":{
-        "db_excel_path":"testdata/testdata1.xlsx",
-        "db_json_path":"testdata/model/"
+        "db_excel_path":"db/db.xlsx",
+        "db_json_path":"db/model/"
     },
     "initdata":{
-        "init_file_path":"testdata.initdata"
+        "init_file_path":"db.initdata"
     }
     
 }
@@ -123,6 +139,7 @@ def clear():
     print("in initData clear")
 '''
 INITDATANAME='initdata.py'
+INITFILE='__init__.py'
 def create_testproject(projectname):
     # (logfile_path, logfile_name) = os.path.split(config_json)
     # if projectname and logfile_name:
@@ -140,13 +157,18 @@ def create_testproject(projectname):
     red=os.path.join(projectname,'report')
     os.makedirs(red)
 
-    initfile=os.path.join(projectname,'testdata')
+    initfile=os.path.join(projectname,'db')
     os.makedirs(initfile)
 
     driverf = os.path.join(drd,DRIVER_NAME)
     df=open(driverf, "w+")
     df.write(DRIVER_DOC)
     df.close
+
+    driverf_init = os.path.join(drd, INITFILE)
+    dfi = open(driverf_init, "w+")
+    dfi.write("")
+    dfi.close
 
     keywordf=os.path.join(kwd,KEYWORD_NAME)
     kf=open(keywordf, "w+")

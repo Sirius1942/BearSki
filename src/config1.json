@@ -1,12 +1,15 @@
 {
     "m":"onecase",
-    "p":"utest.testcase.atest_api_users.atest_api_users.case_api_users",
+    "p":"utest.testcase.test_send.TestSendMessage.test_send",
     "n":"",
     "r":"html",
-    "o":"./utest/report/report1.html",
+    "o":"./utest/report",
     "j":"./SkiSetting.json",
     "report.addtime.now":true,
     "auto.case.path":"utest/testcase",
     "auto.model.path":"utest/testdata/model",
-    "testsuit.runner": "PyTestRunner"
+    "testsuit.runner": "PyTestRunner",
+    "logfile_path":"utest/log/log.log",
+        "log_level":"INFO"
+
 }

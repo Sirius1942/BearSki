@@ -3,7 +3,6 @@ import time
 from BearSki.runner.LocalReportRunner import LocalReportRunner
 from BearSki.core import Ski
 
-
 class RunUnittest(object):
 
     def __init__(self):

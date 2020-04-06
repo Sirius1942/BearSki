@@ -181,7 +181,7 @@ class MY_GUI():
         newrul=req_str['name']
         # print(req_str)
         self.write_log_to_Text("获取API接口：{0}".format(newrul))
-        modelpath="../testdata/model/"
+        modelpath="../db/model/"
         casepath="../testcase/"
         modelname=newrul.replace('/','_')[:-1]
         self.writeFile(modelpath+modelname+'_model.json',json.dumps(req_str, sort_keys=True, indent=4, separators=(',', ': '),ensure_ascii=False))

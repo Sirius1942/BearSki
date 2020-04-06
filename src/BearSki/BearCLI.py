@@ -20,7 +20,7 @@ def main():
 
   group2=parser.add_argument_group('HarParser','create testmodel and testcase from har file')
   group2.add_argument('-fp', '--harfilepath',help="parser har file path")
-  group2.add_argument('-mp', '--modelpath',default="testdata/model",help="testmodel file path")
+  group2.add_argument('-mp', '--modelpath',default="db/model",help="testmodel file path")
   group2.add_argument('-cp','--casepath',default='testcase',help='testcase file path')
   group2.add_argument('-cf','--configfile',default='config.json',help='config file path')
 

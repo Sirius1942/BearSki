@@ -235,3 +235,560 @@
 [2020-03-21 23:01:59,719] [INFO] [TestSendMessage] I'm in test_two test_send
 [2020-03-21 23:01:59,781] [INFO] [root] in ask baidu！
 [2020-03-21 23:01:59,845] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-23 07:09:26,913] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-23 07:09:26,914] [INFO] [BearSki.RunUnittest] Commond List: ['-v', 'utest/testcase/test_send.py']
+[2020-03-23 07:09:26,914] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-23 07:09:27,494] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-23 07:09:27,499] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-23 07:09:27,577] [INFO] [root] in ask baidu！
+[2020-03-23 07:09:27,626] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-27 15:31:32,547] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 15:31:44,241] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 15:32:09,870] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 15:34:29,881] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 15:34:58,526] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 15:34:58,526] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send']
+[2020-03-27 15:34:58,526] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 15:35:41,985] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 15:35:41,985] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send']
+[2020-03-27 15:35:41,986] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 15:35:50,386] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 15:35:50,386] [INFO] [BearSki.RunUnittest] Commond List: ['/utest/testcase/test_send']
+[2020-03-27 15:35:50,386] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 15:36:06,446] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 15:36:06,446] [INFO] [BearSki.RunUnittest] Commond List: ['/utest/testcase/test_send/TestSendMessage']
+[2020-03-27 15:36:06,447] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 15:36:16,995] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 15:36:16,995] [INFO] [BearSki.RunUnittest] Commond List: ['/utest/testcase/']
+[2020-03-27 15:36:16,995] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 15:36:25,173] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 15:36:25,173] [INFO] [BearSki.RunUnittest] Commond List: ['testcase/']
+[2020-03-27 15:36:25,173] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 15:36:52,500] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 15:36:52,500] [INFO] [BearSki.RunUnittest] Commond List: ['/testcase/test_send']
+[2020-03-27 15:36:52,500] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 15:37:43,355] [INFO] [BearSki.RunUnittest] Creating TestSuit..UnitTestRunner
+[2020-03-27 15:37:43,355] [INFO] [BearSki.RunUnittest] Commond List: ['/testcase/test_send']
+[2020-03-27 15:37:43,355] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'UnitTestRunner'}
+[2020-03-27 16:52:04,496] [INFO] [BearSki.RunUnittest] Creating TestSuit..UnitTestRunner
+[2020-03-27 16:52:04,496] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-03-27 16:52:04,496] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'UnitTestRunner'}
+[2020-03-27 16:52:53,889] [INFO] [BearSki.RunUnittest] Creating TestSuit..UnitTestRunner
+[2020-03-27 16:52:53,889] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-03-27 16:52:53,889] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'UnitTestRunner'}
+[2020-03-27 16:52:57,876] [INFO] [kw.login] response is : <Response [200]>
+[2020-03-27 16:52:57,881] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTg1NTU4Mzc3LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.m3F8kG0mZRGa17HMTEbjtTCNP12GdyIDzopG3J-6oG8"}}
+[2020-03-27 16:52:57,885] [INFO] [root] in case_api_users
+[2020-03-27 16:53:29,322] [INFO] [BearSki.RunUnittest] Creating TestSuit..UnitTestRunner
+[2020-03-27 16:53:29,322] [INFO] [BearSki.RunUnittest] Commond List: ['/testcase/test_send']
+[2020-03-27 16:53:29,322] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'UnitTestRunner'}
+[2020-03-27 16:53:29,611] [INFO] [kw.login] response is : <Response [200]>
+[2020-03-27 16:53:29,616] [INFO] [kw.login] response is : {"code":200,"message":"成功","detail":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTg1NTU4NDA5LCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSJ9.jUz2smqbdwSz6rT9_0NLoqUN6DG44zf5QUgBwqDcJUo"}}
+[2020-03-27 16:53:29,620] [INFO] [root] in case_api_users
+[2020-03-27 16:53:47,605] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 16:53:47,605] [INFO] [BearSki.RunUnittest] Commond List: ['/testcase/test_send']
+[2020-03-27 16:53:47,605] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 16:54:19,782] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-27 16:54:19,786] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-27 16:54:19,786] [ERROR] [root] error,does not find  modules
+[2020-03-27 16:54:19,786] [INFO] [TestSendMessage] None
+[2020-03-27 16:54:44,832] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 16:54:44,833] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-03-27 16:54:44,833] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 16:54:45,165] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-27 16:54:45,168] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-27 16:58:36,576] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 16:58:36,576] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-03-27 16:58:36,576] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 16:58:36,909] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-27 16:58:36,912] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-27 17:01:09,448] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 17:01:09,449] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-03-27 17:01:09,449] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 17:01:09,788] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-27 17:01:09,792] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-27 17:01:09,834] [INFO] [root] in ask baidu！
+[2020-03-27 17:01:10,053] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-27 17:01:18,502] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 17:01:18,502] [INFO] [BearSki.RunUnittest] Commond List: ['-s', 'utest/testcase/test_send.py']
+[2020-03-27 17:01:18,502] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.json', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 17:01:18,824] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-27 17:01:18,826] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-27 17:01:18,863] [INFO] [root] in ask baidu！
+[2020-03-27 17:01:18,994] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-27 17:39:46,334] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 17:39:46,335] [INFO] [BearSki.RunUnittest] Commond List: ['-s', 'utest/testcase/test_send.py']
+[2020-03-27 17:39:46,335] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 17:39:46,779] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-27 17:39:46,783] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-27 17:39:46,831] [INFO] [root] in ask baidu！
+[2020-03-27 17:39:48,281] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-27 17:40:14,871] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-27 17:40:14,871] [INFO] [BearSki.RunUnittest] Commond List: ['-s', 'utest/testcase/test_send.py']
+[2020-03-27 17:40:14,871] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-27 17:40:15,195] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-27 17:40:15,198] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-27 17:40:15,240] [INFO] [root] in ask baidu！
+[2020-03-27 17:40:16,364] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-28 10:33:11,384] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-28 10:33:11,385] [INFO] [BearSki.RunUnittest] Commond List: ['-s', 'utest/testcase/test_send.py']
+[2020-03-28 10:33:11,385] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-28 10:33:11,905] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-28 10:33:11,908] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-28 10:33:11,987] [INFO] [root] in ask baidu！
+[2020-03-28 10:33:12,070] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-28 10:38:47,148] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-28 10:38:47,148] [INFO] [BearSki.RunUnittest] Commond List: ['-s', 'utest/testcase/test_send.py']
+[2020-03-28 10:38:47,149] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-28 10:38:47,729] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-28 10:38:47,734] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-28 10:38:47,812] [INFO] [root] in ask baidu！
+[2020-03-28 10:38:47,858] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-28 12:21:25,494] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-28 12:21:25,495] [INFO] [BearSki.RunUnittest] Commond List: ['-s', 'utest/testcase/test_send.py']
+[2020-03-28 12:21:25,495] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': './SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-28 12:21:26,086] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-03-28 12:21:26,090] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-03-28 12:21:26,167] [INFO] [root] in ask baidu！
+[2020-03-28 12:21:26,221] [INFO] [TestSendMessage] <Response [200]>
+[2020-03-31 00:13:52,718] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 00:13:52,719] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-03-31 00:13:52,720] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 00:13:53,347] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 00:13:53,421] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:18:37,628] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 10:18:37,629] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-03-31 10:18:37,629] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 10:18:38,220] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:18:38,298] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:21:09,373] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 10:21:09,373] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-03-31 10:21:09,373] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 10:21:09,698] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:21:09,768] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:21:51,638] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 10:21:51,638] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-03-31 10:21:51,638] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 10:21:52,134] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:21:52,210] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:22:50,863] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 10:22:50,863] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-03-31 10:22:50,863] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 10:22:51,192] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:22:51,266] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:23:16,583] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 10:23:16,583] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-03-31 10:23:16,584] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 10:23:16,935] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:23:17,023] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:23:39,240] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 10:23:39,240] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-03-31 10:23:39,240] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 10:23:39,580] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:23:39,655] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:23:56,311] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 10:23:56,311] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-03-31 10:23:56,311] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 10:23:56,776] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:23:56,857] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:24:34,905] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 10:24:34,905] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-03-31 10:24:34,905] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 10:24:35,229] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:24:35,294] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:24:59,552] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 10:24:59,552] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 10:24:59,552] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 10:24:59,882] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:24:59,951] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:26:14,131] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 10:26:14,132] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 10:26:14,132] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 10:26:14,457] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 10:26:14,458] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 22:42:16,299] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 22:42:16,299] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 22:42:16,300] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 22:42:49,326] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 22:42:49,326] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 22:42:49,326] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 22:42:49,645] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 22:42:49,646] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 23:11:22,289] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:11:22,290] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py/test_getData']
+[2020-03-31 23:11:22,291] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:11:41,059] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:11:41,059] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD/test_getData']
+[2020-03-31 23:11:41,059] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:12:06,861] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:12:06,861] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/TestTestData/test_getData']
+[2020-03-31 23:12:06,861] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:12:18,089] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:12:18,090] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD/TestTestData/test_getData']
+[2020-03-31 23:12:18,090] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:12:31,890] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:12:31,890] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:12:31,890] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:12:32,228] [INFO] [TestLogger] in test_getData
+[2020-03-31 23:12:32,299] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 23:12:32,300] [INFO] [TestLogger] I'm in test_getDefult_data
+[2020-03-31 23:13:28,614] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:13:28,615] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:13:28,615] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:14:54,193] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:14:54,193] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:14:54,194] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:16:50,856] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:16:50,856] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:16:50,856] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:16:51,183] [INFO] [TestTestData] in test_getData
+[2020-03-31 23:16:51,251] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:16:51,252] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:19:11,308] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:19:11,309] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:19:11,309] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:19:11,639] [INFO] [TestTestData] in test_getData
+[2020-03-31 23:19:11,708] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:19:11,709] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:21:23,892] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:21:23,892] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:21:23,892] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:21:24,231] [INFO] [TestTestData] in test_getData
+[2020-03-31 23:21:24,303] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:21:24,304] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:21:50,141] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:21:50,141] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:21:50,141] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:21:50,476] [INFO] [TestTestData] in test_getData
+[2020-03-31 23:21:50,552] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:21:50,553] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:24:04,628] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:24:04,629] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:24:04,629] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:24:04,956] [INFO] [TestTestData] in test_getData
+[2020-03-31 23:24:05,033] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:24:05,035] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:27:15,428] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:27:15,429] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:27:15,429] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:27:15,769] [INFO] [TestTestData] in test_getData
+[2020-03-31 23:27:15,859] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:27:15,860] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:29:16,828] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:29:16,828] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:29:16,828] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:29:17,161] [INFO] [TestTestData] in test_getData
+[2020-03-31 23:29:17,242] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:29:17,243] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:30:00,783] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:30:00,784] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:30:00,784] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'config_path': './config.json', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:30:01,113] [INFO] [TestTestData] in test_getData
+[2020-03-31 23:30:01,193] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:30:01,194] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:41:00,886] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:41:00,886] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:42:44,920] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:42:44,920] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:42:44,920] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:42:45,250] [INFO] [TestTestData] in test_getData
+[2020-03-31 23:42:45,322] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:42:45,323] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:43:37,064] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:43:37,064] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:43:37,064] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:43:37,398] [INFO] [TestTestData] in test_getData
+[2020-03-31 23:43:37,472] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:43:37,473] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:44:52,670] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-03-31 23:44:52,670] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-03-31 23:44:52,670] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-03-31 23:44:52,998] [INFO] [TestTestData] in test_getData
+[2020-03-31 23:44:53,071] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-03-31 23:44:53,072] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:02:23,511] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 10:02:23,511] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-04-01 10:02:23,511] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 10:02:24,031] [INFO] [TestTestData] in test_getData
+[2020-04-01 10:02:24,111] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:02:24,112] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:02:59,252] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 10:02:59,252] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-04-01 10:02:59,252] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 10:02:59,583] [INFO] [TestTestData] in test_getData
+[2020-04-01 10:02:59,657] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:02:59,658] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:03:59,114] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 10:03:59,115] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-04-01 10:03:59,115] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 10:03:59,446] [INFO] [TestTestData] in test_getData
+[2020-04-01 10:03:59,520] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:03:59,521] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:06:19,654] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 10:06:19,654] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-04-01 10:06:19,654] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 10:06:19,985] [INFO] [TestTestData] in test_getData
+[2020-04-01 10:06:20,056] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:06:20,057] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:07:17,931] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 10:07:17,931] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-04-01 10:07:17,931] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 10:07:18,271] [INFO] [TestTestData] in test_getData
+[2020-04-01 10:07:18,345] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:07:18,347] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:07:52,028] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 10:07:52,028] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-01 10:07:52,028] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 10:07:52,505] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-01 10:07:52,511] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-01 10:07:52,599] [INFO] [root] in ask baidu！
+[2020-04-01 10:07:52,671] [INFO] [TestSendMessage] <Response [200]>
+[2020-04-01 10:08:32,684] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 10:08:32,684] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-04-01 10:08:32,684] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 10:08:33,187] [INFO] [TestTestData] in test_getData
+[2020-04-01 10:08:33,339] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:08:33,341] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:08:44,079] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 10:08:44,079] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-04-01 10:08:44,080] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 10:08:44,522] [INFO] [TestTestData] in test_getData
+[2020-04-01 10:08:44,669] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:08:44,671] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:11:02,070] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 10:11:02,070] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-04-01 10:11:02,071] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 10:11:02,509] [INFO] [TestTestData] in test_getData
+[2020-04-01 10:11:02,656] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:11:02,658] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:21:38,635] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 10:21:38,635] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-04-01 10:21:38,635] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 10:21:39,074] [INFO] [TestTestData] in test_getData
+[2020-04-01 10:21:39,222] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 10:21:39,224] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 17:56:51,525] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 17:56:51,525] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=all']
+[2020-04-01 17:56:51,525] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 17:57:00,587] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 17:57:00,587] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 17:57:00,587] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 17:57:01,131] [INFO] [TestTestData] in test_getData
+[2020-04-01 17:57:01,212] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 17:57:01,213] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 17:57:15,327] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 17:57:15,327] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 17:57:15,327] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 17:57:15,818] [INFO] [TestTestData] in test_getData
+[2020-04-01 17:57:15,899] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 17:57:15,900] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 17:58:13,957] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 17:58:13,957] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 17:58:13,957] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 17:58:14,463] [INFO] [TestTestData] in test_getData
+[2020-04-01 17:58:14,547] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 17:58:14,548] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 17:58:37,872] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 17:58:37,872] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 17:58:37,872] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 17:58:38,308] [INFO] [TestTestData] in test_getData
+[2020-04-01 17:58:38,385] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 17:58:38,386] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 17:59:00,816] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 17:59:00,816] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 17:59:00,816] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 17:59:01,138] [INFO] [TestTestData] in test_getData
+[2020-04-01 17:59:01,212] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 17:59:01,213] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:00:09,055] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:00:09,055] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 18:00:09,055] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:00:09,384] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:00:09,458] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:00:09,459] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:10:01,453] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:10:01,454] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 18:10:01,454] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:10:02,044] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:10:02,128] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:10:02,129] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:10:36,741] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:10:36,741] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 18:10:36,741] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:10:37,096] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:10:37,219] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:10:37,220] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:10:51,982] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:10:51,982] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 18:10:51,982] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:10:52,374] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:10:52,506] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:10:52,507] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:11:34,414] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:11:34,414] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 18:11:34,415] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:11:34,746] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:11:34,885] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:11:34,886] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:12:24,888] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:12:24,889] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 18:12:24,889] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:12:25,219] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:12:25,332] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:12:25,333] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:12:44,563] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:12:44,563] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 18:12:44,563] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:12:44,883] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:12:44,926] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:12:44,927] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:28:38,562] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:28:38,563] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 18:28:38,563] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:28:39,042] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:28:39,208] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:28:39,209] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:29:18,667] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:29:18,667] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 18:29:18,668] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:29:18,988] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:29:19,135] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:29:19,136] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:29:52,195] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:29:52,196] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture']
+[2020-04-01 18:29:52,196] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:29:58,459] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:29:58,459] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-04-01 18:29:58,459] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:29:58,785] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:29:58,941] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:29:58,942] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:30:07,348] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:30:07,348] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-01 18:30:07,348] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:30:07,669] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:30:07,813] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:30:07,814] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:31:43,706] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:31:43,707] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture==no']
+[2020-04-01 18:31:43,707] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:32:13,139] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:32:13,139] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture', '=', 'no']
+[2020-04-01 18:32:13,139] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:32:26,370] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:32:26,370] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no']
+[2020-04-01 18:32:26,370] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:32:26,788] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:32:26,940] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:32:26,941] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:33:14,014] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:33:14,015] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no']
+[2020-04-01 18:33:14,015] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:33:14,353] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:33:14,503] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:33:14,504] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:33:54,227] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:33:54,227] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no']
+[2020-04-01 18:33:54,227] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:33:54,556] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:33:54,632] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:33:54,633] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:43:53,392] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:43:53,392] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no']
+[2020-04-01 18:43:53,392] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:43:54,000] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:43:54,145] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:43:54,146] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:44:58,473] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:44:58,473] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no']
+[2020-04-01 18:44:58,473] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:44:58,942] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:44:59,147] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:44:59,149] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:46:03,496] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:46:03,496] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no']
+[2020-04-01 18:46:03,496] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:46:03,958] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:46:04,081] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:46:04,082] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:46:11,648] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:46:11,648] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=sys']
+[2020-04-01 18:46:11,648] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:46:11,982] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:46:12,091] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:46:12,092] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:46:15,773] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:46:15,773] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=log']
+[2020-04-01 18:46:15,773] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:46:21,250] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:46:21,250] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=fd']
+[2020-04-01 18:46:21,250] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:46:21,589] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:46:21,704] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:46:21,706] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:46:41,162] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:46:41,162] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no', '-sv']
+[2020-04-01 18:46:41,162] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:46:41,523] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:46:41,640] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:46:41,641] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:48:20,179] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:48:20,180] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no', '-s--log-levelv']
+[2020-04-01 18:48:20,180] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:48:27,196] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:48:27,197] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no', '-sv', '--log-level']
+[2020-04-01 18:48:27,197] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:48:32,921] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:48:32,922] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no', '-sv', '--log-level=debug']
+[2020-04-01 18:48:32,922] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:48:33,274] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:48:33,425] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:48:33,426] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:50:10,537] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:50:10,537] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no', '-sv', '--log-level=debug', '--log_cli=true']
+[2020-04-01 18:50:10,537] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:51:33,966] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:51:33,966] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv', '--log-level=debug', '--log_cli=true']
+[2020-04-01 18:51:33,966] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:51:38,640] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:51:38,640] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv', '--log-level=debug']
+[2020-04-01 18:51:38,640] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:51:38,976] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:51:39,123] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:51:39,125] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:54:42,607] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-01 18:54:42,608] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no', '-s']
+[2020-04-01 18:54:42,608] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-01 18:54:43,179] [INFO] [TestTestData] in test_getData
+[2020-04-01 18:54:43,311] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-01 18:54:43,312] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-02 15:53:55,244] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-02 15:53:55,245] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no', '-s', '-o', 'log_cli=true', '-o', 'log_cli_level=DEBUG']
+[2020-04-02 15:53:55,245] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-02 15:53:55,786] [INFO] [TestTestData] in test_getData
+[2020-04-02 15:53:55,964] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-02 15:53:55,965] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-02 15:59:08,083] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-02 15:59:08,083] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--capture=no', '-s', '-o', 'log_cli=true', '-o', 'log_cli_level=INFO']
+[2020-04-02 15:59:08,083] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-02 15:59:08,423] [INFO] [TestTestData] in test_getData
+[2020-04-02 15:59:08,469] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-02 15:59:08,502] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-02 15:59:08,535] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-02 15:59:08,536] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-02 15:59:08,538] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-02 16:04:52,271] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-02 16:04:52,273] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.', '--html=report/report.html']
+[2020-04-02 16:04:52,273] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-02 16:05:13,819] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-02 16:05:13,819] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--html=utest/report/report.html']
+[2020-04-02 16:05:13,819] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-04-02 16:05:14,158] [INFO] [TestTestData] in test_getData
+[2020-04-02 16:05:14,204] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-02 16:05:14,237] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-02 16:05:14,269] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-02 16:05:14,273] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-02 16:05:14,274] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-02 23:06:46,234] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-02 23:06:46,235] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--html=utest/report/report.html']
+[2020-04-02 23:06:46,235] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}

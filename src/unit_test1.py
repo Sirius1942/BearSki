@@ -16,7 +16,7 @@ from unittest import mock
 from BearSki.utils.logger import SkiLogger
 import os
 import multiprocessing
-from BearSki.case.TestSuitSet import *
+from BearSki.case.TestRunnerSet import *
 from BearSki.case.TestCaseSet import *
 from BearSki.case.TestResultSet import *
 from BearSki.core import SkiTestFactory
@@ -292,6 +292,8 @@ class test_BearSki(unittest.TestCase):
         caserunner = "RandomTestRunner"
         print("开始执行 RandomTestRunner")
         SkiTestFactory().run(caserunner, caselist)
+
+
 
     @unittest.skip('不执行case:') # 跳过这条case
     def testskipcase(self): 

@@ -7,7 +7,7 @@ def createDTF(path):
 
   wb = Workbook()
 
-  dest_filename = os.path.join(path,'testdata.xlsx')
+  dest_filename = os.path.join(path,'db.xlsx')
 
   ws1 = wb.active
   ws1.title = "example"

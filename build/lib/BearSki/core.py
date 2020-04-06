@@ -8,6 +8,9 @@ from importlib import import_module
 from BearSki.CommonData import SkiGlobalData
 from BearSki.utils.logger import SkiLogger
 from BearSki.utils.DataTable import getRowData,generate_data,generate_json_data,getJsonData
+from BearSki.case.TestResultSet import *
+from BearSki.case.TestCaseSet import *
+from BearSki.case.TestRunnerSet import *
 
 class Ski():
     class case():
@@ -111,7 +114,7 @@ class Ski():
                     scd=SkiGlobalData()
                     initdatafilename=scd.get_initdata('init_file_path')
                     if initdatafilename==None:
-                        initdatafilename="testdata.initdata"
+                        initdatafilename="db.initdata"
                     getDataFileObject(initdatafilename,"initData")()
                     result=func(self,*arg,**kws)
                     # print("  after %s called [%s],[%s]." % (func.__name__, arg,kws))
@@ -156,4 +159,9 @@ class DT(object):
         self.logger.debug(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(str_data,res, self.basedata["db_excel_path"]))
         return res
     
-            
+class SkiTestFactory():
+    def run(self,TestSuit,caselist):
+        ts = eval(TestSuit)(caselist)
+        print("Creating TestSuit..", type(ts).__name__)
+        print("TestSuit List: ", ts.getCaselist())
+        ts.run()

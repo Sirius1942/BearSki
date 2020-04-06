@@ -1,10 +1,10 @@
 #encoding=utf-8
 import os
 import logging
-import BearSki.runner.LocalReportRunner as rut
+
 from BearSki.CommonData import SkiGlobalData
 from BearSki.utils.singleton import Singleton
-from BearSki.utils.arguments import runArg
+
 @Singleton
 class SkiLoggerHandler(logging.Handler):
     runCaseid='System'
@@ -65,7 +65,7 @@ class SkiLogger(object):
         self.logger.info(message)
 
     def warn(self, message):
-        self.logger.warn(message)
+        self.logger.warning(message)
 
     def error(self, message):
         self.logger.error(message)

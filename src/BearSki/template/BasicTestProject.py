@@ -87,7 +87,7 @@ CONFIG_DOC='''
     "j":"./SkiSetting.json",
     "report.addtime.now":true,
     "auto.case.path":"testcase",
-    "auto.model.path":"testdata/model"
+    "auto.model.path":"db/model"
 }
 '''
 RUNTEST_NAME='runtest.py'
@@ -122,11 +122,11 @@ SKISETTING_DOC='''
         "log_level":"debug"
     },
     "datatable":{
-        "db_excel_path":"testdata/testdata.xlsx",
-        "db_json_path":"testdata/model/"
+        "db_excel_path":"db/db.xlsx",
+        "db_json_path":"db/model/"
     },
     "initdata":{
-        "init_file_path":"testdata.initdata"
+        "init_file_path":"db.initdata"
     }
     
 }
@@ -157,7 +157,7 @@ def create_testproject(projectname):
     red=os.path.join(projectname,'report')
     os.makedirs(red)
 
-    initfile=os.path.join(projectname,'testdata')
+    initfile=os.path.join(projectname,'db')
     os.makedirs(initfile)
 
     driverf = os.path.join(drd,DRIVER_NAME)

@@ -1,73 +1,50 @@
 from abc import ABCMeta, abstractmethod
 import threading
 import random
-import pytest
-import logging
-import unittest
-import time
-from BearSki.runner.LocalReportRunner import LocalReportRunner
-from BearSki.core import Ski
-loggger=logging.getLogger("BearSki.TestSuitSet")
 
 class TestSuit(metaclass=ABCMeta):
-    def __init__(self,runArg,commond):
-        self.commond = commond
-        self.runArg=runArg
-        self.caselist=[]
-        self.createSuit()
+    def __init__(self,caselist):
+        self.testcaselist = []
+        self.createSuit(caselist)
     @ abstractmethod
     def createSuit(self):
         pass
-    def getCommond(self):
-        return self.commond
-    def getRunArg(self):
-        return self.runArg.getJsonString()
-    def addcaselist(self,caselist):
-        self.caselist=caselist
+    def getCaselist(self):
+        return self.testcaselist
+    def addCaselist(self, caselist):
+        self.testcaselist=caselist
     @abstractmethod
-    def runTest(self):
+    def run(self):
         pass
 
-class UnitTestRunner(TestSuit):
+class SequentialTestRunner(TestSuit):
+    def createSuit(self,caselist):
+        self.addCaselist(caselist)
+    def run(self):
+        for testcase in self.getCaselist():
+            print(testcase.run().getResult())
 
-    def createSuit(self):
-        isrunonecase = False
-        if self.runArg.mode == 'onecase':
-            isrunonecase = True
-        casepath = self.runArg.case_path
-        casename = self.runArg.case_name
-        caselist = self._get_test_cases(casepath, casename, isrunonecase)
-        self.addcaselist(caselist)
+class ParallelTestRunner(TestSuit):
 
-    def _get_test_cases(self, dirpath, name="test_", isrunonecase=False):
-        test_cases = unittest.TestSuite()
-        # 测试用例使用"ski_"开头命名
-        if isrunonecase:
-            # 执行单条用例，顺序为 目录名 文件名 类名 方法名 中间"." 间隔 例如："testcase.debug_test_user.TestUserLogin.test_login"
-            suite = unittest.TestLoader().loadTestsFromName(dirpath)
-            test_cases.addTests(suite)
-            return test_cases
-        else:
-            suites = unittest.defaultTestLoader.discover(dirpath, name + '*.py', top_level_dir=dirpath)
-            for suite in suites:
-                test_cases.addTests(suite)
-            return test_cases
+    def createSuit(self, caselist):
+        self.addCaselist(caselist)
+    def run(self):
+        for testcase in self.getCaselist():
+            self.TestSuitThread(testcase).start()
 
-    @Ski.init()
-    def runTest(self):
-        if (self.runArg.report_mode == 'text'):
-            # self.logger.info("开始执行测试,报告输出模式text")
-            runner = unittest.TextTestRunner()
-            runner.run(self.caselist)
-        elif (self.runArg.report_mode == 'html'):
-            # self.logger.info("开始执行测试,报告输出模式html")
-            lruner = LocalReportRunner()
-            lruner.run(self.caselist)
-            # self.logger.info("测试完成,报告输出模式html")
+    class TestSuitThread(threading.Thread):
+        def __init__(self, TestCase):
+            threading.Thread.__init__(self)
+            self.testcase = TestCase
+        def run(self):
+            result=self.testcase.run().getResult()
+            print("开启用例执行线程,结果： {0}".format(result))
+            return result
 
-class PyTestRunner(TestSuit):
-    def createSuit(self):
-        pass
-    def runTest(self):
-        pytest.main(self.commond)
-
+class RandomTestRunner(TestSuit):
+    def createSuit(self, caselist):
+        self.addCaselist(caselist)
+    def run(self):
+        number=random.randint(0,len(self.getCaselist())-1)
+        print("radom number is :{0}".format(number))
+        print(self.getCaselist()[number].run().getResult())
