@@ -8,9 +8,8 @@ from importlib import import_module
 from BearSki.CommonData import SkiGlobalData
 from BearSki.utils.logger import SkiLogger
 from BearSki.utils.DataTable import getRowData,generate_data,generate_json_data,getJsonData
-from BearSki.case.TestResultSet import *
-from BearSki.case.TestCaseSet import *
-from BearSki.case.TestRunnerSet import *
+from BearSki.utils.errors import *
+from BearSki.utils.singleton import Singleton
 
 class Ski():
     class case():
@@ -40,7 +39,7 @@ class Ski():
                 modules=self.__getModules(kw_path)
             
             except Exception:
-                self.logger.error("error,does not find  modules")
+                self.logger.error("error,does not find  modules [{0}]".format(kw_path))
                 return None
             
             fun_list=kw_path[len(modules)+1:].split('.')
@@ -48,7 +47,6 @@ class Ski():
             return self.__getObject(modules,fun_list)(*arg,**kws)
 
         def __getObject(self,modules,fun_list):
-            
             obj= import_module(modules)
             child_obj=getattr(obj,fun_list[0])
             temp_cls_name=fun_list[0]
@@ -69,9 +67,9 @@ class Ski():
             # print(kw_path)
             if kw_path.find('.')==-1:
                 if self.__ismodule(kw_path):
-                    return modules
+                    return kw_path  # 需要测试
                 else:
-                    raise Exception("all error,does not find  modules")
+                    raise Exception("all error,does not find  modules [{0}]".format(kw_path))
             kw=kw_path.split('.')[-1]
             modules=kw_path[0:kw_path.rindex(kw)-1]  #rindex 为了应对报名重名 从后向前计算
             flag=self.__ismodule(modules)
@@ -92,7 +90,7 @@ class Ski():
                 module_spec = importlib.util.find_spec(module_name)
             except Exception as error:
                 # print(error)
-                logger.error("error",error)
+                self.logger.error("error",error)
                 return False
             if module_spec is None:
                 # print("Module :{} not found".format(module_name))
@@ -127,9 +125,10 @@ class Ski():
                     child_obj=getattr(obj,key)
                     return child_obj    
                 return __deco
-        
+
 class DT(object):
     #改写DataTable 函数，修改成支持多种数据源方法类。
+    # 类以数据源类型调用，用例无法支持数据源的动态切换。使用TD 类替换
     logger=SkiLogger("BearSki.DataTable")
     basedata=SkiGlobalData().get_datatable_config()
     @classmethod
@@ -153,15 +152,46 @@ class DT(object):
         res=generate_data(title,rowdata)
         self.logger.debug(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(str_data,res, self.basedata["db_excel_path"]))
         return res
+
     def _excel_json(self,str_data):
         title,rowdata=getRowData(str_data, self.basedata["db_excel_path"])
         res=generate_json_data(title,rowdata)
         self.logger.debug(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(str_data,res, self.basedata["db_excel_path"]))
         return res
-    
-class SkiTestFactory():
-    def run(self,TestSuit,caselist):
-        ts = eval(TestSuit)(caselist)
-        print("Creating TestSuit..", type(ts).__name__)
-        print("TestSuit List: ", ts.getCaselist())
-        ts.run()
+
+
+class TD:
+    ### 替换 DT类和SkiGlobalData  SkiGlobalData：类名过长。与测试执行相关数据统一在TD类下处理。TD：db 当前实现简单版本
+    logger = SkiLogger("BearSki.core")
+    @classmethod
+    def get_Data(cls,dataid,type='json'):
+        database_parms=SkiGlobalData().get_database_parms()
+        database_engine=cls._getDatabaseEngine(cls,database_parms)
+        database_engine.connect()
+        return database_engine.get_data(dataid,type,database_parms)
+
+    def _getDatabaseEngine(self,engine_parms):
+        engine_name=engine_parms['ENGINE']
+        namelist=engine_name.split('.')
+        module=".".join(namelist[:-1])
+        clsobj=namelist[-1:]
+        obj = __import__(module, fromlist=True)
+        if hasattr(obj, clsobj[0]):
+            func = getattr(obj, clsobj[0])
+            clo = func(engine_parms)
+            return clo
+        else:
+            raise DataBaseError(Exception,"无法创建数据引擎")
+
+    @staticmethod
+    def get_global_all_data():
+        return SkiGlobalData().get_global_all_data()
+
+    @staticmethod
+    def get_global_data(value):
+        return SkiGlobalData().get_global_data(value)
+
+    @staticmethod
+    def add_global_data(data):
+        SkiGlobalData().add_global_data(data)
+

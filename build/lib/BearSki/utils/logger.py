@@ -4,6 +4,7 @@ import logging
 
 from BearSki.CommonData import SkiGlobalData
 from BearSki.utils.singleton import Singleton
+from BearSki.utils.arguments import runArg
 
 @Singleton
 class SkiLoggerHandler(logging.Handler):
@@ -74,7 +75,7 @@ class SkiLogger(object):
         self.logger.critical(message)
         
     def _get_level(self):
-        reloglevel=self._get_logging_level(SkiGlobalData().get_global_data("log_level"))
+        reloglevel=self._get_logging_level(runArg().log_level)
         return reloglevel
 
     def _get_logging_level(self,levelmessage):
@@ -93,7 +94,7 @@ class SkiLogger(object):
                 return logging.INFO
 
     def _get_log_path(self):
-        config_json=SkiGlobalData().get_global_data("logfile_path")
+        config_json=runArg().log_filepath
         (logfile_path, logfile_name) = os.path.split(config_json)
         if logfile_path and logfile_name:
                 isExists=os.path.exists(logfile_path)

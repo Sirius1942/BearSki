@@ -19,6 +19,9 @@ src/BearSki/case/TestResultSet.py
 src/BearSki/case/TestRunnerSet.py
 src/BearSki/case/TestSuitSet.py
 src/BearSki/case/__init__.py
+src/BearSki/db/Base.py
+src/BearSki/db/__init__.py
+src/BearSki/db/excel/__init__.py
 src/BearSki/gui/ApiTestGui.py
 src/BearSki/gui/__init__.py
 src/BearSki/keywords/DataTreating.py

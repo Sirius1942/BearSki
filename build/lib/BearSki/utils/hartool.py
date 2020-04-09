@@ -10,6 +10,8 @@ from  har2case.core import HarParser
 from BearSki.utils.arguments import runArg 
 from BearSki.template import ApiTest_har
 logger=logging.getLogger("BearSki.HarTool")
+class autoInterfaceModel():
+    pass
 class HarTool(HarParser):
   
     def __init__(self, har_file_path, filter_str=None, exclude_str=None):

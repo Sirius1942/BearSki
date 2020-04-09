@@ -60,14 +60,14 @@ class TestSendMessage(unittest.TestCase,Ski):
         self.logger.info(res.result)
         self.assertEqual(200,res.result.status_code)
     
-    @Ski.case()
-    def test_send_use_robotframework_requestlibary(self):
-        self.logger.info("I'm in test_two test_send")
-        # print(self.ski_step_result)
-        # self.assertTrue(True)
-        self.step("Create Session","baidu","http://www.baidu.com")
-        res=self.step("Get Request","baidu","/")
-        self.assertEqual(200,res.result.status_code)
+    # @Ski.case()
+    # def test_send_use_robotframework_requestlibary(self):
+    #     self.logger.info("I'm in test_two test_send")
+    #     # print(self.ski_step_result)
+    #     # self.assertTrue(True)
+    #     self.step("Create Session","baidu","http://www.baidu.com")
+    #     res=self.step("Get Request","baidu","/")
+    #     self.assertEqual(200,res.result.status_code)
 
     # @Ski.case()
     # def test_robotframwork_selenium(self):
@@ -76,19 +76,28 @@ class TestSendMessage(unittest.TestCase,Ski):
     #     self.step("input text","id=kw","test_robot") 
     #     self.step("click button","id=su")
 '''
-CONFIG_NAME='config.json'
+CONFIG_NAME='config.yaml'
 CONFIG_DOC='''
-{
-    "m":"allcase",
-    "p":"./testcase",
-    "n":"",
-    "r":"html",
-    "o":"./report/result.html",
-    "j":"./SkiSetting.json",
-    "report.addtime.now":true,
-    "auto.case.path":"testcase",
-    "auto.model.path":"db/model"
-}
+runner:  #设置用例执行器
+  name: PyTestRunner
+  commands:
+    - -s
+unittestcase:
+  mode: onecase
+case:
+  path: testcase.atest_api_users.atest_api_users.case_api_users
+  name: ""
+ski_filepath: SkiSetting.py
+report:
+  mode: html
+  path: report/report1.html
+  addtime.now: true
+auto:
+  case_path: testdata/model
+  model_path": testdata/model
+log:
+  file_path: log/log.log,
+  level: INFO
 '''
 RUNTEST_NAME='runtest.py'
 RUNTEST_DOC='''
@@ -105,31 +114,54 @@ if __name__ == '__main__':
         ) from exc
     CommandLine(sys.argv)
 '''
-SKISETTING_NAME='SkiSetting.json'
+SKISETTING_NAME='SkiSetting.py'
 SKISETTING_DOC='''
-{
-    "routers":{
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+KW_ROUTER={
         "userkw_sendmsg":"keywords.send.askbaidu",
         "Create Session":"RequestsLibrary.RequestsLibrary.create_session",
         "Get Request":"RequestsLibrary.RequestsLibrary.get_request",
         "input text":"Selenium2Library.Selenium2Library.input_text",
         "click button":"Selenium2Library.Selenium2Library.click_button",
-        "Open Browser":"Selenium2Library.Selenium2Library.open_browser"
-    },
-    "global_variable":{
-        "BASE_URL":"http://www.baidu.com",
-        "logfile_path":"./log/log.log",
-        "log_level":"debug"
-    },
-    "datatable":{
-        "db_excel_path":"db/db.xlsx",
-        "db_json_path":"db/model/"
-    },
-    "initdata":{
-        "init_file_path":"db.initdata"
-    }
-    
+        "Open Browser":"Selenium2Library.Selenium2Library.open_browser",
+        "requestFromModel":"keywords.requestModel.runModel"
 }
+GLOBAL_VARIABLE={
+        "BASE_URL":"http://www.agavetest.cn:8671",
+    }
+
+#原DataTable 配置，建议后续使用TEST_DATABASES 替换
+DATATABLE={
+        "db_excel_path":"db/testdata1.xlsx",
+        "db_json_path":"db/model/"
+    }
+
+TEST_DATABASES = {
+    'default': {
+        'ENGINE': 'BearSki.db.Base.ExcelFile',
+        'NAME': 'myDataTable', #连接的数据库名
+        'PATH': 'testdata/testdata1.xlsx'
+    },
+    'myJsonData': {
+        'ENGINE': 'Bearski.db.Base.JsonFile',
+        'NAME': 'myJsonData', #连接的数据库名
+        'PATH': 'db/model/'
+    }
+}
+#当前先不提共 TEST_DATABASE_ROUTERS 扩展接口
+#TEST_DATABASE_ROUTERS = ['myproject.database_router.DatabaseAppsRouter']
+TEST_DAT_AUTOMAPPING=True
+
+TEST_DATABASE_CASE_MAPPING = {
+    'app01': 'default',
+    'app02': 'mysql02',
+}
+INITDATA={
+        "init_file_path":"utest.db.initdata"
+}
+
 '''
 INITDATAFILE='''
 #测试项目执行初始化数据

@@ -70,9 +70,7 @@ class CommandLine(object):
        #print(self.rarg.getJsonString())
 
     def _command_run(self,commond):
-      f = open("config.json")
-      conf = json.load(f)
-      self.rarg.setValueFromJson(conf)
+
       SkiTestFactory().run(self.rarg,commond)
     
     

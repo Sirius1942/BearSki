@@ -39,7 +39,7 @@ class Ski():
                 modules=self.__getModules(kw_path)
             
             except Exception:
-                self.logger.error("error,does not find  modules")
+                self.logger.error("error,does not find  modules [{0}]".format(kw_path))
                 return None
             
             fun_list=kw_path[len(modules)+1:].split('.')
@@ -69,7 +69,7 @@ class Ski():
                 if self.__ismodule(kw_path):
                     return kw_path  # 需要测试
                 else:
-                    raise Exception("all error,does not find  modules")
+                    raise Exception("all error,does not find  modules [{0}]".format(kw_path))
             kw=kw_path.split('.')[-1]
             modules=kw_path[0:kw_path.rindex(kw)-1]  #rindex 为了应对报名重名 从后向前计算
             flag=self.__ismodule(modules)

@@ -14,6 +14,7 @@ KW_ROUTER={
 GLOBAL_VARIABLE={
         "BASE_URL":"http://www.agavetest.cn:8671",
     }
+
 #原DataTable 配置，建议后续使用TEST_DATABASES 替换
 DATATABLE={
         "db_excel_path":"./utest/db/testdata1.xlsx",
@@ -30,10 +31,17 @@ TEST_DATABASES = {
         'ENGINE': 'Bearski.db.Base.JsonFile',
         'NAME': 'myJsonData', #连接的数据库名
         'PATH': './utest/db/model/'
-    }
+    },
+    'excel2': {
+        'ENGINE': 'BearSki.db.Base.ExcelFile',
+        'NAME': 'EXCEL2', #连接的数据库名
+        'PATH': './utest/testdata/testdata.xlsx'
+    },
 }
 #当前先不提共 TEST_DATABASE_ROUTERS 扩展接口
 #TEST_DATABASE_ROUTERS = ['myproject.database_router.DatabaseAppsRouter']
+TEST_DAT_AUTOMAPPING=True
+
 TEST_DATABASE_CASE_MAPPING = {
     'app01': 'default',
     'app02': 'mysql02',

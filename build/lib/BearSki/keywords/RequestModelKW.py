@@ -9,12 +9,13 @@ import logging
 from BearSki.CommonData import SkiGlobalData
 import requests
 from BearSki.keywords.DataTreating import BaseDataTreating
+from BearSki.utils.arguments import runArg
 class RequestModelCommondKW(object):
 
   def __init__(self):
     self.logger=logging.getLogger("kw.RequestModelCommondKW")
     self.BASE_URL=SkiGlobalData().get_global_data('BASE_URL')
-    self.MODEL_PATH=SkiGlobalData().get_global_data('MODEL_PATH')
+    self.MODEL_PATH=runArg.auto_model_path
 
   def run(self,jstr):
     self.logger.info("运行json：{0}".format(jstr))
