@@ -164,8 +164,8 @@ class TD:
     ### 替换 DT类和SkiGlobalData  SkiGlobalData：类名过长。与测试执行相关数据统一在TD类下处理。TD：db 当前实现简单版本
     logger = SkiLogger("BearSki.core")
     @classmethod
-    def get_Data(cls,dataid,type='json'):
-        database_parms=SkiGlobalData().get_database_parms()
+    def get_Data(cls,dataid,type='json',source_name=None):
+        database_parms=SkiGlobalData().get_database_parms(source_name)
         database_engine=cls._getDatabaseEngine(cls,database_parms)
         database_engine.connect()
         return database_engine.get_data(dataid,type,database_parms)

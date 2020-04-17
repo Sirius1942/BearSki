@@ -28,9 +28,9 @@ TEST_DATABASES = {
         'PATH': './utest/testdata/testdata1.xlsx'
     },
     'myJsonData': {
-        'ENGINE': 'Bearski.db.Base.JsonFile',
+        'ENGINE': 'BearSki.db.Base.JsonFile',
         'NAME': 'myJsonData', #连接的数据库名
-        'PATH': './utest/db/model/'
+        'PATH': './utest/testdata/model/'
     },
     'excel2': {
         'ENGINE': 'BearSki.db.Base.ExcelFile',
@@ -47,5 +47,5 @@ TEST_DATABASE_CASE_MAPPING = {
     'app02': 'mysql02',
 }
 INITDATA={
-        "init_file_path":"utest.db.initdata"
+   "init_file_path":"utest.db.initdata"
 }

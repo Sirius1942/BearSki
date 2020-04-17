@@ -119,7 +119,7 @@ def get_jl(cellstr):
 
 def runfun(cellstr):
   if cellstr.find('time.now') != -1:
-      newvalue=time.strftime("\"%Y-%m-%d %H:%M:%S\"", time.localtime())
+      newvalue=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
       return newvalue
   elif cellstr.find('random.int')!= -1:
       newvalue=getRand_int(int(cellstr[13:-2]))
@@ -138,6 +138,31 @@ def getJsonData(filename="",filepath=""):
   jstr=sfun(fo.read())
   redata=json.loads(jstr)
   return redata
+
+def getJ(jsondata,name):
+  if len(name.split("."))==0:
+    return jsondata[name]
+  else:
+    jd=jsondata[name.split(".")[0]]
+    return get_jl(jd,name.split(".")[1:])
+
+def td_getJsonData(dataid,filepath):
+  filename=dataid.split(".")[0]
+  dataindex=dataid.split(".")[1:]
+  fullfilepath=filepath+filename+".json"
+  logger.info("开始获取数据：数据源{0} 数据标签{1}".format(fullfilepath,dataindex))
+  fo = open(fullfilepath, "r+",encoding='utf8')
+  jstr=sfun(fo.read())
+  redata=json.loads(jstr)
+  for name in dataindex:
+     redata=redata[name]
+  prsdata=sfun(str(redata))
+  res=json.loads(prsdata)
+  return res
+
+
+
+
 
 class DataTableError(Exception):
   def __init__(self, value):

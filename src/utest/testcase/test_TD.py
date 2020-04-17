@@ -1,4 +1,5 @@
 from BearSki.core import TD
+from BearSki.core import DT
 import unittest
 import logging
 
@@ -30,5 +31,13 @@ class TestTestData(unittest.TestCase):
         self.assertEqual(admindata['detail']['username'], "admin")
         admindata = TD.get_Data("login.admin",type='list')
         self.assertIn('admin',admindata)
+        admindata = TD.get_Data("users.admin.mobile")
+        self.logger.info(admindata)
+        admindata = TD.get_Data("users.admin.time")
+        self.logger.info(admindata)
+        admindata = TD.get_Data("api_users_2_res.content.text",source_name='myJsonData')
+        self.logger.info(admindata)
+
+
 
 

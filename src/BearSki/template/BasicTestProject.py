@@ -52,7 +52,7 @@ class TestSendMessage(unittest.TestCase,Ski):
     def tearDown(self):
         pass
     @Ski.case()
-    def test_send(self):
+    def test_send(self): 
         self.logger.info("I'm in test_two test_send")
         # print(self.ski_step_result)
         self.assertTrue(True)
@@ -150,7 +150,7 @@ TEST_DATABASES = {
         'PATH': 'db/model/'
     }
 }
-#当前先不提共 TEST_DATABASE_ROUTERS 扩展接口
+#会在1.6版本后提供 TEST_DATABASE_ROUTERS 扩展接口，以及路由功能
 #TEST_DATABASE_ROUTERS = ['myproject.database_router.DatabaseAppsRouter']
 TEST_DAT_AUTOMAPPING=True
 

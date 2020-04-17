@@ -67,5 +67,7 @@ class PyTestRunner(TestRunner):
     def createSuit(self):
         pass
     def runTest(self):
-        pytest.main(self.command)
+        addcommands=self.runArg.pytest_commands
+        cmd=self.command+addcommands
+        pytest.main(cmd)
 

@@ -1,7 +1,7 @@
 import logging
 from BearSki.utils.errors import *
 from BearSki.CommonData import SkiGlobalData
-from BearSki.utils.DataTable import getRowData,generate_data,generate_json_data,getJsonData
+from BearSki.utils.DataTable import getRowData,generate_data,generate_json_data,td_getJsonData
 
 logger=logging.getLogger("BearSki.db")
 class TestDataBase():
@@ -53,7 +53,8 @@ class JsonFile(TestDataBase):
         self.connection = None
         self.settings_dict = settings_dict
     def get_data(self,dataid,type,parms):
-        revalue = getJsonData(dataid, parms['PATH'])
+        revalue = td_getJsonData(dataid, parms['PATH'])
+        logger.info(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(dataid, revalue, parms['PATH']))
         return revalue
     def connect(self):
         pass
