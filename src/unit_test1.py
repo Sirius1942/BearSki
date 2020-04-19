@@ -19,7 +19,7 @@ import multiprocessing
 from BearSki.case.TestRunnerSet import *
 from BearSki.case.TestCaseSet import *
 from BearSki.case.TestResultSet import *
-from BearSki.core import SkiTestFactory
+from BearSki.CaseFactory import SkiTestFactory
 
 logger=SkiLogger("test")
 class test_BearSki(unittest.TestCase):

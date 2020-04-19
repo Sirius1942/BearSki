@@ -3,10 +3,8 @@ import sys
 sys.path.append('../')
 from BearSki.Manager import create_project
 from BearSki.gui.ApiTestGui import gui_start
-from BearSki.utils.arguments import runArg
 from BearSki.utils.hartool import HarTool
 import BearSki
-import json
 
 def main():
 
@@ -35,33 +33,13 @@ def main():
       if args.commond=='createproject':
         create_project(args.name)
       if args.commond=='HarParser':
-        if args.configfile:
-          getConfig(args.configfile)  #读取config.json配置文件
           if args.harfilepath:
             HarTool(args.harfilepath).createAllCase()
       if args.commond=='tools':
-        getConfig(args.configfile)
         if args.gui: 
           gui_start("")
         if args.guitest:
           gui_start("test")
       if args.commond=='version':
-        print(BearSki.__version__)
-        
-
-def getConfig(configfilename):
-  try:
-    rArg=runArg()
-    f= open(configfilename)
-    conf=json.load(f)
-    rArg.setValueFromJson(conf)
-  except FileNotFoundError as e:
-    print(e)
-    print("当前目录下未找到“config.json”参数配置文件，")
-  
-
-  # if args.verbasity:
-  #   print("打开 verbosity")
-if __name__ == "__main__":
-  main()
+         print(BearSki.__version__)
 

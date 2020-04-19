@@ -17,8 +17,6 @@ from BearSki.utils.logger import SkiLogger
 import os
 import multiprocessing
 
-
-
 logger=SkiLogger("test")
 class test_BearSki(unittest.TestCase):
     ASSREQ ="/auth/login/"
@@ -241,7 +239,7 @@ class test_BearSki(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         # 所有case的前置条件
-        subprocess.run(['python','runcmd.py','createproject','-n','AgaveTestProject'])
+        subprocess.run(['python3','runcmd.py','createproject','-n','AgaveTestProject'])
         
     @classmethod
     def tearDownClass(cls):
@@ -257,7 +255,7 @@ class test_BearSki(unittest.TestCase):
         #这是每条case的后置条件
         pass
     def testBearCLI_1(self): 
-        result = subprocess.run(['python','runcmd.py','-h'],stderr=subprocess.PIPE,stdout=subprocess.PIPE)
+        result = subprocess.run(['python3','runcmd.py','-h'],stderr=subprocess.PIPE,stdout=subprocess.PIPE)
         # result = subprocess.run(['python','test1.py','-v'],stderr=subprocess.PIPE,stdout=subprocess.PIPE,check=True)
         # 非正常终止时候如果check=True 将不会输入出错误信息，仅提示错误
         # 测试命令行代码帮助信息
@@ -265,7 +263,7 @@ class test_BearSki(unittest.TestCase):
         # logger.info(result.stdout)
 
     def testBearCLI_2(self): 
-        result = subprocess.run(['python','runcmd.py','tools','-gt'],stderr=subprocess.PIPE,stdout=subprocess.PIPE)
+        result = subprocess.run(['python3','runcmd.py','tools','-gt'],stderr=subprocess.PIPE,stdout=subprocess.PIPE)
         self.assertIn('guitools startup', str(result.stdout))
         logger.info(result.stdout)
 
@@ -278,6 +276,16 @@ class test_BearSki(unittest.TestCase):
             i+=1
           else:
             break
+        #检查默认目录是否都存在
+        testcase_isExists=os.path.exists('AgaveTestProject/testcase')
+        self.assertTrue(testcase_isExists)
+        testdata_isExists = os.path.exists('AgaveTestProject/testdata')
+        self.assertTrue(testdata_isExists)
+        keyword_isExists = os.path.exists('AgaveTestProject/keywords')
+        self.assertTrue(keyword_isExists)
+        driver_isExists = os.path.exists('AgaveTestProject/driver')
+        self.assertTrue(driver_isExists)
+
         # os.system("cd AgaveTestProject && python runtest.py")
         
         # r = os.popen("cd AgaveTestProject && python runtest.py")  
@@ -287,7 +295,7 @@ class test_BearSki(unittest.TestCase):
         logger.info(result.stdout)
         # print("test is :",text)
         #临时加的判断
-        self.assertIn('initData clear', str(result.stdout))
+        self.assertIn('1 passed', str(result.stdout))
 
     @unittest.skip('不执行case:') # 跳过这条case
     def testskipcase(self): 
@@ -298,7 +306,8 @@ if __name__=='__main__':
     report_type=input("run alltest ?(y or n):")
     if report_type== "y":
         unittest.main()
-    else:
+    if report_type=="n":
+        casename=input("in put case name:")
         suite = unittest.TestSuite()
-        suite.addTest(test_BearSki('testBearCLI_4'))
+        suite.addTest(test_BearSki(casename))
         unittest.TextTestRunner().run(suite)

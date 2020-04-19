@@ -1,0 +1,639 @@
+[2020-04-06 23:33:37,372] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-06 23:33:37,373] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-06 23:34:35,353] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-06 23:34:35,354] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-06 23:35:00,786] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-06 23:35:00,786] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-06 23:37:05,619] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-06 23:37:05,619] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-06 23:37:59,304] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-06 23:37:59,304] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-06 23:38:13,191] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-06 23:38:13,191] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-06 23:38:13,191] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-06 23:38:13,807] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-06 23:38:13,811] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-06 23:38:13,888] [INFO] [root] in ask baidu！
+[2020-04-06 23:38:16,176] [INFO] [TestSendMessage] <Response [200]>
+[2020-04-09 22:29:15,620] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-09 22:29:15,620] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-09 22:29:15,620] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-09 22:29:16,104] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-09 22:29:16,108] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-09 22:29:16,190] [INFO] [root] in ask baidu！
+[2020-04-09 22:29:27,141] [INFO] [TestSendMessage] <Response [200]>
+[2020-04-09 22:32:56,813] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-09 22:32:56,813] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-09 22:32:56,813] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-09 22:32:57,256] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-09 22:32:57,260] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-09 22:32:57,320] [INFO] [root] in ask baidu！
+[2020-04-09 22:32:57,779] [INFO] [TestSendMessage] <Response [200]>
+[2020-04-09 22:58:18,422] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-09 22:58:18,423] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-09 22:58:18,423] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-09 22:58:18,917] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-09 22:58:18,922] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-09 22:58:18,990] [INFO] [root] in ask baidu！
+[2020-04-09 22:58:20,438] [INFO] [TestSendMessage] <Response [200]>
+[2020-04-09 22:59:42,606] [INFO] [root] b''
+[2020-04-15 10:57:11,939] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 10:57:11,939] [INFO] [BearSki.RunUnittest] Commond List: ['testcase/test_TD.py']
+[2020-04-15 10:57:11,939] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 10:57:21,783] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 10:57:21,784] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-04-15 10:57:21,784] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 10:57:22,122] [INFO] [TestTestData] in test_getData
+[2020-04-15 10:57:22,180] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 10:57:22,218] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 10:57:22,256] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 10:57:22,257] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 10:57:22,258] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 10:57:28,990] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 10:57:28,990] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 10:57:28,990] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 10:57:29,320] [INFO] [TestTestData] in test_getData
+[2020-04-15 10:57:29,367] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 10:57:29,405] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 10:57:29,443] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 10:57:29,445] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 10:57:29,446] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 11:06:03,896] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 11:06:03,896] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 11:06:03,896] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 11:06:04,342] [INFO] [TestTestData] in test_getData
+[2020-04-15 11:06:04,403] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:04,445] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:04,487] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:04,528] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13715245826'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:04,530] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 11:06:04,531] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 11:06:27,054] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 11:06:27,054] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 11:06:27,054] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 11:06:27,404] [INFO] [TestTestData] in test_getData
+[2020-04-15 11:06:27,456] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:27,497] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:27,536] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:27,576] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13784530599'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:27,576] [INFO] [TestTestData] {'mobile': '13784530599'}
+[2020-04-15 11:06:27,578] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 11:06:27,579] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 11:06:53,548] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 11:06:53,548] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 11:06:53,548] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 11:06:53,887] [INFO] [TestTestData] in test_getData
+[2020-04-15 11:06:53,934] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:53,972] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:54,010] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:54,048] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13783645608'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:54,048] [INFO] [TestTestData] {'mobile': '13783645608'}
+[2020-04-15 11:06:54,085] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 11:06:54"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:06:54,085] [INFO] [TestTestData] {'time': '"2020-04-15 11:06:54"'}
+[2020-04-15 11:06:54,087] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 11:06:54,088] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 11:20:20,819] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 11:20:20,820] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 11:20:20,820] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 11:20:21,329] [INFO] [TestTestData] in test_getData
+[2020-04-15 11:20:21,384] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:20:21,421] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:20:21,459] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:20:21,498] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13746205293'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:20:21,498] [INFO] [TestTestData] {'mobile': '13746205293'}
+[2020-04-15 11:20:21,536] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 11:20:21"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 11:20:21,536] [INFO] [TestTestData] {'time': '"2020-04-15 11:20:21"'}
+[2020-04-15 11:20:21,630] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 11:20:21,631] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 12:46:20,340] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 12:46:20,341] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 12:46:20,341] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 12:46:20,871] [INFO] [TestTestData] in test_getData
+[2020-04-15 12:46:20,929] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:46:20,967] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:46:21,005] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:46:21,043] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13726766747'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:46:21,043] [INFO] [TestTestData] {'mobile': '13726766747'}
+[2020-04-15 12:46:21,081] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 12:46:21"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:46:21,081] [INFO] [TestTestData] {'time': '"2020-04-15 12:46:21"'}
+[2020-04-15 12:46:21,172] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 12:46:21,173] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 12:48:53,006] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 12:48:53,007] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 12:48:53,007] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 12:48:53,537] [INFO] [TestTestData] in test_getData
+[2020-04-15 12:48:53,603] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:48:53,643] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:48:53,680] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:48:53,718] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13722101390'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:48:53,718] [INFO] [TestTestData] {'mobile': '13722101390'}
+[2020-04-15 12:48:53,756] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 12:48:53"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:48:53,756] [INFO] [TestTestData] {'time': '"2020-04-15 12:48:53"'}
+[2020-04-15 12:48:53,851] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 12:48:53,853] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 12:51:53,682] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 12:51:53,682] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 12:51:53,682] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 12:51:54,131] [INFO] [TestTestData] in test_getData
+[2020-04-15 12:51:54,183] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:51:54,223] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:51:54,260] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:51:54,298] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13725809253'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:51:54,298] [INFO] [TestTestData] {'mobile': '13725809253'}
+[2020-04-15 12:51:54,335] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 12:51:54"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:51:54,335] [INFO] [TestTestData] {'time': '"2020-04-15 12:51:54"'}
+[2020-04-15 12:51:54,430] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 12:51:54,431] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 12:52:24,872] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 12:52:24,873] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 12:52:24,873] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 12:52:25,301] [INFO] [TestTestData] in test_getData
+[2020-04-15 12:52:25,360] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:52:25,399] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:52:25,437] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:52:25,476] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13730648425'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:52:25,476] [INFO] [TestTestData] {'mobile': '13730648425'}
+[2020-04-15 12:52:25,514] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 12:52:25"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:52:25,514] [INFO] [TestTestData] {'time': '"2020-04-15 12:52:25"'}
+[2020-04-15 12:52:25,607] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 12:52:25,608] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 12:53:32,991] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 12:53:32,991] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 12:53:32,991] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 12:53:33,482] [INFO] [TestTestData] in test_getData
+[2020-04-15 12:53:33,536] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:53:33,574] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:53:33,610] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:53:33,650] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13768994595'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:53:33,651] [INFO] [TestTestData] {'mobile': '13768994595'}
+[2020-04-15 12:53:33,687] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 12:53:33"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:53:33,687] [INFO] [TestTestData] {'time': '"2020-04-15 12:53:33"'}
+[2020-04-15 12:53:33,779] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 12:53:33,780] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 12:54:27,168] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 12:54:27,168] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 12:54:27,168] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 12:54:27,515] [INFO] [TestTestData] in test_getData
+[2020-04-15 12:54:27,563] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:54:27,605] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:54:27,643] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:54:27,681] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13751575484'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:54:27,682] [INFO] [TestTestData] {'mobile': '13751575484'}
+[2020-04-15 12:54:27,720] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 12:54:27"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 12:54:27,720] [INFO] [TestTestData] {'time': '"2020-04-15 12:54:27"'}
+[2020-04-15 12:54:27,814] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 12:54:27,815] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:36:52,542] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 13:36:52,543] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 13:36:52,543] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 13:36:53,087] [INFO] [TestTestData] in test_getData
+[2020-04-15 13:36:53,156] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:36:53,198] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:36:53,236] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:36:53,275] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13796754566'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:36:53,275] [INFO] [TestTestData] {'mobile': '13796754566'}
+[2020-04-15 13:36:53,312] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 13:36:53"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:36:53,312] [INFO] [TestTestData] {'time': '"2020-04-15 13:36:53"'}
+[2020-04-15 13:36:53,411] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:36:53,412] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:37:24,649] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 13:37:24,649] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 13:37:24,649] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 13:37:24,985] [INFO] [TestTestData] in test_getData
+[2020-04-15 13:37:25,034] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:37:25,076] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:37:25,114] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:37:25,156] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13761237826'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:37:25,156] [INFO] [TestTestData] {'mobile': '13761237826'}
+[2020-04-15 13:37:25,194] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 13:37:25"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:37:25,194] [INFO] [TestTestData] {'time': '"2020-04-15 13:37:25"'}
+[2020-04-15 13:37:25,195] [INFO] [TestTestData] /api/users/2/
+[2020-04-15 13:37:25,197] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:37:25,198] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:44:59,579] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 13:44:59,579] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 13:44:59,579] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 13:45:00,064] [INFO] [TestTestData] in test_getData
+[2020-04-15 13:45:00,123] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:45:00,161] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:45:00,199] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:45:00,237] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13745571224'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:45:00,237] [INFO] [TestTestData] {'mobile': '13745571224'}
+[2020-04-15 13:45:00,275] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 13:45:00"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:45:00,275] [INFO] [TestTestData] {'time': '"2020-04-15 13:45:00"'}
+[2020-04-15 13:45:00,372] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:45:00,374] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:45:25,535] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 13:45:25,535] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 13:45:25,535] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 13:45:25,866] [INFO] [TestTestData] in test_getData
+[2020-04-15 13:45:25,913] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:45:25,951] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:45:25,988] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:45:26,026] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13727441958'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:45:26,027] [INFO] [TestTestData] {'mobile': '13727441958'}
+[2020-04-15 13:45:26,064] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 13:45:26"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:45:26,064] [INFO] [TestTestData] {'time': '"2020-04-15 13:45:26"'}
+[2020-04-15 13:45:26,158] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:45:26,160] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:48:02,926] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 13:48:02,926] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 13:48:02,926] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 13:48:03,410] [INFO] [TestTestData] in test_getData
+[2020-04-15 13:48:03,470] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:48:03,511] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:48:03,549] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:48:03,589] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13714277545'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:48:03,589] [INFO] [TestTestData] {'mobile': '13714277545'}
+[2020-04-15 13:48:03,627] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 13:48:03"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:48:03,627] [INFO] [TestTestData] {'time': '"2020-04-15 13:48:03"'}
+[2020-04-15 13:48:03,627] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res 数据标签content.text
+[2020-04-15 13:48:03,724] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:48:03,726] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:48:43,787] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 13:48:43,787] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 13:48:43,787] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 13:48:44,243] [INFO] [TestTestData] in test_getData
+[2020-04-15 13:48:44,303] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:48:44,342] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:48:44,380] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:48:44,419] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13713401285'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:48:44,419] [INFO] [TestTestData] {'mobile': '13713401285'}
+[2020-04-15 13:48:44,457] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 13:48:44"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:48:44,457] [INFO] [TestTestData] {'time': '"2020-04-15 13:48:44"'}
+[2020-04-15 13:48:44,457] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签content.text
+[2020-04-15 13:48:44,556] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:48:44,557] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:55:05,884] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 13:55:05,884] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 13:55:05,885] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 13:55:06,432] [INFO] [TestTestData] in test_getData
+[2020-04-15 13:55:06,495] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:55:06,533] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:55:06,572] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:55:06,612] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13767733447'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:55:06,612] [INFO] [TestTestData] {'mobile': '13767733447'}
+[2020-04-15 13:55:06,651] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 13:55:06"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:55:06,651] [INFO] [TestTestData] {'time': '"2020-04-15 13:55:06"'}
+[2020-04-15 13:55:06,651] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签content.text
+[2020-04-15 13:55:06,752] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:55:06,753] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:55:36,117] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 13:55:36,117] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 13:55:36,117] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 13:55:36,456] [INFO] [TestTestData] in test_getData
+[2020-04-15 13:55:36,503] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:55:36,544] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:55:36,581] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:55:36,620] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13733891157'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:55:36,621] [INFO] [TestTestData] {'mobile': '13733891157'}
+[2020-04-15 13:55:36,658] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 13:55:36"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 13:55:36,658] [INFO] [TestTestData] {'time': '"2020-04-15 13:55:36"'}
+[2020-04-15 13:55:36,658] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签content.text
+[2020-04-15 13:55:36,757] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 13:55:36,759] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:19:17,404] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 15:19:17,405] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 15:19:17,406] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 15:19:17,914] [INFO] [TestTestData] in test_getData
+[2020-04-15 15:19:17,973] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:19:18,011] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:19:18,049] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:19:18,088] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13779776455'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:19:18,088] [INFO] [TestTestData] {'mobile': '13779776455'}
+[2020-04-15 15:19:18,125] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 15:19:18"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:19:18,125] [INFO] [TestTestData] {'time': '"2020-04-15 15:19:18"'}
+[2020-04-15 15:19:18,125] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-15 15:19:18,232] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:19:18,234] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:19:36,408] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 15:19:36,409] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 15:19:36,409] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 15:19:36,747] [INFO] [TestTestData] in test_getData
+[2020-04-15 15:19:36,795] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:19:36,835] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:19:36,872] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:19:36,911] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13727655294'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:19:36,911] [INFO] [TestTestData] {'mobile': '13727655294'}
+[2020-04-15 15:19:36,949] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 15:19:36"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:19:36,949] [INFO] [TestTestData] {'time': '"2020-04-15 15:19:36"'}
+[2020-04-15 15:19:36,949] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-15 15:19:37,045] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:19:37,046] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:20:04,434] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 15:20:04,434] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 15:20:04,434] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 15:20:04,777] [INFO] [TestTestData] in test_getData
+[2020-04-15 15:20:04,824] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:20:04,863] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:20:04,900] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:20:04,940] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13771374541'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:20:04,940] [INFO] [TestTestData] {'mobile': '13771374541'}
+[2020-04-15 15:20:04,978] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 15:20:04"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:20:04,978] [INFO] [TestTestData] {'time': '"2020-04-15 15:20:04"'}
+[2020-04-15 15:20:04,978] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-15 15:20:05,073] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:20:05,075] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:20:31,865] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 15:20:31,865] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 15:20:31,865] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 15:20:32,302] [INFO] [TestTestData] in test_getData
+[2020-04-15 15:20:32,355] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:20:32,394] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:20:32,431] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:20:32,470] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13793631655'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:20:32,470] [INFO] [TestTestData] {'mobile': '13793631655'}
+[2020-04-15 15:20:32,508] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 15:20:32"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:20:32,508] [INFO] [TestTestData] {'time': '"2020-04-15 15:20:32"'}
+[2020-04-15 15:20:32,508] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-15 15:20:32,509] [INFO] [BearSki.DataTable] content
+[2020-04-15 15:20:32,606] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:20:32,607] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:21:09,506] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 15:21:09,506] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 15:21:09,506] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 15:21:09,863] [INFO] [TestTestData] in test_getData
+[2020-04-15 15:21:09,927] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:21:09,972] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:21:10,015] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:21:10,057] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13740986023'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:21:10,057] [INFO] [TestTestData] {'mobile': '13740986023'}
+[2020-04-15 15:21:10,103] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 15:21:10"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:21:10,103] [INFO] [TestTestData] {'time': '"2020-04-15 15:21:10"'}
+[2020-04-15 15:21:10,103] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-15 15:21:10,103] [INFO] [BearSki.DataTable] content
+[2020-04-15 15:21:10,204] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:21:10,206] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:21:57,295] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 15:21:57,296] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 15:21:57,296] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 15:21:57,749] [INFO] [TestTestData] in test_getData
+[2020-04-15 15:21:57,804] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:21:57,844] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:21:57,881] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:21:57,920] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13782949082'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:21:57,920] [INFO] [TestTestData] {'mobile': '13782949082'}
+[2020-04-15 15:21:57,957] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 15:21:57"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:21:57,957] [INFO] [TestTestData] {'time': '"2020-04-15 15:21:57"'}
+[2020-04-15 15:21:57,957] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-15 15:21:57,958] [INFO] [BearSki.DataTable] content
+[2020-04-15 15:21:57,958] [INFO] [BearSki.DataTable] text
+[2020-04-15 15:21:57,959] [INFO] [TestTestData] {"id":2,"username":"testuser","name":"testuser1","mobile":"13788989999","email":"testuser@qiyi.com","image":"http://www.agavetest.cn:8671/media/image/default.jpg","department":1,"position":"测试工程师","superior":null,"is_active":true,"roles":[3]}
+[2020-04-15 15:21:57,960] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:21:57,961] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:22:58,083] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-15 15:22:58,084] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-sv']
+[2020-04-15 15:22:58,084] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-15 15:22:58,516] [INFO] [TestTestData] in test_getData
+[2020-04-15 15:22:58,578] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:22:58,624] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:22:58,670] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:22:58,715] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13754792036'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:22:58,715] [INFO] [TestTestData] {'mobile': '13754792036'}
+[2020-04-15 15:22:58,757] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-15 15:22:58"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-15 15:22:58,757] [INFO] [TestTestData] {'time': '"2020-04-15 15:22:58"'}
+[2020-04-15 15:22:58,757] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-15 15:22:58,758] [INFO] [BearSki.db] 依据索引[api_users_2_res.content.text]获取测试数据为:{"id":2,"username":"testuser","name":"testuser1","mobile":"13788989999","email":"testuser@qiyi.com","image":"http://www.agavetest.cn:8671/media/image/default.jpg","department":1,"position":"测试工程师","superior":null,"is_active":true,"roles":[3]}，数据源为:./utest/testdata/model/
+[2020-04-15 15:22:58,758] [INFO] [TestTestData] {"id":2,"username":"testuser","name":"testuser1","mobile":"13788989999","email":"testuser@qiyi.com","image":"http://www.agavetest.cn:8671/media/image/default.jpg","department":1,"position":"测试工程师","superior":null,"is_active":true,"roles":[3]}
+[2020-04-15 15:22:58,760] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-15 15:22:58,761] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 15:53:45,677] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 15:53:45,678] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-04-17 15:53:45,678] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 15:53:46,497] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-17 15:53:46,501] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-17 15:53:46,504] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-17 15:53:46,507] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-17 15:53:46,510] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-17 15:53:46,513] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-17 15:53:46,517] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-17 15:54:21,787] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 15:54:21,787] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-04-17 15:54:21,788] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 15:54:22,186] [INFO] [TestTestData] in test_getData
+[2020-04-17 15:54:22,257] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 15:54:22,297] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 15:54:22,336] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 15:54:22,373] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13753718025'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 15:54:22,373] [INFO] [TestTestData] {'mobile': '13753718025'}
+[2020-04-17 15:54:22,410] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-17 15:54:22"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 15:54:22,410] [INFO] [TestTestData] {'time': '"2020-04-17 15:54:22"'}
+[2020-04-17 15:54:22,410] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-17 15:54:22,411] [INFO] [BearSki.db] 依据索引[api_users_2_res.content.text]获取测试数据为:{"id":2,"username":"testuser","name":"testuser1","mobile":"13788989999","email":"testuser@qiyi.com","image":"http://www.agavetest.cn:8671/media/image/default.jpg","department":1,"position":"测试工程师","superior":null,"is_active":true,"roles":[3]}，数据源为:./utest/testdata/model/
+[2020-04-17 15:54:22,412] [INFO] [TestTestData] {"id":2,"username":"testuser","name":"testuser1","mobile":"13788989999","email":"testuser@qiyi.com","image":"http://www.agavetest.cn:8671/media/image/default.jpg","department":1,"position":"测试工程师","superior":null,"is_active":true,"roles":[3]}
+[2020-04-17 15:54:22,414] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 15:54:22,415] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 15:59:13,433] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 15:59:13,433] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-04-17 15:59:13,434] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 15:59:13,780] [INFO] [TestTestData] in test_getData
+[2020-04-17 15:59:13,833] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 15:59:13,875] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 15:59:13,915] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 15:59:13,961] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13777247206'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 15:59:13,961] [INFO] [TestTestData] {'mobile': '13777247206'}
+[2020-04-17 15:59:14,005] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-17 15:59:14"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 15:59:14,006] [INFO] [TestTestData] {'time': '"2020-04-17 15:59:14"'}
+[2020-04-17 15:59:14,006] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-17 15:59:14,007] [INFO] [BearSki.db] 依据索引[api_users_2_res.content.text]获取测试数据为:{"id":2,"username":"testuser","name":"testuser1","mobile":"13788989999","email":"testuser@qiyi.com","image":"http://www.agavetest.cn:8671/media/image/default.jpg","department":1,"position":"测试工程师","superior":null,"is_active":true,"roles":[3]}，数据源为:./utest/testdata/model/
+[2020-04-17 15:59:14,007] [INFO] [TestTestData] {"id":2,"username":"testuser","name":"testuser1","mobile":"13788989999","email":"testuser@qiyi.com","image":"http://www.agavetest.cn:8671/media/image/default.jpg","department":1,"position":"测试工程师","superior":null,"is_active":true,"roles":[3]}
+[2020-04-17 15:59:14,008] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 15:59:14,009] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:06:33,861] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 16:06:33,861] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-04-17 16:06:33,862] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 16:06:34,209] [INFO] [TestTestData] in test_getData
+[2020-04-17 16:06:34,267] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:06:34,310] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:06:34,353] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:06:34,396] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13710136949'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:06:34,397] [INFO] [TestTestData] {'mobile': '13710136949'}
+[2020-04-17 16:06:34,440] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-17 16:06:34"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:06:34,440] [INFO] [TestTestData] {'time': '"2020-04-17 16:06:34"'}
+[2020-04-17 16:06:34,440] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-17 16:06:34,441] [INFO] [BearSki.db] 依据索引[api_users_2_res.content.text]获取测试数据为:"{\"id\":2,\"username\":\"testuser\",\"name\":\"testuser1\",\"mobile\":\"13788989999\",\"email\":\"testuser@qiyi.com\",\"image\":\"http://www.agavetest.cn:8671/media/image/default.jpg\",\"department\":1,\"position\":\"\u6d4b\u8bd5\u5de5\u7a0b\u5e08\",\"superior\":null,\"is_active\":true,\"roles\":[3]}"，数据源为:./utest/testdata/model/
+[2020-04-17 16:06:34,441] [INFO] [TestTestData] "{\"id\":2,\"username\":\"testuser\",\"name\":\"testuser1\",\"mobile\":\"13788989999\",\"email\":\"testuser@qiyi.com\",\"image\":\"http://www.agavetest.cn:8671/media/image/default.jpg\",\"department\":1,\"position\":\"\u6d4b\u8bd5\u5de5\u7a0b\u5e08\",\"superior\":null,\"is_active\":true,\"roles\":[3]}"
+[2020-04-17 16:06:34,442] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:06:34,443] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:08:22,312] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 16:08:22,313] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-04-17 16:08:22,313] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 16:08:22,675] [INFO] [TestTestData] in test_getData
+[2020-04-17 16:08:22,738] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:08:22,781] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:08:22,823] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:08:22,865] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13797497483'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:08:22,866] [INFO] [TestTestData] {'mobile': '13797497483'}
+[2020-04-17 16:08:22,912] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-17 16:08:22"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:08:22,912] [INFO] [TestTestData] {'time': '"2020-04-17 16:08:22"'}
+[2020-04-17 16:08:22,912] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-17 16:08:22,912] [INFO] [BearSki.db] 依据索引[api_users_2_res.content.text]获取测试数据为:"{\"id\":2,\"username\":\"testuser\",\"name\":\"testuser1\",\"mobile\":\"13788989999\",\"email\":\"testuser@qiyi.com\",\"image\":\"http://www.agavetest.cn:8671/media/image/default.jpg\",\"department\":1,\"position\":\"测试工程师\",\"superior\":null,\"is_active\":true,\"roles\":[3]}"，数据源为:./utest/testdata/model/
+[2020-04-17 16:08:22,912] [INFO] [TestTestData] "{\"id\":2,\"username\":\"testuser\",\"name\":\"testuser1\",\"mobile\":\"13788989999\",\"email\":\"testuser@qiyi.com\",\"image\":\"http://www.agavetest.cn:8671/media/image/default.jpg\",\"department\":1,\"position\":\"测试工程师\",\"superior\":null,\"is_active\":true,\"roles\":[3]}"
+[2020-04-17 16:08:22,914] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:08:22,915] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:08:51,857] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 16:08:51,857] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-04-17 16:08:51,857] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 16:08:52,222] [INFO] [TestTestData] in test_getData
+[2020-04-17 16:08:52,282] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:08:52,323] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:08:52,368] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:08:52,413] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13795573802'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:08:52,414] [INFO] [TestTestData] {'mobile': '13795573802'}
+[2020-04-17 16:08:52,457] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-17 16:08:52"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:08:52,458] [INFO] [TestTestData] {'time': '"2020-04-17 16:08:52"'}
+[2020-04-17 16:08:52,458] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-17 16:08:52,567] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:08:52,568] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:09:02,714] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 16:09:02,714] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-04-17 16:09:02,714] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 16:09:03,058] [INFO] [TestTestData] in test_getData
+[2020-04-17 16:09:03,120] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:09:03,169] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:09:03,215] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:09:03,257] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13774114454'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:09:03,257] [INFO] [TestTestData] {'mobile': '13774114454'}
+[2020-04-17 16:09:03,300] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-17 16:09:03"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:09:03,300] [INFO] [TestTestData] {'time': '"2020-04-17 16:09:03"'}
+[2020-04-17 16:09:03,300] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-17 16:09:03,300] [INFO] [BearSki.db] 依据索引[api_users_2_res.content.text]获取测试数据为:{'id': 2, 'username': 'testuser', 'name': 'testuser1', 'mobile': '13788989999', 'email': 'testuser@qiyi.com', 'image': 'http://www.agavetest.cn:8671/media/image/default.jpg', 'department': 1, 'position': '测试工程师', 'superior': None, 'is_active': True, 'roles': [3]}，数据源为:./utest/testdata/model/
+[2020-04-17 16:09:03,300] [INFO] [TestTestData] {'id': 2, 'username': 'testuser', 'name': 'testuser1', 'mobile': '13788989999', 'email': 'testuser@qiyi.com', 'image': 'http://www.agavetest.cn:8671/media/image/default.jpg', 'department': 1, 'position': '测试工程师', 'superior': None, 'is_active': True, 'roles': [3]}
+[2020-04-17 16:09:03,302] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:09:03,302] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:11:03,178] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 16:11:03,179] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-04-17 16:11:03,182] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 16:11:03,724] [INFO] [TestTestData] in test_getData
+[2020-04-17 16:11:03,791] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:11:03,834] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:11:03,879] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:11:03,923] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13712404194'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:11:03,923] [INFO] [TestTestData] {'mobile': '13712404194'}
+[2020-04-17 16:11:03,967] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-17 16:11:03"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:11:03,967] [INFO] [TestTestData] {'time': '"2020-04-17 16:11:03"'}
+[2020-04-17 16:11:03,968] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-17 16:11:04,080] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:11:04,081] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:12:20,008] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 16:12:20,008] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-04-17 16:12:20,008] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 16:12:20,416] [INFO] [TestTestData] in test_getData
+[2020-04-17 16:12:20,481] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:12:20,526] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:12:20,569] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:12:20,610] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13728470353'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:12:20,610] [INFO] [TestTestData] {'mobile': '13728470353'}
+[2020-04-17 16:12:20,654] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-17 16:12:20"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:12:20,654] [INFO] [TestTestData] {'time': '"2020-04-17 16:12:20"'}
+[2020-04-17 16:12:20,654] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-17 16:12:20,654] [INFO] [BearSki.db] 依据索引[api_users_2_res.content.text]获取测试数据为:13727505810，数据源为:./utest/testdata/model/
+[2020-04-17 16:12:20,654] [INFO] [TestTestData] 13727505810
+[2020-04-17 16:12:20,655] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:12:20,656] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:13:52,820] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 16:13:52,821] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-04-17 16:13:52,821] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 16:13:53,458] [INFO] [TestTestData] in test_getData
+[2020-04-17 16:13:53,526] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:13:53,571] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:13:53,619] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:13:53,663] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13742610713'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:13:53,663] [INFO] [TestTestData] {'mobile': '13742610713'}
+[2020-04-17 16:13:53,708] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-17 16:13:53"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:13:53,709] [INFO] [TestTestData] {'time': '"2020-04-17 16:13:53"'}
+[2020-04-17 16:13:53,709] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-17 16:13:53,709] [INFO] [BearSki.db] 依据索引[api_users_2_res.content.text]获取测试数据为:{'id': 2, 'username': 'testuser', 'name': 'testuser1', 'mobile': '13785601153', 'email': 'testuser@qiyi.com', 'image': 'http://www.agavetest.cn:8671/media/image/default.jpg', 'department': 1, 'position': '测试工程师', 'superior': None, 'is_active': True, 'roles': [3]}，数据源为:./utest/testdata/model/
+[2020-04-17 16:13:53,709] [INFO] [TestTestData] {'id': 2, 'username': 'testuser', 'name': 'testuser1', 'mobile': '13785601153', 'email': 'testuser@qiyi.com', 'image': 'http://www.agavetest.cn:8671/media/image/default.jpg', 'department': 1, 'position': '测试工程师', 'superior': None, 'is_active': True, 'roles': [3]}
+[2020-04-17 16:13:53,710] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:13:53,711] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:14:23,609] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 16:14:23,610] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-04-17 16:14:23,610] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 16:14:23,958] [INFO] [TestTestData] in test_getData
+[2020-04-17 16:14:24,010] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:14:24,053] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:14:24,094] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:14:24,142] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13758990380'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:14:24,142] [INFO] [TestTestData] {'mobile': '13758990380'}
+[2020-04-17 16:14:24,181] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '"2020-04-17 16:14:24"'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:14:24,181] [INFO] [TestTestData] {'time': '"2020-04-17 16:14:24"'}
+[2020-04-17 16:14:24,182] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-17 16:14:24,301] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:14:24,301] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:15:30,363] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 16:15:30,365] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-04-17 16:15:30,365] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 16:15:30,736] [INFO] [TestTestData] in test_getData
+[2020-04-17 16:15:30,795] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:15:30,837] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:15:30,878] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:15:30,924] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13761032958'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:15:30,924] [INFO] [TestTestData] {'mobile': '13761032958'}
+[2020-04-17 16:15:30,964] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '2020-04-17 16:15:30'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:15:30,964] [INFO] [TestTestData] {'time': '2020-04-17 16:15:30'}
+[2020-04-17 16:15:30,964] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-17 16:15:30,964] [INFO] [BearSki.db] 依据索引[api_users_2_res.content.text]获取测试数据为:{'id': 2, 'username': 'testuser', 'name': '2020-04-17 16:15:30', 'mobile': '13734695745', 'email': 'testuser@qiyi.com', 'image': 'http://www.agavetest.cn:8671/media/image/default.jpg', 'department': 1, 'position': '测试工程师', 'superior': None, 'is_active': True, 'roles': [3]}，数据源为:./utest/testdata/model/
+[2020-04-17 16:15:30,964] [INFO] [TestTestData] {'id': 2, 'username': 'testuser', 'name': '2020-04-17 16:15:30', 'mobile': '13734695745', 'email': 'testuser@qiyi.com', 'image': 'http://www.agavetest.cn:8671/media/image/default.jpg', 'department': 1, 'position': '测试工程师', 'superior': None, 'is_active': True, 'roles': [3]}
+[2020-04-17 16:15:30,966] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:15:30,968] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:49:44,420] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-17 16:49:44,421] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '-s']
+[2020-04-17 16:49:44,421] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-17 16:49:44,995] [INFO] [TestTestData] in test_getData
+[2020-04-17 16:49:45,063] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:49:45,106] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:49:45,147] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:49:45,186] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13750113456'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:49:45,187] [INFO] [TestTestData] {'mobile': '13750113456'}
+[2020-04-17 16:49:45,234] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '2020-04-17 16:49:45'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-04-17 16:49:45,234] [INFO] [TestTestData] {'time': '2020-04-17 16:49:45'}
+[2020-04-17 16:49:45,235] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-04-17 16:49:45,235] [INFO] [BearSki.db] 依据索引[api_users_2_res.content.text]获取测试数据为:{'id': 2, 'username': 'testuser', 'name': '2020-04-17 16:49:45', 'mobile': '13781294533', 'email': 'testuser@qiyi.com', 'image': 'http://www.agavetest.cn:8671/media/image/default.jpg', 'department': 1, 'position': '测试工程师', 'superior': None, 'is_active': True, 'roles': [3]}，数据源为:./utest/testdata/model/
+[2020-04-17 16:49:45,235] [INFO] [TestTestData] {'id': 2, 'username': 'testuser', 'name': '2020-04-17 16:49:45', 'mobile': '13781294533', 'email': 'testuser@qiyi.com', 'image': 'http://www.agavetest.cn:8671/media/image/default.jpg', 'department': 1, 'position': '测试工程师', 'superior': None, 'is_active': True, 'roles': [3]}
+[2020-04-17 16:49:45,236] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-17 16:49:45,237] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-04-19 13:47:41,061] [INFO] [root] b"[Errno 2] No such file or directory: 'config.json'\n\xe5\xbd\x93\xe5\x89\x8d\xe7\x9b\xae\xe5\xbd\x95\xe4\xb8\x8b\xe6\x9c\xaa\xe6\x89\xbe\xe5\x88\xb0\xe2\x80\x9cconfig.json\xe2\x80\x9d\xe5\x8f\x82\xe6\x95\xb0\xe9\x85\x8d\xe7\xbd\xae\xe6\x96\x87\xe4\xbb\xb6\xef\xbc\x8c\nguitools startup ...\nguitools exit.\n"
+[2020-04-19 13:48:24,481] [INFO] [root] b''
+[2020-04-19 13:54:20,459] [INFO] [root] b''
+[2020-04-19 13:54:45,496] [INFO] [root] b''
+[2020-04-19 13:56:34,729] [INFO] [root] b''
+[2020-04-19 13:57:38,066] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-19 13:57:38,066] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-04-19 13:57:38,066] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-19 13:57:38,736] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-19 13:57:38,739] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-19 13:57:38,743] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-19 13:57:38,746] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-19 13:57:38,749] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-19 13:57:38,752] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-19 13:57:38,755] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-19 13:58:18,561] [INFO] [root] b'guitools startup ...\nguitools exit.\n'
+[2020-04-19 13:58:19,603] [INFO] [root] b'============================= test session starts ==============================\nplatform darwin -- Python 3.7.3, pytest-5.4.1, py-1.8.1, pluggy-0.13.1\nrootdir: /Users/mac/Documents/06code_new/BearFramework\nplugins: celery-4.2.1, allure-pytest-2.8.12, parallel-0.0.10, html-2.1.0, metadata-1.8.0\ncollected 1 item\n\ntestcase/test_send.py F\n\n=================================== FAILURES ===================================\n__________________________ TestSendMessage.test_send ___________________________\n\nself = <test_send.TestSendMessage testMethod=test_send>, arg = (), kws = {}\n\n    def __deco(self,*arg,**kws):\n        # print("before %s called [%s],[%s]." % (func.__name__, arg,kws))\n>       result=func(self,*arg,**kws)\n\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/BearSki/core.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \ntestcase/test_send.py:17: in test_send\n    res=self.step("userkw_sendmsg","get","http://www.baidu.com")\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/BearSki/core.py:35: in __init__\n    self.result=self.__run(full_modules,*arg,**kws)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/BearSki/core.py:47: in __run\n    return self.__getObject(modules,fun_list)(*arg,**kws)\nkeywords/send.py:9: in askbaidu\n    r = d_requests.get(url=data)    # \xe6\x9c\x80\xe5\x9f\xba\xe6\x9c\xac\xe7\x9a\x84GET\xe8\xaf\xb7\xe6\xb1\x82\ndriver/d_requests.py:5: in get\n    return requests.get(url,params,**kwargs)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py:75: in get\n    return request(\'get\', url, params=params, **kwargs)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py:60: in request\n    return session.request(method=method, url=url, **kwargs)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py:533: in request\n    resp = self.send(prep, **send_kwargs)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py:646: in send\n    r = adapter.send(request, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <requests.adapters.HTTPAdapter object at 0x7f8ed6f98400>\nrequest = <PreparedRequest [GET]>, stream = False\ntimeout = <urllib3.util.timeout.Timeout object at 0x7f8ed8bd8c88>, verify = True\ncert = None, proxies = OrderedDict()\n\n    def send(self, request, stream=False, timeout=None, verify=True, cert=None, proxies=None):\n        """Sends PreparedRequest object. Returns Response object.\n    \n        :param request: The :class:`PreparedRequest <PreparedRequest>` being sent.\n        :param stream: (optional) Whether to stream the request content.\n        :param timeout: (optional) How long to wait for the server to send\n            data before giving up, as a float, or a :ref:`(connect timeout,\n            read timeout) <timeouts>` tuple.\n        :type timeout: float or tuple or urllib3 Timeout object\n        :param verify: (optional) Either a boolean, in which case it controls whether\n            we verify the server\'s TLS certificate, or a string, in which case it\n            must be a path to a CA bundle to use\n        :param cert: (optional) Any user-provided SSL certificate to be trusted.\n        :param proxies: (optional) The proxies dictionary to apply to the request.\n        :rtype: requests.Response\n        """\n    \n        try:\n            conn = self.get_connection(request.url, proxies)\n        except LocationValueError as e:\n            raise InvalidURL(e, request=request)\n    \n        self.cert_verify(conn, request.url, verify, cert)\n        url = self.request_url(request, proxies)\n        self.add_headers(request, stream=stream, timeout=timeout, verify=verify, cert=cert, proxies=proxies)\n    \n        chunked = not (request.body is None or \'Content-Length\' in request.headers)\n    \n        if isinstance(timeout, tuple):\n            try:\n                connect, read = timeout\n                timeout = TimeoutSauce(connect=connect, read=read)\n            except ValueError as e:\n                # this may raise a string formatting error.\n                err = ("Invalid timeout {}. Pass a (connect, read) "\n                       "timeout tuple, or a single float to set "\n                       "both timeouts to the same value".format(timeout))\n                raise ValueError(err)\n        elif isinstance(timeout, TimeoutSauce):\n            pass\n        else:\n            timeout = TimeoutSauce(connect=timeout, read=timeout)\n    \n        try:\n            if not chunked:\n                resp = conn.urlopen(\n                    method=request.method,\n                    url=url,\n                    body=request.body,\n                    headers=request.headers,\n                    redirect=False,\n                    assert_same_host=False,\n                    preload_content=False,\n                    decode_content=False,\n                    retries=self.max_retries,\n                    timeout=timeout\n                )\n    \n            # Send the request.\n            else:\n                if hasattr(conn, \'proxy_pool\'):\n                    conn = conn.proxy_pool\n    \n                low_conn = conn._get_conn(timeout=DEFAULT_POOL_TIMEOUT)\n    \n                try:\n                    low_conn.putrequest(request.method,\n                                        url,\n                                        skip_accept_encoding=True)\n    \n                    for header, value in request.headers.items():\n                        low_conn.putheader(header, value)\n    \n                    low_conn.endheaders()\n    \n                    for i in request.body:\n                        low_conn.send(hex(len(i))[2:].encode(\'utf-8\'))\n                        low_conn.send(b\'\\r\\n\')\n                        low_conn.send(i)\n                        low_conn.send(b\'\\r\\n\')\n                    low_conn.send(b\'0\\r\\n\\r\\n\')\n    \n                    # Receive the response from the server\n                    try:\n                        # For Python 2.7, use buffering of HTTP responses\n                        r = low_conn.getresponse(buffering=True)\n                    except TypeError:\n                        # For compatibility with Python 3.3+\n                        r = low_conn.getresponse()\n    \n                    resp = HTTPResponse.from_httplib(\n                        r,\n                        pool=conn,\n                        connection=low_conn,\n                        preload_content=False,\n                        decode_content=False\n                    )\n                except:\n                    # If we hit any problems here, clean up the connection.\n                    # Then, reraise so that we can handle the actual exception.\n                    low_conn.close()\n                    raise\n    \n        except (ProtocolError, socket.error) as err:\n            raise ConnectionError(err, request=request)\n    \n        except MaxRetryError as e:\n            if isinstance(e.reason, ConnectTimeoutError):\n                # TODO: Remove this in 3.0.0: see #2811\n                if not isinstance(e.reason, NewConnectionError):\n                    raise ConnectTimeout(e, request=request)\n    \n            if isinstance(e.reason, ResponseError):\n                raise RetryError(e, request=request)\n    \n            if isinstance(e.reason, _ProxyError):\n                raise ProxyError(e, request=request)\n    \n            if isinstance(e.reason, _SSLError):\n                # This branch is for urllib3 v1.22 and later.\n                raise SSLError(e, request=request)\n    \n>           raise ConnectionError(e, request=request)\nE           requests.exceptions.ConnectionError: HTTPConnectionPool(host=\'www.baidu.com\', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x7f8ed8beacf8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known\'))\n\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/adapters.py:516: ConnectionError\n------------------------------ Captured log call -------------------------------\nINFO     TestSendMessage:test_send.py:14 I\'m in test_two test_send\nINFO     root:logger.py:66 in ask baidu\xef\xbc\x81\n=========================== short test summary info ============================\nFAILED testcase/test_send.py::TestSendMessage::test_send - requests.exception...\n============================== 1 failed in 0.25s ===============================\n'
+[2020-04-19 13:59:11,324] [INFO] [root] b'============================= test session starts ==============================\nplatform darwin -- Python 3.7.3, pytest-5.4.1, py-1.8.1, pluggy-0.13.1\nrootdir: /Users/mac/Documents/06code_new/BearFramework\nplugins: celery-4.2.1, allure-pytest-2.8.12, parallel-0.0.10, html-2.1.0, metadata-1.8.0\ncollected 1 item\n\ntestcase/test_send.py F\n\n=================================== FAILURES ===================================\n__________________________ TestSendMessage.test_send ___________________________\n\nself = <test_send.TestSendMessage testMethod=test_send>, arg = (), kws = {}\n\n    def __deco(self,*arg,**kws):\n        # print("before %s called [%s],[%s]." % (func.__name__, arg,kws))\n>       result=func(self,*arg,**kws)\n\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/BearSki/core.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \ntestcase/test_send.py:17: in test_send\n    res=self.step("userkw_sendmsg","get","http://www.baidu.com")\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/BearSki/core.py:35: in __init__\n    self.result=self.__run(full_modules,*arg,**kws)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/BearSki/core.py:47: in __run\n    return self.__getObject(modules,fun_list)(*arg,**kws)\nkeywords/send.py:9: in askbaidu\n    r = d_requests.get(url=data)    # \xe6\x9c\x80\xe5\x9f\xba\xe6\x9c\xac\xe7\x9a\x84GET\xe8\xaf\xb7\xe6\xb1\x82\ndriver/d_requests.py:5: in get\n    return requests.get(url,params,**kwargs)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py:75: in get\n    return request(\'get\', url, params=params, **kwargs)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py:60: in request\n    return session.request(method=method, url=url, **kwargs)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py:533: in request\n    resp = self.send(prep, **send_kwargs)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py:646: in send\n    r = adapter.send(request, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <requests.adapters.HTTPAdapter object at 0x7fc54bc6a390>\nrequest = <PreparedRequest [GET]>, stream = False\ntimeout = <urllib3.util.timeout.Timeout object at 0x7fc54bec5ba8>, verify = True\ncert = None, proxies = OrderedDict()\n\n    def send(self, request, stream=False, timeout=None, verify=True, cert=None, proxies=None):\n        """Sends PreparedRequest object. Returns Response object.\n    \n        :param request: The :class:`PreparedRequest <PreparedRequest>` being sent.\n        :param stream: (optional) Whether to stream the request content.\n        :param timeout: (optional) How long to wait for the server to send\n            data before giving up, as a float, or a :ref:`(connect timeout,\n            read timeout) <timeouts>` tuple.\n        :type timeout: float or tuple or urllib3 Timeout object\n        :param verify: (optional) Either a boolean, in which case it controls whether\n            we verify the server\'s TLS certificate, or a string, in which case it\n            must be a path to a CA bundle to use\n        :param cert: (optional) Any user-provided SSL certificate to be trusted.\n        :param proxies: (optional) The proxies dictionary to apply to the request.\n        :rtype: requests.Response\n        """\n    \n        try:\n            conn = self.get_connection(request.url, proxies)\n        except LocationValueError as e:\n            raise InvalidURL(e, request=request)\n    \n        self.cert_verify(conn, request.url, verify, cert)\n        url = self.request_url(request, proxies)\n        self.add_headers(request, stream=stream, timeout=timeout, verify=verify, cert=cert, proxies=proxies)\n    \n        chunked = not (request.body is None or \'Content-Length\' in request.headers)\n    \n        if isinstance(timeout, tuple):\n            try:\n                connect, read = timeout\n                timeout = TimeoutSauce(connect=connect, read=read)\n            except ValueError as e:\n                # this may raise a string formatting error.\n                err = ("Invalid timeout {}. Pass a (connect, read) "\n                       "timeout tuple, or a single float to set "\n                       "both timeouts to the same value".format(timeout))\n                raise ValueError(err)\n        elif isinstance(timeout, TimeoutSauce):\n            pass\n        else:\n            timeout = TimeoutSauce(connect=timeout, read=timeout)\n    \n        try:\n            if not chunked:\n                resp = conn.urlopen(\n                    method=request.method,\n                    url=url,\n                    body=request.body,\n                    headers=request.headers,\n                    redirect=False,\n                    assert_same_host=False,\n                    preload_content=False,\n                    decode_content=False,\n                    retries=self.max_retries,\n                    timeout=timeout\n                )\n    \n            # Send the request.\n            else:\n                if hasattr(conn, \'proxy_pool\'):\n                    conn = conn.proxy_pool\n    \n                low_conn = conn._get_conn(timeout=DEFAULT_POOL_TIMEOUT)\n    \n                try:\n                    low_conn.putrequest(request.method,\n                                        url,\n                                        skip_accept_encoding=True)\n    \n                    for header, value in request.headers.items():\n                        low_conn.putheader(header, value)\n    \n                    low_conn.endheaders()\n    \n                    for i in request.body:\n                        low_conn.send(hex(len(i))[2:].encode(\'utf-8\'))\n                        low_conn.send(b\'\\r\\n\')\n                        low_conn.send(i)\n                        low_conn.send(b\'\\r\\n\')\n                    low_conn.send(b\'0\\r\\n\\r\\n\')\n    \n                    # Receive the response from the server\n                    try:\n                        # For Python 2.7, use buffering of HTTP responses\n                        r = low_conn.getresponse(buffering=True)\n                    except TypeError:\n                        # For compatibility with Python 3.3+\n                        r = low_conn.getresponse()\n    \n                    resp = HTTPResponse.from_httplib(\n                        r,\n                        pool=conn,\n                        connection=low_conn,\n                        preload_content=False,\n                        decode_content=False\n                    )\n                except:\n                    # If we hit any problems here, clean up the connection.\n                    # Then, reraise so that we can handle the actual exception.\n                    low_conn.close()\n                    raise\n    \n        except (ProtocolError, socket.error) as err:\n            raise ConnectionError(err, request=request)\n    \n        except MaxRetryError as e:\n            if isinstance(e.reason, ConnectTimeoutError):\n                # TODO: Remove this in 3.0.0: see #2811\n                if not isinstance(e.reason, NewConnectionError):\n                    raise ConnectTimeout(e, request=request)\n    \n            if isinstance(e.reason, ResponseError):\n                raise RetryError(e, request=request)\n    \n            if isinstance(e.reason, _ProxyError):\n                raise ProxyError(e, request=request)\n    \n            if isinstance(e.reason, _SSLError):\n                # This branch is for urllib3 v1.22 and later.\n                raise SSLError(e, request=request)\n    \n>           raise ConnectionError(e, request=request)\nE           requests.exceptions.ConnectionError: HTTPConnectionPool(host=\'www.baidu.com\', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x7fc54bed7c50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known\'))\n\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/adapters.py:516: ConnectionError\n------------------------------ Captured log call -------------------------------\nINFO     TestSendMessage:test_send.py:14 I\'m in test_two test_send\nINFO     root:logger.py:66 in ask baidu\xef\xbc\x81\n=========================== short test summary info ============================\nFAILED testcase/test_send.py::TestSendMessage::test_send - requests.exception...\n============================== 1 failed in 0.19s ===============================\n'
+[2020-04-19 14:02:12,645] [INFO] [root] b'guitools startup ...\nguitools exit.\n'
+[2020-04-19 14:02:44,583] [INFO] [root] b'============================= test session starts ==============================\nplatform darwin -- Python 3.7.3, pytest-5.4.1, py-1.8.1, pluggy-0.13.1\nrootdir: /Users/mac/Documents/06code_new/BearFramework\nplugins: celery-4.2.1, allure-pytest-2.8.12, parallel-0.0.10, html-2.1.0, metadata-1.8.0\ncollected 1 item\n\ntestcase/test_send.py F\n\n=================================== FAILURES ===================================\n__________________________ TestSendMessage.test_send ___________________________\n\nself = <test_send.TestSendMessage testMethod=test_send>, arg = (), kws = {}\n\n    def __deco(self,*arg,**kws):\n        # print("before %s called [%s],[%s]." % (func.__name__, arg,kws))\n>       result=func(self,*arg,**kws)\n\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/BearSki/core.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \ntestcase/test_send.py:17: in test_send\n    res=self.step("userkw_sendmsg","get","http://www.baidu.com")\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/BearSki/core.py:35: in __init__\n    self.result=self.__run(full_modules,*arg,**kws)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/BearSki/core.py:47: in __run\n    return self.__getObject(modules,fun_list)(*arg,**kws)\nkeywords/send.py:9: in askbaidu\n    r = d_requests.get(url=data)    # \xe6\x9c\x80\xe5\x9f\xba\xe6\x9c\xac\xe7\x9a\x84GET\xe8\xaf\xb7\xe6\xb1\x82\ndriver/d_requests.py:5: in get\n    return requests.get(url,params,**kwargs)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py:75: in get\n    return request(\'get\', url, params=params, **kwargs)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py:60: in request\n    return session.request(method=method, url=url, **kwargs)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py:533: in request\n    resp = self.send(prep, **send_kwargs)\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py:646: in send\n    r = adapter.send(request, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <requests.adapters.HTTPAdapter object at 0x7fa49ce78390>\nrequest = <PreparedRequest [GET]>, stream = False\ntimeout = <urllib3.util.timeout.Timeout object at 0x7fa49d0dd710>, verify = True\ncert = None, proxies = OrderedDict()\n\n    def send(self, request, stream=False, timeout=None, verify=True, cert=None, proxies=None):\n        """Sends PreparedRequest object. Returns Response object.\n    \n        :param request: The :class:`PreparedRequest <PreparedRequest>` being sent.\n        :param stream: (optional) Whether to stream the request content.\n        :param timeout: (optional) How long to wait for the server to send\n            data before giving up, as a float, or a :ref:`(connect timeout,\n            read timeout) <timeouts>` tuple.\n        :type timeout: float or tuple or urllib3 Timeout object\n        :param verify: (optional) Either a boolean, in which case it controls whether\n            we verify the server\'s TLS certificate, or a string, in which case it\n            must be a path to a CA bundle to use\n        :param cert: (optional) Any user-provided SSL certificate to be trusted.\n        :param proxies: (optional) The proxies dictionary to apply to the request.\n        :rtype: requests.Response\n        """\n    \n        try:\n            conn = self.get_connection(request.url, proxies)\n        except LocationValueError as e:\n            raise InvalidURL(e, request=request)\n    \n        self.cert_verify(conn, request.url, verify, cert)\n        url = self.request_url(request, proxies)\n        self.add_headers(request, stream=stream, timeout=timeout, verify=verify, cert=cert, proxies=proxies)\n    \n        chunked = not (request.body is None or \'Content-Length\' in request.headers)\n    \n        if isinstance(timeout, tuple):\n            try:\n                connect, read = timeout\n                timeout = TimeoutSauce(connect=connect, read=read)\n            except ValueError as e:\n                # this may raise a string formatting error.\n                err = ("Invalid timeout {}. Pass a (connect, read) "\n                       "timeout tuple, or a single float to set "\n                       "both timeouts to the same value".format(timeout))\n                raise ValueError(err)\n        elif isinstance(timeout, TimeoutSauce):\n            pass\n        else:\n            timeout = TimeoutSauce(connect=timeout, read=timeout)\n    \n        try:\n            if not chunked:\n                resp = conn.urlopen(\n                    method=request.method,\n                    url=url,\n                    body=request.body,\n                    headers=request.headers,\n                    redirect=False,\n                    assert_same_host=False,\n                    preload_content=False,\n                    decode_content=False,\n                    retries=self.max_retries,\n                    timeout=timeout\n                )\n    \n            # Send the request.\n            else:\n                if hasattr(conn, \'proxy_pool\'):\n                    conn = conn.proxy_pool\n    \n                low_conn = conn._get_conn(timeout=DEFAULT_POOL_TIMEOUT)\n    \n                try:\n                    low_conn.putrequest(request.method,\n                                        url,\n                                        skip_accept_encoding=True)\n    \n                    for header, value in request.headers.items():\n                        low_conn.putheader(header, value)\n    \n                    low_conn.endheaders()\n    \n                    for i in request.body:\n                        low_conn.send(hex(len(i))[2:].encode(\'utf-8\'))\n                        low_conn.send(b\'\\r\\n\')\n                        low_conn.send(i)\n                        low_conn.send(b\'\\r\\n\')\n                    low_conn.send(b\'0\\r\\n\\r\\n\')\n    \n                    # Receive the response from the server\n                    try:\n                        # For Python 2.7, use buffering of HTTP responses\n                        r = low_conn.getresponse(buffering=True)\n                    except TypeError:\n                        # For compatibility with Python 3.3+\n                        r = low_conn.getresponse()\n    \n                    resp = HTTPResponse.from_httplib(\n                        r,\n                        pool=conn,\n                        connection=low_conn,\n                        preload_content=False,\n                        decode_content=False\n                    )\n                except:\n                    # If we hit any problems here, clean up the connection.\n                    # Then, reraise so that we can handle the actual exception.\n                    low_conn.close()\n                    raise\n    \n        except (ProtocolError, socket.error) as err:\n            raise ConnectionError(err, request=request)\n    \n        except MaxRetryError as e:\n            if isinstance(e.reason, ConnectTimeoutError):\n                # TODO: Remove this in 3.0.0: see #2811\n                if not isinstance(e.reason, NewConnectionError):\n                    raise ConnectTimeout(e, request=request)\n    \n            if isinstance(e.reason, ResponseError):\n                raise RetryError(e, request=request)\n    \n            if isinstance(e.reason, _ProxyError):\n                raise ProxyError(e, request=request)\n    \n            if isinstance(e.reason, _SSLError):\n                # This branch is for urllib3 v1.22 and later.\n                raise SSLError(e, request=request)\n    \n>           raise ConnectionError(e, request=request)\nE           requests.exceptions.ConnectionError: HTTPConnectionPool(host=\'www.baidu.com\', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x7fa49d0e5c50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known\'))\n\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/adapters.py:516: ConnectionError\n------------------------------ Captured log call -------------------------------\nINFO     TestSendMessage:test_send.py:14 I\'m in test_two test_send\nINFO     root:logger.py:66 in ask baidu\xef\xbc\x81\n=========================== short test summary info ============================\nFAILED testcase/test_send.py::TestSendMessage::test_send - requests.exception...\n============================== 1 failed in 0.18s ===============================\n'
+[2020-04-19 14:05:47,724] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-19 14:05:47,724] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-19 14:05:47,725] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-19 14:05:48,074] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-19 14:05:48,081] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-19 14:05:48,134] [INFO] [root] in ask baidu！
+[2020-04-19 14:08:04,301] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-19 14:08:04,302] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-19 14:08:04,302] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-19 14:08:04,649] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-19 14:08:04,651] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-19 14:08:04,691] [INFO] [root] in ask baidu！
+[2020-04-19 14:08:04,860] [INFO] [TestSendMessage] <Response [200]>
+[2020-04-19 14:08:15,790] [INFO] [root] b'============================= test session starts ==============================\nplatform darwin -- Python 3.7.3, pytest-5.4.1, py-1.8.1, pluggy-0.13.1\nrootdir: /Users/mac/Documents/06code_new/BearFramework\nplugins: celery-4.2.1, allure-pytest-2.8.12, parallel-0.0.10, html-2.1.0, metadata-1.8.0\ncollected 1 item\n\ntestcase/test_send.py .\n\n============================== 1 passed in 0.17s ===============================\n'
+[2020-04-19 14:09:13,946] [INFO] [root] b'============================= test session starts ==============================\nplatform darwin -- Python 3.7.3, pytest-5.4.1, py-1.8.1, pluggy-0.13.1\nrootdir: /Users/mac/Documents/06code_new/BearFramework\nplugins: celery-4.2.1, allure-pytest-2.8.12, parallel-0.0.10, html-2.1.0, metadata-1.8.0\ncollected 1 item\n\ntestcase/test_send.py .\n\n============================== 1 passed in 0.20s ===============================\n'
+[2020-04-19 14:10:49,462] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-19 14:10:49,462] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_send.py']
+[2020-04-19 14:10:49,462] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-19 14:10:49,813] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-04-19 14:10:49,816] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-19 14:10:49,857] [INFO] [root] in ask baidu！
+[2020-04-19 14:10:50,005] [INFO] [TestSendMessage] <Response [200]>
+[2020-04-19 14:12:34,050] [INFO] [root] b'============================= test session starts ==============================\nplatform darwin -- Python 3.7.3, pytest-5.4.1, py-1.8.1, pluggy-0.13.1\nrootdir: /Users/mac/Documents/06code_new/BearFramework\nplugins: celery-4.2.1, allure-pytest-2.8.12, parallel-0.0.10, html-2.1.0, metadata-1.8.0\ncollected 1 item\n\ntestcase/test_send.py .\n\n============================== 1 passed in 0.20s ===============================\n'
+[2020-04-19 14:16:49,869] [INFO] [root] b'============================= test session starts ==============================\nplatform darwin -- Python 3.7.3, pytest-5.4.1, py-1.8.1, pluggy-0.13.1\nrootdir: /Users/mac/Documents/06code_new/BearFramework\nplugins: celery-4.2.1, allure-pytest-2.8.12, parallel-0.0.10, html-2.1.0, metadata-1.8.0\ncollected 1 item\n\ntestcase/test_send.py .\n\n============================== 1 passed in 3.25s ===============================\n'

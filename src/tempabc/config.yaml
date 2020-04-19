@@ -1,0 +1,20 @@
+runner:  #设置用例执行器
+  name: PyTestRunner
+  commands:
+    - -s
+unittestcase:
+  mode: onecase
+case:
+  path: utest.testcase.atest_api_users.atest_api_users.case_api_users
+  name: ""
+ski_filepath: SkiSetting.py
+report:
+  mode: html
+  path: report/report1.html
+  addtime.now: true
+auto:
+  case_path: testdata/model
+  model_path": testdata/model
+log:
+  file_path: log/log.log,
+  level: INFO

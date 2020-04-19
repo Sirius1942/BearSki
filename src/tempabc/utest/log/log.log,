@@ -1,0 +1,27 @@
+[2020-04-09 22:20:08,771] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-09 22:20:08,771] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-04-09 22:20:08,771] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-09 22:20:09,261] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-09 22:20:09,262] [ERROR] [root] error,does not find  modules
+[2020-04-09 22:20:09,262] [INFO] [TestSendMessage] None
+[2020-04-09 22:20:09,347] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-09 22:20:09,348] [ERROR] [root] error,does not find  modules
+[2020-04-09 22:20:09,348] [ERROR] [root] error,does not find  modules
+[2020-04-09 22:20:54,808] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-09 22:20:54,808] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-04-09 22:20:54,808] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-09 22:20:55,153] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-09 22:20:55,154] [ERROR] [root] error,does not find  modules
+[2020-04-09 22:20:55,154] [INFO] [TestSendMessage] None
+[2020-04-09 22:22:07,257] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-09 22:22:07,257] [INFO] [BearSki.RunUnittest] Commond List: ['-sv']
+[2020-04-09 22:22:07,257] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-09 22:22:07,596] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-09 22:22:07,597] [ERROR] [root] error,does not find  modules
+[2020-04-09 22:22:07,597] [INFO] [TestSendMessage] None
+[2020-04-09 22:23:01,552] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-09 22:23:01,553] [INFO] [BearSki.RunUnittest] Commond List: ['-o', 'log_cli=true', '-o', 'log_cli_level=INFO']
+[2020-04-09 22:23:01,553] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path"': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log,', 'level': 'INFO'}}
+[2020-04-09 22:23:02,076] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-09 22:23:02,077] [ERROR] [root] error,does not find  modules
+[2020-04-09 22:23:02,077] [INFO] [TestSendMessage] None

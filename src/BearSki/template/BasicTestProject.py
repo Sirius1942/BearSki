@@ -134,8 +134,8 @@ GLOBAL_VARIABLE={
 
 #原DataTable 配置，建议后续使用TEST_DATABASES 替换
 DATATABLE={
-        "db_excel_path":"db/testdata1.xlsx",
-        "db_json_path":"db/model/"
+        "db_excel_path":"testdata/testdata1.xlsx",
+        "db_json_path":"testdata/model/"
     }
 
 TEST_DATABASES = {
@@ -147,7 +147,7 @@ TEST_DATABASES = {
     'myJsonData': {
         'ENGINE': 'Bearski.db.Base.JsonFile',
         'NAME': 'myJsonData', #连接的数据库名
-        'PATH': 'db/model/'
+        'PATH': 'testdata/model/'
     }
 }
 #会在1.6版本后提供 TEST_DATABASE_ROUTERS 扩展接口，以及路由功能
@@ -159,7 +159,7 @@ TEST_DATABASE_CASE_MAPPING = {
     'app02': 'mysql02',
 }
 INITDATA={
-        "init_file_path":"utest.db.initdata"
+        "init_file_path":"testdata.initdata"
 }
 
 '''
@@ -189,7 +189,7 @@ def create_testproject(projectname):
     red=os.path.join(projectname,'report')
     os.makedirs(red)
 
-    initfile=os.path.join(projectname,'db')
+    initfile=os.path.join(projectname,'testdata')
     os.makedirs(initfile)
 
     driverf = os.path.join(drd,DRIVER_NAME)

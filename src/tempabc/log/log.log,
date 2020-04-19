@@ -1,0 +1,18 @@
+[2020-04-09 22:33:56,261] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-09 22:33:56,261] [INFO] [BearSki.RunUnittest] Commond List: ['testcase/test_send.py']
+[2020-04-09 22:33:56,261] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': 'report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'testdata/model', 'model_path"': 'testdata/model'}, 'log': {'file_path': 'log/log.log,', 'level': 'INFO'}}
+[2020-04-09 22:33:56,730] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-09 22:33:56,730] [ERROR] [root] error,does not find  modules
+[2020-04-09 22:33:56,731] [INFO] [TestSendMessage] None
+[2020-04-09 22:43:27,512] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-09 22:43:27,513] [INFO] [BearSki.RunUnittest] Commond List: ['testcase/test_send.py']
+[2020-04-09 22:43:27,513] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': 'report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'testdata/model', 'model_path"': 'testdata/model'}, 'log': {'file_path': 'log/log.log,', 'level': 'INFO'}}
+[2020-04-09 22:43:28,072] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-09 22:43:28,073] [ERROR] [root] error,does not find  modules
+[2020-04-09 22:43:28,073] [INFO] [TestSendMessage] None
+[2020-04-09 22:55:29,983] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-04-09 22:55:29,984] [INFO] [BearSki.RunUnittest] Commond List: ['testcase/test_send.py']
+[2020-04-09 22:55:29,984] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': 'report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'testdata/model', 'model_path"': 'testdata/model'}, 'log': {'file_path': 'log/log.log,', 'level': 'INFO'}}
+[2020-04-09 22:55:30,478] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-04-09 22:55:30,479] [ERROR] [root] error,does not find  modules
+[2020-04-09 22:55:30,479] [INFO] [TestSendMessage] None

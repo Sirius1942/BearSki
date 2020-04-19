@@ -1,2 +1,2 @@
 cd AgaveTestProject
-python runtest.py
+python3 runtest.py
