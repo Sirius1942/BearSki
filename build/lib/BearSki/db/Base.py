@@ -45,7 +45,7 @@ class ExcelFile(TestDataBase):
             res = generate_data(title, rowdata)
             logger.info(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(dataid,res,parms['PATH']))
             return res
-    def get_columData(self,dataid,type,parms):
+    def get_columData(self,dataid,parms):
         columns_data= getColumData(dataid,parms['PATH'])
         res = generate_colums_data(columns_data)
         logger.info(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(dataid,res,parms['PATH']))

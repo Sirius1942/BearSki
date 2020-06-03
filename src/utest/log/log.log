@@ -2188,3 +2188,90 @@
 [2020-06-03 17:42:16,883] [CRITICAL] [TestSendMessage] I'm in test_two critical
 [2020-06-03 17:42:16,920] [INFO] [root] in ask baidu！
 [2020-06-03 17:42:16,960] [INFO] [TestSendMessage] <Response [200]>
+[2020-06-03 18:00:36,301] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-06-03 18:00:36,302] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-06-03 18:00:36,302] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-06-03 18:00:37,038] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-06-03 18:00:37,042] [INFO] [TestTestData] in test_columns_data 
+[2020-06-03 18:00:37,121] [INFO] [BearSki.db] 依据索引[users.DataID]获取测试数据为:['admin']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 18:00:37,121] [INFO] [TestTestData] ['admin']
+[2020-06-03 18:00:37,122] [INFO] [TestTestData] in test_getData
+[2020-06-03 18:00:37,181] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 18:00:37,229] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 18:00:37,279] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 18:00:37,329] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13740826422'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 18:00:37,329] [INFO] [TestTestData] {'mobile': '13740826422'}
+[2020-06-03 18:00:37,378] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '2020-06-03 18:00:37'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 18:00:37,379] [INFO] [TestTestData] {'time': '2020-06-03 18:00:37'}
+[2020-06-03 18:00:37,379] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-06-03 18:00:37,507] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 18:00:37,508] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-06-03 18:00:37,508] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-06-03 18:00:37,508] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-06-03 18:00:37,509] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-06-03 18:00:37,577] [INFO] [root] in ask baidu！
+[2020-06-03 18:00:37,609] [INFO] [TestSendMessage] <Response [200]>
+[2020-06-03 18:06:39,196] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-06-03 18:06:39,197] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-06-03 18:06:39,197] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-06-03 18:06:39,827] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-06-03 18:06:39,831] [INFO] [TestTestData] in test_columns_data 
+[2020-06-03 18:06:39,942] [INFO] [BearSki.db] 依据索引[users.DataID]获取测试数据为:['admin']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 18:06:39,942] [INFO] [TestTestData] ['admin']
+[2020-06-03 18:06:39,943] [INFO] [TestTestData] in test_getData
+[2020-06-03 18:06:39,995] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 18:06:40,044] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 18:06:40,095] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 18:06:40,145] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13782736045'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 18:06:40,145] [INFO] [TestTestData] {'mobile': '13782736045'}
+[2020-06-03 18:06:40,195] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '2020-06-03 18:06:40'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 18:06:40,195] [INFO] [TestTestData] {'time': '2020-06-03 18:06:40'}
+[2020-06-03 18:06:40,196] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 18:06:40,197] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-06-03 18:06:40,197] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-06-03 18:06:40,197] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-06-03 18:06:40,198] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-06-03 18:06:40,290] [INFO] [root] in ask baidu！
+[2020-06-03 18:06:40,324] [INFO] [TestSendMessage] <Response [200]>
+[2020-06-03 21:31:16,635] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-06-03 21:31:16,636] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-06-03 21:31:16,636] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-06-03 21:31:17,284] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-06-03 21:31:17,288] [INFO] [TestTestData] in test_columns_data 
+[2020-06-03 21:31:17,379] [INFO] [TestTestData] in test_getData
+[2020-06-03 21:31:17,450] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 21:31:17,502] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 21:31:17,551] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 21:31:17,599] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13731303131'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 21:31:17,599] [INFO] [TestTestData] {'mobile': '13731303131'}
+[2020-06-03 21:31:17,651] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '2020-06-03 21:31:17'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 21:31:17,652] [INFO] [TestTestData] {'time': '2020-06-03 21:31:17'}
+[2020-06-03 21:31:17,653] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 21:31:17,654] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-06-03 21:31:17,654] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-06-03 21:31:17,654] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-06-03 21:31:17,654] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-06-03 21:31:17,719] [INFO] [root] in ask baidu！
+[2020-06-03 21:31:17,769] [INFO] [TestSendMessage] <Response [200]>
+[2020-06-03 21:31:52,028] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-06-03 21:31:52,028] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-06-03 21:31:52,029] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-06-03 21:31:52,480] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-06-03 21:31:52,483] [INFO] [TestTestData] in test_columns_data 
+[2020-06-03 21:31:52,541] [INFO] [BearSki.db] 依据索引[users.DataID]获取测试数据为:['admin']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 21:31:52,542] [INFO] [TestTestData] ['admin']
+[2020-06-03 21:31:52,543] [INFO] [TestTestData] in test_getData
+[2020-06-03 21:31:52,592] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 21:31:52,646] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 21:31:52,697] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 21:31:52,746] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13716237384'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 21:31:52,746] [INFO] [TestTestData] {'mobile': '13716237384'}
+[2020-06-03 21:31:52,796] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '2020-06-03 21:31:52'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 21:31:52,796] [INFO] [TestTestData] {'time': '2020-06-03 21:31:52'}
+[2020-06-03 21:31:52,797] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 21:31:52,798] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-06-03 21:31:52,798] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-06-03 21:31:52,798] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-06-03 21:31:52,798] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-06-03 21:31:52,855] [INFO] [root] in ask baidu！
+[2020-06-03 21:31:52,897] [INFO] [TestSendMessage] <Response [200]>

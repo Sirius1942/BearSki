@@ -54,7 +54,7 @@ class SkiGlobalData(object):
         else:
             pass
 
-    def get_database_parms(self,source_name=None):
+    def get_database_parms(self,source_name):
         # if len(self.runCaseObject)==1 and source_name is None:
         #     # 直接返回默认数据库配置
         #     return self.get_test_database()[self.runCaseObject[0]]

@@ -54,15 +54,19 @@ class SkiGlobalData(object):
         else:
             pass
 
-    def get_database_parms(self):
-        if len(self.runCaseObject)==1:
-            # 直接返回默认数据库配置
-            return self.get_test_database()[self.runCaseObject[0]]
-        data_mapping=self.get_test_database_case_mapping()
-        reCaseObject=self.runCaseObject.reverse()
-        for name in reCaseObject:
-            if name in data_mapping:
-                return self.get_test_database()[self.runCaseObject[name]]
+    def get_database_parms(self,source_name):
+        # if len(self.runCaseObject)==1 and source_name is None:
+        #     # 直接返回默认数据库配置
+        #     return self.get_test_database()[self.runCaseObject[0]]
+        # data_mapping=self.get_test_database_case_mapping()
+        # reCaseObject=self.runCaseObject.reverse()
+        # for name in reCaseObject:
+        #     if name in data_mapping:
+        #         return self.get_test_database()[self.runCaseObject[name]]
+        if source_name:
+            return self.get_test_database()[source_name]
+        else:
+            return self.get_test_database()['default']
         raise DataBaseError("获取数据对应配置参数出错，请检查Setting文件中是否配置正确。")
 
     def _check_isin_datamapping(self,name):
