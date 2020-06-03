@@ -1,7 +1,7 @@
 import logging
 from BearSki.utils.errors import *
 from BearSki.CommonData import SkiGlobalData
-from BearSki.utils.DataTable import getRowData,generate_data,generate_json_data,td_getJsonData
+from BearSki.utils.DataTable import *
 
 logger=logging.getLogger("BearSki.db")
 class TestDataBase():
@@ -45,6 +45,12 @@ class ExcelFile(TestDataBase):
             res = generate_data(title, rowdata)
             logger.info(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(dataid,res,parms['PATH']))
             return res
+    def get_columData(self,dataid,type,parms):
+        columns_data= getColumData(dataid,parms['PATH'])
+        res = generate_colums_data(columns_data)
+        logger.info(u"依据索引[{0}]获取测试数据为:{1}，数据源为:{2}".format(dataid,res,parms['PATH']))
+        return res
+
     def connect(self):
         pass
 

@@ -4,7 +4,6 @@ from  BearSki.template.CreateDataTableFile import createDTF
 DRIVER_NAME='d_requests.py'
 DRIVER_DOC='''
 import requests
-
 def get(url, params=None, **kwargs):
   return requests.get(url,params,**kwargs)
 
@@ -25,7 +24,6 @@ def head(url, **kwargs):
 
 def options(url, **kwargs):
   return requests.options(url,**kwargs)
-
 '''
 KEYWORD_NAME='send.py'
 KEYWORD_DOC='''
@@ -36,7 +34,7 @@ logger=SkiLogger('keywords.send')
 
 def askbaidu(mod,data):
     logger.info('in ask baidu！')
-    r = d_requests.get(url=data)    # 最基本的GET请求
+    r = d_requests.get(url=data)
     return r
 '''
 TESTCASE_NAME='test_send.py'
@@ -78,7 +76,7 @@ class TestSendMessage(unittest.TestCase,Ski):
 '''
 CONFIG_NAME='config.yaml'
 CONFIG_DOC='''
-runner:  #设置用例执行器
+runner:
   name: PyTestRunner
   commands:
     - -s
@@ -96,7 +94,7 @@ auto:
   case_path: testdata/model
   model_path": testdata/model
 log:
-  file_path: log/log.log,
+  file_path: log/log.log
   level: INFO
 '''
 RUNTEST_NAME='runtest.py'
@@ -131,8 +129,6 @@ KW_ROUTER={
 GLOBAL_VARIABLE={
         "BASE_URL":"http://www.agavetest.cn:8671",
     }
-
-#原DataTable 配置，建议后续使用TEST_DATABASES 替换
 DATATABLE={
         "db_excel_path":"testdata/testdata1.xlsx",
         "db_json_path":"testdata/model/"
@@ -150,7 +146,6 @@ TEST_DATABASES = {
         'PATH': 'testdata/model/'
     }
 }
-#会在1.6版本后提供 TEST_DATABASE_ROUTERS 扩展接口，以及路由功能
 #TEST_DATABASE_ROUTERS = ['myproject.database_router.DatabaseAppsRouter']
 TEST_DAT_AUTOMAPPING=True
 
@@ -164,7 +159,6 @@ INITDATA={
 
 '''
 INITDATAFILE='''
-#测试项目执行初始化数据
 def initData():
     print("in initData")
 def clear():

@@ -2,6 +2,9 @@ runner:  #设置用例执行器
   name: PyTestRunner
   commands:
     - -s
+#    - -o log_cli=true
+#    - -o log_cli_level=ERROR
+    - utest/testcase/test_send.py
 unittestcase:
   mode: onecase
 case:
@@ -14,7 +17,7 @@ report:
   addtime.now: true
 auto:
   case_path: utest/testdata/model
-  model_path": utest/testdata/model
+  model_path: utest/testdata/model
 log:
-  file_path: utest/log/log.log,
+  file_path: utest/log/log.log
   level: INFO

@@ -6,8 +6,28 @@ import logging
 import sys
 import json
 
-
 logger=logging.getLogger("BearSki.DataTable")
+
+def getColumData(data="",datafile=""):
+  datalist = data.split(".")
+  wb = load_workbook(filename=datafile)
+  sheet_ranges = wb[datalist[0]]
+  firstrow = sheet_ranges.iter_rows().__next__()
+  # print(tuple(ws.columns))
+  column_index = 0
+  iserror=True
+  for data in firstrow:
+    column_index = column_index + 1
+    if datalist[1] == data.value:
+      iserror=False
+      rows = sheet_ranges.max_row
+      columndata = []
+      for i in range(1, rows + 1):
+        cellvalue = sheet_ranges.cell(row=i, column=column_index).value
+        columndata.append(cellvalue)
+      return columndata[1:]
+  if iserror:
+    raise DataTableError("数据索引异常 [{0}] 中 {1} 数据异常，请检查".format(data, datalist[1]))
 
 def getRowData(data="",datafile=""):
   datalist=data.split(".")
@@ -68,6 +88,18 @@ def generate_data(title,RowData):
         re.append("")
       else :
         re.append(sfun(RowData[i]))
+    return re
+
+def generate_colums_data(columdatas):
+  if type(columdatas)==type("str"):
+    return sfun(columdatas)
+  else:
+    re=[]
+    for data in columdatas:
+      if data == None:
+        continue
+      else:
+        re.append(sfun(data))
     return re
 
 # 后续需要修改代码，提升正则速度，减少正则对比次数

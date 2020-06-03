@@ -170,6 +170,13 @@ class TD:
         database_engine.connect()
         return database_engine.get_data(dataid,type,database_parms)
 
+    @classmethod
+    def get_columns_data(cls,dataid,type='list',source_name=None):
+        database_parms = SkiGlobalData().get_database_parms(source_name)
+        database_engine = cls._getDatabaseEngine(cls, database_parms)
+        database_engine.connect()
+        return database_engine.get_columData(dataid, type, database_parms)
+
     def _getDatabaseEngine(self,engine_parms):
         engine_name=engine_parms['ENGINE']
         namelist=engine_name.split('.')

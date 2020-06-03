@@ -20,4 +20,5 @@ class TestDataTable(unittest.TestCase,Ski):
         self.logger.info(DT.excel("users.admin"))
         self.logger.info(DT.excel("users.admin.time"))
         self.logger.info(DT.json("auth_login_res.json"))
+
     

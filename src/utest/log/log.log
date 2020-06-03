@@ -792,3 +792,1399 @@
 [2020-04-02 23:06:46,234] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
 [2020-04-02 23:06:46,235] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py', '--html=utest/report/report.html']
 [2020-04-02 23:06:46,235] [INFO] [BearSki.RunUnittest] RunArguments List: {'report_mode': 'html', 'mode': 'onecase', 'case_path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'case_name': '', 'report_path': './utest/report/report1.html', 'json_path': 'SkiSetting.py', 'runner.addtime.now': False, 'auto.case.path': 'utest/testcase', 'auto.model.path': 'utest/testdata/model', 'testsuit.runner': 'PyTestRunner'}
+[2020-05-14 08:55:19,546] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-05-14 08:55:19,546] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-05-14 08:55:19,547] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', '-o log_cli=true', '-o log_cli_level=DEBUG', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-05-14 08:55:20,308] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-05-14 08:55:20,312] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-05-14 08:55:20,395] [INFO] [root] in ask baidu！
+[2020-05-14 08:55:20,443] [INFO] [TestSendMessage] <Response [200]>
+[2020-05-14 08:56:25,350] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-05-14 08:56:25,350] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-05-14 08:56:25,350] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', '-o log_cli=true', '-o log_cli_level=DEBUG', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-05-14 08:56:25,814] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-05-14 08:56:25,817] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-05-14 08:56:25,817] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 08:56:25,817] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-05-14 08:56:25,818] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 08:56:25,868] [INFO] [root] in ask baidu！
+[2020-05-14 08:56:25,979] [INFO] [TestSendMessage] <Response [200]>
+[2020-05-14 08:57:42,382] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-05-14 08:57:42,382] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-05-14 08:57:42,382] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', '-o log_cli=true', '-o log_cli_level=DEBUG', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-05-14 08:57:42,840] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-05-14 08:57:42,843] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-05-14 08:57:42,843] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 08:57:42,843] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-05-14 08:57:42,843] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 08:57:42,891] [INFO] [root] in ask baidu！
+[2020-05-14 08:57:42,933] [INFO] [TestSendMessage] <Response [200]>
+[2020-05-14 08:58:44,239] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-05-14 08:58:44,239] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-05-14 08:58:44,239] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', '-o log_cli=true', '-o log_cli_level=debug', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-05-14 08:58:44,693] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-05-14 08:58:44,696] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-05-14 08:58:44,696] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 08:58:44,696] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-05-14 08:58:44,696] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 08:58:44,738] [INFO] [root] in ask baidu！
+[2020-05-14 08:58:44,793] [INFO] [TestSendMessage] <Response [200]>
+[2020-05-14 08:58:57,012] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-05-14 08:58:57,012] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-05-14 08:58:57,012] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', '-o log_cli=true', '-o log_cli_level=Debug', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-05-14 08:58:57,463] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-05-14 08:58:57,465] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-05-14 08:58:57,466] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 08:58:57,466] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-05-14 08:58:57,466] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 08:58:57,507] [INFO] [root] in ask baidu！
+[2020-05-14 08:58:57,544] [INFO] [TestSendMessage] <Response [200]>
+[2020-05-14 08:59:22,243] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-05-14 08:59:22,243] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-05-14 08:59:22,243] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', '-o log_cli=true', '-o log_cli_level=Warning', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-05-14 08:59:22,695] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-05-14 08:59:22,698] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-05-14 08:59:22,698] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 08:59:22,698] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-05-14 08:59:22,698] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 08:59:22,749] [INFO] [root] in ask baidu！
+[2020-05-14 08:59:22,853] [INFO] [TestSendMessage] <Response [200]>
+[2020-05-14 08:59:36,269] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-05-14 08:59:36,269] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-05-14 08:59:36,269] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', '-o log_cli=true', '-o log_cli_level=ERROR', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-05-14 08:59:36,733] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-05-14 08:59:36,736] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-05-14 08:59:36,736] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 08:59:36,736] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-05-14 08:59:36,736] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 08:59:36,786] [INFO] [root] in ask baidu！
+[2020-05-14 08:59:36,823] [INFO] [TestSendMessage] <Response [200]>
+[2020-05-14 09:00:15,144] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-05-14 09:00:15,144] [INFO] [BearSki.RunUnittest] Commond List: ['-o', 'log_cli=true', '-o', 'log_cli_level=ERROR']
+[2020-05-14 09:00:15,144] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-05-14 09:00:15,597] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-05-14 09:00:15,600] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-05-14 09:00:15,600] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 09:00:15,600] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-05-14 09:00:15,600] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 09:00:15,643] [INFO] [root] in ask baidu！
+[2020-05-14 09:00:15,955] [INFO] [TestSendMessage] <Response [200]>
+[2020-05-14 09:01:45,629] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-05-14 09:01:45,629] [INFO] [BearSki.RunUnittest] Commond List: ['-o', 'log_cli=true', '-o', 'log_cli_level=ERROR']
+[2020-05-14 09:01:45,629] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'DEBUG'}}
+[2020-05-14 09:01:46,091] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-05-14 09:01:46,094] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-05-14 09:01:46,094] [DEBUG] [TestSendMessage] I'm in test_two debug
+[2020-05-14 09:01:46,094] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 09:01:46,094] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-05-14 09:01:46,094] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 09:01:46,139] [INFO] [root] in ask baidu！
+[2020-05-14 09:01:46,146] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2020-05-14 09:01:46,180] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2020-05-14 09:01:46,182] [INFO] [TestSendMessage] <Response [200]>
+[2020-05-14 09:01:59,854] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 09:01:59,854] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 09:05:31,532] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 09:05:31,532] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 09:05:44,628] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-05-14 09:05:44,628] [INFO] [BearSki.RunUnittest] Commond List: ['-o', 'log_cli=true']
+[2020-05-14 09:05:44,629] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', '-o log_cli=true', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'DEBUG'}}
+[2020-05-14 09:05:45,072] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-05-14 09:05:45,075] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-05-14 09:05:45,075] [DEBUG] [TestSendMessage] I'm in test_two debug
+[2020-05-14 09:05:45,075] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 09:05:45,075] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-05-14 09:05:45,075] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 09:05:45,116] [INFO] [root] in ask baidu！
+[2020-05-14 09:05:45,124] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2020-05-14 09:05:45,162] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2020-05-14 09:05:45,164] [INFO] [TestSendMessage] <Response [200]>
+[2020-05-14 09:05:56,975] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-05-14 09:05:56,975] [INFO] [BearSki.RunUnittest] Commond List: ['-o', 'log_cli=true']
+[2020-05-14 09:05:56,975] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'DEBUG'}}
+[2020-05-14 09:05:57,420] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-05-14 09:05:57,423] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-05-14 09:05:57,423] [DEBUG] [TestSendMessage] I'm in test_two debug
+[2020-05-14 09:05:57,423] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 09:05:57,424] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-05-14 09:05:57,424] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 09:05:57,468] [INFO] [root] in ask baidu！
+[2020-05-14 09:05:57,475] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2020-05-14 09:05:57,517] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2020-05-14 09:05:57,519] [INFO] [TestSendMessage] <Response [200]>
+[2020-05-14 09:06:05,527] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-05-14 09:06:05,527] [INFO] [BearSki.RunUnittest] Commond List: []
+[2020-05-14 09:06:05,527] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'DEBUG'}}
+[2020-05-14 09:06:05,981] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-05-14 09:06:05,984] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-05-14 09:06:05,984] [DEBUG] [TestSendMessage] I'm in test_two debug
+[2020-05-14 09:06:05,984] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-05-14 09:06:05,984] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-05-14 09:06:05,984] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-05-14 09:06:06,024] [INFO] [root] in ask baidu！
+[2020-05-14 09:06:06,032] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2020-05-14 09:06:07,888] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2020-05-14 09:06:07,890] [INFO] [TestSendMessage] <Response [200]>
+[2020-06-03 17:19:30,370] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-06-03 17:19:30,371] [INFO] [BearSki.RunUnittest] Commond List: ['testcase/test_TD.py']
+[2020-06-03 17:19:30,371] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'DEBUG'}}
+[2020-06-03 17:19:48,901] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-06-03 17:19:48,901] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-06-03 17:19:48,901] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'DEBUG'}}
+[2020-06-03 17:19:49,367] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-06-03 17:19:49,371] [INFO] [TestTestData] in test_columns_data 
+[2020-06-03 17:19:49,455] [INFO] [TestTestData] in test_getData
+[2020-06-03 17:19:49,523] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,523] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,523] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,523] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,523] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,523] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,523] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,524] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,524] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,524] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,524] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,524] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,524] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,524] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,524] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,525] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,525] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,525] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,525] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,525] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,525] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,525] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,525] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,526] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,526] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,526] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,526] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,526] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,526] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,526] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,526] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,526] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,527] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,527] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,527] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,527] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,527] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,527] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,527] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,527] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,528] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,528] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,528] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,528] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,528] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,528] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,528] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,529] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,529] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,529] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,529] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,529] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,529] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,529] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,529] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,530] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,530] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,530] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,530] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,530] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,530] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,530] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,531] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,531] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,531] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,531] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,531] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,531] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,531] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,531] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,532] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,532] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,532] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,532] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,532] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,532] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,532] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,532] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,532] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,533] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,533] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,533] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,533] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,533] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,533] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,533] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,533] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,534] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,534] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,534] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,534] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,534] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,534] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,534] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,534] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,534] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,535] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,535] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,535] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,535] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,535] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,535] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,535] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,535] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,536] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,536] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,536] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,536] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,536] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,537] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,537] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,537] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,537] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,537] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,537] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,537] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,537] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,537] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,538] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,538] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,538] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,538] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,538] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,538] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,538] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,538] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,539] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,539] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,539] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,539] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,539] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,539] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,540] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,540] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,540] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,540] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,540] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,540] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,540] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,540] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,540] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,540] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,541] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,541] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,541] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,541] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,542] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,542] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,542] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,542] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,542] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,542] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,542] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,542] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,542] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,543] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,543] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,543] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,543] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,543] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,543] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,543] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,543] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,543] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,544] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,544] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,544] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,544] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,544] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,544] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,544] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,545] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,545] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,545] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,545] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,545] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,546] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,546] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,546] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,546] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,546] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,546] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,546] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,546] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,547] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,547] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,547] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,547] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,547] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,547] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,547] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,547] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,548] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,548] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,548] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,548] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,548] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,548] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,548] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,548] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,555] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,555] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,556] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,556] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,556] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,556] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,556] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,556] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,556] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,557] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,557] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,557] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,557] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,557] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,557] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,557] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,557] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,558] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,558] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,558] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,558] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,558] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,558] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,558] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,560] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [username] 数据 [admin]
+[2020-06-03 17:19:49,560] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:19:49,602] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,602] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,602] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,602] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,603] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,603] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,603] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,603] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,603] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,603] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,603] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,603] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,604] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,604] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,604] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,604] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,604] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,604] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,604] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,604] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,604] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,604] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,605] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,605] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,605] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,605] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,605] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,605] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,605] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,605] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,605] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,606] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,606] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,606] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,606] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,606] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,606] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,607] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,607] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,607] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,607] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,607] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,607] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,607] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,607] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,607] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,608] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,608] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,608] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,608] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,608] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,608] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,609] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,609] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,609] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,609] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,609] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,609] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,609] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,609] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,610] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,610] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,610] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,610] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,610] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,610] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,610] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,610] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,610] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,611] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,611] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,611] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,611] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,611] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,611] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,612] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,612] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,612] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,612] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,612] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,612] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,612] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,613] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,613] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,613] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,613] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,613] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,613] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,613] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,613] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,613] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,614] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,614] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,614] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,614] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,614] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,614] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,614] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,614] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,614] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,615] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,615] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,615] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,615] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,615] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,615] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,615] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,615] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,615] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,616] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,616] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,616] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,616] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,616] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,616] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,616] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,616] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,616] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,617] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,617] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,617] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,617] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,617] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,617] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,617] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,617] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,617] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,617] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,618] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,618] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,618] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,618] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,618] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,618] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,618] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,618] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,619] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,619] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,619] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,619] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,619] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,619] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,619] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,619] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,620] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,620] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,620] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,620] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,620] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,620] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,620] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,620] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,620] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,620] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,621] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,621] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,621] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,621] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,621] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,621] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,621] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,622] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,622] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,622] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,622] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,622] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,622] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,622] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,622] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,623] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,623] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,623] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,623] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,623] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,623] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,623] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,624] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,624] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,624] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,624] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,624] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,624] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,624] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,624] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,624] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,625] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,625] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,625] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,625] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,625] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,625] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,625] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,625] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,626] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,626] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,626] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,626] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,626] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,626] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,626] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,633] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,633] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,633] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,633] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,633] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,633] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,633] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,634] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,634] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,634] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,634] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,634] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,634] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,634] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,635] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,635] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,635] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,635] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,635] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,635] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,635] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,636] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,636] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,636] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,637] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'password', None)] 数据行 [('admin', '正确的用户名', 'admin', 'kc@123456', None)]
+[2020-06-03 17:19:49,637] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:19:49,678] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,678] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,678] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,678] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,678] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,678] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,678] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,678] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,679] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,679] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,679] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,679] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,679] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,679] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,679] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,679] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,679] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,680] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,680] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,680] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,680] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,680] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,680] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,680] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,680] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,680] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,681] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,681] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,681] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,681] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,705] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,706] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,706] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,706] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,706] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,706] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,706] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,706] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,706] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,706] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,707] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,707] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,707] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,708] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,708] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,708] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,709] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,709] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,709] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,709] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,709] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,709] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,709] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,709] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,710] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,710] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,710] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,710] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,710] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,710] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,710] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,710] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,710] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,711] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,711] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,711] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,711] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,711] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,712] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,712] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,712] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,712] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,712] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,712] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,712] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,713] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,713] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,713] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,713] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,713] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,713] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,713] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,713] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,713] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,714] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,714] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,714] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,714] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,714] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,714] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,714] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,714] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,714] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,715] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,715] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,715] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,715] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,715] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,715] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,715] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,715] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,716] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,716] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,716] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,716] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,716] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,716] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,716] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,716] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,716] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,717] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,717] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,717] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,717] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,717] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,717] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,717] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,717] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,717] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,717] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,718] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,718] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,718] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,718] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,718] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,718] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,718] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,718] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,719] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,719] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,719] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,719] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,719] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,719] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,719] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,719] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,719] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,720] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,720] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,720] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,720] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,720] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,720] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,720] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,720] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,720] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,721] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,721] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,721] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,721] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,721] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,721] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,722] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,722] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,722] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,722] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,722] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,723] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,723] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,723] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,723] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,723] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,723] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,723] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,723] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,724] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,724] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,724] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,724] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,724] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,724] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,724] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,724] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,724] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,725] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,725] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,725] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,725] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,725] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,725] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,725] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,725] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,726] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,726] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,726] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,726] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,726] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,726] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,726] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,727] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,727] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,727] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,727] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,727] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,727] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,727] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,728] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,728] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,728] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,728] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,734] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,734] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,734] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,734] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,734] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,735] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,735] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,735] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,735] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,735] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,735] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,735] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,735] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,736] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,736] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,736] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,736] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,736] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,736] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,736] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,736] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,736] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,737] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,737] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,738] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题行 [('DataID', 'Remark', 'username', 'password', None)] 数据行 [('admin', '正确的用户名', 'admin', 'kc@123456', None)]
+[2020-06-03 17:19:49,738] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:19:49,778] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,778] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,778] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,778] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,778] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,779] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,779] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,779] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,779] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,779] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,779] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,779] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,780] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,780] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,780] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,780] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,780] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,780] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,780] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,780] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,780] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,781] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,781] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,781] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,781] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,781] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,781] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,781] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,781] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,781] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,781] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,782] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,782] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,782] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,782] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,782] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,782] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,783] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,783] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,783] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,783] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,783] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,783] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,783] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,783] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,784] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,784] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,784] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,784] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,784] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,784] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,784] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,785] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,785] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,785] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,785] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,785] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,785] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,785] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,785] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,786] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,786] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,786] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,786] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,786] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,786] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,786] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,787] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,787] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,787] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,787] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,787] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,787] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,787] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,788] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,788] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,788] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,788] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,788] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,788] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,788] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,788] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,789] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,789] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,789] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,789] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,789] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,789] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,789] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,789] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,790] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,790] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,790] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,790] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,790] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,790] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,790] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,790] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,790] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,790] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,791] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,791] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,791] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,791] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,791] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,791] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,791] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,791] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,791] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,792] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,792] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,792] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,792] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,792] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,792] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,792] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,792] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,793] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,793] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,793] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,793] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,793] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,793] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,793] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,793] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,794] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,794] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,794] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,794] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,794] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,794] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,794] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,794] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,795] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,795] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,795] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,795] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,795] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,795] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,795] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,795] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,796] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,796] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,796] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,796] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,796] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,796] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,796] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,797] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,797] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,797] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,797] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,797] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,797] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,797] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,797] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,797] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,798] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,798] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,798] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,798] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,798] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,798] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,798] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,798] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,799] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,799] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,799] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,799] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,799] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,799] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,799] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,800] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,800] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,800] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,800] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,800] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,800] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,800] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,800] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,800] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,801] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,801] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,801] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,801] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,801] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,801] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,801] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,801] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,802] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,802] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,802] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,802] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,802] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,802] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,802] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,802] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,803] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,803] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,803] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,809] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,809] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,809] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,809] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,809] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,809] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,809] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,809] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,809] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,810] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,810] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,810] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,810] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,810] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,810] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,810] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,810] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,811] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,811] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,811] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,811] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,811] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,811] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,811] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,813] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [mobile] 数据 [137${random.int(8)}]
+[2020-06-03 17:19:49,813] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13712367932'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:19:49,813] [INFO] [TestTestData] {'mobile': '13712367932'}
+[2020-06-03 17:19:49,853] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,853] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,853] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,853] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,853] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,854] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,854] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,854] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,854] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,854] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,854] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,854] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,854] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,854] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,855] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,855] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,855] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,855] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,855] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,855] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,855] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,855] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,855] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,855] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,856] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,856] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,856] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,856] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,856] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,856] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,856] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,856] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,857] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,857] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,857] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,857] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,857] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,857] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,857] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,857] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,858] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,858] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,858] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,858] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,858] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,858] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,858] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,858] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,858] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,858] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,859] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,859] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,859] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,859] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,859] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,859] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,859] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,859] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,859] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,860] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,860] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,860] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,860] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,860] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,860] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,860] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,860] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,860] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,861] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,861] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,861] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,861] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,861] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,861] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,861] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,861] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,862] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,862] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,862] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,862] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,862] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,862] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,862] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,863] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,863] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,863] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,863] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,863] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,863] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,863] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,863] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,864] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,864] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,864] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,864] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,864] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,864] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,864] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,864] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,864] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,865] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,865] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,865] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,865] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,865] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,865] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,865] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,866] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,866] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,866] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,866] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,866] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,866] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,867] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,867] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,867] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,867] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,867] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,867] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,867] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,868] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,868] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,868] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,868] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,868] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,868] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,869] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,869] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,869] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,869] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,869] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,869] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,869] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,869] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,870] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,870] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,870] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,870] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,870] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,870] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,870] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,870] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,870] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,871] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,871] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,871] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,871] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,871] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,871] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,871] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,871] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,871] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,872] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,872] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,872] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,872] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,872] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,872] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,872] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,872] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,872] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,873] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,873] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,873] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,873] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,873] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,873] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,873] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,873] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,873] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,874] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,874] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,874] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,874] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,874] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,874] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,874] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,874] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,875] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,875] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,875] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,875] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,875] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,875] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,876] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,876] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,876] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,876] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,876] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,876] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,876] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,876] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,877] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,877] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,877] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,877] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,877] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,877] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,877] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,877] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 33
+[2020-06-03 17:19:49,883] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,883] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,883] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,883] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,883] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,883] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,884] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,884] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,884] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,884] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,884] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,884] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 22
+[2020-06-03 17:19:49,884] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,884] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,885] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,885] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,885] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,885] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,885] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,885] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,885] [DEBUG] [PIL.PngImagePlugin] STREAM b'IHDR' 16 13
+[2020-06-03 17:19:49,885] [DEBUG] [PIL.PngImagePlugin] STREAM b'sRGB' 41 1
+[2020-06-03 17:19:49,886] [DEBUG] [PIL.PngImagePlugin] STREAM b'pHYs' 54 9
+[2020-06-03 17:19:49,886] [DEBUG] [PIL.PngImagePlugin] STREAM b'IDAT' 75 28
+[2020-06-03 17:19:49,887] [DEBUG] [BearSki.DataTable] 获取数据源原始数据：标题 [time] 数据 [${time.now}]
+[2020-06-03 17:19:49,887] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '2020-06-03 17:19:49'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:19:49,887] [INFO] [TestTestData] {'time': '2020-06-03 17:19:49'}
+[2020-06-03 17:19:49,887] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-06-03 17:19:49,941] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 17:19:49,943] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 17:19:49,944] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-06-03 17:19:49,944] [DEBUG] [TestSendMessage] I'm in test_two debug
+[2020-06-03 17:19:49,944] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-06-03 17:19:49,945] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-06-03 17:19:49,945] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-06-03 17:19:50,020] [INFO] [root] in ask baidu！
+[2020-06-03 17:19:50,039] [DEBUG] [urllib3.connectionpool] Starting new HTTP connection (1): www.baidu.com:80
+[2020-06-03 17:19:50,063] [DEBUG] [urllib3.connectionpool] http://www.baidu.com:80 "GET / HTTP/1.1" 200 None
+[2020-06-03 17:19:50,064] [INFO] [TestSendMessage] <Response [200]>
+[2020-06-03 17:20:07,448] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-06-03 17:20:07,448] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-06-03 17:20:07,448] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-06-03 17:20:08,096] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-06-03 17:20:08,102] [INFO] [TestTestData] in test_columns_data 
+[2020-06-03 17:20:08,191] [INFO] [TestTestData] in test_getData
+[2020-06-03 17:20:08,259] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:20:08,308] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:20:08,359] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:20:08,407] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13768691378'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:20:08,408] [INFO] [TestTestData] {'mobile': '13768691378'}
+[2020-06-03 17:20:08,458] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '2020-06-03 17:20:08'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:20:08,458] [INFO] [TestTestData] {'time': '2020-06-03 17:20:08'}
+[2020-06-03 17:20:08,458] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-06-03 17:20:08,514] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 17:20:08,515] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 17:20:08,517] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-06-03 17:20:08,517] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-06-03 17:20:08,517] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-06-03 17:20:08,517] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-06-03 17:20:08,578] [INFO] [root] in ask baidu！
+[2020-06-03 17:20:08,615] [INFO] [TestSendMessage] <Response [200]>
+[2020-06-03 17:21:57,878] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-06-03 17:21:57,879] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-06-03 17:21:57,879] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-06-03 17:21:58,540] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-06-03 17:21:58,544] [INFO] [TestTestData] in test_columns_data 
+[2020-06-03 17:21:58,733] [INFO] [TestTestData] in test_getData
+[2020-06-03 17:21:58,791] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:21:58,839] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:21:58,889] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:21:58,937] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13777828061'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:21:58,937] [INFO] [TestTestData] {'mobile': '13777828061'}
+[2020-06-03 17:21:59,009] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '2020-06-03 17:21:59'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:21:59,009] [INFO] [TestTestData] {'time': '2020-06-03 17:21:59'}
+[2020-06-03 17:21:59,009] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-06-03 17:21:59,034] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 17:21:59,036] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 17:21:59,037] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-06-03 17:21:59,037] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-06-03 17:21:59,037] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-06-03 17:21:59,037] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-06-03 17:21:59,106] [INFO] [root] in ask baidu！
+[2020-06-03 17:21:59,527] [INFO] [TestSendMessage] <Response [200]>
+[2020-06-03 17:37:47,611] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-06-03 17:37:47,612] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-06-03 17:37:47,612] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-06-03 17:37:48,410] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-06-03 17:37:48,414] [INFO] [TestTestData] in test_columns_data 
+[2020-06-03 17:37:48,488] [INFO] [BearSki.db] 依据索引[users.DataID]获取测试数据为:['admin', '', '', '', '', '', '']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:37:48,488] [INFO] [TestTestData] ['admin', '', '', '', '', '', '']
+[2020-06-03 17:37:48,490] [INFO] [TestTestData] in test_getData
+[2020-06-03 17:37:48,540] [INFO] [BearSki.db] 依据索引[login.admin.username]获取测试数据为:{'username': 'admin'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:37:48,589] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:{'dataid': 'admin', 'remark': '正确的用户名', 'detail': {'username': 'admin', 'password': 'kc@123456'}}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:37:48,638] [INFO] [BearSki.db] 依据索引[login.admin]获取测试数据为:['admin', 'kc@123456']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:37:48,686] [INFO] [BearSki.db] 依据索引[users.admin.mobile]获取测试数据为:{'mobile': '13733645147'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:37:48,687] [INFO] [TestTestData] {'mobile': '13733645147'}
+[2020-06-03 17:37:48,735] [INFO] [BearSki.db] 依据索引[users.admin.time]获取测试数据为:{'time': '2020-06-03 17:37:48'}，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:37:48,736] [INFO] [TestTestData] {'time': '2020-06-03 17:37:48'}
+[2020-06-03 17:37:48,736] [INFO] [BearSki.DataTable] 开始获取数据：数据源./utest/testdata/model/api_users_2_res.json 数据标签['content', 'text']
+[2020-06-03 17:37:48,869] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 17:37:48,870] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 17:37:48,871] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-06-03 17:37:48,872] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-06-03 17:37:48,872] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-06-03 17:37:48,872] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-06-03 17:37:48,952] [INFO] [root] in ask baidu！
+[2020-06-03 17:37:48,992] [INFO] [TestSendMessage] <Response [200]>
+[2020-06-03 17:40:26,449] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-06-03 17:40:26,449] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-06-03 17:40:26,449] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-06-03 17:40:27,079] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-06-03 17:40:27,083] [INFO] [TestTestData] in test_columns_data 
+[2020-06-03 17:40:27,153] [INFO] [BearSki.db] 依据索引[users.DataID]获取测试数据为:['admin', '', '', '', '', '', '']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:40:27,154] [INFO] [TestTestData] ['admin', '', '', '', '', '', '']
+[2020-06-03 17:40:27,155] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 17:40:27,156] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-06-03 17:40:27,156] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-06-03 17:40:27,156] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-06-03 17:40:27,156] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-06-03 17:40:27,250] [INFO] [root] in ask baidu！
+[2020-06-03 17:40:27,292] [INFO] [TestSendMessage] <Response [200]>
+[2020-06-03 17:41:43,176] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-06-03 17:41:43,176] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-06-03 17:41:43,176] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-06-03 17:41:43,815] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-06-03 17:41:43,819] [INFO] [TestTestData] in test_columns_data 
+[2020-06-03 17:41:43,889] [INFO] [BearSki.db] 依据索引[users.DataID]获取测试数据为:['admin', '', '', '', '', '', '']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:41:43,889] [INFO] [TestTestData] ['admin', '', '', '', '', '', '']
+[2020-06-03 17:41:43,890] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 17:41:43,893] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-06-03 17:41:43,893] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-06-03 17:41:43,893] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-06-03 17:41:43,894] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-06-03 17:41:43,960] [INFO] [root] in ask baidu！
+[2020-06-03 17:41:43,992] [INFO] [TestSendMessage] <Response [200]>
+[2020-06-03 17:42:16,303] [INFO] [BearSki.RunUnittest] Creating TestSuit..PyTestRunner
+[2020-06-03 17:42:16,304] [INFO] [BearSki.RunUnittest] Commond List: ['utest/testcase/test_TD.py']
+[2020-06-03 17:42:16,304] [INFO] [BearSki.RunUnittest] RunArguments List: {'runner': {'name': 'PyTestRunner', 'commands': ['-s', 'utest/testcase/test_send.py']}, 'unittestcase': {'mode': 'onecase'}, 'case': {'path': 'utest.testcase.atest_api_users.atest_api_users.case_api_users', 'name': ''}, 'ski_filepath': 'SkiSetting.py', 'report': {'mode': 'html', 'path': './utest/report/report1.html', 'addtime.now': True}, 'auto': {'case_path': 'utest/testdata/model', 'model_path': 'utest/testdata/model'}, 'log': {'file_path': 'utest/log/log.log', 'level': 'INFO'}}
+[2020-06-03 17:42:16,819] [WARNING] [root] bear.base 中的方法将被废弃，相关功能通过 bear.core 替代，建议将 from BearSki.base 修改为 from BearSki.core
+[2020-06-03 17:42:16,821] [INFO] [TestTestData] in test_columns_data 
+[2020-06-03 17:42:16,881] [INFO] [BearSki.db] 依据索引[users.DataID]获取测试数据为:['admin']，数据源为:./utest/testdata/testdata1.xlsx
+[2020-06-03 17:42:16,881] [INFO] [TestTestData] ['admin']
+[2020-06-03 17:42:16,882] [INFO] [TestTestData] I'm in test_getDefult_data
+[2020-06-03 17:42:16,883] [INFO] [TestSendMessage] I'm in test_two test_send
+[2020-06-03 17:42:16,883] [ERROR] [TestSendMessage] I'm in test_two error
+[2020-06-03 17:42:16,883] [WARNING] [TestSendMessage] I'm in test_two warning
+[2020-06-03 17:42:16,883] [CRITICAL] [TestSendMessage] I'm in test_two critical
+[2020-06-03 17:42:16,920] [INFO] [root] in ask baidu！
+[2020-06-03 17:42:16,960] [INFO] [TestSendMessage] <Response [200]>

@@ -17,6 +17,10 @@ class TestSendMessage(unittest.TestCase,Ski):
     @Ski.case()
     def test_send(self):
         self.logger.info("I'm in test_two test_send")
+        self.logger.debug("I'm in test_two debug")
+        self.logger.error("I'm in test_two error")
+        self.logger.warning("I'm in test_two warning")
+        self.logger.critical("I'm in test_two critical")
         # print(self.ski_step_result)
         self.assertTrue(True)
         res=self.step("userkw_sendmsg","get","http://www.baidu.com")

@@ -5,12 +5,19 @@
 @Time    :   2020/01/30 23:29:00
 @Author  :   chenjiusi 
 '''
+# coding=utf-8
 import time
+import unittest
+from  BearSki import *
 import json
+import subprocess
+from unittest import mock
 from BearSki.utils.logger import SkiLogger
-import os
-from BearSki.case.TestRunnerSet import *
 from BearSki.utils.arguments import runArg
+from BearSki.case.TestRunnerSet import *
+from BearSki.core import Ski
+
+
 logger=SkiLogger("test")
 class test_BearSki(unittest.TestCase):
 
@@ -20,7 +27,6 @@ class test_BearSki(unittest.TestCase):
         
     @classmethod
     def tearDownClass(cls):
-
         pass
         
     def setUp(self):
@@ -31,13 +37,17 @@ class test_BearSki(unittest.TestCase):
         pass
 
     def test_Argments(self):
-
         runArg()
+        self.assertEqual(runArg().auto_model_path,"utest/testdata/model")
+
+    def test_Core(self):
+        Ski().step("")
+        self.assertEqual(runArg().auto_model_path,"utest/testdata/model")
     
 if __name__=='__main__':
 
-    report_type=input("run alltest ?(y or n):")
-    if report_type== "y":
+    report_type = input("run alltest ?(y or n):")
+    if report_type == "y":
         unittest.main()
     else:
         suite = unittest.TestSuite()

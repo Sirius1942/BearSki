@@ -12,7 +12,7 @@ setup (
     url = src.__url__,
     license =src.__license__,
     # py_modules=['hello'],
-    install_requires = ["requests","har2case","openpyxl"],
+    install_requires = ["requests","har2case","openpyxl","pyyaml"],
     entry_points = {
         'console_scripts': [
             'BearSki = BearSki.BearCLI:main'
