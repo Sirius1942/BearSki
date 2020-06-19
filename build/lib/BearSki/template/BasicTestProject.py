@@ -42,7 +42,7 @@ TESTCASE_DOC='''
 # coding=utf-8
 import time
 import unittest
-from BearSki.core import Ski
+from BearSki.core import Ski,TD
 import logging
 class TestSendMessage(unittest.TestCase,Ski):
     def setUp(self):
@@ -57,6 +57,16 @@ class TestSendMessage(unittest.TestCase,Ski):
         res=self.step("userkw_sendmsg","get","http://www.baidu.com")
         self.logger.info(res.result)
         self.assertEqual(200,res.result.status_code)
+    @Ski.case()
+    def test_columns_data(self):
+        self.logger.info("in test_columns_data ")
+        data=TD.get_columns_data("example.DataID")
+        self.logger.info(data)
+        self.logger.info("in test_getData")
+        name=TD.get_Data("example.admin.username")
+        self.assertEqual(name['username'],"admin")
+        admindata = TD.get_Data("example.admin")
+        self.assertEqual(admindata['detail']['username'], "admin")
     
     # @Ski.case()
     # def test_send_use_robotframework_requestlibary(self):
@@ -138,7 +148,7 @@ TEST_DATABASES = {
     'default': {
         'ENGINE': 'BearSki.db.Base.ExcelFile',
         'NAME': 'myDataTable', #连接的数据库名
-        'PATH': 'testdata/testdata1.xlsx'
+        'PATH': 'testdata/testdata.xlsx'
     },
     'myJsonData': {
         'ENGINE': 'Bearski.db.Base.JsonFile',
