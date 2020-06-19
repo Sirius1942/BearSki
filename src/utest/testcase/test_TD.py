@@ -35,8 +35,8 @@ class TestTestData(unittest.TestCase):
         self.logger.info(admindata)
         admindata = TD.get_Data("users.admin.time")
         self.logger.info(admindata)
-        # admindata = TD.get_Data("api_users_2_res.content.text",source_name='myJsonData')
-        # self.logger.info(admindata)
+        admindata = TD.get_Data("api_users_2_model.request",source_name='myJsonData')
+        self.logger.info(admindata)
 
     def test_columns_data(self):
         self.logger.info("in test_columns_data ")

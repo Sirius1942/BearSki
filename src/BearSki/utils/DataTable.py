@@ -188,9 +188,7 @@ def td_getJsonData(dataid,filepath):
   redata=json.loads(jstr)
   for name in dataindex:
      redata=redata[name]
-  prsdata=sfun(str(redata))
-  res=json.loads(prsdata)
-  return res
+  return redata
 
 
 
