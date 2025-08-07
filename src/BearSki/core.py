@@ -106,12 +106,18 @@ class Ski():
             self.logger=SkiLogger("BearSki.init")
             
         def __call__(self,func):
+                #简单的名称反射
+                def getDataFileObject(modules,key):
+                    obj= __import__(modules,fromlist=True)
+                    child_obj=getattr(obj,key)
+                    return child_obj    
+                
                 def __deco(self,*arg,**kws):
                     # print("before %s called [%s],[%s]." % (func.__name__, arg,kws))
                     # self.logger.info("初始化测试数据：")
                     scd=SkiGlobalData()
                     initdatafilename=scd.get_initdata('init_file_path')
-                    if initdatafilename==None:
+                    if initdatafilename is None:  # 使用 is None 而不是 ==None
                         initdatafilename="db.initdata"
                     getDataFileObject(initdatafilename,"initData")()
                     result=func(self,*arg,**kws)
@@ -119,11 +125,6 @@ class Ski():
                     # self.logger.info("用例执行完毕，开始清理测试数据：")
                     getDataFileObject(initdatafilename,"clear")()
                     return result
-                #简单的名称反射
-                def getDataFileObject(modules,key):
-                    obj= __import__(modules,fromlist=True)
-                    child_obj=getattr(obj,key)
-                    return child_obj    
                 return __deco
 
 class DT(object):

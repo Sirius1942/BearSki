@@ -64,8 +64,8 @@ class CommandLine(object):
       self.cps.print_help_message()
           
     def _command_f(self,filepath):
-       f= open(filepath)
-       conf=json.load(f)
+       with open(filepath, 'r', encoding='utf-8') as f:
+           conf=json.load(f)
        self.rarg.setValueFromJson(conf)
        #print(self.rarg.getJsonString())
 
