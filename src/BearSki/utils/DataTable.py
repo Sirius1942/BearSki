@@ -5,6 +5,7 @@ import random
 import logging
 import sys
 import json
+import os
 
 logger=logging.getLogger("BearSki.DataTable")
 
@@ -166,7 +167,12 @@ def getRand_int(num):
   return str(random.randint(star,end))
 
 def getJsonData(filename="",filepath=""):
-  fo = open(filepath+filename, "r+",encoding='utf8')
+  # 使用 os.path.join 安全地拼接路径
+  safe_path = os.path.join(filepath, filename)
+  # 验证路径是否在预期目录内
+  if not os.path.abspath(safe_path).startswith(os.path.abspath(filepath)):
+    raise DataTableError("非法的文件路径")
+  fo = open(safe_path, "r+",encoding='utf8')
   jstr=sfun(fo.read())
   redata=json.loads(jstr)
   return redata
@@ -181,7 +187,12 @@ def getJ(jsondata,name):
 def td_getJsonData(dataid,filepath):
   filename=dataid.split(".")[0]
   dataindex=dataid.split(".")[1:]
-  fullfilepath=filepath+filename+".json"
+  # 使用 os.path.join 安全地拼接路径
+  safe_filename = filename + ".json"
+  fullfilepath = os.path.join(filepath, safe_filename)
+  # 验证路径是否在预期目录内
+  if not os.path.abspath(fullfilepath).startswith(os.path.abspath(filepath)):
+    raise DataTableError("非法的文件路径")
   logger.info("开始获取数据：数据源{0} 数据标签{1}".format(fullfilepath,dataindex))
   fo = open(fullfilepath, "r+",encoding='utf8')
   jstr=sfun(fo.read())
