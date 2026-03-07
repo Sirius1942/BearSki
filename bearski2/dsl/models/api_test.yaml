@@ -1,0 +1,14 @@
+model:
+  name: API 测试模型
+  description: 测试 REST API
+  
+  flow:
+    - step: 发送 GET 请求
+      keyword: rest.get
+      params:
+        url: "https://httpbin.org/get"
+    
+    - step: 验证状态码
+      keyword: rest.assert_status
+      params:
+        expected: 200

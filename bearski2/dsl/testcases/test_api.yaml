@@ -1,0 +1,4 @@
+testcase:
+  name: API 测试用例
+  model: api_test
+  data: testdata.xlsx::login_data::admin

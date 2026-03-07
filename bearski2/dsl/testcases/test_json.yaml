@@ -1,0 +1,4 @@
+testcase:
+  name: JSON 数据测试
+  model: api_test
+  data: testdata.json::login_data::admin

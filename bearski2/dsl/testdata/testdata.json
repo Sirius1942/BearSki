@@ -1,0 +1,18 @@
+[
+  {
+    "DataID": "admin",
+    "username": "admin",
+    "password": "admin123",
+    "email": "${random_email()}",
+    "timestamp": "${now()}",
+    "login_count": "${random_int(1,10)}"
+  },
+  {
+    "DataID": "test1",
+    "username": "test_${random_str(5)}",
+    "password": "pass123",
+    "email": "${random_email()}",
+    "timestamp": "${today()}",
+    "login_count": "${random_int(10,100)}"
+  }
+]
