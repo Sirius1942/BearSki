@@ -90,39 +90,39 @@ class ConfigObject():
     def get_setting_data(self):
         try:
             return self.config.KW_ROUTER
-        except:
+        except AttributeError:
             raise SettingFileError("没有找到{0}配置，请检查配置文件，是否包含{0} 配置".format('KW_ROUTER'))
 
     def get_global_all_data(self):
         try:
             return self.config.GLOBAL_VARIABLE
-        except:
+        except AttributeError:
             raise SettingFileError("没有找到{0}配置，请检查配置文件，是否包含{0} 配置".format('GLOBAL_VARIABLE'))
 
     def get_global_data(self, value):
         try:
             return self.config.GLOBAL_VARIABLE[value]
-        except:
+        except (AttributeError, KeyError):
             raise SettingFileError("没有找到{0}.{1}配置，请检查配置文件，是否包含{0}.{1} 配置".format('GLOBAL_VARIABLE',value))
 
     def add_global_data(self, data):
         try:
             for s in data:
                 self.config.GLOBAL_VARIABLE[s] = data[s]
-        except:
+        except (AttributeError, TypeError):
             raise SettingFileError("添加全局变量异常")
 
     def get_datatable_config(self):
         try:
             return self.config.DATATABLE
-        except:
+        except AttributeError:
             raise SettingFileError("没有找到{0}配置，请检查配置文件，是否包含{0} 变量".format('DATATABLE'))
 
     def get_initdata(self, name):
         try:
-            return self.config.initdata['name']
-        except:
-            raise SettingFileError("没有找到{0}配置，请检查配置文件，是否包含{0} 配置".format('TEST_DATABASES'))
+            return self.config.initdata[name]  # 修复了键名错误：应该使用变量name而不是字符串'name'
+        except (AttributeError, KeyError):
+            raise SettingFileError("没有找到{0}配置，请检查配置文件，是否包含{0} 配置".format('initdata'))
     def get_test_database(self):
         try:
             return self.config.TEST_DATABASES
@@ -131,8 +131,8 @@ class ConfigObject():
     def get_test_database_case_mapping(self):
         try:
             return self.config.TEST_DATABASE_CASE_MAPPING
-        except:
-            raise SettingFileError("没有找到{0}配置，请检查配置文件，是否包含{0} 配置".format('TEST_DATABASE_APPS_MAPPING'))
+        except AttributeError:
+            raise SettingFileError("没有找到{0}配置，请检查配置文件，是否包含{0} 配置".format('TEST_DATABASE_CASE_MAPPING'))
 
 class JsonConfigObject(ConfigObject):
 
@@ -141,8 +141,8 @@ class JsonConfigObject(ConfigObject):
         # (configfile_path, configfile_name) = os.path.split(rags.jsonfile_path)
         # extname = configfile_name.split(".")[-1:]  # 获取扩展名用于判断
         # if extname == "json":
-        f = open(rags.jsonfile_path)
-        conf = json.load(f)
+        with open(rags.jsonfile_path, 'r', encoding='utf-8') as f:
+            conf = json.load(f)
         self.config=conf
 
     def get_setting_data(self):
