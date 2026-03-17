@@ -120,9 +120,9 @@ class ConfigObject():
 
     def get_initdata(self, name):
         try:
-            return self.config.initdata['name']
+            return self.config.initdata[name]
         except:
-            raise SettingFileError("没有找到{0}配置，请检查配置文件，是否包含{0} 配置".format('TEST_DATABASES'))
+            raise SettingFileError("没有找到{0}配置，请检查配置文件，是否包含{0} 配置".format('initdata'))
     def get_test_database(self):
         try:
             return self.config.TEST_DATABASES

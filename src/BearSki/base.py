@@ -90,7 +90,7 @@ class Ski():
                 module_spec = importlib.util.find_spec(module_name)
             except Exception as error:
                 # print(error)
-                logger.error("error",error)
+                self.logger.error("error",error)
                 
                 return False
             if module_spec is None:
